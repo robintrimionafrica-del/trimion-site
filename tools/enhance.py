@@ -11,6 +11,7 @@ SHARE_TXT = ('*Trimion Africa* | 159 professional salon & spa machines\n'
 
 def apply(s, out, rep):
     from urllib.parse import quote
+    import sys as _sys, os as _os; _sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__))); import trust_seo; s = trust_seo.apply(s)
     # ---- 1. hero slider photos: JPEG -> WebP (about half the size) ----
     for h in HERO:
         src = f'/home/claude/trimion-site/tools/src/img/{h}.jpg'
@@ -31,7 +32,7 @@ def apply(s, out, rep):
     # only the first product row loads straight away; the rest wait until scrolled to
     s = s.replace('loading="eager" fetchpriority="high"></div>', 'loading="eager"></div>')
     # skip layout work for sections far below the screen until they are needed
-    css = ('section[id]:not(#ems),.lp,.calc,.faq,.optin,.lgd{content-visibility:auto;contain-intrinsic-size:auto 900px}'
+    css = (
            '.lead{margin:6px 0 10px;padding:14px 14px 12px;border-radius:12px;background:#fff;border:1px solid var(--line)}'
            '.lead h1{font-size:1.28rem;line-height:1.22;color:var(--navy);font-weight:800;margin:0 0 6px;letter-spacing:-.01em}'
            '.lead h1 em{font-style:normal;color:var(--blue)}'
