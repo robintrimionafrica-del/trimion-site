@@ -1,0 +1,11 @@
+{
+  // Trimion Africa Shop: static website served by the Cloudflare Worker "trimion-catalog-v123".
+  // Every push to main is deployed by Cloudflare Workers Builds (deploy command: npx wrangler deploy).
+  "name": "trimion-catalog-v123",
+  "compatibility_date": "2026-09-01",
+  "assets": {
+    "directory": "./public",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "none"
+  }
+}
