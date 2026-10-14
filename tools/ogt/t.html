@@ -1,0 +1,47 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:P;src:url(Poppins-Regular.ttf);font-weight:400}
+@font-face{font-family:P;src:url(Poppins-Medium.ttf);font-weight:500}
+@font-face{font-family:P;src:url(Poppins-Bold.ttf);font-weight:700}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1200px;height:630px;overflow:hidden}
+body{font-family:P,sans-serif;color:#fff;background:radial-gradient(900px 500px at 85% -10%,rgba(11,132,216,.55),transparent 60%),radial-gradient(700px 500px at 0% 110%,rgba(10,77,255,.35),transparent 60%),linear-gradient(135deg,#081a3d,#0d2a5c 70%,#0a2350);position:relative}
+.ph{position:absolute;left:44px;top:44px;width:542px;height:542px;background:#fff;border-radius:28px;box-shadow:0 0 0 3px rgba(92,198,242,.35),0 20px 50px rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;overflow:hidden}
+.ph img{width:100%;height:100%;object-fit:contain}
+.r{position:absolute;left:626px;top:44px;width:530px;height:542px;display:flex;flex-direction:column}
+.br{display:flex;align-items:center;gap:12px}
+.br img{width:52px;height:52px;border-radius:50%}
+.br b{font-weight:700;font-size:21px;letter-spacing:.06em;display:block;line-height:1.1}
+.br small{font-size:14px;color:#9fc6ea;display:block}
+.cat{margin-top:22px;font-size:15px;font-weight:600;color:#5cc6f2;text-transform:uppercase;letter-spacing:.08em}
+h1{font-weight:700;line-height:1.12;margin-top:6px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.md{font-size:16px;color:#9fb3cf;margin-top:6px}
+.pr{font-weight:700;font-size:54px;color:#f8b73f;line-height:1.1;margin-top:10px}
+.pr.por{font-size:38px}
+.lb{font-size:18px;color:#dbe7f5;margin-top:2px}
+.ch{display:flex;flex-wrap:wrap;gap:8px;margin-top:auto;padding-top:14px}
+.ch span{border:2px solid rgba(92,198,242,.7);border-radius:30px;padding:5px 12px;font-size:15px;font-weight:600;white-space:nowrap}
+.ch span.w{background:#f8b73f;border-color:#f8b73f;color:#081a3d}
+.ft{display:flex;align-items:center;gap:14px;margin-top:14px}
+.wa{background:#1fa855;border-radius:32px;padding:11px 24px;font-weight:700;font-size:21px}
+.ft small{font-size:16px;color:#9fc6ea}
+</style></head><body>
+<div class="ph"><img id="pi"></div>
+<div class="r">
+<div class="br"><img src="logo.png"><div><b>TRIMION AFRICA</b><small>Salon equipment · Durban</small></div></div>
+<div class="cat" id="cat"></div><h1 id="nm"></h1><div class="md" id="md"></div>
+<div class="pr" id="pr"></div><div class="lb" id="lb"></div>
+<div class="ch" id="ch"></div>
+<div class="ft"><div class="wa">WhatsApp 061 118 5978</div><small>trimionafrica.co.za</small></div>
+</div>
+<script>
+window.render=function(d){
+ document.getElementById('pi').src=d.img.replace(/^\//,'');
+ document.getElementById('cat').textContent=d.sec;
+ var n=document.getElementById('nm');n.textContent=d.name;n.style.fontSize=(d.name.length>58?34:d.name.length>40?40:46)+'px';
+ document.getElementById('md').textContent='Model '+d.model;
+ var p=document.getElementById('pr');p.textContent=d.price;p.className='pr'+(/request/i.test(d.price)?' por':'');
+ document.getElementById('lb').textContent=d.lb?d.lb.replace(/^Lay-by /,'Lay-by: '):(/request/i.test(d.price)?'Tap for a written quote on WhatsApp':'');
+ var c=d.chips.map(function(x,i){return '<span'+(x.w?' class="w"':'')+'>'+x.t+'</span>'}).join('');
+ document.getElementById('ch').innerHTML=c;
+ return new Promise(function(r){var i=document.getElementById('pi');if(i.complete&&i.naturalWidth)r();else{i.onload=r;i.onerror=r}}).then(function(){return document.fonts.ready})}
+</script></body></html>

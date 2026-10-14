@@ -1,0 +1,63 @@
+{
+ "id": "/",
+ "name": "Trimion Africa Shop | Salon Equipment",
+ "short_name": "Trimion Shop",
+ "description": "Professional salon and spa equipment from Trimion Africa, Durban. Order on WhatsApp.",
+ "start_url": "/?source=app",
+ "scope": "/",
+ "display": "standalone",
+ "orientation": "portrait",
+ "background_color": "#081a3d",
+ "theme_color": "#081a3d",
+ "lang": "en-ZA",
+ "categories": [
+  "shopping",
+  "business"
+ ],
+ "icons": [
+  {
+   "src": "/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "/icon-maskable-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ],
+ "shortcuts": [
+  {
+   "name": "My cart",
+   "short_name": "Cart",
+   "url": "/?source=app#cart",
+   "icons": [
+    {
+     "src": "/icon-192.png",
+     "sizes": "192x192",
+     "type": "image/png"
+    }
+   ]
+  },
+  {
+   "name": "Lay-by plans",
+   "short_name": "Lay-by",
+   "url": "/?source=app#plan",
+   "icons": [
+    {
+     "src": "/icon-192.png",
+     "sizes": "192x192",
+     "type": "image/png"
+    }
+   ]
+  }
+ ]
+}

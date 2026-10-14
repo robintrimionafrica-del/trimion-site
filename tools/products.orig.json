@@ -1,0 +1,1642 @@
+[
+{
+"k": 1,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/c021091d6e.webp",
+"name": "5-Handle 2500W EMS Body Sculpting Machine",
+"model": "TAEMS2500",
+"price": "R143,750",
+"lb": "Lay-by R36,000 now, then 2 \u00d7 R53,875"
+},
+{
+"k": 2,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/27d600c132.webp",
+"name": "4-Handle 4300W EMS Body Sculpting Machine",
+"model": "TAEMS4300",
+"price": "R127,650",
+"lb": "Lay-by R32,000 now, then 2 \u00d7 R47,825"
+},
+{
+"k": 3,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/664b8cb816.webp",
+"name": "4-Handle EMS Body Sculpting Machine",
+"model": "TAEMS4",
+"price": "R43,000",
+"lb": "Lay-by R10,000 now, then 2 \u00d7 R16,500"
+},
+{
+"k": 4,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/ac5dc2237e.webp",
+"name": "5000W 2-Handle EMS Body Sculpting Machine",
+"model": "TAEMS5000",
+"price": "R22,000",
+"lb": "Lay-by R5,000 now, then 2 \u00d7 R8,500"
+},
+{
+"k": 5,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/de5fc428be.webp",
+"name": "2-Handle EMS Body Sculpting Machine",
+"model": "TAEMS2",
+"price": "R20,950",
+"lb": "Lay-by R5,000 now, then 2 \u00d7 R7,975"
+},
+{
+"k": 6,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/a091c1c83c.webp",
+"name": "10-Channel EMS Body System",
+"model": "TAEMS10CH01",
+"price": "R7,500",
+"lb": ""
+},
+{
+"k": 7,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/d8e2220a2a.webp",
+"name": "Cryo + Electromagnetic Body Sculpting Station",
+"model": "TACRYOEM",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 8,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/2a49388be2.webp",
+"name": "4-Applicator Electromagnetic Body Sculpting Machine",
+"model": "TAEM4",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 9,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/eb9a721b8b.webp",
+"name": "4-Handle Electromagnetic Body Sculpting Station (Grey)",
+"model": "TAEM4G",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 10,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/9fe8208336.webp",
+"name": "4-Handle Electromagnetic Station with Seat Pad (Grey)",
+"model": "TAEM5G",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 11,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/914e4ae207.webp",
+"name": "4-Handle Electromagnetic Body Sculpting Station (Black)",
+"model": "TAEM4B",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 12,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/a66a4e9324.webp",
+"name": "4-Handle Electromagnetic Station with Seat Pad (Black)",
+"model": "TAEM5B",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 13,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/7b6231a56f.webp",
+"name": "Compact 4-Handle Electromagnetic Machine",
+"model": "TAEM4C",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 14,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/3075bcf13b.webp",
+"name": "Compact 2-Handle Electromagnetic Machine",
+"model": "TAEM2C",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 15,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/222fe010fd.webp",
+"name": "4-Handle Electromagnetic Body Sculpting Machine (White)",
+"model": "TAEM4W",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 16,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/5bdd757fe0.webp",
+"name": "2-Handle Electromagnetic Body Sculpting Machine (White)",
+"model": "TAEM2W",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 17,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/454bb59969.webp",
+"name": "4-Handle Vertical Electromagnetic Sculpting Station",
+"model": "TAEM4V",
+"price": "R44,850",
+"lb": "Lay-by R10,000 now, then 2 \u00d7 R17,425"
+},
+{
+"k": 18,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/312829a5ff.webp",
+"name": "2-Handle Vertical Electromagnetic Sculpting Station",
+"model": "TAEM2V",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 19,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/2867e90c0c.webp",
+"name": "4-Handle Tower Electromagnetic Sculpting Station",
+"model": "TAEM4T",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 20,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/663cb58f7c.webp",
+"name": "4-Handle Slim Electromagnetic Sculpting Station",
+"model": "TAEMK",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 21,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/b86c43c092.webp",
+"name": "4-Handle Desktop Electromagnetic Sculpting Machine",
+"model": "TAEM4D",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 22,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/8a4ae55f85.webp",
+"name": "2-Handle Desktop Electromagnetic Sculpting Machine",
+"model": "TAEM2D",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 23,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/2dd46e6d84.webp",
+"name": "4-Handle Large-Screen Electromagnetic Sculpting Machine",
+"model": "TAEM4P",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 24,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/1a5c0b5cf3.webp",
+"name": "2-Handle Low-Profile Electromagnetic Sculpting Machine",
+"model": "TAEM2L",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 25,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/421aed7d0a.webp",
+"name": "4-Handle Cabinet Electromagnetic Sculpting Station",
+"model": "TAEMB",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 26,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/ccf93e3834.webp",
+"name": "Electromagnetic Sculpting Station with 18.5-inch Screen",
+"model": "TAEMX",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 27,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/5c520d6c51.webp",
+"name": "2-Handle Water-Cooled Electromagnetic Station",
+"model": "TAEM2WC",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 28,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/1cb2a9ee4f.webp",
+"name": "2-Handle Portable Water-Cooled Electromagnetic Machine",
+"model": "TAEM2WP",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 29,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/df7f52152e.webp",
+"name": "4-Applicator Electromagnetic Body Station 5000W",
+"model": "TAEM4S",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 30,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/66bbfaf3ef.webp",
+"name": "6-Handle Electromagnetic Body Sculpting Station (White)",
+"model": "TAEM6W",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 71,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/75624bbd97.webp",
+"name": "4-Handle Electromagnetic Body Station (Black & Silver)",
+"model": "TAEM4K",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 72,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/9e3a0aa999.webp",
+"name": "1-Handle Compact Electromagnetic Body Sculpting Machine",
+"model": "TAEMC1",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 73,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/a56ef4481f.webp",
+"name": "2-Handle Portable Electromagnetic Body Sculpting Machine",
+"model": "TAEMC2",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 74,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/9d0c9150b4.webp",
+"name": "2-Handle Portable Electromagnetic + RF Body Sculpting Machine",
+"model": "TAEMC2R",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 75,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/5a312ce023.webp",
+"name": "2-Handle Compact Electromagnetic Body Sculpting Machine",
+"model": "TAEMC2B",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 76,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/028e45a272.webp",
+"name": "2-Handle Compact Electromagnetic + RF Body Sculpting Machine",
+"model": "TAEMC2BR",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 77,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/59151de664.webp",
+"name": "4-Handle Portable Electromagnetic Body Sculpting Machine",
+"model": "TAEMC4",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 78,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/622a70077c.webp",
+"name": "4-Handle Portable Electromagnetic + RF Body Sculpting Machine",
+"model": "TAEMC4R",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 79,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/fddabb3bd1.webp",
+"name": "2-Handle Vertical Electromagnetic Body Sculpting Station",
+"model": "TAEMC2L",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 80,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/4ed42e4e70.webp",
+"name": "4-Handle Vertical Electromagnetic Body Sculpting Station",
+"model": "TAEMC4L",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 81,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/6dabdad127.webp",
+"name": "4-Handle Vertical Electromagnetic + RF Body Sculpting Station",
+"model": "TAEMC4LR",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 82,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/34ac0bef1d.webp",
+"name": "Mini Electromagnetic Body Sculpting Machine",
+"model": "TAEMM1",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 83,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/e4b222254b.webp",
+"name": "Mini Electromagnetic + RF Body Sculpting Machine",
+"model": "TAEMM1R",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 84,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/c27dc7f4d4.webp",
+"name": "2-Handle Electromagnetic Body Sculpting Machine 2800W",
+"model": "TAEMP2",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 85,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/1ac785a221.webp",
+"name": "2-Handle Electromagnetic + RF Body Sculpting Machine 2800W",
+"model": "TAEMP2R",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 86,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/702d2117b1.webp",
+"name": "4-Handle Electromagnetic Body Sculpting Machine 13 Tesla",
+"model": "TAEMP4",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 87,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/98ff3aefd7.webp",
+"name": "4-Handle Electromagnetic + RF Body Sculpting Machine 13 Tesla",
+"model": "TAEMP4R",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 88,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/cb24c1211f.webp",
+"name": "2-Handle Vertical Electromagnetic + RF Station 13 Tesla",
+"model": "TAEMV2R",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 89,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/ed0596e024.webp",
+"name": "4-Handle Vertical Electromagnetic + RF Station 13 Tesla",
+"model": "TAEMV4R",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 90,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/a02055a837.webp",
+"name": "4-Handle Tall Electromagnetic Body Sculpting Station 13 Tesla",
+"model": "TAEMV4",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 91,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/2cf892fc72.webp",
+"name": "4-Handle Tall Electromagnetic + RF Station 13 Tesla",
+"model": "TAEMV4TR",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 92,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/a3ac5a56d8.webp",
+"name": "2-Handle Pro Electromagnetic Body Sculpting Machine",
+"model": "TAEMX2",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 93,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/19718ec168.webp",
+"name": "4-Handle Pro Electromagnetic Body Sculpting Machine",
+"model": "TAEMX4",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 94,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/9230c5e7d9.webp",
+"name": "4-Handle Pro Electromagnetic + EMS Body Sculpting Machine",
+"model": "TAEMX4E",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 95,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/5e8f0da442.webp",
+"name": "2-Handle Pro Vertical Electromagnetic Station",
+"model": "TAEMX2V",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 96,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/3ad1fa034d.webp",
+"name": "4-Handle Pro Vertical Electromagnetic Station",
+"model": "TAEMX4V",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 97,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/0c9970a0d8.webp",
+"name": "4-Handle Pro Vertical Electromagnetic + EMS Station",
+"model": "TAEMX4EV",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 98,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/fd6065bbff.webp",
+"name": "4-Handle Elite Vertical Electromagnetic + EMS Station",
+"model": "TAEMX5EV",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 99,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/cb1a0dfe63.webp",
+"name": "2-Handle Electromagnetic Muscle Toning Station",
+"model": "TAEMT2",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 31,
+"sec": "Cryo body contouring",
+"sid": "cryo",
+"img": "/img/dddd4611bb.webp",
+"name": "5-Handle Hot, Cold & EMS Machine",
+"model": "TACRYO5",
+"price": "R60,399",
+"lb": "Lay-by R16,000 now, then 2 \u00d7 R22,200"
+},
+{
+"k": 32,
+"sec": "Cryo body contouring",
+"sid": "cryo",
+"img": "/img/dfdb9fa3fc.webp",
+"name": "Cryo Body Contouring Station",
+"model": "TACRYO15",
+"price": "R17,450",
+"lb": "Lay-by R5,000 now, then 2 \u00d7 R6,225"
+},
+{
+"k": 33,
+"sec": "Cryo body contouring",
+"sid": "cryo",
+"img": "/img/08ab53b048.webp",
+"name": "3-Handle Cryo Body Contouring Machine",
+"model": "TACRYO3",
+"price": "R17,000",
+"lb": "Lay-by R5,000 now, then 2 \u00d7 R6,000"
+},
+{
+"k": 34,
+"sec": "Cryo body contouring",
+"sid": "cryo",
+"img": "/img/e4305724de.webp",
+"name": "4-Handle 360\u00b0 Cryo Body Contouring Station",
+"model": "TACRYO360-4",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 35,
+"sec": "Cryo body contouring",
+"sid": "cryo",
+"img": "/img/05caaf5334.webp",
+"name": "2-Handle 360\u00b0 Cryo Body Contouring Machine",
+"model": "TACRYO360-2",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 36,
+"sec": "Cryo body contouring",
+"sid": "cryo",
+"img": "/img/4ffe054165.webp",
+"name": "Cryo + Electromagnetic Combination Station",
+"model": "TAEMCRYO",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 37,
+"sec": "Cryo body contouring",
+"sid": "cryo",
+"img": "/img/f300e116a0.webp",
+"name": "2-Handle Cryo Body Contouring Station",
+"model": "TACRYO503",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 38,
+"sec": "Cryo body contouring",
+"sid": "cryo",
+"img": "/img/026dbd48df.webp",
+"name": "4-Handle Cryo Body Contouring Station",
+"model": "TACRYO601",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 39,
+"sec": "Cryo body contouring",
+"sid": "cryo",
+"img": "/img/334d1fd6d7.webp",
+"name": "2-Handle Tall Cryo Body Contouring Station",
+"model": "TACRYO2T",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 40,
+"sec": "Cryo body contouring",
+"sid": "cryo",
+"img": "/img/2200f72851.webp",
+"name": "Portable Cryo Body Contouring Machine",
+"model": "TACRYOP",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 100,
+"sec": "Cryo body contouring",
+"sid": "cryo",
+"img": "/img/7fa233e5b3.webp",
+"name": "Portable 360 Cryo Body Contouring Machine (3 Handles)",
+"model": "TACRYOP3",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 41,
+"sec": "RF and cavitation",
+"sid": "rf",
+"img": "/img/25ccc64b4f.webp",
+"name": "448K RF Body Contouring Machine",
+"model": "TARF448B",
+"price": "R13,199",
+"lb": "Lay-by R5,000 now, then 2 \u00d7 R4,100"
+},
+{
+"k": 42,
+"sec": "RF and cavitation",
+"sid": "rf",
+"img": "/img/0c5a8ee2ad.webp",
+"name": "448kHz Deep RF Body & Face Machine",
+"model": "TARF448",
+"price": "R101,150",
+"lb": "Lay-by R26,000 now, then 2 \u00d7 R37,575"
+},
+{
+"k": 43,
+"sec": "RF and cavitation",
+"sid": "rf",
+"img": "/img/5ded7e1e07.webp",
+"name": "4-in-1 Cavitation and RF Body Contouring Machine",
+"model": "TACAV4",
+"price": "R6,450",
+"lb": ""
+},
+{
+"k": 44,
+"sec": "RF and cavitation",
+"sid": "rf",
+"img": "/img/c6e678ad75.webp",
+"name": "Vacuum, Roller & RF Body and Face Platform",
+"model": "TAVSP",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 45,
+"sec": "RF and cavitation",
+"sid": "rf",
+"img": "/img/5033223cee.webp",
+"name": "500W RF Body & Face Workstation",
+"model": "TARF500",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 46,
+"sec": "RF and cavitation",
+"sid": "rf",
+"img": "/img/0d0dd55fb8.webp",
+"name": "448kHz CET/RET RF Body Machine",
+"model": "TARF448CR",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 47,
+"sec": "RF and cavitation",
+"sid": "rf",
+"img": "/img/b7828a3aec.webp",
+"name": "RF + EMS Face Sculpting Station",
+"model": "TARFEMF",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 48,
+"sec": "RF and cavitation",
+"sid": "rf",
+"img": "/img/cc0e774e99.webp",
+"name": "Multi-Handle Cavitation Body Contouring Station",
+"model": "TACAVB3",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 49,
+"sec": "RF and cavitation",
+"sid": "rf",
+"img": "/img/f647978fe7.webp",
+"name": "Portable Cavitation Body Contouring Machine",
+"model": "TACAVB1",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 101,
+"sec": "RF and cavitation",
+"sid": "rf",
+"img": "/img/ac63f97630.webp",
+"name": "CET/RET RF Face and Body Machine",
+"model": "TARFCR1",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 102,
+"sec": "RF and cavitation",
+"sid": "rf",
+"img": "/img/2153aed2e9.webp",
+"name": "4-Handle Smart CET/RET RF Machine",
+"model": "TARFCR4",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 103,
+"sec": "RF and cavitation",
+"sid": "rf",
+"img": "/img/7c92ac6b04.webp",
+"name": "Focused RF + Ultrasound Body and Face Machine",
+"model": "TARFUS1",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 104,
+"sec": "RF and cavitation",
+"sid": "rf",
+"img": "/img/84c923fbbd.webp",
+"name": "Focused RF + Ultrasound Body and Face Machine II",
+"model": "TARFUS2",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 105,
+"sec": "RF and cavitation",
+"sid": "rf",
+"img": "/img/d077c22561.webp",
+"name": "Focused RF + Ultrasound Body and Face Station",
+"model": "TARFUS3",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 106,
+"sec": "RF and cavitation",
+"sid": "rf",
+"img": "/img/cb140f8d51.webp",
+"name": "5D Vacuum Cavitation Body Contouring Machine (Blue)",
+"model": "TACAV5DB",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 107,
+"sec": "RF and cavitation",
+"sid": "rf",
+"img": "/img/edc06a8877.webp",
+"name": "3-in-1 40K Cavitation and RF Machine",
+"model": "TACAV3",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 108,
+"sec": "RF and cavitation",
+"sid": "rf",
+"img": "/img/d59ff6425c.webp",
+"name": "5-in-1 RF Cavitation Body Contouring Machine",
+"model": "TACAV5",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 109,
+"sec": "RF and cavitation",
+"sid": "rf",
+"img": "/img/89e240611d.webp",
+"name": "7-in-1 80K and 40K Cavitation Station",
+"model": "TACAV7",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 110,
+"sec": "RF and cavitation",
+"sid": "rf",
+"img": "/img/3f092d7455.webp",
+"name": "5D Vacuum Cavitation Station (Blue)",
+"model": "TACAV5DS",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 111,
+"sec": "RF and cavitation",
+"sid": "rf",
+"img": "/img/88c8890a64.webp",
+"name": "5D Vacuum Cavitation Station (White)",
+"model": "TACAV5DW",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 112,
+"sec": "RF and cavitation",
+"sid": "rf",
+"img": "/img/17162e99ee.webp",
+"name": "6-Handle RF Cavitation Vacuum Station",
+"model": "TACAV6S",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 113,
+"sec": "RF and cavitation",
+"sid": "rf",
+"img": "/img/72947d263b.webp",
+"name": "3D Vacuum Cavitation Station",
+"model": "TACAV3D",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 114,
+"sec": "RF and cavitation",
+"sid": "rf",
+"img": "/img/4d2c018ebe.webp",
+"name": "4-Handle 80K Cavitation Vacuum Machine",
+"model": "TACAV4V",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 115,
+"sec": "RF and cavitation",
+"sid": "rf",
+"img": "/img/415e8b18bb.webp",
+"name": "5-Handle Vacuum RF Roller Body Station",
+"model": "TARFV5",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 116,
+"sec": "RF and cavitation",
+"sid": "rf",
+"img": "/img/7a0e019447.webp",
+"name": "4-Handle Vacuum RF Roller Body Station",
+"model": "TARFV4",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 117,
+"sec": "RF and cavitation",
+"sid": "rf",
+"img": "/img/dfe240ce8d.webp",
+"name": "5-Handle Vacuum RF Roller Station with Eye Head",
+"model": "TARFV5E",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 118,
+"sec": "RF and cavitation",
+"sid": "rf",
+"img": "/img/c8b5aad0c8.webp",
+"name": "Non-Contact RF Body Contouring Frame",
+"model": "TARFNC",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 119,
+"sec": "RF and cavitation",
+"sid": "rf",
+"img": "/img/40a09518df.webp",
+"name": "RF Skin Tightening Machine (Home and Studio)",
+"model": "TARFSK1",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 120,
+"sec": "RF and cavitation",
+"sid": "rf",
+"img": "/img/009e3e2617.webp",
+"name": "Portable 3-Tip RF Skin Tightening Machine",
+"model": "TARFSK3",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 121,
+"sec": "RF and cavitation",
+"sid": "rf",
+"img": "/img/0a1c72236f.webp",
+"name": "3-Tip RF Skin Tightening Station with Cooling",
+"model": "TARFSK3S",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 122,
+"sec": "RF and cavitation",
+"sid": "rf",
+"img": "/img/7ec1cfe24e.webp",
+"name": "Cartridge RF Skin Tightening Station",
+"model": "TARFSKC",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 123,
+"sec": "HIFU skin tightening",
+"sid": "hifu",
+"img": "/img/ed97233a91.webp",
+"name": "Portable HIFU Face and Body Machine",
+"model": "TAUS1",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 124,
+"sec": "HIFU skin tightening",
+"sid": "hifu",
+"img": "/img/a01f3b67e6.webp",
+"name": "HIFU Face and Body Machine with Trolley",
+"model": "TAUS2",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 125,
+"sec": "HIFU skin tightening",
+"sid": "hifu",
+"img": "/img/45c9f2b7f6.webp",
+"name": "HIFU Face Lifting Machine",
+"model": "TAUS3",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 126,
+"sec": "HIFU skin tightening",
+"sid": "hifu",
+"img": "/img/59cca5d5d7.webp",
+"name": "Portable HIFU Skin Tightening Machine",
+"model": "TAUS5",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 127,
+"sec": "HIFU skin tightening",
+"sid": "hifu",
+"img": "/img/633e5b4a91.webp",
+"name": "Radar Line HIFU Machine",
+"model": "TAUSR",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 128,
+"sec": "HIFU skin tightening",
+"sid": "hifu",
+"img": "/img/43c0c8d1aa.webp",
+"name": "4D HIFU Machine",
+"model": "TAUS4D",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 129,
+"sec": "HIFU skin tightening",
+"sid": "hifu",
+"img": "/img/896e7898a6.webp",
+"name": "4D HIFU Station",
+"model": "TAUS4DS",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 130,
+"sec": "HIFU skin tightening",
+"sid": "hifu",
+"img": "/img/bdd5bb9a7f.webp",
+"name": "9D HIFU Machine",
+"model": "TAUS9D",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 131,
+"sec": "HIFU skin tightening",
+"sid": "hifu",
+"img": "/img/5a31655f10.webp",
+"name": "7D HIFU Station",
+"model": "TAUS7DS",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 132,
+"sec": "HIFU skin tightening",
+"sid": "hifu",
+"img": "/img/7820126a66.webp",
+"name": "Portable 7D HIFU Machine",
+"model": "TAUS7D",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 133,
+"sec": "HIFU skin tightening",
+"sid": "hifu",
+"img": "/img/3f2f3ad946.webp",
+"name": "Compact 7D HIFU Machine",
+"model": "TAUS7DC",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 50,
+"sec": "Body massage",
+"sid": "massage",
+"img": "/img/ff556e3d5b.webp",
+"name": "360 Roller Body & Face Massage Machine",
+"model": "TARM360",
+"price": "R18,599",
+"lb": "Lay-by R5,000 now, then 2 \u00d7 R6,800"
+},
+{
+"k": 51,
+"sec": "Body massage",
+"sid": "massage",
+"img": "/img/af4fc5d2f1.webp",
+"name": "Vibration Body Massage System with Trolley",
+"model": "TAVM5",
+"price": "R10,999",
+"lb": "Lay-by R5,000 now, then 2 \u00d7 R3,000"
+},
+{
+"k": 52,
+"sec": "Body massage",
+"sid": "massage",
+"img": "/img/6e593695e3.webp",
+"name": "Vacuum Cupping Massage Machine",
+"model": "TAVC150",
+"price": "R6,900",
+"lb": ""
+},
+{
+"k": 53,
+"sec": "Body massage",
+"sid": "massage",
+"img": "/img/4c55ae7b8e.webp",
+"name": "6-Handle Vacuum Roller Body & Face Machine",
+"model": "TAVR6",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 54,
+"sec": "Body massage",
+"sid": "massage",
+"img": "/img/dd47a914af.webp",
+"name": "5-Handle Vacuum Roller Body Machine",
+"model": "TAVR5",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 55,
+"sec": "Body massage",
+"sid": "massage",
+"img": "/img/425ac341bf.webp",
+"name": "2-Handle Vacuum Roller Machine",
+"model": "TAVR2",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 56,
+"sec": "Body massage",
+"sid": "massage",
+"img": "/img/d3f4f65dcd.webp",
+"name": "2-in-1 Pressotherapy System",
+"model": "TAPT2",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 57,
+"sec": "Body massage",
+"sid": "massage",
+"img": "/img/d290b76d69.webp",
+"name": "3-in-1 Pressotherapy System",
+"model": "TAPT3",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 134,
+"sec": "Body massage",
+"sid": "massage",
+"img": "/img/7ef5070824.webp",
+"name": "Far Infrared Pressotherapy System (16 Air Bags)",
+"model": "TAPTF1",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 135,
+"sec": "Body massage",
+"sid": "massage",
+"img": "/img/c6f2cedfd0.webp",
+"name": "Far Infrared Pressotherapy System II (16 Air Bags)",
+"model": "TAPTF2",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 136,
+"sec": "Body massage",
+"sid": "massage",
+"img": "/img/e0d03c9a0c.webp",
+"name": "3-in-1 Far Infrared, EMS and Pressotherapy System",
+"model": "TAPT3E",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 137,
+"sec": "Body massage",
+"sid": "massage",
+"img": "/img/b4224ee1ab.webp",
+"name": "3-in-1 Pressotherapy, EMS and Far Infrared Machine",
+"model": "TAPT3P",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 138,
+"sec": "Body massage",
+"sid": "massage",
+"img": "/img/625d1a3284.webp",
+"name": "2-in-1 Far Infrared Pressotherapy Machine",
+"model": "TAPT2F",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 139,
+"sec": "Body massage",
+"sid": "massage",
+"img": "/img/15fe4dbf15.webp",
+"name": "16-Air-Bag Pressotherapy Machine",
+"model": "TAPT16",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 140,
+"sec": "Body massage",
+"sid": "massage",
+"img": "/img/fdb565e143.webp",
+"name": "24-Air-Bag Pressotherapy Machine with Eye Massage",
+"model": "TAPT24",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 141,
+"sec": "Body massage",
+"sid": "massage",
+"img": "/img/79fa6fbdac.webp",
+"name": "24-Air-Bag Pressotherapy Suit (Top + Pants)",
+"model": "TAPT24S",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 142,
+"sec": "Body massage",
+"sid": "massage",
+"img": "/img/8ce7b64ca3.webp",
+"name": "24-Air-Bag Pressotherapy Suit with Boots",
+"model": "TAPT24B",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 58,
+"sec": "Facial and skin",
+"sid": "face",
+"img": "/img/8821169da8.webp",
+"name": "8-in-1 Water Dermabrasion Facial Machine",
+"model": "TAHF8",
+"price": "R49,950",
+"lb": "Lay-by R10,000 now, then 2 \u00d7 R19,975"
+},
+{
+"k": 59,
+"sec": "Facial and skin",
+"sid": "face",
+"img": "/img/0f0e7bed60.webp",
+"name": "Ion & Microcurrent Skin Platform",
+"model": "TAION",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 60,
+"sec": "Facial and skin",
+"sid": "face",
+"img": "/img/2189a2b392.webp",
+"name": "10-in-1 Water Dermabrasion Facial Station",
+"model": "TAHF10",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 61,
+"sec": "Facial and skin",
+"sid": "face",
+"img": "/img/7e712ffbb7.webp",
+"name": "10-in-1 Water Dermabrasion Facial Station with Serum Bottles",
+"model": "TAHF10S",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 62,
+"sec": "Facial and skin",
+"sid": "face",
+"img": "/img/048623bc3e.webp",
+"name": "Water Dermabrasion Facial Station with 4 Serum Bottles",
+"model": "TAHFV1",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 63,
+"sec": "Facial and skin",
+"sid": "face",
+"img": "/img/f37d79d5cd.webp",
+"name": "6-in-1 Oxygen Dermabrasion Facial Station",
+"model": "TAHF6",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 64,
+"sec": "Facial and skin",
+"sid": "face",
+"img": "/img/d9877341ec.webp",
+"name": "Oxygen Facial Station",
+"model": "TAOX4",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 65,
+"sec": "Facial and skin",
+"sid": "face",
+"img": "/img/5427348dc5.webp",
+"name": "Compact Oxygen Facial Unit on Stand",
+"model": "TAOX2",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 66,
+"sec": "Facial and skin",
+"sid": "face",
+"img": "/img/f8af69cd9e.webp",
+"name": "Electromagnetic + RF Facial Patch System",
+"model": "TAEMRF6",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 143,
+"sec": "Facial and skin",
+"sid": "face",
+"img": "/img/6d96c9a6cd.webp",
+"name": "Hot and Cold Facial Spray Machine",
+"model": "TAFS2",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 144,
+"sec": "Facial and skin",
+"sid": "face",
+"img": "/img/0e000899b0.webp",
+"name": "Cool and Warm Facial Machine",
+"model": "TAFC1",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 145,
+"sec": "Facial and skin",
+"sid": "face",
+"img": "/img/66b5cfdba4.webp",
+"name": "2-in-1 CO2 Bubble Facial Machine",
+"model": "TACB2",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 146,
+"sec": "Facial and skin",
+"sid": "face",
+"img": "/img/01c254ccbf.webp",
+"name": "3-in-1 CO2 Bubble Facial Machine",
+"model": "TACB3",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 147,
+"sec": "Facial and skin",
+"sid": "face",
+"img": "/img/7187a23ac1.webp",
+"name": "3-in-1 CO2 Bubble Facial Machine II",
+"model": "TACB3B",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 148,
+"sec": "Facial and skin",
+"sid": "face",
+"img": "/img/d591b9f5bc.webp",
+"name": "5-in-1 Water Dermabrasion Facial Machine",
+"model": "TAWD5",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 149,
+"sec": "Facial and skin",
+"sid": "face",
+"img": "/img/06e8bbeeb2.webp",
+"name": "6-in-1 Water Dermabrasion Facial Machine",
+"model": "TAWD6",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 150,
+"sec": "Facial and skin",
+"sid": "face",
+"img": "/img/89fabce722.webp",
+"name": "6-in-1 Hydrogen Water Facial Machine",
+"model": "TAWDH6",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 151,
+"sec": "Facial and skin",
+"sid": "face",
+"img": "/img/cb6d5196fa.webp",
+"name": "6-in-1 Hydrogen Water Facial Machine II",
+"model": "TAWDH6B",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 152,
+"sec": "Facial and skin",
+"sid": "face",
+"img": "/img/a8de71fad6.webp",
+"name": "7-in-1 Cool Water Facial Machine",
+"model": "TAWD7C",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 153,
+"sec": "Facial and skin",
+"sid": "face",
+"img": "/img/c0ef7ca17e.webp",
+"name": "8-in-1 Water Dermabrasion Facial Station",
+"model": "TAWD8S",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 154,
+"sec": "Facial and skin",
+"sid": "face",
+"img": "/img/01f7cd6cae.webp",
+"name": "10-in-1 Water Dermabrasion Facial Station",
+"model": "TAWD10S",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 155,
+"sec": "Facial and skin",
+"sid": "face",
+"img": "/img/f115a13e82.webp",
+"name": "7-in-1 Bubble Facial Station",
+"model": "TAWD7B",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 156,
+"sec": "Facial and skin",
+"sid": "face",
+"img": "/img/4e67b280de.webp",
+"name": "8-in-1 Bubble Facial Station",
+"model": "TAWD8B",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 157,
+"sec": "Facial and skin",
+"sid": "face",
+"img": "/img/24160fb192.webp",
+"name": "6-in-1 Bubble Facial Station",
+"model": "TAWD6B",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 158,
+"sec": "Facial and skin",
+"sid": "face",
+"img": "/img/f05b491809.webp",
+"name": "7-in-1 Hot and Cold Water Facial Machine",
+"model": "TAWD7H",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 67,
+"sec": "Wellness and salon",
+"sid": "salon",
+"img": "/img/b9b91f341f.webp",
+"name": "Zero Gravity Massage Chair",
+"model": "TAMC850",
+"price": "R35,999",
+"lb": "Lay-by R10,000 now, then 2 \u00d7 R13,000"
+},
+{
+"k": 68,
+"sec": "Wellness and salon",
+"sid": "salon",
+"img": "/img/49f374a462.webp",
+"name": "Foot & Body Massage Station with Heat",
+"model": "TAFS240",
+"price": "R12,899",
+"lb": "Lay-by R5,000 now, then 2 \u00d7 R3,950"
+},
+{
+"k": 69,
+"sec": "Wellness and salon",
+"sid": "salon",
+"img": "/img/0ab1ea3d96.webp",
+"name": "Far Infrared Sauna Dome",
+"model": "TASD1000",
+"price": "R39,999",
+"lb": "Lay-by R10,000 now, then 2 \u00d7 R15,000"
+},
+{
+"k": 70,
+"sec": "Wellness and salon",
+"sid": "salon",
+"img": "/img/81aea0b0ba.webp",
+"name": "Professional Standing Hood Salon Hair Dryer",
+"model": "TASHD01",
+"price": "R6,999",
+"lb": ""
+},
+{
+"k": 159,
+"sec": "Wellness and salon",
+"sid": "salon",
+"img": "/img/049a68b2ab.webp",
+"name": "Body Composition Analyser with Printer",
+"model": "TABA1",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 160,
+"sec": "Consumables",
+"sid": "supplies",
+"img": "/img/813c1b055e.webp",
+"name": "RF and Cavitation Conductive Gel 300ml",
+"model": "TAGEL300",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 161,
+"sec": "Consumables",
+"sid": "supplies",
+"img": "/img/22bd3a7833.webp",
+"name": "Water Dermabrasion Facial Solutions (3 Types)",
+"model": "TAWDSOL3",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 162,
+"sec": "Consumables",
+"sid": "supplies",
+"img": "/img/e034e68508.webp",
+"name": "Water Dermabrasion Solution Set A-B-C-D",
+"model": "TAWDSOL4",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 163,
+"sec": "Consumables",
+"sid": "supplies",
+"img": "/img/9709eabff9.webp",
+"name": "CO2 Bubble Facial Gel Kit",
+"model": "TACBGEL",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 164,
+"sec": "Consumables",
+"sid": "supplies",
+"img": "/img/0f76ee1184.webp",
+"name": "Cryo Membranes (Pack of 100)",
+"model": "TACRYOM",
+"price": "Price on request",
+"lb": ""
+}
+]
