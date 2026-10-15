@@ -18,4 +18,5 @@ rm -rf ../public/pdf && python3 brochure.py ../public/pdf   # one-page PDF broch
 mkdir -p ../public/img && cp -n src/img/* ../public/img/ 2>/dev/null || true
 cp src/icon-*.png src/manifest.json ../public/
 python3 build.py                                      # index.html, /p/ pages, sw.js, _headers, robots, sitemap
+python3 guide.py                                      # buyer's guide at /guide (all machines, prices, lay-by)
 echo "Done. Commit and push to main; Cloudflare deploys in about a minute."
