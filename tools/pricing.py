@@ -108,8 +108,12 @@ def size(d):
     if re.search(r'home|handheld|mini\b|pen\b|steamer|scrubber', t): return 'small'
     return 'table'
 
+# Door-to-door quotes that already include customs and taxes (rand, nothing added)
+ALL_IN = {8: round(1755 * 16.46)}   # TAEM4: US$1,755 sea freight, double customs clearance and taxes included (Lyn Xie)
+
 def landed(item_zar, d, k=None):
     """Item price in rand -> landed cost: + shipping to SA + customs/VAT."""
+    if k in ALL_IN: return ALL_IN[k]
     if k in ACTUAL: return ACTUAL[k] * (1 + CUSTOMS)
     sz = size(d)
     ship = item_zar * SHIP_C if sz == 'cons' else SHIP[sz]
