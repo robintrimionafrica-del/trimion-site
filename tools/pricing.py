@@ -1,4 +1,5 @@
-"""Estimated supplier prices (USD) for the 143 price-on-request items -> landed cost -> +35-40% markup.
+"""Estimated supplier prices (USD) for the 143 price-on-request items -> landed cost -> tiered 35-50% markup.
+Trimion's own 21 listed prices are treated as landed cost + the old 37.5% markup and re-priced on the same tiers.
 Basis: Made-in-China.com listing ranges (14 Oct 2026), scaled to Alibaba factory level using
 Trimion's own 21 listed prices (which work out to ~26x the USD factory price)."""
 import json, math
@@ -6,8 +7,23 @@ import json, math
 RATE = 16.46          # USD->ZAR, currencyconvert.online, 14 Oct 2026 05:00 UTC (16.4573)
 SHIP_M = 0.15         # shipping, clearing & duty, machines
 SHIP_C = 0.30         # same for small consumables
-MARKUP = 0.375        # middle of 35-40%
+# Tiered markup on landed cost: 50% on cheaper machines, sliding down to 35% on the most expensive.
+MARKUP_HI, MARKUP_LO = 0.50, 0.35
+TIER_FROM, TIER_TO = 15000, 80000   # landed cost (R) where the slide starts and ends
+OLD_MARKUP = 0.375    # markup the 21 own prices were set with (used to back out their landed cost)
 ROUND = 50
+
+# Trimion's own listed prices (before tiered markup), k: rand
+OWN = {1: 143750, 2: 127650, 3: 43000, 4: 22000, 5: 20950, 6: 7500, 17: 44850, 31: 60399, 32: 17450, 33: 17000,
+       41: 13199, 42: 101150, 43: 6450, 50: 18599, 51: 10999, 52: 6900, 58: 49950, 67: 35999, 68: 12899, 69: 39999, 70: 6999}
+
+def markup(landed):
+    if landed <= TIER_FROM: return MARKUP_HI
+    if landed >= TIER_TO: return MARKUP_LO
+    return MARKUP_HI - (MARKUP_HI - MARKUP_LO) * (landed - TIER_FROM) / (TIER_TO - TIER_FROM)
+
+def sell(landed):
+    return int(math.ceil(landed * (1 + markup(landed)) / ROUND) * ROUND)
 
 # k: (usd, confidence, basis)
 EMS = 'Made-in-China EM sculpting (Hiemt/Emslim) listings US$1,150-5,800; your 2-handle R20,950 and 4-handle R43,000 as anchors'
@@ -71,16 +87,20 @@ P = {
 
 def price(usd, cons):
     landed = usd * RATE * (1 + (SHIP_C if cons else SHIP_M))
-    return int(math.ceil(landed * (1 + MARKUP) / ROUND) * ROUND), landed
+    return sell(landed), landed
 
 if __name__ == '__main__':
-    D = {d['k']: d for d in json.load(open('/home/claude/trimion-site/tools/details.json'))}
+    D = {d['k']: d for d in json.load(open('/home/claude/trimion-site/tools/details.orig.json'))}
     por = [k for k, d in D.items() if 'request' in d['price'].lower()]
     missing = set(por) - set(P); extra = set(P) - set(por)
     assert not missing and not extra, (missing, extra)
     out = {}
     for k in sorted(P):
         pr, _ = price(P[k][0], D[k]['cat'] == 'Consumables'); out[k] = pr
+    assert not set(OWN) & set(P) and set(OWN) | set(P) == set(D), 'every item needs exactly one price source'
+    for k, old in OWN.items():
+        out[k] = sell(old / (1 + OLD_MARKUP))
+    out = dict(sorted(out.items()))
     json.dump(out, open('/home/claude/trimion-site/tools/prices.json', 'w'))
     print(len(out), 'priced; range', min(out.values()), '-', max(out.values()))
     for k in (8, 14, 34, 128, 60, 160, 164):

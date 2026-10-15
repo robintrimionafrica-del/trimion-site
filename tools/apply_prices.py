@@ -1,4 +1,4 @@
-"""Turn the 143 'Price on request' cards into priced cards (price, lay-by link, Buy now), add offers to the
+"""Set every card's price (the 143 'Price on request' cards and Trimion's own 21) from prices.json: price (price, lay-by link, Buy now), add offers to the
 search data, and update products.json / details.json so share pictures, /p/ pages and brochures match."""
 import re, json, math
 from urllib.parse import quote, unquote
@@ -26,15 +26,19 @@ def apply(s):
         name = re.search(r'<h3>(.*?)</h3>', b).group(1)
         from html import unescape
         nm = unescape(name); model = re.search(r'class="model">Model ([^<]*)<', b).group(1).strip()
-        assert '<div class="price por">Price on request</div>' in b, k
         lb = layby(p); lbhtml = ''
         if lb:
             t = f"Hi Trimion Africa, I'd like the lay-by plan for the {nm} ({model}) at {R(p)}: {R(lb[0])} deposit, then the balance over 2 or 3 months. Please send my lay-by invoice." + CAT
             lbhtml = f'<a class="lb" href="{WA}{enc(t)}" target="_blank" rel="noopener"><b>Lay-by</b> {R(lb[0])} now, then 2 × {R(lb[1])}</a>'
-        b = b.replace('<div class="price por">Price on request</div>', f'<div class="price">{R(p)}</div>{lbhtml}')
+        if '<div class="price por">Price on request</div>' in b:
+            b = b.replace('<div class="price por">Price on request</div>', f'<div class="price">{R(p)}</div>{lbhtml}')
+        else:   # Trimion's own listed price: replace price and any lay-by link with the re-priced ones
+            b, c = re.subn(r'<div class="price">R[\d,]+</div>(\s*<a class="lb" href="[^"]*" target="_blank" rel="noopener">.*?</a>)?',
+                           lambda _: f'<div class="price">{R(p)}</div>{lbhtml}', b, count=1, flags=re.S)
+            assert c == 1, k
         buy = f"Hi Trimion Africa, I want to buy the {nm} ({model}) at {R(p)}. Please send my invoice." + CAT
-        b, c = re.subn(r'<a class="btn" href="https://wa\.me/27611185978\?text=[^"]*" target="_blank" rel="noopener">Get price</a>',
-                       f'<a class="btn" href="{WA}{enc(buy)}" target="_blank" rel="noopener">Buy now</a>', b)
+        b, c = re.subn(r'<a class="btn" href="https://wa\.me/27611185978\?text=[^"]*" target="_blank" rel="noopener">(Get price|Buy now)</a>',
+                       lambda _: f'<a class="btn" href="{WA}{enc(buy)}" target="_blank" rel="noopener">Buy now</a>', b)
         assert c == 1, k
         n[0] += 1
         return f'<article class="card" data-k="{k}">{b}</article>'
@@ -46,8 +50,14 @@ def apply(s):
     for k, p in PRICES.items():
         sku = D[k]['model']
         i = s.find(f'"sku":"{sku}"'); assert i > 0, sku
-        tail = '"brand":{"@type":"Brand","name":"Trimion Africa"}}'
-        j = s.find(tail, i); assert j > 0 and s[j + len(tail)] == '}', sku
+        brand = '"brand":{"@type":"Brand","name":"Trimion Africa"}'
+        j = s.find(brand, i); assert j > 0 and s.rfind('"sku":', 0, j) == i, sku
+        e = j + len(brand)
+        if s.startswith(',"offers":', e):   # already has an offer: update its price
+            m = re.compile(r'"price":"\d+"').search(s, e); assert m, sku
+            s = s[:m.start()] + '"price":"%d"' % p + s[m.end():]; added += 1; continue
+        tail = brand + '}'; j = s.find(tail, i)
+        assert j == e - len(brand) and s[j + len(tail)] == '}', sku
         offer = ',"offers":{"@type":"Offer","price":"%d","priceCurrency":"ZAR","url":"https://trimionafrica.co.za/","seller":{"@id":"https://trimionafrica.co.za/#org"}}' % p
         s = s[:j + len(tail) - 1] + offer + s[j + len(tail) - 1:]
         added += 1
