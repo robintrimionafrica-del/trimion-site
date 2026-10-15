@@ -15,7 +15,10 @@ CUSTOMS = 0.15        # VAT/customs paid on arrival (DAP), on item + shipping
 # Real Alibaba costs Trimion was quoted, item + shipping to SA in rand (customs added on top)
 ACTUAL = {103: 10409 + 6395 + 502,   # TARFUS1: checkout R17,306 incl. fees
           73: round(900 * 16.46),    # TAEMC2: US$900 shipped to SA
-          112: 21967 + 5438}         # TACAV6S: R21,967 + R5,438 Alibaba Logistics
+          112: 21967 + 5438,         # TACAV6S: R21,967 + R5,438 Alibaba Logistics
+          34: round((4700 + 1450) * 16.46),   # TACRYO360-4: US$4,700 + US$1,450 DHL (Maggie Hou)
+          35: round((3800 + 750) * 16.46),    # TACRYO360-2: US$3,800 + US$750 DHL (Maggie Hou)
+          7: round((5950 + 1450) * 16.46)}    # TACRYOEM: US$5,950 + US$1,450 DHL (Maggie Hou)
 # Tiered markup on landed cost: 50% on cheaper machines, sliding down to 35% on the most expensive.
 MARKUP_HI, MARKUP_LO = 0.50, 0.35
 TIER_FROM, TIER_TO = 15000, 80000   # landed cost (R) where the slide starts and ends
