@@ -82,7 +82,7 @@ details p{margin:0 0 14px;color:var(--muted)}
   <h2>Payback calculator</h2>
   <div class="card">
     <label for="m">Machine</label>
-    <select id="m"></select>
+    <select id="m"><option value="0">2-Handle EMS Body Sculpting (TAEMS2) · R20 950</option><option value="1">5000W 2-Handle EMS Body Sculpting (TAEMS5000) · R22 000</option><option value="2">4-Handle EMS Body Sculpting (TAEMS4) · R43 000</option><option value="3">4-Handle Vertical Electromagnetic Station (TAEM4V) · R44 850</option><option value="4">5-Handle Hot, Cold &amp; EMS (TACRYO5) · R60 399</option><option value="5">4-Handle 4300W EMS Body Sculpting (TAEMS4300) · R127 650</option><option value="6">5-Handle 2500W EMS Body Sculpting (TAEMS2500) · R143 750</option><option value="7">Cryo Body Contouring Station (TACRYO15) · R17 450</option><option value="8">3-Handle Cryo Body Contouring (TACRYO3) · R17 000</option><option value="9">448K RF Body Contouring (TARF448B) · R13 199</option><option value="10">448kHz Deep RF Body &amp; Face (TARF448) · R101 150</option><option value="11">360 Roller Body &amp; Face Massage (TARM360) · R18 599</option></select>
     <div class="row">
       <div><label for="r">Your price per session (R)</label><input id="r" type="number" min="0" step="50" value="450" inputmode="numeric"></div>
       <div><label for="s">Sessions per week</label><input id="s" type="number" min="0" step="1" value="6" inputmode="numeric"></div>
@@ -112,7 +112,7 @@ details p{margin:0 0 14px;color:var(--muted)}
   <h2>Prices and lay-by amounts</h2>
   <div class="card tbl">
     <table><thead><tr><th>Machine</th><th class="n">Price</th><th class="n">Deposit</th><th class="n">2 months</th></tr></thead>
-    <tbody id="tb"></tbody></table>
+    <tbody id="tb"><tr><td>2-Handle EMS Body Sculpting (TAEMS2)</td><td class="n">R20 950</td><td class="n">R5 000</td><td class="n">2 × R7 975</td></tr><tr><td>5000W 2-Handle EMS Body Sculpting (TAEMS5000)</td><td class="n">R22 000</td><td class="n">R5 000</td><td class="n">2 × R8 500</td></tr><tr><td>4-Handle EMS Body Sculpting (TAEMS4)</td><td class="n">R43 000</td><td class="n">R10 000</td><td class="n">2 × R16 500</td></tr><tr><td>4-Handle Vertical Electromagnetic Station (TAEM4V)</td><td class="n">R44 850</td><td class="n">R10 000</td><td class="n">2 × R17 425</td></tr><tr><td>5-Handle Hot, Cold &amp; EMS (TACRYO5)</td><td class="n">R60 399</td><td class="n">R16 000</td><td class="n">2 × R22 200</td></tr><tr><td>4-Handle 4300W EMS Body Sculpting (TAEMS4300)</td><td class="n">R127 650</td><td class="n">R32 000</td><td class="n">2 × R47 825</td></tr><tr><td>5-Handle 2500W EMS Body Sculpting (TAEMS2500)</td><td class="n">R143 750</td><td class="n">R36 000</td><td class="n">2 × R53 875</td></tr><tr><td>Cryo Body Contouring Station (TACRYO15)</td><td class="n">R17 450</td><td class="n">R5 000</td><td class="n">2 × R6 225</td></tr><tr><td>3-Handle Cryo Body Contouring (TACRYO3)</td><td class="n">R17 000</td><td class="n">R5 000</td><td class="n">2 × R6 000</td></tr><tr><td>448K RF Body Contouring (TARF448B)</td><td class="n">R13 199</td><td class="n">R5 000</td><td class="n">2 × R4 100</td></tr><tr><td>448kHz Deep RF Body &amp; Face (TARF448)</td><td class="n">R101 150</td><td class="n">R26 000</td><td class="n">2 × R37 575</td></tr><tr><td>360 Roller Body &amp; Face Massage (TARM360)</td><td class="n">R18 599</td><td class="n">R5 000</td><td class="n">2 × R6 800</td></tr></tbody></table>
   </div>
   <p class="note">Other machines are price on request. Ask on WhatsApp and we'll send the price and a lay-by plan.</p>
 </section>
@@ -153,9 +153,7 @@ const M=[
  ["360 Roller Body & Face Massage (TARM360)",18599,5000,6800]
 ];
 const R=n=>"R"+Math.round(n).toLocaleString("en-ZA").replace(/ |,/g," ");
-const sel=document.getElementById("m"),tb=document.getElementById("tb");
-M.forEach((x,i)=>{sel.add(new Option(x[0]+" · "+R(x[1]),i));
- tb.insertAdjacentHTML("beforeend",`<tr><td>${x[0]}</td><td class="n">${R(x[1])}</td><td class="n">${R(x[2])}</td><td class="n">2 × ${R(x[3])}</td></tr>`)});
+const sel=document.getElementById("m");
 function calc(){
  const x=M[sel.value],r=+document.getElementById("r").value||0,s=+document.getElementById("s").value||0,wk=r*s;
  document.getElementById("mo").textContent=wk?R(wk*52/12):"–";
