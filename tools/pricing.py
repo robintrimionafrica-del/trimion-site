@@ -1,19 +1,27 @@
-"""Estimated supplier prices (USD) for the 143 price-on-request items -> landed cost -> tiered 35-50% markup.
-Trimion's own 21 listed prices are treated as landed cost + the old 37.5% markup and re-priced on the same tiers.
+"""Selling price = (Alibaba item price + shipping to SA) + customs/VAT -> tiered 35-50% markup.
+Item price: Trimion's own 21 listed prices (Alibaba rand prices) or, for the other 143, estimated USD factory prices.
+Real quotes in ACTUAL override the estimate.
 Basis: Made-in-China.com listing ranges (14 Oct 2026), scaled to Alibaba factory level using
 Trimion's own 21 listed prices (which work out to ~26x the USD factory price)."""
 import json, math
 
 RATE = 16.46          # USD->ZAR, currencyconvert.online, 14 Oct 2026 05:00 UTC (16.4573)
-SHIP_M = 0.15         # shipping, clearing & duty, machines
-SHIP_C = 0.30         # same for small consumables
+# Shipping China -> South Africa per unit (Alibaba Logistics / FedEx, DAP), by size of machine.
+# Real quotes (15 Oct 2026): tabletop RF face machine R6,395, 6-in-1 cavitation R5,438.
+SHIP = {'small': 1800, 'table': 5500, 'floor': 8500}
+SHIP_C = 0.30         # consumables: shipping as a share of the item price
+CUSTOMS = 0.15        # VAT/customs paid on arrival (DAP), on item + shipping
+
+# Real Alibaba costs Trimion was quoted, item + shipping to SA in rand (customs added on top)
+ACTUAL = {103: 10409 + 6395 + 502,   # TARFUS1: checkout R17,306 incl. fees
+          73: round(900 * 16.46),    # TAEMC2: US$900 shipped to SA
+          112: 21967 + 5438}         # TACAV6S: R21,967 + R5,438 Alibaba Logistics
 # Tiered markup on landed cost: 50% on cheaper machines, sliding down to 35% on the most expensive.
 MARKUP_HI, MARKUP_LO = 0.50, 0.35
 TIER_FROM, TIER_TO = 15000, 80000   # landed cost (R) where the slide starts and ends
-OLD_MARKUP = 0.375    # markup the 21 own prices were set with (used to back out their landed cost)
 ROUND = 50
 
-# Trimion's own listed prices (before tiered markup), k: rand
+# Trimion's own listed prices = the Alibaba item price in rand (before shipping, customs and markup)
 OWN = {1: 143750, 2: 127650, 3: 43000, 4: 22000, 5: 20950, 6: 7500, 17: 44850, 31: 60399, 32: 17450, 33: 17000,
        41: 13199, 42: 101150, 43: 6450, 50: 18599, 51: 10999, 52: 6900, 58: 49950, 67: 35999, 68: 12899, 69: 39999, 70: 6999}
 
@@ -85,9 +93,28 @@ P = {
  164: (80, 'Medium', 'Made-in-China cryo membranes US$0.60-1.10 each; pack of 100'),
 }
 
-def price(usd, cons):
-    landed = usd * RATE * (1 + (SHIP_C if cons else SHIP_M))
-    return sell(landed), landed
+def size(d):
+    import re
+    t = (d['name'] + ' ' + ' '.join(d['specs'])).lower()
+    if d['cat'] == 'Consumables': return 'cons'
+    m = re.search(r'(\d+(?:\.\d+)?)\s*kg', t)
+    if m:
+        w = float(m.group(1)); return 'small' if w <= 10 else 'table' if w <= 40 else 'floor'
+    if re.search(r'tabletop|desktop|portable|compact', t): return 'table'
+    if re.search(r'floor|station|tower|vertical|tall|cabinet|wheeled|trolley|platform|frame', t): return 'floor'
+    if re.search(r'home|handheld|mini\b|pen\b|steamer|scrubber', t): return 'small'
+    return 'table'
+
+def landed(item_zar, d, k=None):
+    """Item price in rand -> landed cost: + shipping to SA + customs/VAT."""
+    if k in ACTUAL: return ACTUAL[k] * (1 + CUSTOMS)
+    sz = size(d)
+    ship = item_zar * SHIP_C if sz == 'cons' else SHIP[sz]
+    return (item_zar + ship) * (1 + CUSTOMS)
+
+def price(usd, d, k=None):
+    l = landed(usd * RATE, d, k)
+    return sell(l), l
 
 if __name__ == '__main__':
     D = {d['k']: d for d in json.load(open('/home/claude/trimion-site/tools/details.orig.json'))}
@@ -96,10 +123,10 @@ if __name__ == '__main__':
     assert not missing and not extra, (missing, extra)
     out = {}
     for k in sorted(P):
-        pr, _ = price(P[k][0], D[k]['cat'] == 'Consumables'); out[k] = pr
+        pr, _ = price(P[k][0], D[k], k); out[k] = pr
     assert not set(OWN) & set(P) and set(OWN) | set(P) == set(D), 'every item needs exactly one price source'
     for k, old in OWN.items():
-        out[k] = sell(old / (1 + OLD_MARKUP))
+        out[k] = sell(landed(old, D[k], k))
     out = dict(sorted(out.items()))
     json.dump(out, open('/home/claude/trimion-site/tools/prices.json', 'w'))
     print(len(out), 'priced; range', min(out.values()), '-', max(out.values()))
