@@ -4,6 +4,7 @@
 Writes ../public/facebook-catalog.csv and a JPG photo per machine in ../public/fb/ (Meta does not reliably
 accept WebP). Run after apply_prices.py so the feed shows the same prices as the shop.
 Feed URL to give Commerce Manager: https://trimionafrica.co.za/facebook-catalog.csv
+Also writes ../public/google-products.tsv for Google Merchant Center: https://trimionafrica.co.za/google-products.tsv
 """
 import csv, json, os, re
 from PIL import Image
@@ -55,3 +56,19 @@ with open(out, "w", newline="", encoding="utf-8") as f:
     w.writeheader()
     w.writerows(rows)
 print(f"facebook catalog: {len(rows)} products")
+
+# Google Merchant Center feed (Google Shopping free listings + Business Profile products).
+# Same products and prices; Google wants a different shipping format, no GTINs, and no phone numbers in text.
+g_rows = []
+for r in rows:
+    g = dict(r)
+    g["description"] = g["description"].replace("\n\nOrder on WhatsApp: 061 118 5978.", "")
+    g["shipping"] = "ZA:::150.00 ZAR"
+    g["identifier_exists"] = "no"
+    g_rows.append(g)
+gout = os.path.join(PUB, "google-products.tsv")
+with open(gout, "w", newline="", encoding="utf-8") as f:
+    w = csv.DictWriter(f, fieldnames=list(g_rows[0]), delimiter="\t")
+    w.writeheader()
+    w.writerows(g_rows)
+print(f"google merchant feed: {len(g_rows)} products")
