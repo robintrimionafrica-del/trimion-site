@@ -45,15 +45,14 @@ def apply(s, out, rep):
            '@media(min-width:700px){.lead h1{font-size:1.6rem}.lead .lc{max-width:520px}}')
     s = s.replace('</style>', css + '</style>', 1)
 
-    # slides 2-4 load just after the page is ready, so the first screen gets the full connection
-    BL = 'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=='
+    # slides 2-4 load straight away (low priority, ~180 KB together) so they're ready before the slider moves to them
+    import re as _re
     for h in HERO[1:]:
-        old_img = f'<img src="/img/{h}.webp"'
-        assert s.count(old_img) == 1, h
-        s = s.replace(old_img, f'<img src="{BL}" data-src="/img/{h}.webp"')
-    s = s.replace('</body>', "<script>(function(){function go(){[].forEach.call(document.querySelectorAll('.hs-s img[data-src]'),function(i){i.src=i.getAttribute('data-src');i.removeAttribute('data-src')})}"
-                  "var d=document.getElementById('ldl');if(d&&window.TA_PROMO)d.textContent='🚚 FREE delivery this week';"
-                  "window.addEventListener('load',function(){setTimeout(go,700)});var t=document.getElementById('hst');if(t)t.addEventListener('scroll',go,{passive:true,once:true})})();</script>\n</body>", 1)
+        m = _re.search(r'<img src="/img/%s\.webp"[^>]*>' % h, s); assert m, h
+        tag = m.group(0).replace(' loading="lazy"', '')
+        tag = tag.replace('<img ', '<img loading="eager" fetchpriority="low" ', 1)
+        s = s.replace(m.group(0), tag, 1)
+    s = s.replace('</body>', "<script>(function(){var d=document.getElementById('ldl');if(d&&window.TA_PROMO)d.textContent='🚚 FREE delivery this week'})();</script>\n</body>", 1)
     # ---- 2. landing text (shows first, before the slider) ----
     lead = ('<section class="lead" aria-labelledby="lh"><h1 id="lh">Professional salon &amp; spa machines, <em>delivered anywhere in South Africa</em></h1>'
             '<p>159 EMS, cryo, RF, HIFU, facial and massage machines for salons and spas. Order on WhatsApp, pay in full or on lay-by, and get trained online for free.</p>'
