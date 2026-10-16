@@ -94,6 +94,8 @@ P = {
  162: (12, 'Low', 'Made-in-China aqua peel solution sets US$6-9; 4-bottle set'),
  163: (10, 'Low', 'CO2 bubble gel kits; few listings show prices'),
  164: (80, 'Medium', 'Made-in-China cryo membranes US$0.60-1.10 each; pack of 100'),
+ 165: (2600, 'High', 'Weifang Mingliang (Domi) dealer quote 16 Oct 2026: C2 dual-handle US$2,600'),
+ 166: (3100, 'High', 'Weifang Mingliang (Domi) dealer quote 16 Oct 2026: C2 four-handle US$3,100'),
 }
 
 def size(d):
@@ -109,7 +111,9 @@ def size(d):
     return 'table'
 
 # Door-to-door quotes that already include customs and taxes (rand, nothing added)
-ALL_IN = {8: round(1755 * 16.46)}   # TAEM4: US$1,755 sea freight, double customs clearance and taxes included (Lyn Xie)
+ALL_IN = {8: round(1755 * 16.46),
+          165: round((2600 + 760) * 16.46),   # TAC2-2H: US$2,600 + US$760 sea freight, customs clearance and taxes included (Domi)
+          166: round((3100 + 760) * 16.46)}   # TAC2-4H: US$3,100 + US$760 sea freight, customs clearance and taxes included (Domi)   # TAEM4: US$1,755 sea freight, double customs clearance and taxes included (Lyn Xie)
 
 def landed(item_zar, d, k=None):
     """Item price in rand -> landed cost: + shipping to SA + customs/VAT."""

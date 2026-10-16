@@ -1638,5 +1638,25 @@
 "model": "TACRYOM",
 "price": "Price on request",
 "lb": ""
+},
+{
+"k": 165,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/3aab1ce728.webp",
+"name": "2-Handle HI-EMT Body Sculpting Machine with RF",
+"model": "TAC2-2H",
+"price": "Price on request",
+"lb": ""
+},
+{
+"k": 166,
+"sec": "EMS and electromagnetic",
+"sid": "ems",
+"img": "/img/393c493865.webp",
+"name": "4-Handle HI-EMT Body Sculpting Machine with RF and Seat Applicator",
+"model": "TAC2-4H",
+"price": "Price on request",
+"lb": ""
 }
 ]

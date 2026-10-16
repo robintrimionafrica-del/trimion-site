@@ -3,7 +3,7 @@ import os
 from PIL import Image
 
 HERO = ['5d861a4924', '823bb61a5b', '2ede239145', '191a91eb64']
-SHARE_TXT = ('*Trimion Africa* | 159 professional salon & spa machines\n'
+SHARE_TXT = ('*Trimion Africa* | 161 professional salon & spa machines\n'
              'EMS, cryo, RF, HIFU, facial and massage machines\n'
              '1-year warranty · R150 delivery anywhere in SA · Free online training · Lay-by over 2 or 3 months\n'
              'Browse and order on WhatsApp: https://trimionafrica.co.za/?v=4')
@@ -55,10 +55,10 @@ def apply(s, out, rep):
     s = s.replace('</body>', "<script>(function(){var d=document.getElementById('ldl');if(d&&window.TA_PROMO)d.textContent='🚚 FREE delivery this week'})();</script>\n</body>", 1)
     # ---- 2. landing text (shows first, before the slider) ----
     lead = ('<section class="lead" aria-labelledby="lh"><h1 id="lh">Professional salon &amp; spa machines, <em>delivered anywhere in South Africa</em></h1>'
-            '<p>159 EMS, cryo, RF, HIFU, facial and massage machines for salons and spas. Order on WhatsApp, pay in full or on lay-by, and get trained online for free.</p>'
+            '<p>161 EMS, cryo, RF, HIFU, facial and massage machines for salons and spas. Order on WhatsApp, pay in full or on lay-by, and get trained online for free.</p>'
             '<ul><li class="g">🛡️ 1-year warranty</li><li id="ldl">🚚 R150 delivery</li><li>🎓 Free online training</li><li>💳 Lay-by 2 or 3 months</li></ul>'
             '<div class="lc"><a class="l1" href="#ems">Shop machines</a>'
-            '<a class="l2" href="https://wa.me/27611185978?text=' + quote('Hi Trimion Africa, I would like help choosing a machine for my salon.\n\nFull catalog (159 machines): https://trimionafrica.co.za/') +
+            '<a class="l2" href="https://wa.me/27611185978?text=' + quote('Hi Trimion Africa, I would like help choosing a machine for my salon.\n\nFull catalog (161 machines): https://trimionafrica.co.za/') +
             '" target="_blank" rel="noopener">Chat on WhatsApp</a></div></section>\n')
     anchor = '<section class="hs" aria-label="Featured">'
     assert s.count(anchor) == 1
@@ -67,18 +67,18 @@ def apply(s, out, rep):
     # ---- 3. what WhatsApp shows when the site link is shared ----
     s = s.replace('<title>Trimion Africa Shop | Salon Equipment, Durban</title>',
                   '<title>Trimion Africa | Salon &amp; Spa Machines · 1-Year Warranty · R150 Delivery</title>')
-    s = s.replace('<meta property="og:title" content="Trimion Africa Shop | Salon Equipment – 159 machines">',
-                  '<meta property="og:title" content="Trimion Africa | 159 Salon &amp; Spa Machines">')
-    s = s.replace('<meta name="twitter:title" content="Trimion Africa Shop | Salon Equipment – 159 machines">',
-                  '<meta name="twitter:title" content="Trimion Africa | 159 Salon &amp; Spa Machines">')
-    s = s.replace('content="Shop 159 salon machines online. 1-year warranty, R150 delivery anywhere in SA, free online training, lay-by over 2 or 3 months. Order on WhatsApp 061 118 5978."',
+    s = s.replace('<meta property="og:title" content="Trimion Africa Shop | Salon Equipment – 161 machines">',
+                  '<meta property="og:title" content="Trimion Africa | 161 Salon &amp; Spa Machines">')
+    s = s.replace('<meta name="twitter:title" content="Trimion Africa Shop | Salon Equipment – 161 machines">',
+                  '<meta name="twitter:title" content="Trimion Africa | 161 Salon &amp; Spa Machines">')
+    s = s.replace('content="Shop 161 salon machines online. 1-year warranty, R150 delivery anywhere in SA, free online training, lay-by over 2 or 3 months. Order on WhatsApp 061 118 5978."',
                   'content="EMS, cryo, RF, HIFU &amp; facial machines for salons and spas. 1-year warranty · R150 delivery anywhere in SA · free online training · lay-by over 2 or 3 months. Order on WhatsApp 061 118 5978."')
     s = s.replace('og.jpg?v=20', 'og.jpg?v=21')
     # "Share catalog" message
     s = s.replace('href="https://wa.me/?text=Trimion%20Africa%20salon%20machine%20catalog%3A%20https%3A%2F%2Ftrimionafrica.co.za%2F%3Fv%3D3"',
                   'href="https://wa.me/?text=' + quote(SHARE_TXT) + '"')
     s = s.replace("""navigator.share({title:'Trimion Africa catalog',text:'Trimion Africa salon machines: 1-year warranty, R150 delivery anywhere in SA, free online training.',url:"https://trimionafrica.co.za/?v=3"})""",
-                  """navigator.share({title:'Trimion Africa | 159 salon & spa machines',text:'*Trimion Africa* | 159 professional salon & spa machines\\n1-year warranty · R150 delivery anywhere in SA · Free online training · Lay-by over 2 or 3 months\\nBrowse and order:',url:"https://trimionafrica.co.za/?v=4"})""")
+                  """navigator.share({title:'Trimion Africa | 161 salon & spa machines',text:'*Trimion Africa* | 161 professional salon & spa machines\\n1-year warranty · R150 delivery anywhere in SA · Free online training · Lay-by over 2 or 3 months\\nBrowse and order:',url:"https://trimionafrica.co.za/?v=4"})""")
     # ---- 4. first screen sooner: search-engine data moves to the end of the page, embedded icon becomes a file ----
     import re as _re
     m = _re.search(r'<script type="application/ld\+json">.*?</script>', s, _re.S)
