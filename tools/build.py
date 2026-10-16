@@ -103,15 +103,8 @@ rep("<p>Free online training included. Delivery 9 to 12 business days.</p>",
 rep("delivered within 9 to 12 business days, with free online training.",
     "delivered within 9 to 12 business days, with free online training and the full 1-year warranty.")
 
-# ---------- 7. install app pop-up + banner ----------
-rep('<p><b>Install Trimion Shop</b>1 tap · Free · Uses little data</p>',
-    '<p><b>Install Trimion Shop</b>Free · R150 delivery · 1-year warranty</p>')
-rep('<ul class="ipl"><li>🛒 Your cart and lay-by saved on your phone</li>',
-    '<ul class="ipl"><li id="ipd">🚚 <b>R150 delivery</b> anywhere in South Africa</li><li>🛡️ <b>1-year warranty</b> on the machine, 6 months on handpieces</li><li>🛒 Your cart and lay-by saved on your phone</li>')
-rep("document.getElementById('ipg').textContent=dp?'Install now'",
-    "var ipd=document.getElementById('ipd');if(ipd)ipd.innerHTML=window.TA_PROMO?'🚚 <b>FREE delivery</b> this week (normally R150)':'🚚 <b>R150 delivery</b> anywhere in South Africa';\n document.getElementById('ipg').textContent=dp?'Install now'")
-
-rep("['pop','mp','acct','cmp','cart']","['pop','mp','acct','cmp','cart','shs']",2)
+# ---------- 7. (install-app pop-up removed 16 Oct 2026: it rarely works in the Facebook/Instagram browsers most visitors use) ----------
+rep("['pop','mp','acct','cmp','cart']","['pop','mp','acct','cmp','cart','shs']",1)
 # ---------- 8. FAQ + legal ----------
 FAQ_W = ('<details><summary>What warranty do I get?</summary><p>Every machine comes with a <b>1-year warranty on the machine itself</b> and '
          '<b>6 months on the handpieces and handles</b>, confirmed on your invoice. Some models carry longer cover, shown on that machine\'s page. '
@@ -136,7 +129,7 @@ SHEET = ('<div class="ih ipp" id="shs" hidden role="dialog" aria-modal="true" ar
          '<button id="sho" type="button" class="sh2" hidden>↗ More apps</button>'
          '<div class="shr"><button id="shc" type="button" class="sh2">🔗 Copy link</button><a id="shd" class="sh2" download>⬇ Picture</a><a id="shpf" class="sh2" target="_blank" rel="noopener">⬇ PDF</a></div>'
          '<button id="shx" type="button" class="ipn">Close</button></div></div>\n')
-rep('<div class="ih" id="ih" hidden role="dialog"', SHEET + '<div class="ih" id="ih" hidden role="dialog"')
+rep('<section class="hs" aria-label="Featured">', SHEET + '<section class="hs" aria-label="Featured">')
 
 CSS = ('.card .wty{font-size:.7rem;font-weight:700;color:#0b7a3e;margin:2px 0 1px;line-height:1.3}'
        '.perks .pw{border-color:#f8b73f;background:#fff8e8}'
