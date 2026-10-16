@@ -191,6 +191,8 @@ body.trayon{padding-bottom:76px}
 .promo button{flex:none;background:none;border:0;color:#fff;font:inherit;text-decoration:underline;cursor:pointer;padding:0}
 @keyframes pm{to{background-position:-200% 0}}@keyframes pz{50%{transform:scale(1.08)}}
 @media (prefers-reduced-motion:reduce){.promo,.promo b{animation:none}}
+.tpromo{display:flex;align-items:center;justify-content:center;gap:6px;background:#081a3d;color:#fff;font:600 .8rem system-ui,sans-serif;padding:7px 12px;text-decoration:none;text-align:center}.tpromo b{color:#ffd23f;letter-spacing:.03em}.tpromo u{color:#ffd23f}
+
 #pop{position:fixed;inset:0;z-index:60;background:rgba(8,26,61,.6);display:none;align-items:center;justify-content:center;padding:18px}
 #pop.open{display:flex}
 .pc{position:relative;background:#fff;border-radius:16px;max-width:360px;width:100%;overflow:hidden;box-shadow:0 20px 50px rgba(0,0,0,.35);text-align:center}
@@ -498,6 +500,7 @@ body.trayon .tst{bottom:calc(84px + env(safe-area-inset-bottom,0px))}
 </style>
 </head>
 <body>
+<a class="tpromo" href="/promo/">🎁 <span>10% off any machine with code <b>TRIMION10</b></span> <u>Get it</u></a>
 <div class="promo" id="promo" hidden><span>⚡ FREE delivery · ends <em id="pcd" style="font-style:normal"></em></span><b>FIRST 5 ONLY</b></div>
 <header class="top"><div class="bar"><img class="logo" src="/img/4880f983c6.png" fetchpriority="high" alt="Trimion Africa logo" width="48" height="48"><div class="bt"><b>TRIMION <span>AFRICA</span></b><small>SHOP · SALON EQUIPMENT</small></div><a class="wa" href="https://wa.me/27611185978?text=Hi%20Trimion%20Africa%2C%20I%27m%20looking%20at%20your%20catalog%20and%20have%20a%20question.%0A%0AFull%20catalog%20%28161%20machines%29%3A%20https%3A%2F%2Ftrimionafrica.co.za%2F" target="_blank" rel="noopener">WhatsApp</a></div>
 <div class="search"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="q" type="search" placeholder="Search 161 machines: EMS, cryo, facial…" aria-label="Search machines"></div></header>
