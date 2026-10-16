@@ -1813,8 +1813,7 @@ document.getElementById('pclaim').addEventListener('click',function(e){e.prevent
  var t='Hi Trimion Africa, I would like to claim the flash deal: free delivery on my order.'+(n?'\nName: '+n:'')+(a?'\nDelivery address: '+a:'')+'\n\nFull catalog (159 machines): https://trimionafrica.co.za/';
  window.open('https://wa.me/27611185978?text='+encodeURIComponent(t),'_blank','noopener')});
 st.addEventListener('click',open);st.style.cursor='pointer';
-var seen=false;try{seen=sessionStorage.getItem('ta_pop')==='1'}catch(e){}
-if(!seen&&!/^#m\d+$/.test(location.hash))setTimeout(open,1200);
+// no automatic pop-up: the offer opens only when the red bar at the top is tapped
 })();
 </script>
 <div id="mp" role="dialog" aria-modal="true" aria-labelledby="mpt"><div class="ah"><button type="button" id="mpx" aria-label="Back to the shop">←</button><div><b>Machine details</b><small>Trimion Africa · Durban</small></div></div><div class="mw" id="mpb"></div></div>
