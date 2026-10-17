@@ -40,9 +40,9 @@ CSS = '''<style>
 .vsl span{display:block;font-weight:700;color:var(--navy);margin-top:4px}
 .vswa{display:block;text-align:center;margin:16px 0 0;color:#1f9d55;font-weight:600}
 </style>
-<script src="/vs.js" defer></script>
 '''
-assert s.count('</body>') == 1
-s = s.replace('</body>', CSS + '</body>')
+assert s.count('</body>') == 1 and s.count('</head>') == 1
+s = s.replace('</head>', CSS + '</head>')   # styles in <head> so the camera button never flashes unstyled
+s = s.replace('</body>', '<script src="/vs.js" defer></script>\n</body>')
 open(f, 'w', encoding='utf-8').write(s)
 print('search by photo added')

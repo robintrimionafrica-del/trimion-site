@@ -55,7 +55,7 @@ def apply(s, out, rep):
     s = s.replace('</body>', "<script>(function(){var d=document.getElementById('ldl');if(d&&window.TA_PROMO)d.textContent='🚚 FREE delivery this week'})();</script>\n</body>", 1)
     # ---- 2. landing text (shows first, before the slider) ----
     lead = ('<section class="lead" aria-labelledby="lh"><h1 id="lh">Professional salon &amp; spa machines, <em>delivered anywhere in South Africa</em></h1>'
-            '<p>161 EMS, cryo, RF, HIFU, facial and massage machines for salons and spas. Order on WhatsApp, pay in full or on lay-by, and get trained online for free.</p>'
+            '<p>162 EMS, cryo, RF, HIFU, facial and massage machines for salons and spas. Order on WhatsApp, pay in full or on lay-by, and get trained online for free.</p>'
             '<ul><li class="g">🛡️ 1-year warranty</li><li id="ldl">🚚 R150 delivery</li><li>🎓 Free online training</li><li>💳 Lay-by 2 or 3 months</li></ul>'
             '<div class="lc"><a class="l1" href="#ems">Shop machines</a>'
             '<a class="l2" href="https://wa.me/27611185978?text=' + quote('Hi Trimion Africa, I would like help choosing a machine for my salon.\n\nFull catalog (162 machines): https://trimionafrica.co.za/') +
