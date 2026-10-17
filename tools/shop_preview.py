@@ -46,7 +46,7 @@ page = '''<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="robots" content="noindex">
 <title>Trimion Africa Shop (preview)</title>
-<link rel="icon" href="/favicon.ico">
+<link rel="icon" href="/favicon.ico"><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#ffffff"><link rel="apple-touch-icon" href="/icon-192.png">
 <style>
 :root{--ink:#111827;--muted:#6b7280;--line:#eceef2;--bg:#f4f5f7;--navy:#0b1f4d;--blue:#1d6fe0;--red:#e2231a;--org:#f97316;--wa:#1fa855}
 *{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
@@ -129,6 +129,18 @@ img{max-width:100%;display:block}
 .sp img{width:44px;height:44px;border-radius:50%;background:#f2f3f5;object-fit:contain}
 .toast{position:fixed;left:50%;bottom:calc(120px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:#fff;padding:9px 16px;border-radius:20px;font-size:13px;z-index:40;display:none}
 .empty{grid-column:1/-1;text-align:center;color:var(--muted);padding:30px 10px}
+.ip{position:fixed;inset:0;z-index:50;background:rgba(0,0,0,.5);display:flex;align-items:flex-end;justify-content:center}
+.ip[hidden]{display:none}
+.ib2{width:100%;max-width:480px;background:#fff;border-radius:14px 14px 0 0;padding:18px max(18px,env(safe-area-inset-right,0px)) calc(18px + env(safe-area-inset-bottom,0px)) max(18px,env(safe-area-inset-left,0px));animation:up .25s ease-out}
+@keyframes up{from{transform:translateY(100%)}to{transform:none}}
+@media (prefers-reduced-motion:reduce){.ib2{animation:none}}
+.it{display:flex;gap:14px;align-items:center}.it img{width:60px;height:60px;border-radius:14px;box-shadow:0 2px 8px rgba(0,0,0,.15)}
+.it b{display:block;font-size:17px}.it span{color:var(--muted);font-size:13px}
+.iu{margin:14px 0 6px;padding:0;list-style:none;display:grid;gap:7px;font-size:14px}
+.iu li::before{content:"✓";color:var(--wa);font-weight:800;margin-right:8px}
+.is{margin:8px 0 0;padding-left:20px;font-size:14px;line-height:1.5}.is[hidden]{display:none}
+.ia{display:flex;gap:10px;margin-top:14px}.ia button{flex:1;height:44px;border-radius:22px;font-weight:700;font-size:15px}
+.ia .y{background:var(--ink);color:#fff}.ia .n{border:1.5px solid #d1d5db}
 :focus-visible{outline:2px solid var(--blue);outline-offset:2px}
 </style></head><body>
 <header class="hd"><div class="hr">
@@ -151,6 +163,11 @@ img{max-width:100%;display:block}
 <a href="/#cart"><svg viewBox="0 0 24 24"><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/><path d="M2.5 3.5h2.6l2.4 11.2h11.3l2-8H6.3"/></svg>Cart<span class="bd" id="cn2"></span></a>
 <a href="/#account"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>Me</a></nav>
 <div class="sh" id="sh"><div class="sp"><h3>Shop by category</h3>__SHEET__<a href="/guide/">📘 Buyer's guide</a><a href="/#faq">❓ Questions</a></div></div>
+<div class="ip" id="ip" hidden role="dialog" aria-modal="true" aria-labelledby="ipt"><div class="ib2">
+<div class="it"><img src="/icon-192.png" alt=""><div><b id="ipt">Get the Trimion app</b><span>Free · no Play Store · tiny download</span></div></div>
+<ul class="iu"><li>Open the shop in one tap from your home screen</li><li>Your cart and lay-by saved for next time</li><li>See new machines and deals first</li></ul>
+<ol class="is" id="isteps" hidden></ol>
+<div class="ia"><button type="button" class="n" id="ino">Not now</button><button type="button" class="y" id="iyes">Install</button></div></div></div>
 <div class="toast" id="to"></div>
 <script>
 var A=__DATA__,HINTS=__HINTS__;
@@ -194,6 +211,25 @@ function dot(){var i=Math.round(hs.scrollLeft/hs.clientWidth);[].forEach.call(hd
 hs.addEventListener('scroll',dot,{passive:true});dot();
 setInterval(function(){if(document.hidden)return;var i=Math.round(hs.scrollLeft/hs.clientWidth);hs.scrollTo({left:((i+1)%n)*hs.clientWidth,behavior:'smooth'})},4500);
 window.addEventListener('storage',paint);window.addEventListener('pageshow',paint);paint();show('');
+
+// install pop-up: once every 3 days, after a little browsing, never inside the installed app
+(function(){var dp=null,ip=document.getElementById('ip'),u=navigator.userAgent,ios=/iPhone|iPad|iPod/.test(u),inapp=/FBAN|FBAV|FB_IAB|Instagram|WhatsApp|; wv\\)/.test(u);
+if(window.matchMedia('(display-mode: standalone)').matches||navigator.standalone)return;
+if('serviceWorker' in navigator&&location.protocol==='https:')navigator.serviceWorker.register('/sw.js').catch(function(){});
+window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();dp=e});
+window.addEventListener('appinstalled',function(){ip.hidden=true;toast('Installed. Find Trimion Shop on your home screen 👍')});
+var last=g('ta_ipop',0);if(Date.now()-last<3*864e5)return;
+var armed=false;function open(){if(armed)return;armed=true;p('ta_ipop',Date.now());ip.hidden=false;document.getElementById('iyes').focus()}
+setTimeout(function(){if(scrollY>300)open();else window.addEventListener('scroll',function f(){if(scrollY>300){removeEventListener('scroll',f);open()}},{passive:true})},6000);
+function close(){ip.hidden=true}
+document.getElementById('ino').onclick=close;ip.addEventListener('click',function(e){if(e.target===ip)close()});
+document.addEventListener('keydown',function(e){if(e.key==='Escape')close()});
+document.getElementById('iyes').onclick=function(){
+ if(dp){dp.prompt();dp.userChoice.then(function(r){if(r.outcome==='accepted')close();dp=null});return}
+ var st=ios?(inapp?'<li>Tap <b>⋯</b> and choose <b>Open in Safari</b>.</li><li>Tap <b>Share</b>, then <b>Add to Home Screen</b>.</li>':'<li>Tap the <b>Share</b> button at the bottom.</li><li>Tap <b>Add to Home Screen</b>, then <b>Add</b>.</li>')
+  :(inapp?'<li>Tap <b>⋮</b> at the top right.</li><li>Tap <b>Open in Chrome</b>, then tap Install again.</li>':'<li>Tap <b>⋮</b> (browser menu).</li><li>Tap <b>Install app</b> or <b>Add to Home screen</b>.</li>');
+ var o=document.getElementById('isteps');o.innerHTML=st;o.hidden=false;this.textContent='Got it';this.onclick=close};
+})();
 </script></body></html>'''
 sheet = ''.join(f'<button type="button" data-s="{sid}"><img src="{icon[sid]}" alt="" loading="lazy">{html.escape(lab)}</button>' for sid, _, lab in SECS)
 page = (page.replace('__TABS__', tabs).replace('__SLIDES__', slides_html).replace('__CIRCLES__', circles)
