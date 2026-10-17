@@ -1658,5 +1658,15 @@
 "model": "TAC2-4H",
 "price": "Price on request",
 "lb": ""
+},
+{
+"k": 167,
+"sec": "RF and cavitation",
+"sid": "rf",
+"img": "/img/e9050e0a5b.webp",
+"name": "5-Handle Roller, Vacuum and RF Body Shaping Station",
+"model": "TAVS5",
+"price": "Price on request",
+"lb": ""
 }
 ]

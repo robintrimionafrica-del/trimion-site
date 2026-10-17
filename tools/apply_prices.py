@@ -4,7 +4,7 @@ import re, json, math
 from urllib.parse import quote, unquote
 
 PRICES = {int(k): v for k, v in json.load(open('/home/claude/trimion-site/tools/prices.json')).items()}
-CAT = '\n\nFull catalog (161 machines): https://trimionafrica.co.za/'
+CAT = '\n\nFull catalog (162 machines): https://trimionafrica.co.za/'
 WA = 'https://wa.me/27611185978?text='
 
 def R(n): return 'R{:,}'.format(n)

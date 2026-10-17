@@ -96,6 +96,7 @@ P = {
  164: (80, 'Medium', 'Made-in-China cryo membranes US$0.60-1.10 each; pack of 100'),
  165: (2600, 'High', 'Weifang Mingliang (Domi) dealer quote 16 Oct 2026: C2 dual-handle US$2,600'),
  166: (3100, 'High', 'Weifang Mingliang (Domi) dealer quote 16 Oct 2026: C2 four-handle US$3,100'),
+ 167: (3800, 'High', 'Weifang Mingliang (Domi) 2026 catalog: G1 5-handle body shaping US$3,800'),
 }
 
 def size(d):
@@ -113,7 +114,9 @@ def size(d):
 # Door-to-door quotes that already include customs and taxes (rand, nothing added)
 ALL_IN = {8: round(1755 * 16.46),
           165: round((2600 + 760) * 16.46),   # TAC2-2H: US$2,600 + US$760 sea freight, customs clearance and taxes included (Domi)
-          166: round((3100 + 760) * 16.46)}   # TAC2-4H: US$3,100 + US$760 sea freight, customs clearance and taxes included (Domi)   # TAEM4: US$1,755 sea freight, double customs clearance and taxes included (Lyn Xie)
+          166: round((3100 + 760) * 16.46),
+          167: round((3800 + 760) * 16.46)}   # TAVS5: US$3,800 + US$760 sea freight, customs clearance and taxes included (Domi)
+         #   # TAC2-4H: US$3,100 + US$760 sea freight, customs clearance and taxes included (Domi)   # TAEM4: US$1,755 sea freight, double customs clearance and taxes included (Lyn Xie)
 
 def landed(item_zar, d, k=None):
     """Item price in rand -> landed cost: + shipping to SA + customs/VAT."""
