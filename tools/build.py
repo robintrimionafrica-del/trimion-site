@@ -151,6 +151,12 @@ JS = open('/home/claude/trimion-site/tools/wa_clean.js', encoding='utf-8').read(
 rep('</body>', '<script>' + JS + '</script>\n</body>')
 
 import sys; sys.path.insert(0, '/home/claude/trimion-site/tools'); import enhance; s = enhance.apply(s, OUT, rep)
+def _kitcards(m):
+    c = m.group(0); pm = re.search(r'class="price[^"]*">R([\d,]+)', c)
+    if pm and int(pm.group(1).replace(',', '')) >= 50000:
+        c = c.replace('<li>Certification available separately (R1,500)</li>', '<li>Certificate FREE with your <a href="/offers/#kit">Salon Starter Kit</a> (worth R1,500)</li>')
+    return c
+s = re.sub(r'<article class="card".*?</article>', _kitcards, s, flags=re.S)
 open(f'{OUT}/index.html', 'w', encoding='utf-8').write(s)
 
 # ---------- 10. product pages /p/m{k}.html (full pages Google can read; also the share link) ----------
@@ -171,7 +177,7 @@ a{color:inherit}.top{background:#081a3d;color:#fff;padding:10px max(16px,env(saf
 h1{font-size:1.3rem;line-height:1.25;margin:4px 0 2px;text-wrap:balance}.mod{color:#5b6b86;font-size:.85rem}
 .pr{font-size:1.8rem;font-weight:800;color:#d61f1f;margin:8px 0 0;letter-spacing:-.5px}.lb{font-size:.92rem;margin:2px 0 6px}
 .chip{display:inline-block;background:#fff4f3;color:#d61f1f;border:1px solid #f6c4c0;border-radius:4px;font-size:.78rem;padding:2px 6px;margin:2px 4px 2px 0}
-.chip.g{background:#ecf8f1;color:#157a3f;border-color:#bfe6cf}
+.chip.g{background:#ecf8f1;color:#157a3f;border-color:#bfe6cf}.chip.kit{background:#fff7d6;color:#7a5600;border-color:#f3d77a;text-decoration:none;font-weight:600}
 .btns{display:grid;gap:8px;margin-top:12px}.btn{display:block;text-align:center;padding:13px;border-radius:24px;font-weight:700;text-decoration:none;border:0;font-size:1rem;cursor:pointer;width:100%;font-family:inherit}
 .btn.w{background:#1fa855;color:#fff}.btn.n{background:#081a3d;color:#fff}.btn.o{background:#fff;color:#081a3d;border:1.5px solid #c9d3e6}
 h2{font-size:1.02rem;margin:0 0 8px}ul{margin:0;padding-left:20px}li{margin:3px 0}p{margin:0 0 8px}
@@ -199,7 +205,10 @@ for d in P:
     wa = 'https://wa.me/27611185978?text=' + _q('Hi Trimion Africa, I would like to order the ' + d['name'] + ' (' + d['model'] + ').' + chr(10) + chr(10) + url)
     paras = ''.join(f'<p>{E(t)}</p>' for t in dt.get('desc', []))
     specs = ''.join(f'<li>{E(t)}</li>' for t in dt.get('specs', []))
-    gets = ''.join(f'<li>{E(t)}</li>' for t in dt.get('get', []))
+    kit = price >= 50000
+    _g = [('Certificate included FREE with your Salon Starter Kit (worth R1,500)' if (kit and t.startswith('Certification available separately')) else t) for t in dt.get('get', [])]
+    if kit: _g.append('Free Salon Starter Kit: treatment menu and price list, 10 ready-made social posts, Trimion Certified Salon feature')
+    gets = ''.join(f'<li>{E(t)}</li>' for t in _g)
     rel = [x for x in P if x['sid'] == d['sid'] and x['k'] != k]
     rel = sorted(rel, key=lambda x: abs(_num(x['price']) - price))[:4]
     relh = ''.join(f'<a href="/p/m{x["k"]}"><img src="{x["img"]}" alt="" loading="lazy" width="200" height="200">{E(x["name"])}<b>{E(x["price"])}</b></a>' for x in rel)
@@ -216,7 +225,7 @@ for d in P:
         {"@type": "ListItem", "position": 3, "name": d['name'], "item": url}]}
     pricebox = (f'<div class="pr">{E(d["price"])}</div>' + (f'<div class="lb">💳 {E(d["lb"])}</div>' if d['lb'] else '')
                 + '<span class="chip">10% off with code TRIMION10</span>' + ('' if cons else f'<span class="chip g">{E(short)}</span>')
-                + '<span class="chip g">R150 delivery</span>') if price else '<div class="pr" style="font-size:1.3rem">Price on request</div><p class="lb">Tap below for a written quote on WhatsApp.</p>'
+                + '<span class="chip g">R150 delivery</span>' + ('<a class="chip kit" href="/offers/#kit">🎁 Free Salon Starter Kit</a>' if price >= 50000 else '')) if price else '<div class="pr" style="font-size:1.3rem">Price on request</div><p class="lb">Tap below for a written quote on WhatsApp.</p>'
     page = f'''<!DOCTYPE html>
 <html lang="en"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -259,6 +268,7 @@ for d in P:
 {f'<div class="card"><h2>Specifications</h2><ul>{specs}</ul></div>' if specs else ''}
 {f'<div class="card"><h2>Included with your order</h2><ul>{gets}</ul></div>' if gets else ''}
 {f'<div class="card"><h2>More {E(d["sec"].lower())}</h2><div class="rel">{relh}</div></div>' if relh else ''}
+{'<div class="card"><h2>Know a salon owner?</h2><p>Refer a salon that buys a machine from R25,000 and we pay you <b>R2,000</b>. <a href="/offers/#refer">How it works</a></p></div>' if price >= 25000 else ''}
 <div class="card"><h2>How to order</h2><p>Tap <b>Order on WhatsApp</b>. We confirm the price, delivery and lay-by option in writing and send your invoice. Pay in full by EFT or secure card link, or pay a deposit and the balance over 2 or 3 months.</p><p><a href="/">← Back to all machines</a></p></div>
 </div>
 <div class="ft">Trimion Africa Precision (Pty) Ltd · Durban, KwaZulu-Natal · WhatsApp 061 118 5978</div>
@@ -273,6 +283,7 @@ import datetime as _dt
 _today = _dt.date.today().isoformat()
 open(f'{OUT}/sitemap.xml', 'w').write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     f'<url><loc>{SITE}/</loc><lastmod>{_today}</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>\n'
+    f'<url><loc>{SITE}/offers/</loc><lastmod>{_today}</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>\n'
     f'<url><loc>{SITE}/guide/</loc><lastmod>{_today}</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>\n'
     + ''.join(f'<url><loc>{u}</loc><lastmod>{_today}</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>\n' for u in smap) + '</urlset>\n')
 open(f'{OUT}/robots.txt', 'w').write('User-agent: *\nAllow: /\nDisallow: /new/\n\nSitemap: https://trimionafrica.co.za/sitemap.xml\n')
