@@ -153,12 +153,37 @@ rep('</body>', '<script>' + JS + '</script>\n</body>')
 import sys; sys.path.insert(0, '/home/claude/trimion-site/tools'); import enhance; s = enhance.apply(s, OUT, rep)
 open(f'{OUT}/index.html', 'w', encoding='utf-8').write(s)
 
-# ---------- 10. product share pages /p/m{k}.html ----------
+# ---------- 10. product pages /p/m{k}.html (full pages Google can read; also the share link) ----------
 P = json.load(open('/home/claude/trimion-site/tools/products.json'))
+DT = {x['k']: x for x in json.load(open('/home/claude/trimion-site/tools/details.json'))}
 os.makedirs(f'{OUT}/p', exist_ok=True)
 E = lambda t: html.escape(t, quote=True)
+from urllib.parse import quote as _q
+def _num(t):
+    m = re.search(r'R([\d,]+)', t or ''); return int(m.group(1).replace(',', '')) if m else 0
+PCSS = """*{box-sizing:border-box}body{margin:0;font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#f3f5f9;color:#14213d}
+a{color:inherit}.top{background:#081a3d;color:#fff;padding:10px max(16px,env(safe-area-inset-left,0px));display:flex;align-items:center;gap:10px;position:sticky;top:0;z-index:5}
+.top img{width:34px;height:34px;border-radius:50%}.top b{flex:1;letter-spacing:.12em;font-size:.95rem}.top a{text-decoration:none}
+.top .wa{background:#1fa855;padding:7px 12px;border-radius:18px;font-weight:700;font-size:.85rem}
+.wrap{max-width:760px;margin:0 auto;padding:12px 16px 40px}.crumb{font-size:.8rem;color:#5b6b86;margin:2px 0 10px}.crumb a{text-decoration:none}
+.card{background:#fff;border-radius:14px;padding:14px;box-shadow:0 1px 3px rgba(8,26,61,.08);margin-bottom:12px}
+.ph{width:100%;max-height:42vh;aspect-ratio:1/1;object-fit:contain;display:block;border-radius:10px;background:#fff}
+h1{font-size:1.3rem;line-height:1.25;margin:4px 0 2px;text-wrap:balance}.mod{color:#5b6b86;font-size:.85rem}
+.pr{font-size:1.8rem;font-weight:800;color:#d61f1f;margin:8px 0 0;letter-spacing:-.5px}.lb{font-size:.92rem;margin:2px 0 6px}
+.chip{display:inline-block;background:#fff4f3;color:#d61f1f;border:1px solid #f6c4c0;border-radius:4px;font-size:.78rem;padding:2px 6px;margin:2px 4px 2px 0}
+.chip.g{background:#ecf8f1;color:#157a3f;border-color:#bfe6cf}
+.btns{display:grid;gap:8px;margin-top:12px}.btn{display:block;text-align:center;padding:13px;border-radius:24px;font-weight:700;text-decoration:none;border:0;font-size:1rem;cursor:pointer;width:100%;font-family:inherit}
+.btn.w{background:#1fa855;color:#fff}.btn.n{background:#081a3d;color:#fff}.btn.o{background:#fff;color:#081a3d;border:1.5px solid #c9d3e6}
+h2{font-size:1.02rem;margin:0 0 8px}ul{margin:0;padding-left:20px}li{margin:3px 0}p{margin:0 0 8px}
+.rel{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}.rel a{background:#fff;border-radius:10px;padding:8px;text-decoration:none;font-size:.82rem;line-height:1.3;min-width:0}
+.rel img{width:100%;aspect-ratio:1/1;object-fit:contain;display:block}.rel b{display:block;color:#d61f1f;margin-top:3px}
+@media(min-width:700px){.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.rel{grid-template-columns:repeat(4,1fr)}}
+.ft{text-align:center;color:#5b6b86;font-size:.8rem;padding:20px 16px 30px}:focus-visible{outline:2px solid #1d6fe0;outline-offset:2px}"""
+SECNAME = {}
+for d in P: SECNAME[d['sid']] = d['sec']
+smap = []
 for d in P:
-    k = d['k']; cid = f'm{k}'
+    k = d['k']; cid = f'm{k}'; dt = DT.get(k, {})
     cons = d['sid'] == 'supplies'
     por = 'request' in d['price'].lower()
     short = SPECIAL.get(k, (W_MAIN,))[0]
@@ -169,18 +194,41 @@ for d in P:
     desc = ', '.join(bits)
     desc = desc[0].upper() + desc[1:] + '. ' + ('Tap for a written quote on WhatsApp 061 118 5978.' if por else 'Order on WhatsApp 061 118 5978.')
     img = f'{SITE}/og/{cid}.jpg?v=3'
+    url = f'{SITE}/p/{cid}'
+    price = _num(d['price'])
+    wa = 'https://wa.me/27611185978?text=' + _q('Hi Trimion Africa, I would like to order the ' + d['name'] + ' (' + d['model'] + ').' + chr(10) + chr(10) + url)
+    paras = ''.join(f'<p>{E(t)}</p>' for t in dt.get('desc', []))
+    specs = ''.join(f'<li>{E(t)}</li>' for t in dt.get('specs', []))
+    gets = ''.join(f'<li>{E(t)}</li>' for t in dt.get('get', []))
+    rel = [x for x in P if x['sid'] == d['sid'] and x['k'] != k]
+    rel = sorted(rel, key=lambda x: abs(_num(x['price']) - price))[:4]
+    relh = ''.join(f'<a href="/p/m{x["k"]}"><img src="{x["img"]}" alt="" loading="lazy" width="200" height="200">{E(x["name"])}<b>{E(x["price"])}</b></a>' for x in rel)
+    ld = {"@context": "https://schema.org", "@type": "Product", "name": d['name'], "sku": d['model'], "mpn": d['model'],
+          "image": [SITE + d['img'], img.split('?')[0]], "description": ' '.join(dt.get('desc', [])) or desc,
+          "brand": {"@type": "Brand", "name": "Trimion Africa"}, "category": d['sec'], "url": url}
+    if price:
+        ld["offers"] = {"@type": "Offer", "price": str(price), "priceCurrency": "ZAR", "availability": "https://schema.org/InStock",
+                        "itemCondition": "https://schema.org/NewCondition", "url": url,
+                        "seller": {"@type": "Organization", "name": "Trimion Africa Precision (Pty) Ltd"}}
+    crumbs = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Shop", "item": SITE + "/"},
+        {"@type": "ListItem", "position": 2, "name": d['sec'], "item": SITE + "/#" + d['sid']},
+        {"@type": "ListItem", "position": 3, "name": d['name'], "item": url}]}
+    pricebox = (f'<div class="pr">{E(d["price"])}</div>' + (f'<div class="lb">💳 {E(d["lb"])}</div>' if d['lb'] else '')
+                + '<span class="chip">10% off with code TRIMION10</span>' + ('' if cons else f'<span class="chip g">{E(short)}</span>')
+                + '<span class="chip g">R150 delivery</span>') if price else '<div class="pr" style="font-size:1.3rem">Price on request</div><p class="lb">Tap below for a written quote on WhatsApp.</p>'
     page = f'''<!DOCTYPE html>
 <html lang="en"><head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{E(title)} | Trimion Africa</title>
 <meta name="description" content="{E(desc)}">
-<meta name="robots" content="noindex, follow">
-<meta property="og:type" content="website">
+<link rel="canonical" href="{url}">
+<meta property="og:type" content="product">
 <meta property="og:site_name" content="Trimion Africa Shop">
 <meta property="og:locale" content="en_ZA">
 <meta property="og:title" content="{E(title)}">
 <meta property="og:description" content="{E(desc)}">
-<meta property="og:url" content="{SITE}/p/{cid}">
+<meta property="og:url" content="{url}">
 <meta property="og:image" content="{img}">
 <meta property="og:image:secure_url" content="{img}">
 <meta property="og:image:type" content="image/jpeg">
@@ -192,18 +240,42 @@ for d in P:
 <meta name="twitter:description" content="{E(desc)}">
 <meta name="twitter:image" content="{img}">
 <meta name="theme-color" content="#081a3d">
-<link rel="icon" type="image/png" href="/img/4880f983c6.png">
-<script>location.replace('/'+location.search+'#{cid}')</script>
-<style>body{{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#081a3d;color:#fff;display:flex;min-height:100vh;align-items:center;justify-content:center;padding:16px;box-sizing:border-box}}main{{max-width:420px;text-align:center}}img{{width:100%;border-radius:14px}}a{{display:block;margin-top:12px;padding:12px;border-radius:22px;background:#1fa855;color:#fff;font-weight:700;text-decoration:none}}a.s{{background:#0b84d8}}</style>
-</head><body><main>
-<img src="/og/{cid}.jpg?v=3" alt="{E(d['name'])}" width="1200" height="630">
-<h1 style="font-size:1.2rem">{E(d['name'])}</h1><p>{E(d['price'])}</p>
-<a class="s" href="/#{cid}">View this machine</a>
-<a class="s" href="/pdf/{quote(d['model'])}.pdf">Brochure (PDF)</a>
-<a href="https://wa.me/27611185978?text={E(__import__('urllib.parse').parse.quote('Hi Trimion Africa, I am interested in the ' + d['name'] + ' (' + d['model'] + ').' + chr(10) + chr(10) + SITE + '/p/' + cid))}">Ask on WhatsApp</a>
-</main></body></html>
+<link rel="icon" type="image/png" href="/img/4880f983c6.png"><link rel="manifest" href="/manifest.json">
+<style>{PCSS}</style>
+<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
+<script type="application/ld+json">{json.dumps(crumbs, ensure_ascii=False)}</script>
+</head><body>
+<header class="top"><a href="/"><img src="/img/4880f983c6.png" alt="Trimion Africa" width="34" height="34"></a><b><a href="/">TRIMION AFRICA</a></b><a class="wa" href="{wa}">WhatsApp</a></header>
+<div class="wrap">
+<nav class="crumb"><a href="/">Shop</a> › <a href="/#{d['sid']}">{E(d['sec'])}</a></nav>
+<div class="grid">
+<div class="card"><img class="ph" src="{d['img']}" alt="{E(d['name'])}" width="540" height="540" fetchpriority="high"></div>
+<div class="card"><h1>{E(d['name'])}</h1><div class="mod">Model {E(d['model'])}</div>{pricebox}
+<div class="btns"><a class="btn w" href="{wa}">{'Ask for a quote on WhatsApp' if por else 'Order on WhatsApp'}</a>
+<button class="btn n" type="button" id="atc">Add to cart</button>
+<a class="btn o" href="/pdf/{_q(d['model'])}.pdf">Brochure (PDF)</a></div></div>
+</div>
+{f'<div class="card"><h2>About this machine</h2>{paras}</div>' if paras else ''}
+{f'<div class="card"><h2>Specifications</h2><ul>{specs}</ul></div>' if specs else ''}
+{f'<div class="card"><h2>Included with your order</h2><ul>{gets}</ul></div>' if gets else ''}
+{f'<div class="card"><h2>More {E(d["sec"].lower())}</h2><div class="rel">{relh}</div></div>' if relh else ''}
+<div class="card"><h2>How to order</h2><p>Tap <b>Order on WhatsApp</b>. We confirm the price, delivery and lay-by option in writing and send your invoice. Pay in full by EFT or secure card link, or pay a deposit and the balance over 2 or 3 months.</p><p><a href="/">← Back to all machines</a></p></div>
+</div>
+<div class="ft">Trimion Africa Precision (Pty) Ltd · Durban, KwaZulu-Natal · WhatsApp 061 118 5978</div>
+<script>(function(){{var b=document.getElementById('atc'),id='{cid}';function g(){{try{{return JSON.parse(localStorage.getItem('ta_quote')||'[]')}}catch(e){{return[]}}}}
+function set(){{if(g().indexOf(id)>-1){{b.textContent='✓ In your cart – view cart';b.onclick=function(){{location.href='/#cart'}}}}}}
+b.onclick=function(){{var q=g();if(q.indexOf(id)<0)q.push(id);try{{localStorage.setItem('ta_quote',JSON.stringify(q))}}catch(e){{}}set()}};set()}})();</script>
+</body></html>
 '''
     open(f'{OUT}/p/{cid}.html', 'w', encoding='utf-8').write(page)
+    smap.append(url)
+import datetime as _dt
+_today = _dt.date.today().isoformat()
+open(f'{OUT}/sitemap.xml', 'w').write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+    f'<url><loc>{SITE}/</loc><lastmod>{_today}</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>\n'
+    f'<url><loc>{SITE}/guide/</loc><lastmod>{_today}</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>\n'
+    + ''.join(f'<url><loc>{u}</loc><lastmod>{_today}</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>\n' for u in smap) + '</urlset>\n')
+open(f'{OUT}/robots.txt', 'w').write('User-agent: *\nAllow: /\nDisallow: /new/\n\nSitemap: https://trimionafrica.co.za/sitemap.xml\n')
 
 # ---------- 11. service worker version + headers ----------
 sw = open('/home/claude/trimion-site/tools/sw.js').read()
