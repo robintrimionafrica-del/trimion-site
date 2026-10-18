@@ -504,7 +504,12 @@ body.trayon .tst{bottom:calc(84px + env(safe-area-inset-bottom,0px))}
 </style>
 </head>
 <body>
-<a class="tpromo" href="/promo/">🎁 <span>10% off any machine with code <b>TRIMION10</b></span> <u>Get it</u></a>
+<a class="tpromo" id="tpr" href="/promo/">🎁 <span>10% off any machine with code <b>TRIMION10</b></span> <u>Get it</u></a><script>(function(){var a=document.getElementById('tpr');if(!a)return;
+var M=[['/promo/','🎁 <span>10% off any machine with code <b>TRIMION10</b></span> <u>Get it</u>'],
+['/offers/#refer','💰 <span>Refer a salon, earn <b>R2,000</b></span> <u>How</u>']];
+if(new Date()<new Date('2026-11-16T00:00:00+02:00'))M.unshift(['/offers/#diwali','🪔 <span><b>Diwali Special:</b> free Starter Kit from R30k</span> <u>See</u>']);
+var i=0;function show(){a.style.opacity=0;setTimeout(function(){a.href=M[i][0];a.innerHTML=M[i][1];a.style.opacity=1},250)}
+a.style.transition='opacity .25s';show();setInterval(function(){i=(i+1)%M.length;show()},4500)})();</script>
 <div class="promo" id="promo" hidden><span>⚡ FREE delivery · ends <em id="pcd" style="font-style:normal"></em></span><b>FIRST 5 ONLY</b></div>
 <header class="top"><div class="bar"><img class="logo" src="/img/4880f983c6.png" fetchpriority="high" alt="Trimion Africa logo" width="48" height="48"><div class="bt"><b>TRIMION <span>AFRICA</span></b><small>SHOP · SALON EQUIPMENT</small></div><a class="wa" href="https://wa.me/27611185978?text=Hi%20Trimion%20Africa%2C%20I%27m%20looking%20at%20your%20catalog%20and%20have%20a%20question.%0A%0AFull%20catalog%20%28161%20machines%29%3A%20https%3A%2F%2Ftrimionafrica.co.za%2F" target="_blank" rel="noopener">WhatsApp</a></div>
 <div class="search"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="q" type="search" placeholder="Search 162 machines: EMS, cryo, facial…" aria-label="Search machines"></div></header>
