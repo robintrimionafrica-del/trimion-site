@@ -141,6 +141,8 @@ if __name__ == '__main__':
     assert not set(OWN) & set(P) and set(OWN) | set(P) == set(D), 'every item needs exactly one price source'
     for k, old in OWN.items():
         out[k] = sell(landed(old, D[k], k))
+    FIXED = {164: 30 * 110}   # cryo membranes 110g: R110 each, minimum 30 (Robin, 19 Oct 2026)
+    out.update(FIXED)
     out = dict(sorted(out.items()))
     json.dump(out, open('/home/claude/trimion-site/tools/prices.json', 'w'))
     print(len(out), 'priced; range', min(out.values()), '-', max(out.values()))
