@@ -134,5 +134,74 @@ if('IntersectionObserver' in window&&secs.length){var io=new IntersectionObserve
 '''
 assert s.count('</body>') == 1
 s = s.replace('</body>', JS + '</body>')
+
+GIFT_CSS = """<style id="tx-gift-css">
+.txtop{position:fixed;right:max(14px,env(safe-area-inset-right,0px));bottom:calc(78px + env(safe-area-inset-bottom,0px));z-index:43;width:46px;height:46px;border-radius:50%;border:0;background:#0b1f4d;color:#fff;box-shadow:0 4px 14px rgba(8,26,61,.35);display:grid;place-items:center;cursor:pointer;opacity:0;transform:translateY(12px);pointer-events:none;transition:opacity .25s,transform .25s}
+.txtop.on{opacity:1;transform:none;pointer-events:auto}.txtop svg{width:22px;height:22px}
+@media(min-width:900px){.txtop{bottom:calc(24px + env(safe-area-inset-bottom,0px))}}
+.txg{position:fixed;inset:0;z-index:60;background:rgba(5,12,30,.62);display:flex;align-items:center;justify-content:center;padding:16px max(16px,env(safe-area-inset-right,0px)) 16px max(16px,env(safe-area-inset-left,0px))}
+.txg[hidden]{display:none}
+.txgc{width:100%;max-width:380px;border-radius:20px;overflow:hidden;background:radial-gradient(circle at 80% 0%,#2a5bd7 0,#0b1f4d 55%,#081536 100%);color:#fff;box-shadow:0 20px 50px rgba(0,0,0,.45);position:relative;animation:txin .35s ease-out}
+@keyframes txin{from{transform:scale(.9);opacity:0}to{transform:none;opacity:1}}
+@media (prefers-reduced-motion:reduce){.txgc{animation:none}.txtop{transition:none}}
+.txgx{position:absolute;right:10px;top:10px;width:34px;height:34px;border-radius:50%;border:0;background:rgba(255,255,255,.15);color:#fff;font-size:20px;cursor:pointer}
+.txgh{padding:22px 20px 6px;text-align:center}
+.txgh img{width:54px;height:54px;border-radius:50%;box-shadow:0 0 0 3px rgba(255,210,63,.6)}
+.txgh small{display:block;letter-spacing:.18em;font-size:.68rem;color:#ffd23f;font-weight:800;margin-top:10px}
+.txgh h3{margin:4px 0 0!important;font-size:1.45rem!important;line-height:1.15;color:#fff!important;font-weight:800!important;display:block!important;min-height:0!important;overflow:visible!important;-webkit-line-clamp:unset!important}
+.txgl{list-style:none;margin:12px 14px 0;padding:0;display:grid;gap:8px}
+.txgl li{display:flex;gap:12px;align-items:center;background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.14);border-radius:14px;padding:10px 12px}
+.txgl i{font-style:normal;font-size:1.5rem;width:30px;text-align:center}
+.txgl b{display:block;font-size:.95rem}.txgl span{display:block;font-size:.76rem;opacity:.8}
+.txgl em{font-style:normal;color:#ffd23f;font-weight:800}
+.txgb{display:grid;gap:8px;padding:14px}
+.txgb a,.txgb button{display:block;text-align:center;border-radius:24px;padding:12px;font:700 .95rem system-ui,sans-serif;text-decoration:none;border:0;cursor:pointer}
+.txgb .w{background:#1fa855;color:#fff}.txgb .y{background:#ffd23f;color:#2a1d00}
+.txgf{text-align:center;font-size:.7rem;opacity:.65;padding:0 14px 14px}
+.txgx.zap{position:absolute!important}.txtop.zap{position:fixed!important}.txgb a.zap{position:static!important}
+.txgx:focus-visible,.txgb a:focus-visible,.txgb button:focus-visible,.txtop:focus-visible{outline:2px solid #ffd23f;outline-offset:2px}
+</style>
+"""
+GIFT = """<button type="button" class="txtop" id="txtop" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+<div class="txg" id="txg" hidden role="dialog" aria-modal="true" aria-labelledby="txgt"><div class="txgc">
+<button type="button" class="txgx" id="txgx" aria-label="Close">×</button>
+<div class="txgh"><img src="/img/4880f983c6.png" alt="" width="54" height="54"><small>TRIMION AFRICA · GIFTS FOR SALONS</small><h3 id="txgt">Your salon deals this week</h3></div>
+<ul class="txgl">
+<li id="txgd"><i>🪔</i><div><b>Diwali Special</b><span>FREE Starter Kit from R30,000 · until 15 Nov</span></div></li>
+<li><i>🚚</i><div><b id="txgdl">R150 delivery, anywhere in SA</b><span id="txgds">Door to door, 9–12 business days</span></div></li>
+<li><i>🏷️</i><div><b>10% off with <em>TRIMION10</em></b><span>On any machine, on WhatsApp</span></div></li>
+<li><i>💰</i><div><b>Refer a salon, earn <em>R2,000</em></b><span>When they buy a machine from R25,000</span></div></li>
+</ul>
+<div class="txgb"><a class="w" id="txgs" href="#" target="_blank" rel="noopener">📲 Send to a friend on WhatsApp</a><a class="y" href="/offers/">See all offers</a></div>
+<div class="txgf">Screenshot this and share it with a salon owner 📸</div>
+</div></div>
+"""
+GIFT_JS = r"""<script>
+(function(){
+var t=document.getElementById('txtop');
+addEventListener('scroll',function(){t.classList.toggle('on',scrollY>900)},{passive:true});
+t.onclick=function(){scrollTo({top:0,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'})};
+var g=document.getElementById('txg');
+if(new Date()>=new Date('2026-11-16T00:00:00+02:00')){var d=document.getElementById('txgd');if(d)d.remove()}
+if(window.TA_PROMO){document.getElementById('txgdl').textContent='FREE delivery (save R150)';document.getElementById('txgds').textContent='Flash deal · first 5 orders only'}
+var msg='Hi! Have a look at Trimion Africa, salon machines with lay-by, free training and delivery anywhere in SA. Right now: '+(document.getElementById('txgd')?'Diwali Special with a FREE Starter Kit, ':'')+'10% off with code TRIMION10. https://trimionafrica.co.za/offers/';
+document.getElementById('txgs').href='https://wa.me/?text='+encodeURIComponent(msg);
+function close(){g.hidden=true}
+document.getElementById('txgx').onclick=close;g.addEventListener('click',function(e){if(e.target===g)close()});
+addEventListener('keydown',function(e){if(e.key==='Escape'&&!g.hidden)close()});
+var K='ta_gift',last=0;try{last=+localStorage.getItem(K)||0}catch(e){}
+if(Date.now()-last<2*864e5)return;
+var shown=false;
+function busy(){var w=document.getElementById('wag');if(w&&!w.hidden&&getComputedStyle(w).display!=='none'&&w.offsetParent!==null)return true;
+ return [].some.call(document.querySelectorAll('[role=dialog]'),function(x){return x!==g&&!x.hidden&&getComputedStyle(x).display!=='none'&&x.offsetParent!==null})}
+function open(){if(shown)return;if(busy()){setTimeout(open,4000);return}shown=true;try{localStorage.setItem(K,Date.now())}catch(e){}g.hidden=false;document.getElementById('txgx').focus()}
+setTimeout(open,14000);
+addEventListener('scroll',function f(){if(scrollY>document.body.scrollHeight*0.35){removeEventListener('scroll',f);open()}},{passive:true});
+})();
+</script>
+"""
+s = s.replace('</head>', GIFT_CSS + '</head>', 1)
+s = s.replace('</body>', GIFT + GIFT_JS + '</body>', 1)
+
 open(f, 'w', encoding='utf-8').write(s)
 print('shop layer applied:', len(trend), 'trending')
