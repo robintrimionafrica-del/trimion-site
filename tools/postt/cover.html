@@ -1,0 +1,62 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:P;src:url(../ogt/Poppins-Regular.ttf);font-weight:400}
+@font-face{font-family:P;src:url(../ogt/Poppins-Medium.ttf);font-weight:500}
+@font-face{font-family:P;src:url(../ogt/Poppins-Bold.ttf);font-weight:700}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:P,sans-serif;color:#fff;overflow:hidden;background:radial-gradient(1200px 800px at 75% -10%,#1a4fa8 0%,transparent 65%),radial-gradient(900px 700px at 0% 120%,rgba(10,77,255,.35),transparent 60%),linear-gradient(160deg,#0c2a66,#0a1f4d 60%,#081538)}
+.br{display:flex;align-items:center;gap:.5em}
+.br img{width:2.6em;height:2.6em;border-radius:50%;box-shadow:0 0 0 3px rgba(92,198,242,.35)}
+.br b{display:block;font-weight:700;letter-spacing:.14em;line-height:1.05}
+.br b i{font-style:normal;color:#6aa9ff}
+.br small{display:block;font-size:.48em;letter-spacing:.32em;color:#c9d7ee;margin-top:.3em}
+h1{font-weight:700;line-height:1.05;letter-spacing:-.01em}
+h1 em{font-style:normal;color:#6aa9ff}
+.sub{color:#dbe7f5}
+.wa{display:inline-flex;align-items:center;gap:.45em;background:#1fa855;border-radius:999px;font-weight:700;box-shadow:0 14px 34px rgba(0,0,0,.3)}
+.wa svg{width:1.15em;height:1.15em}
+.web{color:#c9d7ee}
+.ch{display:flex;flex-wrap:wrap;gap:.5em}
+.ch span{border:2px solid rgba(160,190,235,.45);background:rgba(255,255,255,.06);border-radius:40px;padding:.25em .8em;font-weight:600;white-space:nowrap}
+.grid{display:grid;gap:18px}
+.grid div{background:#fff;border-radius:24px;display:flex;align-items:center;justify-content:center;overflow:hidden;box-shadow:0 16px 40px rgba(0,0,0,.35)}
+.grid img{max-width:86%;max-height:88%;object-fit:contain}
+.tag{display:inline-block;background:#f8c43a;color:#0a1f4d;font-weight:700;border-radius:999px;letter-spacing:.04em}
+.abs{position:absolute}
+</style></head><body>
+<div id="root"></div>
+<script>
+var IMG=['e4305724de','2a49388be2','8821169da8','43c0c8d1aa','88c8890a64','ac5dc2237e'].map(function(i){return '/home/claude/trimion-site/public/img/'+i+'.webp'});
+var WA='<svg viewBox="0 0 24 24" fill="#fff"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3z"/></svg>';
+function brand(){return '<div class="br"><img src="../ogt/logo.png"><div><b>TRIMION <i>AFRICA</i></b><small>PRECISION SALON EQUIPMENT</small></div></div>'}
+function grid(n,cols){return '<div class="grid" style="grid-template-columns:repeat('+cols+',1fr)">'+IMG.slice(0,n).map(function(s){return '<div><img src="'+s+'"></div>'}).join('')+'</div>'}
+var L={
+ fbcover:[1640,924,function(){return '<div class="abs" style="left:70px;top:150px;width:860px;font-size:40px">'+brand()+
+  '<h1 style="font-size:78px;margin-top:40px">Professional <em>salon &amp; spa</em> machines</h1>'+
+  '<div class="sub" style="font-size:30px;margin-top:18px">Cryo · EMS · HIFU · RF · Facial · Cavitation</div>'+
+  '<div style="margin-top:36px;display:flex;align-items:center;gap:26px"><div class="wa" style="font-size:44px;padding:16px 36px">'+WA+'064 454 8506</div><div class="web" style="font-size:28px">trimionafrica.co.za</div></div>'+
+  '<div class="ch" style="font-size:24px;margin-top:28px"><span>✓ 1-year warranty</span><span>✓ Lay-by</span><span>✓ Free training</span><span>✓ R150 delivery</span></div></div>'+
+  '<div class="abs" style="left:990px;top:150px;width:590px;height:624px">'+grid(6,2).replace('class="grid"','class="grid" style="height:624px;grid-template-rows:repeat(3,1fr);grid-template-columns:repeat(2,1fr)"')+'</div>'}],
+ wacover:[1920,1080,function(){return '<div class="abs" style="left:130px;top:250px;width:980px;font-size:44px">'+brand()+
+  '<h1 style="font-size:86px;margin-top:44px">Salon &amp; spa <em>machines</em><br>delivered nationwide</h1>'+
+  '<div style="margin-top:44px;display:flex;align-items:center;gap:28px"><div class="wa" style="font-size:52px;padding:18px 42px">'+WA+'064 454 8506</div></div>'+
+  '<div class="web" style="font-size:32px;margin-top:22px">trimionafrica.co.za · Durban, KZN</div></div>'+
+  '<div class="abs" style="left:1180px;top:200px;width:620px;height:680px">'+grid(4,2).replace('class="grid"','class="grid" style="height:680px;grid-template-rows:repeat(2,1fr);grid-template-columns:repeat(2,1fr)"')+'</div>'}],
+ annstory:[1080,1920,function(){return '<div class="abs" style="left:80px;right:80px;top:250px;font-size:40px">'+brand()+
+  '<div class="tag" style="font-size:34px;padding:12px 30px;margin-top:90px">OUR NEW NUMBER</div>'+
+  '<div class="wa" style="font-size:86px;padding:26px 50px;margin-top:34px">'+WA+'064 454 8506</div>'+
+  '<h1 style="font-size:58px;margin-top:56px">Save it now to chat, order and get prices on <em>WhatsApp</em></h1>'+
+  '<div style="margin-top:56px">'+grid(4,2).replace('class="grid"','class="grid" style="height:640px;grid-template-rows:repeat(2,1fr);grid-template-columns:repeat(2,1fr)"')+'</div>'+
+  '<div class="web" style="font-size:32px;margin-top:40px;text-align:center">trimionafrica.co.za · Durban · delivered nationwide</div></div>'}],
+ annfeed:[1080,1350,function(){return '<div class="abs" style="left:70px;right:70px;top:80px;font-size:36px">'+brand()+
+  '<div class="tag" style="font-size:30px;padding:10px 26px;margin-top:50px">OUR NEW NUMBER</div>'+
+  '<div class="wa" style="font-size:76px;padding:22px 44px;margin-top:26px">'+WA+'064 454 8506</div>'+
+  '<h1 style="font-size:48px;margin-top:36px">Save it now to chat, order and get prices on <em>WhatsApp</em></h1>'+
+  '<div style="margin-top:36px">'+grid(3,3).replace('class="grid"','class="grid" style="height:470px;grid-template-columns:repeat(3,1fr)"')+'</div>'+
+  '<div class="web" style="font-size:28px;margin-top:30px;text-align:center">trimionafrica.co.za · Durban · delivered nationwide</div></div>'}],
+ profile:[1080,1080,function(){return '<div class="abs" style="inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center">'+
+  '<img src="../ogt/logo.png" style="width:520px;height:520px;border-radius:50%;box-shadow:0 0 0 8px rgba(92,198,242,.35),0 30px 70px rgba(0,0,0,.4)">'+
+  '<div style="font-weight:700;font-size:70px;letter-spacing:.14em;margin-top:40px">TRIMION <span style="color:#6aa9ff">AFRICA</span></div></div>'}]
+};
+window.render=function(k){var l=L[k];document.body.style.width=l[0]+'px';document.body.style.height=l[1]+'px';document.getElementById('root').innerHTML=l[2]();
+ return Promise.all([].slice.call(document.images).map(function(i){return i.complete?1:new Promise(function(r){i.onload=i.onerror=r})})).then(function(){return document.fonts.ready}).then(function(){return [l[0],l[1]]})};
+</script></body></html>

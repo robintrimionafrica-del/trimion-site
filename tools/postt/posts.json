@@ -1,0 +1,2836 @@
+[
+ {
+  "k": 1,
+  "code": "TAEMS2500",
+  "file": "Trimion_03_TAEMS2500",
+  "h": "5-Handle 2500W <em>EMS</em> Body Sculpting Machine",
+  "hlen": 41,
+  "sp": "TAEMS2500 · Handles: 5 (2 large body handles plus 3 smaller handles) · Rated power: 2500W · Intensity: Up to 16 Tesla, 10 levels",
+  "img": "/home/claude/trimion-site/public/img/c021091d6e.webp",
+  "price": "R231,750",
+  "lb": "Lay-by from R58,000 deposit",
+  "chips": [
+   "2-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 2,
+  "code": "TAEMS4300",
+  "file": "Trimion_031_TAEMS4300",
+  "h": "4-Handle 4300W <em>EMS</em> Body Sculpting Machine",
+  "hlen": 41,
+  "sp": "TAEMS4300 · 4300W · 1–100Hz · 300µs",
+  "img": "/home/claude/trimion-site/public/img/27d600c132.webp",
+  "price": "R211,400",
+  "lb": "Lay-by from R53,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 3,
+  "code": "TAEMS4",
+  "file": "Trimion_04_TAEMS4",
+  "h": "4-Handle <em>EMS</em> Body Sculpting Machine",
+  "hlen": 35,
+  "sp": "TAEMS4 · Handles: 4 (2 body, 2 arm) · Power: 3000W · Type: Standing, on wheels",
+  "img": "/home/claude/trimion-site/public/img/664b8cb816.webp",
+  "price": "R82,800",
+  "lb": "Lay-by from R21,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 4,
+  "code": "TAEMS5000",
+  "file": "Trimion_038_TAEMS5000",
+  "h": "5000W 2-Handle <em>EMS</em> Body Sculpting Machine",
+  "hlen": 41,
+  "sp": "TAEMS5000 · 5000W · 2 flat body handles · Colour touchscreen",
+  "img": "/home/claude/trimion-site/public/img/ac5dc2237e.webp",
+  "price": "R46,250",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 5,
+  "code": "TAEMS2",
+  "file": "Trimion_045_TAEMS2",
+  "h": "2-Handle <em>EMS</em> Body Sculpting Machine",
+  "hlen": 35,
+  "sp": "TAEMS2 · Package size · Gross weight · Power supply",
+  "img": "/home/claude/trimion-site/public/img/de5fc428be.webp",
+  "price": "R44,550",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 6,
+  "code": "TAEMS10CH01",
+  "file": "Trimion_052_TAEMS10CH01",
+  "h": "10-Channel <em>EMS</em> Body System",
+  "hlen": 26,
+  "sp": "TAEMS10CH01",
+  "img": "/home/claude/trimion-site/public/img/a091c1c83c.webp",
+  "price": "R22,450",
+  "lb": "Lay-by from R5,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 7,
+  "code": "TACRYOEM",
+  "file": "Trimion_059_TACRYOEM",
+  "h": "<em>Cryo</em> + Electromagnetic Body Sculpting Station",
+  "hlen": 45,
+  "sp": "TACRYOEM · Flat and curved · Touchscreen control",
+  "img": "/home/claude/trimion-site/public/img/d8e2220a2a.webp",
+  "price": "R189,150",
+  "lb": "Lay-by from R48,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 8,
+  "code": "TAEM4",
+  "file": "Trimion_065_TAEM4",
+  "h": "4-Applicator <em>Electromagnetic</em> Body Sculpting Machine",
+  "hlen": 51,
+  "sp": "TAEM4 · No water cooling needed · Full-display touchscreen",
+  "img": "/home/claude/trimion-site/public/img/2a49388be2.webp",
+  "price": "R42,450",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 9,
+  "code": "TAEM4G",
+  "file": "Trimion_071_TAEM4G",
+  "h": "4-Handle <em>Electromagnetic</em> Body Sculpting Station (Grey)",
+  "hlen": 54,
+  "sp": "TAEM4G · 4 handles · Wheeled base",
+  "img": "/home/claude/trimion-site/public/img/eb9a721b8b.webp",
+  "price": "R59,100",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 10,
+  "code": "TAEM5G",
+  "file": "Trimion_077_TAEM5G",
+  "h": "4-Handle <em>Electromagnetic</em> Station with Seat Pad (Grey)",
+  "hlen": 53,
+  "sp": "TAEM5G · Wheeled base",
+  "img": "/home/claude/trimion-site/public/img/9fe8208336.webp",
+  "price": "R65,400",
+  "lb": "Lay-by from R17,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 11,
+  "code": "TAEM4B",
+  "file": "Trimion_082_TAEM4B",
+  "h": "4-Handle <em>Electromagnetic</em> Body Sculpting Station (Black)",
+  "hlen": 55,
+  "sp": "TAEM4B · 4 handles · Wheeled base",
+  "img": "/home/claude/trimion-site/public/img/914e4ae207.webp",
+  "price": "R59,100",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 12,
+  "code": "TAEM5B",
+  "file": "Trimion_086_TAEM5B",
+  "h": "4-Handle <em>Electromagnetic</em> Station with Seat Pad (Black)",
+  "hlen": 54,
+  "sp": "TAEM5B · Wheeled base",
+  "img": "/home/claude/trimion-site/public/img/a66a4e9324.webp",
+  "price": "R65,400",
+  "lb": "Lay-by from R17,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 13,
+  "code": "TAEM4C",
+  "file": "Trimion_090_TAEM4C",
+  "h": "Compact 4-Handle <em>Electromagnetic</em> Machine",
+  "hlen": 40,
+  "sp": "TAEM4C · 4 handles · Touchscreen control",
+  "img": "/home/claude/trimion-site/public/img/79b0f55c93.webp",
+  "price": "R49,200",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 14,
+  "code": "TAEM2C",
+  "file": "Trimion_094_TAEM2C",
+  "h": "Compact 2-Handle <em>Electromagnetic</em> Machine",
+  "hlen": 40,
+  "sp": "TAEM2C · 2 handles · Large touchscreen",
+  "img": "/home/claude/trimion-site/public/img/a00909b548.webp",
+  "price": "R31,900",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 15,
+  "code": "TAEM4W",
+  "file": "Trimion_098_TAEM4W",
+  "h": "4-Handle <em>Electromagnetic</em> Body Sculpting Machine (White)",
+  "hlen": 55,
+  "sp": "TAEM4W · 4 handles · Touchscreen control · Wheeled base",
+  "img": "/home/claude/trimion-site/public/img/7072819726.webp",
+  "price": "R59,100",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 16,
+  "code": "TAEM2W",
+  "file": "Trimion_102_TAEM2W",
+  "h": "2-Handle <em>Electromagnetic</em> Body Sculpting Machine (White)",
+  "hlen": 55,
+  "sp": "TAEM2W · 2 handles · Touchscreen control · Wheeled base",
+  "img": "/home/claude/trimion-site/public/img/fe714fc47b.webp",
+  "price": "R38,150",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 17,
+  "code": "TAEM4V",
+  "file": "Trimion_106_TAEM4V",
+  "h": "4-Handle Vertical <em>Electromagnetic</em> Sculpting Station",
+  "hlen": 51,
+  "sp": "TAEM4V · 4 handles · 10.1-inch touchscreen · Output frequency 1–200Hz",
+  "img": "/home/claude/trimion-site/public/img/454bb59969.webp",
+  "price": "R85,500",
+  "lb": "Lay-by from R22,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 18,
+  "code": "TAEM2V",
+  "file": "Trimion_109_TAEM2V",
+  "h": "2-Handle Vertical <em>Electromagnetic</em> Sculpting Station",
+  "hlen": 51,
+  "sp": "TAEM2V · 2 handles · 10.1-inch touchscreen · Output frequency 1–200Hz",
+  "img": "/home/claude/trimion-site/public/img/312829a5ff.webp",
+  "price": "R40,850",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 19,
+  "code": "TAEM4T",
+  "file": "Trimion_112_TAEM4T",
+  "h": "4-Handle Tower <em>Electromagnetic</em> Sculpting Station",
+  "hlen": 48,
+  "sp": "TAEM4T · 4 handles · 10.4-inch touchscreen · Output frequency 1–200Hz",
+  "img": "/home/claude/trimion-site/public/img/2867e90c0c.webp",
+  "price": "R61,600",
+  "lb": "Lay-by from R16,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 20,
+  "code": "TAEMK",
+  "file": "Trimion_115_TAEMK",
+  "h": "4-Handle Slim <em>Electromagnetic</em> Sculpting Station",
+  "hlen": 47,
+  "sp": "TAEMK · 8-inch touchscreen",
+  "img": "/home/claude/trimion-site/public/img/663cb58f7c.webp",
+  "price": "R56,500",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 21,
+  "code": "TAEM4D",
+  "file": "Trimion_118_TAEM4D",
+  "h": "4-Handle Desktop <em>Electromagnetic</em> Sculpting Machine",
+  "hlen": 50,
+  "sp": "TAEM4D · 8-inch touchscreen",
+  "img": "/home/claude/trimion-site/public/img/b86c43c092.webp",
+  "price": "R53,950",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 22,
+  "code": "TAEM2D",
+  "file": "Trimion_121_TAEM2D",
+  "h": "2-Handle Desktop <em>Electromagnetic</em> Sculpting Machine",
+  "hlen": 50,
+  "sp": "TAEM2D · 8-inch touchscreen",
+  "img": "/home/claude/trimion-site/public/img/8a4ae55f85.webp",
+  "price": "R36,850",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 23,
+  "code": "TAEM4P",
+  "file": "Trimion_124_TAEM4P",
+  "h": "4-Handle Large-Screen <em>Electromagnetic</em> Sculpting Machine",
+  "hlen": 55,
+  "sp": "TAEM4P · 4 handles · 15.6-inch touchscreen · Output frequency 1–200Hz",
+  "img": "/home/claude/trimion-site/public/img/2dd46e6d84.webp",
+  "price": "R64,150",
+  "lb": "Lay-by from R17,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 24,
+  "code": "TAEM2L",
+  "file": "Trimion_127_TAEM2L",
+  "h": "2-Handle Low-Profile <em>Electromagnetic</em> Sculpting Machine",
+  "hlen": 54,
+  "sp": "TAEM2L · 7-inch touchscreen",
+  "img": "/home/claude/trimion-site/public/img/1a5c0b5cf3.webp",
+  "price": "R30,550",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 25,
+  "code": "TAEMB",
+  "file": "Trimion_129_TAEMB",
+  "h": "4-Handle Cabinet <em>Electromagnetic</em> Sculpting Station",
+  "hlen": 50,
+  "sp": "TAEMB · 4 handles · 15.6-inch touchscreen · Output frequency 1–200Hz",
+  "img": "/home/claude/trimion-site/public/img/421aed7d0a.webp",
+  "price": "R65,400",
+  "lb": "Lay-by from R17,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 26,
+  "code": "TAEMX",
+  "file": "Trimion_131_TAEMX",
+  "h": "<em>Electromagnetic</em> Sculpting Station with 18.5-inch Screen",
+  "hlen": 55,
+  "sp": "TAEMX · 2 or 4 handles · 18.5-inch touchscreen · Output frequency 1–200Hz",
+  "img": "/home/claude/trimion-site/public/img/ccf93e3834.webp",
+  "price": "R65,400",
+  "lb": "Lay-by from R17,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 27,
+  "code": "TAEM2WC",
+  "file": "Trimion_133_TAEM2WC",
+  "h": "2-Handle Water-Cooled <em>Electromagnetic</em> Station",
+  "hlen": 45,
+  "sp": "TAEM2WC · 2 handles · Water cooling",
+  "img": "/home/claude/trimion-site/public/img/5c520d6c51.webp",
+  "price": "R42,150",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 28,
+  "code": "TAEM2WP",
+  "file": "Trimion_135_TAEM2WP",
+  "h": "2-Handle Portable Water-Cooled <em>Electromagnetic</em> Machine",
+  "hlen": 54,
+  "sp": "TAEM2WP · 2 handles · 8-inch touchscreen · Water cooling",
+  "img": "/home/claude/trimion-site/public/img/1cb2a9ee4f.webp",
+  "price": "R33,250",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 29,
+  "code": "TAEM4S",
+  "file": "Trimion_137_TAEM4S",
+  "h": "4-Applicator <em>Electromagnetic</em> Body Station 5000W",
+  "hlen": 47,
+  "sp": "TAEM4S · Frequency 3–150Hz · Touchscreen control",
+  "img": "/home/claude/trimion-site/public/img/df7f52152e.webp",
+  "price": "R65,400",
+  "lb": "Lay-by from R17,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 30,
+  "code": "TAEM6W",
+  "file": "Trimion_05_TAEM6W",
+  "h": "6-Handle <em>Electromagnetic</em> Body Sculpting Station (White)",
+  "hlen": 55,
+  "sp": "TAEM6W · 2 large handles for tummy, thighs and buttocks · 4 small handles for arms and legs · Touchscreen control",
+  "img": "/home/claude/trimion-site/public/img/66bbfaf3ef.webp",
+  "price": "R75,300",
+  "lb": "Lay-by from R19,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 71,
+  "code": "TAEM4K",
+  "file": "Trimion_138_TAEM4K",
+  "h": "4-Handle <em>Electromagnetic</em> Body Station (Black &amp; Silver)",
+  "hlen": 54,
+  "sp": "TAEM4K · Frequency 3–150Hz · Touchscreen control",
+  "img": "/home/claude/trimion-site/public/img/f76456ad5b.webp",
+  "price": "R59,100",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 72,
+  "code": "TAEMC1",
+  "file": "Trimion_09_TAEMC1",
+  "h": "1-Handle Compact <em>Electromagnetic</em> Body Sculpting Machine",
+  "hlen": 55,
+  "sp": "TAEMC1 · Compact unit · one handle · up to 7 Tesla",
+  "img": "/home/claude/trimion-site/public/img/9e3a0aa999.webp",
+  "price": "R22,300",
+  "lb": "Lay-by from R5,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 73,
+  "code": "TAEMC2",
+  "file": "Trimion_139_TAEMC2",
+  "h": "2-Handle Portable <em>Electromagnetic</em> Body Sculpting Machine",
+  "hlen": 56,
+  "sp": "TAEMC2 · Up to 7 Tesla · 150Hz · 3000W",
+  "img": "/home/claude/trimion-site/public/img/a56ef4481f.webp",
+  "price": "R25,500",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 74,
+  "code": "TAEMC2R",
+  "file": "Trimion_140_TAEMC2R",
+  "h": "2-Handle Portable <em>Electromagnetic</em> + RF Body Sculpting Machine",
+  "hlen": 61,
+  "sp": "TAEMC2R · Two handles with RF · Up to 7 Tesla · 150Hz",
+  "img": "/home/claude/trimion-site/public/img/9d0c9150b4.webp",
+  "price": "R34,600",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 75,
+  "code": "TAEMC2B",
+  "file": "Trimion_141_TAEMC2B",
+  "h": "2-Handle Compact <em>Electromagnetic</em> Body Sculpting Machine",
+  "hlen": 55,
+  "sp": "TAEMC2B · Two handles · Up to 7 Tesla · 150Hz",
+  "img": "/home/claude/trimion-site/public/img/5a312ce023.webp",
+  "price": "R31,350",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 76,
+  "code": "TAEMC2BR",
+  "file": "Trimion_142_TAEMC2BR",
+  "h": "2-Handle Compact <em>Electromagnetic</em> + RF Body Sculpting Machine",
+  "hlen": 60,
+  "sp": "TAEMC2BR · Two handles with RF · Up to 7 Tesla · 150Hz",
+  "img": "/home/claude/trimion-site/public/img/028e45a272.webp",
+  "price": "R34,600",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 77,
+  "code": "TAEMC4",
+  "file": "Trimion_143_TAEMC4",
+  "h": "4-Handle Portable <em>Electromagnetic</em> Body Sculpting Machine",
+  "hlen": 56,
+  "sp": "TAEMC4 · Up to 7 Tesla · 150Hz · 4000W",
+  "img": "/home/claude/trimion-site/public/img/59151de664.webp",
+  "price": "R47,900",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 78,
+  "code": "TAEMC4R",
+  "file": "Trimion_144_TAEMC4R",
+  "h": "4-Handle Portable <em>Electromagnetic</em> + RF Body Sculpting Machine",
+  "hlen": 61,
+  "sp": "TAEMC4R · Four handles with RF · Up to 7 Tesla · 150Hz",
+  "img": "/home/claude/trimion-site/public/img/622a70077c.webp",
+  "price": "R53,100",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 79,
+  "code": "TAEMC2L",
+  "file": "Trimion_145_TAEMC2L",
+  "h": "2-Handle Vertical <em>Electromagnetic</em> Body Sculpting Station",
+  "hlen": 56,
+  "sp": "TAEMC2L · Floor station · Two handles · Up to 7 Tesla",
+  "img": "/home/claude/trimion-site/public/img/fddabb3bd1.webp",
+  "price": "R39,500",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 80,
+  "code": "TAEMC4L",
+  "file": "Trimion_146_TAEMC4L",
+  "h": "4-Handle Vertical <em>Electromagnetic</em> Body Sculpting Station",
+  "hlen": 56,
+  "sp": "TAEMC4L · Floor station · Four handles · Up to 7 Tesla",
+  "img": "/home/claude/trimion-site/public/img/4ed42e4e70.webp",
+  "price": "R57,800",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 81,
+  "code": "TAEMC4LR",
+  "file": "Trimion_147_TAEMC4LR",
+  "h": "4-Handle Vertical <em>Electromagnetic</em> + RF Body Sculpting Station",
+  "hlen": 61,
+  "sp": "TAEMC4LR · Floor station · Four handles with RF · Up to 7 Tesla",
+  "img": "/home/claude/trimion-site/public/img/6dabdad127.webp",
+  "price": "R62,900",
+  "lb": "Lay-by from R16,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 82,
+  "code": "TAEMM1",
+  "file": "Trimion_10_TAEMM1",
+  "h": "Mini <em>Electromagnetic</em> Body Sculpting Machine",
+  "hlen": 43,
+  "sp": "TAEMM1 · Compact unit · one handle · up to 7 Tesla",
+  "img": "/home/claude/trimion-site/public/img/34ac0bef1d.webp",
+  "price": "R20,300",
+  "lb": "Lay-by from R5,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 83,
+  "code": "TAEMM1R",
+  "file": "Trimion_148_TAEMM1R",
+  "h": "Mini <em>Electromagnetic</em> + RF Body Sculpting Machine",
+  "hlen": 48,
+  "sp": "TAEMM1R · Compact unit · One handle with RF · Up to 7 Tesla",
+  "img": "/home/claude/trimion-site/public/img/e4b222254b.webp",
+  "price": "R22,300",
+  "lb": "Lay-by from R5,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 84,
+  "code": "TAEMP2",
+  "file": "Trimion_149_TAEMP2",
+  "h": "2-Handle <em>Electromagnetic</em> Body Sculpting Machine 2800W",
+  "hlen": 53,
+  "sp": "TAEMP2 · Up to 7 Tesla · 2800W",
+  "img": "/home/claude/trimion-site/public/img/c27dc7f4d4.webp",
+  "price": "R31,900",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 85,
+  "code": "TAEMP2R",
+  "file": "Trimion_150_TAEMP2R",
+  "h": "2-Handle <em>Electromagnetic</em> + RF Body Sculpting Machine 2800W",
+  "hlen": 58,
+  "sp": "TAEMP2R · Two handles with RF · Up to 7 Tesla · 2800W",
+  "img": "/home/claude/trimion-site/public/img/1ac785a221.webp",
+  "price": "R35,150",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 86,
+  "code": "TAEMP4",
+  "file": "Trimion_06_TAEMP4",
+  "h": "4-Handle <em>Electromagnetic</em> Body Sculpting Machine 13 Tesla",
+  "hlen": 56,
+  "sp": "TAEMP4 · Four handles work together · up to 13 Tesla · 2800W",
+  "img": "/home/claude/trimion-site/public/img/702d2117b1.webp",
+  "price": "R51,800",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 87,
+  "code": "TAEMP4R",
+  "file": "Trimion_151_TAEMP4R",
+  "h": "4-Handle <em>Electromagnetic</em> + RF Body Sculpting Machine 13 Tesla",
+  "hlen": 61,
+  "sp": "TAEMP4R · Four handles with RF · Up to 13 Tesla · 2800W",
+  "img": "/home/claude/trimion-site/public/img/98ff3aefd7.webp",
+  "price": "R57,000",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 88,
+  "code": "TAEMV2R",
+  "file": "Trimion_152_TAEMV2R",
+  "h": "2-Handle Vertical <em>Electromagnetic</em> + RF Station 13 Tesla",
+  "hlen": 55,
+  "sp": "TAEMV2R · Floor station · Two handles with RF · Up to 13 Tesla",
+  "img": "/home/claude/trimion-site/public/img/cb24c1211f.webp",
+  "price": "R43,500",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 89,
+  "code": "TAEMV4R",
+  "file": "Trimion_153_TAEMV4R",
+  "h": "4-Handle Vertical <em>Electromagnetic</em> + RF Station 13 Tesla",
+  "hlen": 55,
+  "sp": "TAEMV4R · Floor station · Four handles with RF · Up to 13 Tesla",
+  "img": "/home/claude/trimion-site/public/img/ed0596e024.webp",
+  "price": "R64,150",
+  "lb": "Lay-by from R17,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 90,
+  "code": "TAEMV4",
+  "file": "Trimion_154_TAEMV4",
+  "h": "4-Handle Tall <em>Electromagnetic</em> Body Sculpting Station 13 Tesla",
+  "hlen": 61,
+  "sp": "TAEMV4 · Tall floor station · Four handles · Up to 13 Tesla",
+  "img": "/home/claude/trimion-site/public/img/a02055a837.webp",
+  "price": "R60,350",
+  "lb": "Lay-by from R16,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 91,
+  "code": "TAEMV4TR",
+  "file": "Trimion_155_TAEMV4TR",
+  "h": "4-Handle Tall <em>Electromagnetic</em> + RF Station 13 Tesla",
+  "hlen": 51,
+  "sp": "TAEMV4TR · Tall floor station · Four handles with RF · Up to 13 Tesla",
+  "img": "/home/claude/trimion-site/public/img/2cf892fc72.webp",
+  "price": "R65,400",
+  "lb": "Lay-by from R17,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 92,
+  "code": "TAEMX2",
+  "file": "Trimion_156_TAEMX2",
+  "h": "2-Handle Pro <em>Electromagnetic</em> Body Sculpting Machine",
+  "hlen": 51,
+  "sp": "TAEMX2 · Up to 7 Tesla · 30-minute sessions",
+  "img": "/home/claude/trimion-site/public/img/a3ac5a56d8.webp",
+  "price": "R31,900",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 93,
+  "code": "TAEMX4",
+  "file": "Trimion_07_TAEMX4",
+  "h": "4-Handle Pro <em>Electromagnetic</em> Body Sculpting Machine",
+  "hlen": 51,
+  "sp": "TAEMX4 · Four handles work together · Up to 7 Tesla · 30-minute sessions",
+  "img": "/home/claude/trimion-site/public/img/19718ec168.webp",
+  "price": "R50,500",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 94,
+  "code": "TAEMX4E",
+  "file": "Trimion_157_TAEMX4E",
+  "h": "4-Handle Pro <em>Electromagnetic</em> + EMS Body Sculpting Machine",
+  "hlen": 57,
+  "sp": "TAEMX4E · Four handles · Up to 7 Tesla",
+  "img": "/home/claude/trimion-site/public/img/9230c5e7d9.webp",
+  "price": "R54,400",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 95,
+  "code": "TAEMX2V",
+  "file": "Trimion_158_TAEMX2V",
+  "h": "2-Handle Pro Vertical <em>Electromagnetic</em> Station",
+  "hlen": 45,
+  "sp": "TAEMX2V · Floor station · Two handles · Up to 7 Tesla",
+  "img": "/home/claude/trimion-site/public/img/5e8f0da442.webp",
+  "price": "R39,500",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 96,
+  "code": "TAEMX4V",
+  "file": "Trimion_08_TAEMX4V",
+  "h": "4-Handle Pro Vertical <em>Electromagnetic</em> Station",
+  "hlen": 45,
+  "sp": "TAEMX4V · Floor station · four handles · up to 7 Tesla",
+  "img": "/home/claude/trimion-site/public/img/3ad1fa034d.webp",
+  "price": "R57,800",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 97,
+  "code": "TAEMX4EV",
+  "file": "Trimion_159_TAEMX4EV",
+  "h": "4-Handle Pro Vertical <em>Electromagnetic</em> + EMS Station",
+  "hlen": 51,
+  "sp": "TAEMX4EV · Floor station · Four handles · Up to 7 Tesla",
+  "img": "/home/claude/trimion-site/public/img/0c9970a0d8.webp",
+  "price": "R61,600",
+  "lb": "Lay-by from R16,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 98,
+  "code": "TAEMX5EV",
+  "file": "Trimion_160_TAEMX5EV",
+  "h": "4-Handle Elite Vertical <em>Electromagnetic</em> + EMS Station",
+  "hlen": 53,
+  "sp": "TAEMX5EV · Floor station · Four handles · Up to 7 Tesla",
+  "img": "/home/claude/trimion-site/public/img/fd6065bbff.webp",
+  "price": "R65,400",
+  "lb": "Lay-by from R17,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 99,
+  "code": "TAEMT2",
+  "file": "Trimion_161_TAEMT2",
+  "h": "2-Handle <em>Electromagnetic</em> Muscle Toning Station",
+  "hlen": 46,
+  "sp": "TAEMT2 · Up to 7 Tesla · 30-minute sessions",
+  "img": "/home/claude/trimion-site/public/img/cb1a0dfe63.webp",
+  "price": "R40,850",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 31,
+  "code": "TACRYO5",
+  "file": "Trimion_032_TACRYO5",
+  "h": "5-Handle Hot, Cold &amp; <em>EMS</em> Machine",
+  "hlen": 32,
+  "sp": "TACRYO5 · 600W",
+  "img": "/home/claude/trimion-site/public/img/dddd4611bb.webp",
+  "price": "R103,050",
+  "lb": "Lay-by from R26,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "cryo"
+ },
+ {
+  "k": 32,
+  "code": "TACRYO15",
+  "file": "Trimion_039_TACRYO15",
+  "h": "<em>Cryo</em> Body Contouring Station",
+  "hlen": 28,
+  "sp": "TACRYO15 · 8-inch touchscreen · 400W",
+  "img": "/home/claude/trimion-site/public/img/dfdb9fa3fc.webp",
+  "price": "R38,900",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "cryo"
+ },
+ {
+  "k": 33,
+  "code": "TACRYO3",
+  "file": "Trimion_046_TACRYO3",
+  "h": "3-Handle <em>Cryo</em> Body Contouring Machine",
+  "hlen": 37,
+  "sp": "TACRYO3 · −10°C to 0°C · Up to 86 kPa · Water cooled",
+  "img": "/home/claude/trimion-site/public/img/08ab53b048.webp",
+  "price": "R38,200",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "cryo"
+ },
+ {
+  "k": 34,
+  "code": "TACRYO360-4",
+  "file": "Trimion_11_TACRYO360-4",
+  "h": "4-Handle <em>360° Cryo</em> Body Contouring Station",
+  "hlen": 42,
+  "sp": "TACRYO360-4 · 4 handles · 360° cooling · 7 sizes",
+  "img": "/home/claude/trimion-site/public/img/e4305724de.webp",
+  "price": "R157,200",
+  "lb": "Lay-by from R40,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "cryo"
+ },
+ {
+  "k": 35,
+  "code": "TACRYO360-2",
+  "file": "Trimion_053_TACRYO360-2",
+  "h": "2-Handle <em>360° Cryo</em> Body Contouring Machine",
+  "hlen": 42,
+  "sp": "TACRYO360-2 · Self-cleaning",
+  "img": "/home/claude/trimion-site/public/img/05caaf5334.webp",
+  "price": "R116,300",
+  "lb": "Lay-by from R30,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "cryo"
+ },
+ {
+  "k": 36,
+  "code": "TAEMCRYO",
+  "file": "Trimion_060_TAEMCRYO",
+  "h": "<em>Cryo</em> + Electromagnetic Combination Station",
+  "hlen": 42,
+  "sp": "TAEMCRYO · Water cooling",
+  "img": "/home/claude/trimion-site/public/img/4ffe054165.webp",
+  "price": "R77,700",
+  "lb": "Lay-by from R20,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "cryo"
+ },
+ {
+  "k": 37,
+  "code": "TACRYO503",
+  "file": "Trimion_066_TACRYO503",
+  "h": "2-Handle <em>Cryo</em> Body Contouring Station",
+  "hlen": 37,
+  "sp": "TACRYO503 · Vacuum 10–80kPa",
+  "img": "/home/claude/trimion-site/public/img/f300e116a0.webp",
+  "price": "R36,850",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "cryo"
+ },
+ {
+  "k": 38,
+  "code": "TACRYO601",
+  "file": "Trimion_12_TACRYO601",
+  "h": "4-Handle <em>Cryo</em> Body Contouring Station",
+  "hlen": 37,
+  "sp": "TACRYO601 · 4 handles · Hot + cold · 10.4-inch screen",
+  "img": "/home/claude/trimion-site/public/img/026dbd48df.webp",
+  "price": "R50,050",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "cryo"
+ },
+ {
+  "k": 39,
+  "code": "TACRYO2T",
+  "file": "Trimion_072_TACRYO2T",
+  "h": "2-Handle Tall <em>Cryo</em> Body Contouring Station",
+  "hlen": 42,
+  "sp": "TACRYO2T · 2 handles · Vacuum 10–80kPa",
+  "img": "/home/claude/trimion-site/public/img/334d1fd6d7.webp",
+  "price": "R39,500",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "cryo"
+ },
+ {
+  "k": 40,
+  "code": "TACRYOP",
+  "file": "Trimion_14_TACRYOP",
+  "h": "Portable <em>Cryo</em> Body Contouring Machine",
+  "hlen": 37,
+  "sp": "TACRYOP · 2 handles · Hot + cold · 18kg only",
+  "img": "/home/claude/trimion-site/public/img/2200f72851.webp",
+  "price": "R27,800",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "cryo"
+ },
+ {
+  "k": 100,
+  "code": "TACRYOP3",
+  "file": "Trimion_13_TACRYOP3",
+  "h": "Portable 360 <em>Cryo</em> Body Contouring Machine (3 Handles)",
+  "hlen": 53,
+  "sp": "TACRYOP3 · 3 handles · 360° cups · Portable",
+  "img": "/home/claude/trimion-site/public/img/7fa233e5b3.webp",
+  "price": "R30,550",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "cryo"
+ },
+ {
+  "k": 41,
+  "code": "TARF448B",
+  "file": "Trimion_033_TARF448B",
+  "h": "448K <em>RF</em> Body Contouring Machine",
+  "hlen": 31,
+  "sp": "TARF448B · 448kHz RF",
+  "img": "/home/claude/trimion-site/public/img/25ccc64b4f.webp",
+  "price": "R25,800",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "rf"
+ },
+ {
+  "k": 42,
+  "code": "TARF448",
+  "file": "Trimion_15_TARF448",
+  "h": "448kHz Deep <em>RF</em> Body &amp; Face Machine",
+  "hlen": 34,
+  "sp": "TARF448 · CET + RET · 448kHz · Body + face",
+  "img": "/home/claude/trimion-site/public/img/0c5a8ee2ad.webp",
+  "price": "R165,600",
+  "lb": "Lay-by from R42,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "rf"
+ },
+ {
+  "k": 43,
+  "code": "TACAV4",
+  "file": "Trimion_040_TACAV4",
+  "h": "4-in-1 <em>Cavitation</em> and RF Body Contouring Machine",
+  "hlen": 48,
+  "sp": "TACAV4 · Touchscreen",
+  "img": "/home/claude/trimion-site/public/img/5ded7e1e07.webp",
+  "price": "R14,250",
+  "lb": "Lay-by from R5,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "rf"
+ },
+ {
+  "k": 44,
+  "code": "TAVSP",
+  "file": "Trimion_047_TAVSP",
+  "h": "Vacuum, Roller &amp; <em>RF</em> Body and Face Platform",
+  "hlen": 42,
+  "sp": "TAVSP · RF, vacuum, rollers · Large touchscreen",
+  "img": "/home/claude/trimion-site/public/img/c6e678ad75.webp",
+  "price": "R65,400",
+  "lb": "Lay-by from R17,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "rf"
+ },
+ {
+  "k": 45,
+  "code": "TARF500",
+  "file": "Trimion_054_TARF500",
+  "h": "500W <em>RF</em> Body &amp; Face Workstation",
+  "hlen": 31,
+  "sp": "TARF500 · 500W output · Touchscreen control",
+  "img": "/home/claude/trimion-site/public/img/5033223cee.webp",
+  "price": "R34,150",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "rf"
+ },
+ {
+  "k": 46,
+  "code": "TARF448CR",
+  "file": "Trimion_061_TARF448CR",
+  "h": "448kHz CET/RET <em>RF</em> Body Machine",
+  "hlen": 30,
+  "sp": "TARF448CR · 448kHz frequency · RF body handle · Temperature control",
+  "img": "/home/claude/trimion-site/public/img/0d0dd55fb8.webp",
+  "price": "R26,450",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "rf"
+ },
+ {
+  "k": 47,
+  "code": "TARFEMF",
+  "file": "Trimion_067_TARFEMF",
+  "h": "RF + <em>EMS</em> Face Sculpting Station",
+  "hlen": 31,
+  "sp": "TARFEMF · Hands-free pads · Pad shapes for forehead · Android touchscreen",
+  "img": "/home/claude/trimion-site/public/img/b7828a3aec.webp",
+  "price": "R47,450",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "rf"
+ },
+ {
+  "k": 48,
+  "code": "TACAVB3",
+  "file": "Trimion_073_TACAVB3",
+  "h": "Multi-Handle <em>Cavitation</em> Body Contouring Station",
+  "hlen": 47,
+  "sp": "TACAVB3 · Tabletop unit",
+  "img": "/home/claude/trimion-site/public/img/cc0e774e99.webp",
+  "price": "R19,450",
+  "lb": "Lay-by from R5,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "rf"
+ },
+ {
+  "k": 49,
+  "code": "TACAVB1",
+  "file": "Trimion_078_TACAVB1",
+  "h": "Portable <em>Cavitation</em> Body Contouring Machine",
+  "hlen": 43,
+  "sp": "TACAVB1 · Colour touchscreen",
+  "img": "/home/claude/trimion-site/public/img/f647978fe7.webp",
+  "price": "R15,750",
+  "lb": "Lay-by from R5,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "rf"
+ },
+ {
+  "k": 101,
+  "code": "TARFCR1",
+  "file": "Trimion_083_TARFCR1",
+  "h": "CET/RET <em>RF</em> Face and Body Machine",
+  "hlen": 32,
+  "sp": "TARFCR1 · 0.3-0.5MHz · Ceramic CET tips",
+  "img": "/home/claude/trimion-site/public/img/ac63f97630.webp",
+  "price": "R22,300",
+  "lb": "Lay-by from R5,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "rf"
+ },
+ {
+  "k": 102,
+  "code": "TARFCR4",
+  "file": "Trimion_087_TARFCR4",
+  "h": "4-Handle Smart CET/RET <em>RF</em> Machine",
+  "hlen": 33,
+  "sp": "TARFCR4 · 300-450kHz · 300W · Four handles",
+  "img": "/home/claude/trimion-site/public/img/2153aed2e9.webp",
+  "price": "R30,550",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "rf"
+ },
+ {
+  "k": 103,
+  "code": "TARFUS1",
+  "file": "Trimion_091_TARFUS1",
+  "h": "Focused <em>RF</em> + Ultrasound Body and Face Machine",
+  "hlen": 45,
+  "sp": "TARFUS1 · 1-10MHz · 350W · Portable",
+  "img": "/home/claude/trimion-site/public/img/7c92ac6b04.webp",
+  "price": "R29,650",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "rf"
+ },
+ {
+  "k": 104,
+  "code": "TARFUS2",
+  "file": "Trimion_095_TARFUS2",
+  "h": "Focused <em>RF</em> + Ultrasound Body and Face Machine II",
+  "hlen": 48,
+  "sp": "TARFUS2 · 1-10MHz · 350W · Portable",
+  "img": "/home/claude/trimion-site/public/img/84c923fbbd.webp",
+  "price": "R29,200",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "rf"
+ },
+ {
+  "k": 105,
+  "code": "TARFUS3",
+  "file": "Trimion_099_TARFUS3",
+  "h": "Focused <em>RF</em> + Ultrasound Body and Face Station",
+  "hlen": 45,
+  "sp": "TARFUS3 · Floor station · 1-10MHz · 500W",
+  "img": "/home/claude/trimion-site/public/img/d077c22561.webp",
+  "price": "R44,800",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "rf"
+ },
+ {
+  "k": 106,
+  "code": "TACAV5DB",
+  "file": "Trimion_103_TACAV5DB",
+  "h": "5D Vacuum <em>Cavitation</em> Body Contouring Machine (Blue)",
+  "hlen": 51,
+  "sp": "TACAV5DB · Vibration handle · Microcurrent brush · 80K cavitation",
+  "img": "/home/claude/trimion-site/public/img/cb140f8d51.webp",
+  "price": "R22,300",
+  "lb": "Lay-by from R5,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "rf"
+ },
+ {
+  "k": 107,
+  "code": "TACAV3",
+  "file": "Trimion_107_TACAV3",
+  "h": "3-in-1 40K <em>Cavitation</em> and RF Machine",
+  "hlen": 36,
+  "sp": "TACAV3 · 40K cavitation · 50W",
+  "img": "/home/claude/trimion-site/public/img/edc06a8877.webp",
+  "price": "R6,550",
+  "lb": "R150 delivery nationwide",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "rf"
+ },
+ {
+  "k": 108,
+  "code": "TACAV5",
+  "file": "Trimion_19_TACAV5",
+  "h": "5-in-1 RF <em>Cavitation</em> Body Contouring Machine",
+  "hlen": 44,
+  "sp": "TACAV5 · 5 in 1 · 40K cavitation · Body + face",
+  "img": "/home/claude/trimion-site/public/img/5c4466f686.webp",
+  "price": "R14,050",
+  "lb": "Lay-by from R5,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "rf"
+ },
+ {
+  "k": 109,
+  "code": "TACAV7",
+  "file": "Trimion_110_TACAV7",
+  "h": "7-in-1 80K and 40K <em>Cavitation</em> Station",
+  "hlen": 37,
+  "sp": "TACAV7 · Vacuum RF",
+  "img": "/home/claude/trimion-site/public/img/89e240611d.webp",
+  "price": "R25,400",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "rf"
+ },
+ {
+  "k": 110,
+  "code": "TACAV5DS",
+  "file": "Trimion_113_TACAV5DS",
+  "h": "5D Vacuum <em>Cavitation</em> Station (Blue)",
+  "hlen": 35,
+  "sp": "TACAV5DS · Floor station · Vibration handle · Microcurrent brush",
+  "img": "/home/claude/trimion-site/public/img/3f092d7455.webp",
+  "price": "R32,800",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "rf"
+ },
+ {
+  "k": 111,
+  "code": "TACAV5DW",
+  "file": "Trimion_116_TACAV5DW",
+  "h": "5D Vacuum <em>Cavitation</em> Station (White)",
+  "hlen": 36,
+  "sp": "TACAV5DW · Floor station · Vibration handle · Microcurrent brush",
+  "img": "/home/claude/trimion-site/public/img/88c8890a64.webp",
+  "price": "R32,800",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "rf"
+ },
+ {
+  "k": 112,
+  "code": "TACAV6S",
+  "file": "Trimion_17_TACAV6S",
+  "h": "6-Handle RF <em>Cavitation</em> Vacuum Station",
+  "hlen": 37,
+  "sp": "TACAV6S · 6 handles · 80K cavitation · Vacuum RF",
+  "img": "/home/claude/trimion-site/public/img/17162e99ee.webp",
+  "price": "R46,100",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "rf"
+ },
+ {
+  "k": 113,
+  "code": "TACAV3D",
+  "file": "Trimion_119_TACAV3D",
+  "h": "3D Vacuum <em>Cavitation</em> Station",
+  "hlen": 28,
+  "sp": "TACAV3D · Vibration handle · Microcurrent brush · Cavitation",
+  "img": "/home/claude/trimion-site/public/img/72947d263b.webp",
+  "price": "R30,050",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "rf"
+ },
+ {
+  "k": 114,
+  "code": "TACAV4V",
+  "file": "Trimion_122_TACAV4V",
+  "h": "4-Handle 80K <em>Cavitation</em> Vacuum Machine",
+  "hlen": 38,
+  "sp": "TACAV4V · 80K cavitation · RF face handle",
+  "img": "/home/claude/trimion-site/public/img/4d2c018ebe.webp",
+  "price": "R19,450",
+  "lb": "Lay-by from R5,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "rf"
+ },
+ {
+  "k": 115,
+  "code": "TARFV5",
+  "file": "Trimion_16_TARFV5",
+  "h": "5-Handle Vacuum <em>RF</em> Roller Body Station",
+  "hlen": 38,
+  "sp": "TARFV5 · 5 handles · Auto rollers · 40kHz cavitation",
+  "img": "/home/claude/trimion-site/public/img/415e8b18bb.webp",
+  "price": "R52,650",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "rf"
+ },
+ {
+  "k": 116,
+  "code": "TARFV4",
+  "file": "Trimion_125_TARFV4",
+  "h": "4-Handle Vacuum <em>RF</em> Roller Body Station",
+  "hlen": 38,
+  "sp": "TARFV4 · Vacuum RF head · 40kHz cavitation · 800W",
+  "img": "/home/claude/trimion-site/public/img/7a0e019447.webp",
+  "price": "R48,750",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "rf"
+ },
+ {
+  "k": 117,
+  "code": "TARFV5E",
+  "file": "Trimion_128_TARFV5E",
+  "h": "5-Handle Vacuum <em>RF</em> Roller Station with Eye Head",
+  "hlen": 47,
+  "sp": "TARFV5E · Auto RF roller heads · 800W",
+  "img": "/home/claude/trimion-site/public/img/dfe240ce8d.webp",
+  "price": "R55,250",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "rf"
+ },
+ {
+  "k": 118,
+  "code": "TARFNC",
+  "file": "Trimion_130_TARFNC",
+  "h": "Non-Contact <em>RF</em> Body Contouring Frame",
+  "hlen": 36,
+  "sp": "TARFNC · 500W",
+  "img": "/home/claude/trimion-site/public/img/c8b5aad0c8.webp",
+  "price": "R50,050",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "rf"
+ },
+ {
+  "k": 119,
+  "code": "TARFSK1",
+  "file": "Trimion_132_TARFSK1",
+  "h": "<em>RF</em> Skin Tightening Machine (Home and Studio)",
+  "hlen": 44,
+  "sp": "TARFSK1 · 9 intensity levels · 4 modes · 2 treatment tips",
+  "img": "/home/claude/trimion-site/public/img/40a09518df.webp",
+  "price": "R6,550",
+  "lb": "R150 delivery nationwide",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "rf"
+ },
+ {
+  "k": 120,
+  "code": "TARFSK3",
+  "file": "Trimion_134_TARFSK3",
+  "h": "Portable 3-Tip <em>RF</em> Skin Tightening Machine",
+  "hlen": 41,
+  "sp": "TARFSK3 · 3 treatment tips",
+  "img": "/home/claude/trimion-site/public/img/009e3e2617.webp",
+  "price": "R19,450",
+  "lb": "Lay-by from R5,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "rf"
+ },
+ {
+  "k": 121,
+  "code": "TARFSK3S",
+  "file": "Trimion_18_TARFSK3S",
+  "h": "3-Tip <em>RF</em> Skin Tightening Station with Cooling",
+  "hlen": 45,
+  "sp": "TARFSK3S · 3 tips · Cooling · Floor station",
+  "img": "/home/claude/trimion-site/public/img/0a1c72236f.webp",
+  "price": "R35,500",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "rf"
+ },
+ {
+  "k": 122,
+  "code": "TARFSKC",
+  "file": "Trimion_136_TARFSKC",
+  "h": "Cartridge <em>RF</em> Skin Tightening Station",
+  "hlen": 36,
+  "sp": "TARFSKC · 3600 shots per cartridge",
+  "img": "/home/claude/trimion-site/public/img/7ec1cfe24e.webp",
+  "price": "R39,500",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "rf"
+ },
+ {
+  "k": 123,
+  "code": "TAUS1",
+  "file": "Trimion_22_TAUS1",
+  "h": "Portable <em>HIFU</em> Face and Body Machine",
+  "hlen": 35,
+  "sp": "TAUS1 · Face + body · 3 cartridges · Portable",
+  "img": "/home/claude/trimion-site/public/img/ed97233a91.webp",
+  "price": "R30,550",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "hifu"
+ },
+ {
+  "k": 124,
+  "code": "TAUS2",
+  "file": "Trimion_034_TAUS2",
+  "h": "<em>HIFU</em> Face and Body Machine with Trolley",
+  "hlen": 39,
+  "sp": "TAUS2 · Trolley included",
+  "img": "/home/claude/trimion-site/public/img/a01f3b67e6.webp",
+  "price": "R38,150",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "hifu"
+ },
+ {
+  "k": 125,
+  "code": "TAUS3",
+  "file": "Trimion_041_TAUS3",
+  "h": "<em>HIFU</em> Face Lifting Machine",
+  "hlen": 25,
+  "sp": "TAUS3 · 10000 shots each",
+  "img": "/home/claude/trimion-site/public/img/45c9f2b7f6.webp",
+  "price": "R29,200",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "hifu"
+ },
+ {
+  "k": 126,
+  "code": "TAUS5",
+  "file": "Trimion_048_TAUS5",
+  "h": "Portable <em>HIFU</em> Skin Tightening Machine",
+  "hlen": 37,
+  "sp": "TAUS5 · 1.5 · 3.0 and 4.5mm cartridges · optional 8.0 and 13mm",
+  "img": "/home/claude/trimion-site/public/img/59cca5d5d7.webp",
+  "price": "R26,450",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "hifu"
+ },
+ {
+  "k": 127,
+  "code": "TAUSR",
+  "file": "Trimion_055_TAUSR",
+  "h": "Radar Line <em>HIFU</em> Machine",
+  "hlen": 23,
+  "sp": "TAUSR · 3.0 and 4.5mm probes · 4MHz",
+  "img": "/home/claude/trimion-site/public/img/633e5b4a91.webp",
+  "price": "R21,600",
+  "lb": "Lay-by from R5,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "hifu"
+ },
+ {
+  "k": 128,
+  "code": "TAUS4D",
+  "file": "Trimion_21_TAUS4D",
+  "h": "4D <em>HIFU</em> Machine",
+  "hlen": 15,
+  "sp": "TAUS4D · 4D · 1–12 lines · 20,000 shots",
+  "img": "/home/claude/trimion-site/public/img/43c0c8d1aa.webp",
+  "price": "R31,900",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "hifu"
+ },
+ {
+  "k": 129,
+  "code": "TAUS4DS",
+  "file": "Trimion_062_TAUS4DS",
+  "h": "4D <em>HIFU</em> Station",
+  "hlen": 15,
+  "sp": "TAUS4DS · 1-12 lines",
+  "img": "/home/claude/trimion-site/public/img/896e7898a6.webp",
+  "price": "R37,300",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "hifu"
+ },
+ {
+  "k": 130,
+  "code": "TAUS9D",
+  "file": "Trimion_068_TAUS9D",
+  "h": "9D <em>HIFU</em> Machine",
+  "hlen": 15,
+  "sp": "TAUS9D · 1-12 lines",
+  "img": "/home/claude/trimion-site/public/img/bdd5bb9a7f.webp",
+  "price": "R35,950",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "hifu"
+ },
+ {
+  "k": 131,
+  "code": "TAUS7DS",
+  "file": "Trimion_20_TAUS7DS",
+  "h": "7D <em>HIFU</em> Station",
+  "hlen": 15,
+  "sp": "TAUS7DS · 7D HIFU · 20,000 shots · Floor station",
+  "img": "/home/claude/trimion-site/public/img/5a31655f10.webp",
+  "price": "R44,800",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "hifu"
+ },
+ {
+  "k": 132,
+  "code": "TAUS7D",
+  "file": "Trimion_074_TAUS7D",
+  "h": "Portable 7D <em>HIFU</em> Machine",
+  "hlen": 24,
+  "sp": "TAUS7D · face and body cartridges · 18 kg",
+  "img": "/home/claude/trimion-site/public/img/7820126a66.webp",
+  "price": "R35,950",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "hifu"
+ },
+ {
+  "k": 133,
+  "code": "TAUS7DC",
+  "file": "Trimion_079_TAUS7DC",
+  "h": "Compact 7D <em>HIFU</em> Machine",
+  "hlen": 23,
+  "sp": "TAUS7DC · face and body cartridges · 17 kg",
+  "img": "/home/claude/trimion-site/public/img/3f2f3ad946.webp",
+  "price": "R34,600",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "hifu"
+ },
+ {
+  "k": 50,
+  "code": "TARM360",
+  "file": "Trimion_035_TARM360",
+  "h": "360 <em>Roller</em> Body &amp; Face Massage Machine",
+  "hlen": 38,
+  "sp": "TARM360 · 5–200Hz · 55W · 3 roller handles",
+  "img": "/home/claude/trimion-site/public/img/ff556e3d5b.webp",
+  "price": "R40,800",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "massage"
+ },
+ {
+  "k": 51,
+  "code": "TAVM5",
+  "file": "Trimion_042_TAVM5",
+  "h": "Vibration Body Massage System with Trolley",
+  "hlen": 42,
+  "sp": "TAVM5 · Machine size · Power supply",
+  "img": "/home/claude/trimion-site/public/img/af4fc5d2f1.webp",
+  "price": "R33,300",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "massage"
+ },
+ {
+  "k": 52,
+  "code": "TAVC150",
+  "file": "Trimion_049_TAVC150",
+  "h": "<em>Vacuum</em> Cupping Massage Machine",
+  "hlen": 30,
+  "sp": "TAVC150 · 150W · Desktop unit",
+  "img": "/home/claude/trimion-site/public/img/6e593695e3.webp",
+  "price": "R15,050",
+  "lb": "Lay-by from R5,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "massage"
+ },
+ {
+  "k": 53,
+  "code": "TAVR6",
+  "file": "Trimion_23_TAVR6",
+  "h": "6-Handle <em>Vacuum</em> Roller Body &amp; Face Machine",
+  "hlen": 42,
+  "sp": "TAVR6 · 6 handpieces · Body + face · On wheels",
+  "img": "/home/claude/trimion-site/public/img/4c55ae7b8e.webp",
+  "price": "R57,800",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "massage"
+ },
+ {
+  "k": 54,
+  "code": "TAVR5",
+  "file": "Trimion_056_TAVR5",
+  "h": "5-Handle <em>Vacuum</em> Roller Body Machine",
+  "hlen": 35,
+  "sp": "TAVR5 · 5 handpieces · Touchscreen control · Wheeled base",
+  "img": "/home/claude/trimion-site/public/img/dd47a914af.webp",
+  "price": "R53,950",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "massage"
+ },
+ {
+  "k": 55,
+  "code": "TAVR2",
+  "file": "Trimion_063_TAVR2",
+  "h": "2-Handle <em>Vacuum</em> Roller Machine",
+  "hlen": 30,
+  "sp": "TAVR2 · 2 handpieces · Large touchscreen · Wheeled base",
+  "img": "/home/claude/trimion-site/public/img/425ac341bf.webp",
+  "price": "R42,150",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "massage"
+ },
+ {
+  "k": 56,
+  "code": "TAPT2",
+  "file": "Trimion_069_TAPT2",
+  "h": "2-in-1 Pressotherapy System",
+  "hlen": 27,
+  "sp": "TAPT2 · Colour touchscreen · 450VA · Packing 52 × 42 × 58cm",
+  "img": "/home/claude/trimion-site/public/img/d3f4f65dcd.webp",
+  "price": "R20,300",
+  "lb": "Lay-by from R5,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "massage"
+ },
+ {
+  "k": 57,
+  "code": "TAPT3",
+  "file": "Trimion_075_TAPT3",
+  "h": "3-in-1 Pressotherapy System",
+  "hlen": 27,
+  "sp": "TAPT3 · Air-pressure massage · Packing 52 × 42 × 58cm",
+  "img": "/home/claude/trimion-site/public/img/d290b76d69.webp",
+  "price": "R23,150",
+  "lb": "Lay-by from R5,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "massage"
+ },
+ {
+  "k": 134,
+  "code": "TAPTF1",
+  "file": "Trimion_080_TAPTF1",
+  "h": "Far Infrared Pressotherapy System (16 Air Bags)",
+  "hlen": 47,
+  "sp": "TAPTF1 · 16 air bags · Up to 40 minutes",
+  "img": "/home/claude/trimion-site/public/img/7ef5070824.webp",
+  "price": "R20,300",
+  "lb": "Lay-by from R5,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "massage"
+ },
+ {
+  "k": 135,
+  "code": "TAPTF2",
+  "file": "Trimion_084_TAPTF2",
+  "h": "Far Infrared Pressotherapy System II (16 Air Bags)",
+  "hlen": 50,
+  "sp": "TAPTF2 · 16 air bags",
+  "img": "/home/claude/trimion-site/public/img/c6f2cedfd0.webp",
+  "price": "R20,300",
+  "lb": "Lay-by from R5,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "massage"
+ },
+ {
+  "k": 136,
+  "code": "TAPT3E",
+  "file": "Trimion_25_TAPT3E",
+  "h": "3-in-1 Far Infrared, <em>EMS</em> and Pressotherapy System",
+  "hlen": 49,
+  "sp": "TAPT3E · 20 air bags · 20 EMS pads · Infrared warm",
+  "img": "/home/claude/trimion-site/public/img/e0d03c9a0c.webp",
+  "price": "R24,250",
+  "lb": "Lay-by from R5,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "massage"
+ },
+ {
+  "k": 137,
+  "code": "TAPT3P",
+  "file": "Trimion_088_TAPT3P",
+  "h": "3-in-1 Pressotherapy, <em>EMS</em> and Far Infrared Machine",
+  "hlen": 50,
+  "sp": "TAPT3P · Pressure levels 1-9 · Warming levels 1-10",
+  "img": "/home/claude/trimion-site/public/img/b4224ee1ab.webp",
+  "price": "R22,300",
+  "lb": "Lay-by from R5,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "massage"
+ },
+ {
+  "k": 138,
+  "code": "TAPT2F",
+  "file": "Trimion_092_TAPT2F",
+  "h": "2-in-1 Far Infrared Pressotherapy Machine",
+  "hlen": 41,
+  "sp": "TAPT2F · 36V safe output",
+  "img": "/home/claude/trimion-site/public/img/625d1a3284.webp",
+  "price": "R18,900",
+  "lb": "Lay-by from R5,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "massage"
+ },
+ {
+  "k": 139,
+  "code": "TAPT16",
+  "file": "Trimion_096_TAPT16",
+  "h": "16-Air-Bag Pressotherapy Machine",
+  "hlen": 32,
+  "sp": "TAPT16 · 16 air bags · 20-360mmHg · Up to 60 minutes",
+  "img": "/home/claude/trimion-site/public/img/15fe4dbf15.webp",
+  "price": "R19,450",
+  "lb": "Lay-by from R5,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "massage"
+ },
+ {
+  "k": 140,
+  "code": "TAPT24",
+  "file": "Trimion_100_TAPT24",
+  "h": "24-Air-Bag Pressotherapy Machine with Eye Massage",
+  "hlen": 49,
+  "sp": "TAPT24 · 24 air bags · 5-inch touchscreen",
+  "img": "/home/claude/trimion-site/public/img/fdb565e143.webp",
+  "price": "R23,150",
+  "lb": "Lay-by from R5,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "massage"
+ },
+ {
+  "k": 141,
+  "code": "TAPT24S",
+  "file": "Trimion_24_TAPT24S",
+  "h": "24-Air-Bag Pressotherapy Suit (Top + Pants)",
+  "hlen": 43,
+  "sp": "TAPT24S · 24 air bags · Full suit · Eye massage",
+  "img": "/home/claude/trimion-site/public/img/79fa6fbdac.webp",
+  "price": "R26,450",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "massage"
+ },
+ {
+  "k": 142,
+  "code": "TAPT24B",
+  "file": "Trimion_104_TAPT24B",
+  "h": "24-Air-Bag Pressotherapy Suit with Boots",
+  "hlen": 40,
+  "sp": "TAPT24B · 24 air bags · 7-inch screen · Jacket",
+  "img": "/home/claude/trimion-site/public/img/8ce7b64ca3.webp",
+  "price": "R28,650",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "massage"
+ },
+ {
+  "k": 58,
+  "code": "TAHF8",
+  "file": "Trimion_26_TAHF8",
+  "h": "8-in-1 Water Dermabrasion Facial Machine",
+  "hlen": 40,
+  "sp": "TAHF8 · 8 in 1 · Touchscreen · Deep cleanse",
+  "img": "/home/claude/trimion-site/public/img/8821169da8.webp",
+  "price": "R88,500",
+  "lb": "Lay-by from R23,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "face"
+ },
+ {
+  "k": 59,
+  "code": "TAION",
+  "file": "Trimion_036_TAION",
+  "h": "Ion &amp; <em>Microcurrent</em> Skin Platform",
+  "hlen": 32,
+  "sp": "TAION · Large touchscreen",
+  "img": "/home/claude/trimion-site/public/img/0f0e7bed60.webp",
+  "price": "R47,450",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "face"
+ },
+ {
+  "k": 60,
+  "code": "TAHF10",
+  "file": "Trimion_043_TAHF10",
+  "h": "10-in-1 Water Dermabrasion Facial Station",
+  "hlen": 41,
+  "sp": "TAHF10 · Touchscreen control",
+  "img": "/home/claude/trimion-site/public/img/2189a2b392.webp",
+  "price": "R44,800",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "face"
+ },
+ {
+  "k": 61,
+  "code": "TAHF10S",
+  "file": "Trimion_050_TAHF10S",
+  "h": "10-in-1 Water Dermabrasion Facial Station with Serum Bottles",
+  "hlen": 60,
+  "sp": "TAHF10S · 4 serum bottle bays · Large touchscreen",
+  "img": "/home/claude/trimion-site/public/img/7e712ffbb7.webp",
+  "price": "R52,650",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "face"
+ },
+ {
+  "k": 62,
+  "code": "TAHFV1",
+  "file": "Trimion_057_TAHFV1",
+  "h": "Water Dermabrasion Facial Station with 4 Serum Bottles",
+  "hlen": 54,
+  "sp": "TAHFV1 · 4 serum bottle bays · Touchscreen control · Wheeled base",
+  "img": "/home/claude/trimion-site/public/img/048623bc3e.webp",
+  "price": "R52,650",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "face"
+ },
+ {
+  "k": 63,
+  "code": "TAHF6",
+  "file": "Trimion_064_TAHF6",
+  "h": "6-in-1 <em>Oxygen</em> Dermabrasion Facial Station",
+  "hlen": 41,
+  "sp": "TAHF6 · Aqua peeling · 750VA · Approx. 49 × 25 × 145cm",
+  "img": "/home/claude/trimion-site/public/img/f37d79d5cd.webp",
+  "price": "R28,500",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "face"
+ },
+ {
+  "k": 64,
+  "code": "TAOX4",
+  "file": "Trimion_070_TAOX4",
+  "h": "<em>Oxygen</em> Facial Station",
+  "hlen": 21,
+  "sp": "TAOX4 · Spray oxygen · 750VA · Approx. 49 × 25 × 145cm",
+  "img": "/home/claude/trimion-site/public/img/d9877341ec.webp",
+  "price": "R34,600",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "face"
+ },
+ {
+  "k": 65,
+  "code": "TAOX2",
+  "file": "Trimion_076_TAOX2",
+  "h": "Compact <em>Oxygen</em> Facial Unit on Stand",
+  "hlen": 35,
+  "sp": "TAOX2 · Spray oxygen · 200VA · Approx. 25 × 35 × 45cm",
+  "img": "/home/claude/trimion-site/public/img/5427348dc5.webp",
+  "price": "R26,450",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "face"
+ },
+ {
+  "k": 66,
+  "code": "TAEMRF6",
+  "file": "Trimion_081_TAEMRF6",
+  "h": "<em>Electromagnetic</em> + RF Facial Patch System",
+  "hlen": 40,
+  "sp": "TAEMRF6 · Pulse width 200µs",
+  "img": "/home/claude/trimion-site/public/img/f8af69cd9e.webp",
+  "price": "R47,900",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "face"
+ },
+ {
+  "k": 143,
+  "code": "TAFS2",
+  "file": "Trimion_085_TAFS2",
+  "h": "Hot and Cold Facial Spray Machine",
+  "hlen": 33,
+  "sp": "TAFS2 · 800W",
+  "img": "/home/claude/trimion-site/public/img/6d96c9a6cd.webp",
+  "price": "R12,050",
+  "lb": "Lay-by from R5,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "face"
+ },
+ {
+  "k": 144,
+  "code": "TAFC1",
+  "file": "Trimion_089_TAFC1",
+  "h": "Cool and Warm Facial Machine",
+  "hlen": 28,
+  "sp": "TAFC1 · 5 kg",
+  "img": "/home/claude/trimion-site/public/img/0e000899b0.webp",
+  "price": "R8,250",
+  "lb": "R150 delivery nationwide",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "face"
+ },
+ {
+  "k": 145,
+  "code": "TACB2",
+  "file": "Trimion_093_TACB2",
+  "h": "2-in-1 CO2 Bubble Facial Machine",
+  "hlen": 32,
+  "sp": "TACB2 · 8-inch screen · 50W",
+  "img": "/home/claude/trimion-site/public/img/66b5cfdba4.webp",
+  "price": "R14,600",
+  "lb": "Lay-by from R5,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "face"
+ },
+ {
+  "k": 146,
+  "code": "TACB3",
+  "file": "Trimion_28_TACB3",
+  "h": "3-in-1 CO2 Bubble Facial Machine",
+  "hlen": 32,
+  "sp": "TACB3 · 3 in 1 · 8-inch screen · CO2 bubble",
+  "img": "/home/claude/trimion-site/public/img/01c254ccbf.webp",
+  "price": "R16,050",
+  "lb": "Lay-by from R5,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "face"
+ },
+ {
+  "k": 147,
+  "code": "TACB3B",
+  "file": "Trimion_097_TACB3B",
+  "h": "3-in-1 CO2 Bubble Facial Machine II",
+  "hlen": 35,
+  "sp": "TACB3B · CO2 bubble · 8-inch screen",
+  "img": "/home/claude/trimion-site/public/img/7187a23ac1.webp",
+  "price": "R9,650",
+  "lb": "R150 delivery nationwide",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "face"
+ },
+ {
+  "k": 148,
+  "code": "TAWD5",
+  "file": "Trimion_101_TAWD5",
+  "h": "5-in-1 Water Dermabrasion Facial Machine",
+  "hlen": 40,
+  "sp": "TAWD5 · Microcurrent",
+  "img": "/home/claude/trimion-site/public/img/d591b9f5bc.webp",
+  "price": "R15,200",
+  "lb": "Lay-by from R5,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "face"
+ },
+ {
+  "k": 149,
+  "code": "TAWD6",
+  "file": "Trimion_105_TAWD6",
+  "h": "6-in-1 Water Dermabrasion Facial Machine",
+  "hlen": 40,
+  "sp": "TAWD6 · Microcurrent · Ultrasound",
+  "img": "/home/claude/trimion-site/public/img/06e8bbeeb2.webp",
+  "price": "R16,050",
+  "lb": "Lay-by from R5,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "face"
+ },
+ {
+  "k": 150,
+  "code": "TAWDH6",
+  "file": "Trimion_29_TAWDH6",
+  "h": "6-in-1 Hydrogen Water Facial Machine",
+  "hlen": 36,
+  "sp": "TAWDH6 · 6 in 1 · Hydrogen water · Compact",
+  "img": "/home/claude/trimion-site/public/img/89fabce722.webp",
+  "price": "R10,500",
+  "lb": "Lay-by from R5,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "face"
+ },
+ {
+  "k": 151,
+  "code": "TAWDH6B",
+  "file": "Trimion_108_TAWDH6B",
+  "h": "6-in-1 Hydrogen Water Facial Machine II",
+  "hlen": 39,
+  "sp": "TAWDH6B · Ultrasound · 9-polar RF · Skin scrubber",
+  "img": "/home/claude/trimion-site/public/img/cb6d5196fa.webp",
+  "price": "R11,100",
+  "lb": "Lay-by from R5,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "face"
+ },
+ {
+  "k": 152,
+  "code": "TAWD7C",
+  "file": "Trimion_111_TAWD7C",
+  "h": "7-in-1 Cool Water Facial Machine",
+  "hlen": 32,
+  "sp": "TAWD7C · Seven handles · Vacuum up to 700mmHg · 1MHz ultrasound",
+  "img": "/home/claude/trimion-site/public/img/a8de71fad6.webp",
+  "price": "R22,300",
+  "lb": "Lay-by from R5,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "face"
+ },
+ {
+  "k": 153,
+  "code": "TAWD8S",
+  "file": "Trimion_114_TAWD8S",
+  "h": "8-in-1 Water Dermabrasion Facial Station",
+  "hlen": 40,
+  "sp": "TAWD8S · Cold hammer · Bubble cleaner · Scrubber",
+  "img": "/home/claude/trimion-site/public/img/c0ef7ca17e.webp",
+  "price": "R29,250",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "face"
+ },
+ {
+  "k": 154,
+  "code": "TAWD10S",
+  "file": "Trimion_27_TAWD10S",
+  "h": "10-in-1 Water Dermabrasion Facial Station",
+  "hlen": 41,
+  "sp": "TAWD10S · 10 in 1 · 8 handles · Station",
+  "img": "/home/claude/trimion-site/public/img/01f7cd6cae.webp",
+  "price": "R31,400",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "face"
+ },
+ {
+  "k": 155,
+  "code": "TAWD7B",
+  "file": "Trimion_117_TAWD7B",
+  "h": "7-in-1 Bubble Facial Station",
+  "hlen": 28,
+  "sp": "TAWD7B · Bubble handle · Spray · Hot and cold hammer",
+  "img": "/home/claude/trimion-site/public/img/f115a13e82.webp",
+  "price": "R28,150",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "face"
+ },
+ {
+  "k": 156,
+  "code": "TAWD8B",
+  "file": "Trimion_120_TAWD8B",
+  "h": "8-in-1 Bubble Facial Station",
+  "hlen": 28,
+  "sp": "TAWD8B",
+  "img": "/home/claude/trimion-site/public/img/4e67b280de.webp",
+  "price": "R29,250",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "face"
+ },
+ {
+  "k": 157,
+  "code": "TAWD6B",
+  "file": "Trimion_123_TAWD6B",
+  "h": "6-in-1 Bubble Facial Station",
+  "hlen": 28,
+  "sp": "TAWD6B · Ultrasound · Cold hammer · Water spray",
+  "img": "/home/claude/trimion-site/public/img/24160fb192.webp",
+  "price": "R26,500",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "face"
+ },
+ {
+  "k": 158,
+  "code": "TAWD7H",
+  "file": "Trimion_126_TAWD7H",
+  "h": "7-in-1 Hot and Cold Water Facial Machine",
+  "hlen": 40,
+  "sp": "TAWD7H · Scrubber · Water dermabrasion · Bipolar RF",
+  "img": "/home/claude/trimion-site/public/img/f05b491809.webp",
+  "price": "R19,450",
+  "lb": "Lay-by from R5,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "face"
+ },
+ {
+  "k": 67,
+  "code": "TAMC850",
+  "file": "Trimion_30_TAMC850",
+  "h": "Zero Gravity Massage Chair",
+  "hlen": 26,
+  "sp": "TAMC850 · Zero gravity · Full body · PU leather",
+  "img": "/home/claude/trimion-site/public/img/b9b91f341f.webp",
+  "price": "R72,500",
+  "lb": "Lay-by from R19,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "salon"
+ },
+ {
+  "k": 68,
+  "code": "TAFS240",
+  "file": "Trimion_037_TAFS240",
+  "h": "Foot &amp; Body Massage Station with Heat",
+  "hlen": 37,
+  "sp": "TAFS240 · 3 levels, 30–59°C · Up to 30 minutes · 240W",
+  "img": "/home/claude/trimion-site/public/img/49f374a462.webp",
+  "price": "R31,450",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "salon"
+ },
+ {
+  "k": 69,
+  "code": "TASD1000",
+  "file": "Trimion_044_TASD1000",
+  "h": "Far Infrared Sauna Dome",
+  "hlen": 23,
+  "sp": "TASD1000",
+  "img": "/home/claude/trimion-site/public/img/0ab1ea3d96.webp",
+  "price": "R74,000",
+  "lb": "Lay-by from R19,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "salon"
+ },
+ {
+  "k": 70,
+  "code": "TASHD01",
+  "file": "Trimion_051_TASHD01",
+  "h": "Professional Standing Hood Salon Hair Dryer",
+  "hlen": 43,
+  "sp": "TASHD01 · Power supply",
+  "img": "/home/claude/trimion-site/public/img/81aea0b0ba.webp",
+  "price": "R21,600",
+  "lb": "Lay-by from R5,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "salon"
+ },
+ {
+  "k": 159,
+  "code": "TABA1",
+  "file": "Trimion_058_TABA1",
+  "h": "Body Composition Analyser with Printer",
+  "hlen": 38,
+  "sp": "TABA1 · 110-230V",
+  "img": "/home/claude/trimion-site/public/img/049a68b2ab.webp",
+  "price": "R31,900",
+  "lb": "Lay-by from R10,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "salon"
+ },
+ {
+  "k": 160,
+  "code": "TAGEL300",
+  "file": "Trimion_160_TAGEL300",
+  "h": "RF and <em>Cavitation</em> Conductive Gel 300ml",
+  "hlen": 38,
+  "sp": "TAGEL300 · 300ml · for RF",
+  "img": "/home/claude/trimion-site/public/img/813c1b055e.webp",
+  "price": "R100",
+  "lb": "R150 delivery nationwide",
+  "chips": [
+   "R150 delivery",
+   "Order on WhatsApp"
+  ],
+  "sid": "supplies"
+ },
+ {
+  "k": 161,
+  "code": "TAWDSOL3",
+  "file": "Trimion_161_TAWDSOL3",
+  "h": "Water Dermabrasion Facial Solutions (3 Types)",
+  "hlen": 45,
+  "sp": "TAWDSOL3 · sensitive skin",
+  "img": "/home/claude/trimion-site/public/img/22bd3a7833.webp",
+  "price": "R400",
+  "lb": "R150 delivery nationwide",
+  "chips": [
+   "R150 delivery",
+   "Order on WhatsApp"
+  ],
+  "sid": "supplies"
+ },
+ {
+  "k": 162,
+  "code": "TAWDSOL4",
+  "file": "Trimion_162_TAWDSOL4",
+  "h": "Water Dermabrasion Solution Set A-B-C-D",
+  "hlen": 39,
+  "sp": "TAWDSOL4 · Deep cleansing · water oxygen · 20ml bottles",
+  "img": "/home/claude/trimion-site/public/img/e034e68508.webp",
+  "price": "R450",
+  "lb": "R150 delivery nationwide",
+  "chips": [
+   "R150 delivery",
+   "Order on WhatsApp"
+  ],
+  "sid": "supplies"
+ },
+ {
+  "k": 163,
+  "code": "TACBGEL",
+  "file": "Trimion_163_TACBGEL",
+  "h": "CO2 Bubble Facial Gel Kit",
+  "hlen": 25,
+  "sp": "TACBGEL",
+  "img": "/home/claude/trimion-site/public/img/9709eabff9.webp",
+  "price": "R400",
+  "lb": "R150 delivery nationwide",
+  "chips": [
+   "R150 delivery",
+   "Order on WhatsApp"
+  ],
+  "sid": "supplies"
+ },
+ {
+  "k": 164,
+  "code": "TACRYOM",
+  "file": "Trimion_164_TACRYOM",
+  "h": "<em>Cryo</em> Membranes 110g (Min. 30)",
+  "hlen": 29,
+  "sp": "TACRYOM · 110g per membrane · Sold per membrane",
+  "img": "/home/claude/trimion-site/public/img/0f76ee1184.webp",
+  "price": "R3,300",
+  "lb": "R110 per membrane · minimum 30",
+  "chips": [
+   "R150 delivery",
+   "Order on WhatsApp"
+  ],
+  "sid": "supplies"
+ },
+ {
+  "k": 165,
+  "code": "TAC2-2H",
+  "file": "Trimion_01_TAC2-2H",
+  "h": "2-Handle HI-EMT Body Sculpting Machine with <em>RF</em>",
+  "hlen": 46,
+  "sp": "TAC2-2H · Handles: 2, independently controlled · Power: 2000W · Technology: HI-EMT electromagnetic with RF warming",
+  "img": "/home/claude/trimion-site/public/img/3aab1ce728.webp",
+  "price": "R77,850",
+  "lb": "Lay-by from R20,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 166,
+  "code": "TAC2-4H",
+  "file": "Trimion_02_TAC2-4H",
+  "h": "4-Handle HI-EMT Body Sculpting Machine with <em>RF</em> and Seat Applicator",
+  "hlen": 66,
+  "sp": "TAC2-4H · Handles: 4, independently controlled, plus a seat applicator · Power: 4000W (handles), 3500W (seat applicator) · Technology: HI-EMT electromagnetic with RF warming",
+  "img": "/home/claude/trimion-site/public/img/393c493865.webp",
+  "price": "R88,200",
+  "lb": "Lay-by from R23,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "ems"
+ },
+ {
+  "k": 167,
+  "code": "TAVS5",
+  "file": "Trimion_167_TAVS5",
+  "h": "5-Handle Roller, Vacuum and <em>RF</em> Body Shaping Station",
+  "hlen": 51,
+  "sp": "TAVS5",
+  "img": "/home/claude/trimion-site/public/img/e9050e0a5b.webp",
+  "price": "R102,200",
+  "lb": "Lay-by from R26,000 deposit",
+  "chips": [
+   "1-year warranty",
+   "Free training",
+   "Lay-by 2–3 months"
+  ],
+  "sid": "rf"
+ }
+]

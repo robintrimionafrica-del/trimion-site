@@ -1,0 +1,68 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:P;src:url(../ogt/Poppins-Regular.ttf);font-weight:400}
+@font-face{font-family:P;src:url(../ogt/Poppins-Medium.ttf);font-weight:500}
+@font-face{font-family:P;src:url(../ogt/Poppins-Bold.ttf);font-weight:700}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;overflow:hidden}
+body{font-family:P,sans-serif;color:#fff;background:radial-gradient(1100px 700px at 50% -8%,#14408f 0%,transparent 70%),linear-gradient(180deg,#0c2a66 0%,#0a1f4d 55%,#081538 100%);position:relative}
+.wrap{position:absolute;left:64px;right:64px;display:flex;flex-direction:column}
+.top{display:flex;align-items:center;justify-content:space-between}
+.br{display:flex;align-items:center;gap:18px}
+.br img{width:94px;height:94px;border-radius:50%;box-shadow:0 0 0 3px rgba(92,198,242,.35)}
+.br b{display:block;font-weight:700;font-size:34px;letter-spacing:.14em;line-height:1.05}
+.br b i{font-style:normal;color:#6aa9ff}
+.br small{display:block;font-size:17px;letter-spacing:.32em;color:#c9d7ee;margin-top:6px}
+.ord{background:#f8c43a;color:#0a1f4d;font-weight:700;font-size:26px;padding:12px 26px;border-radius:40px}
+h1{font-weight:700;line-height:1.08;letter-spacing:-.01em}
+h1 em{font-style:normal;color:#6aa9ff}
+.sp{font-size:30px;color:#e6eefb;margin-top:14px}
+.ph{background:#fff;border-radius:34px;display:flex;align-items:center;justify-content:center;overflow:hidden;box-shadow:0 24px 60px rgba(0,0,0,.35)}
+.ph img{max-width:88%;max-height:90%;object-fit:contain}
+.row{display:flex;gap:20px}
+.pr{flex:1;background:linear-gradient(180deg,#fff,#eef2f8);border-radius:26px;padding:20px 26px;color:#0a1f4d}
+.pr small{display:block;font-size:20px;font-weight:600;color:#5b6b85;letter-spacing:.06em}
+.pr b{display:block;font-weight:700;font-size:62px;line-height:1.08;letter-spacing:-.02em}
+.pr span{display:block;font-size:20px;color:#3b4a63}
+.wa{flex:1;background:#1fa855;border-radius:26px;padding:20px 26px;display:flex;flex-direction:column;justify-content:center}
+.wa b{display:block;font-weight:700;font-size:36px;line-height:1.15}
+.wa b.n{font-size:40px;letter-spacing:.01em}
+.wa span{display:block;font-size:22px;color:#e9fff1;margin-top:2px}
+.ch{display:flex;flex-wrap:wrap;gap:14px}
+.ch span{border:2px solid rgba(160,190,235,.45);background:rgba(255,255,255,.06);border-radius:40px;padding:8px 22px;font-size:25px;font-weight:600;white-space:nowrap}
+/* sizes */
+body.story{height:1920px}body.story .wrap{top:268px;height:1400px}
+body.story h1{margin-top:118px}body.story .ph{height:740px;margin-top:28px}body.story .row{margin-top:22px}body.story .ch{margin-top:22px}
+body.feed{height:1350px}body.feed .wrap{top:54px;height:1250px}
+body.feed .br img{width:80px;height:80px}body.feed h1{margin-top:38px}body.feed .sp{font-size:27px;margin-top:8px}
+body.feed .ph{height:560px;margin-top:22px}body.feed .row{margin-top:20px}body.feed .ch{margin-top:18px}
+body.square{height:1080px}body.square .wrap{top:44px;left:52px;right:52px;height:1000px}
+body.square .br img{width:72px;height:72px}body.square .br b{font-size:30px}body.square .br small{font-size:15px}body.square .ord{font-size:22px;padding:10px 22px}
+body.square h1{margin-top:26px}body.square .sp{font-size:24px;margin-top:6px}
+body.square .ph{height:440px;margin-top:18px}body.square .row{margin-top:16px}body.square .pr b{font-size:52px}body.square .wa b.n{font-size:36px}
+body.square .ch{display:none}
+</style></head><body class="story">
+<div class="wrap">
+ <div class="top"><div class="br"><img src="../ogt/logo.png"><div><b>TRIMION <i>AFRICA</i></b><small>PRECISION SALON EQUIPMENT</small></div></div><div class="ord">ORDER NOW</div></div>
+ <h1 id="h"></h1><div class="sp" id="sp"></div>
+ <div class="ph"><img id="pi"></div>
+ <div class="row">
+  <div class="pr"><small>PRICE</small><b id="pr"></b><span id="lb"></span></div>
+  <div class="wa"><b>WhatsApp</b><b class="n">064 454 8506</b><span>trimionafrica.co.za</span></div>
+ </div>
+ <div class="ch" id="ch"></div>
+</div>
+<script>
+window.render=function(d,size){
+ document.body.className=size;
+ var h=document.getElementById('h');h.innerHTML=d.h;
+ var L=d.hlen, base={story:96,feed:84,square:66}[size];
+ var fs=L>48?base*.56:L>36?base*.66:L>26?base*.8:base;h.style.fontSize=fs+'px';
+ document.getElementById('sp').textContent=d.sp;
+ document.getElementById('pi').src=d.img;
+ document.getElementById('pr').textContent=d.price;
+ document.getElementById('pr').style.fontSize=(d.price.length>9?(size=='square'?40:48):(size=='square'?52:62))+'px';
+ document.getElementById('lb').textContent=d.lb;
+ document.getElementById('ch').innerHTML=d.chips.map(function(c){return '<span>✓ '+c+'</span>'}).join('');
+ return new Promise(function(r){var i=document.getElementById('pi');if(i.complete&&i.naturalWidth)r();else{i.onload=r;i.onerror=r}}).then(function(){return document.fonts.ready});
+};
+</script></body></html>
