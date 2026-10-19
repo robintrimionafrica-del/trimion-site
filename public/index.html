@@ -584,6 +584,19 @@ nav:not(.bnav):not([role]) a.on,nav:not(.bnav):not([role]) a:hover{color:var(--s
 .txnb{position:absolute;left:6px;top:6px;background:var(--shink);color:#fff;font:700 .62rem/1 Arial;padding:4px 6px;border-radius:2px;letter-spacing:.5px;pointer-events:none}
 @media (prefers-reduced-motion:reduce){.shc span{transition:none}}
 </style>
+<style id="tx-nav-css">
+/* keep the bottom menu on top of My account and the cart, with a big back button above it */
+@media(max-width:899px){
+body.txpan .bnav{z-index:58!important}
+body.txpan #acct,body.txpan #cart{padding-bottom:calc(132px + env(safe-area-inset-bottom,0px))!important}
+}
+#acx,#crx{width:52px!important;height:52px!important;font-size:26px!important}
+.txback{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(70px + env(safe-area-inset-bottom,0px));z-index:59;display:none;align-items:center;gap:10px;background:#0b1f4d;color:#fff;border:2px solid #ffd23f;border-radius:30px;padding:12px 26px;font:800 1rem system-ui,sans-serif;box-shadow:0 8px 24px rgba(8,26,61,.4);cursor:pointer;white-space:nowrap}
+.txback.zap{position:fixed!important}
+body.txpan .txback{display:flex}
+@media(min-width:900px){.txback{bottom:calc(24px + env(safe-area-inset-bottom,0px))}}
+.txback:focus-visible{outline:3px solid #ffd23f;outline-offset:3px}
+</style>
 <style id="tx-gift-css">
 .txtop{position:fixed;right:max(14px,env(safe-area-inset-right,0px));bottom:calc(78px + env(safe-area-inset-bottom,0px));z-index:43;width:46px;height:46px;border-radius:50%;border:0;background:#0b1f4d;color:#fff;box-shadow:0 4px 14px rgba(8,26,61,.35);display:grid;place-items:center;cursor:pointer;opacity:0;transform:translateY(12px);pointer-events:none;transition:opacity .25s,transform .25s}
 .txtop.on{opacity:1;transform:none;pointer-events:auto}.txtop svg{width:22px;height:22px}
@@ -2371,6 +2384,26 @@ function R(n){return n.toLocaleString('en-ZA').replace(/\s/g,',')}
 var tabs=[].slice.call(document.querySelectorAll('nav:not(.bnav):not([role]) a[href^="#"]'));
 var secs=tabs.map(function(a){return document.getElementById(a.getAttribute('href').slice(1))}).filter(Boolean);
 if('IntersectionObserver' in window&&secs.length){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){tabs.forEach(function(a){a.classList.toggle('on',a.getAttribute('href')==='#'+e.target.id)});var on=tabs.filter(function(a){return a.classList.contains('on')})[0];if(on&&on.scrollIntoView)on.parentNode.scrollTo({left:on.offsetLeft-20,behavior:'smooth'})}})},{rootMargin:'-45% 0px -50% 0px'});secs.forEach(function(x){io.observe(x)})}
+})();
+</script>
+<button type="button" class="txback" id="txback">← Back to shop</button>
+<script>
+(function(){
+var A=document.getElementById('acct'),C=document.getElementById('cart'),b=document.getElementById('txback');
+function open_(x){return x&&x.classList.contains('open')}
+function sync(){var a=open_(A),c=open_(C);document.body.classList.toggle('txpan',a||c);
+ var ids={bnh:!a&&!c&&!document.querySelector('.cats.open'),bna:a&&!c,bnk:c};
+ if(a||c||sync.was){Object.keys(ids).forEach(function(i){var e=document.getElementById(i);if(!e)return;if(ids[i])e.setAttribute('aria-current','page');else if(i!=='bnh'||a||c)e.removeAttribute('aria-current')});var cc=document.getElementById('bnc');if(cc&&(a||c))cc.removeAttribute('aria-current')}
+ sync.was=a||c}
+[A,C].forEach(function(x){if(x)new MutationObserver(sync).observe(x,{attributes:true,attributeFilter:['class']})});
+function back(){if(open_(C)){var c=document.getElementById('crx');if(c)c.click()}if(open_(A)){var a=document.getElementById('acx');if(a)a.click()}sync()}
+b.addEventListener('click',back);
+var h=document.getElementById('bnh'),g=document.getElementById('bnc'),k=document.getElementById('bnk'),m=document.getElementById('bna');
+if(h)h.addEventListener('click',back,true);
+if(g)g.addEventListener('click',back,true);
+if(k)k.addEventListener('click',function(){if(open_(A)){var a=document.getElementById('acx');if(a)a.click()}},true);
+if(m)m.addEventListener('click',function(){if(open_(C)){var c=document.getElementById('crx');if(c)c.click()}},true);
+sync();
 })();
 </script>
 <button type="button" class="txtop" id="txtop" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>

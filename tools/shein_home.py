@@ -200,6 +200,44 @@ addEventListener('scroll',function f(){if(scrollY>document.body.scrollHeight*0.3
 })();
 </script>
 """
+
+NAV_CSS = """<style id="tx-nav-css">
+/* keep the bottom menu on top of My account and the cart, with a big back button above it */
+@media(max-width:899px){
+body.txpan .bnav{z-index:58!important}
+body.txpan #acct,body.txpan #cart{padding-bottom:calc(132px + env(safe-area-inset-bottom,0px))!important}
+}
+#acx,#crx{width:52px!important;height:52px!important;font-size:26px!important}
+.txback{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(70px + env(safe-area-inset-bottom,0px));z-index:59;display:none;align-items:center;gap:10px;background:#0b1f4d;color:#fff;border:2px solid #ffd23f;border-radius:30px;padding:12px 26px;font:800 1rem system-ui,sans-serif;box-shadow:0 8px 24px rgba(8,26,61,.4);cursor:pointer;white-space:nowrap}
+.txback.zap{position:fixed!important}
+body.txpan .txback{display:flex}
+@media(min-width:900px){.txback{bottom:calc(24px + env(safe-area-inset-bottom,0px))}}
+.txback:focus-visible{outline:3px solid #ffd23f;outline-offset:3px}
+</style>
+"""
+NAV_HTML = '<button type="button" class="txback" id="txback">← Back to shop</button>\n'
+NAV_JS = r"""<script>
+(function(){
+var A=document.getElementById('acct'),C=document.getElementById('cart'),b=document.getElementById('txback');
+function open_(x){return x&&x.classList.contains('open')}
+function sync(){var a=open_(A),c=open_(C);document.body.classList.toggle('txpan',a||c);
+ var ids={bnh:!a&&!c&&!document.querySelector('.cats.open'),bna:a&&!c,bnk:c};
+ if(a||c||sync.was){Object.keys(ids).forEach(function(i){var e=document.getElementById(i);if(!e)return;if(ids[i])e.setAttribute('aria-current','page');else if(i!=='bnh'||a||c)e.removeAttribute('aria-current')});var cc=document.getElementById('bnc');if(cc&&(a||c))cc.removeAttribute('aria-current')}
+ sync.was=a||c}
+[A,C].forEach(function(x){if(x)new MutationObserver(sync).observe(x,{attributes:true,attributeFilter:['class']})});
+function back(){if(open_(C)){var c=document.getElementById('crx');if(c)c.click()}if(open_(A)){var a=document.getElementById('acx');if(a)a.click()}sync()}
+b.addEventListener('click',back);
+var h=document.getElementById('bnh'),g=document.getElementById('bnc'),k=document.getElementById('bnk'),m=document.getElementById('bna');
+if(h)h.addEventListener('click',back,true);
+if(g)g.addEventListener('click',back,true);
+if(k)k.addEventListener('click',function(){if(open_(A)){var a=document.getElementById('acx');if(a)a.click()}},true);
+if(m)m.addEventListener('click',function(){if(open_(C)){var c=document.getElementById('crx');if(c)c.click()}},true);
+sync();
+})();
+</script>
+"""
+s = s.replace('</head>', NAV_CSS + '</head>', 1)
+s = s.replace('</body>', NAV_HTML + NAV_JS + '</body>', 1)
 s = s.replace('</head>', GIFT_CSS + '</head>', 1)
 s = s.replace('</body>', GIFT + GIFT_JS + '</body>', 1)
 
