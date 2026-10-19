@@ -745,6 +745,16 @@ header.top .bar .bt{min-width:0;flex:1}
 .txgx.zap{position:absolute!important}.txtop.zap{position:fixed!important}.txgb a.zap{position:static!important}
 .txgx:focus-visible,.txgb a:focus-visible,.txgb button:focus-visible,.txtop:focus-visible{outline:2px solid #ffd23f;outline-offset:2px}
 </style>
+<style id="tx-tint-css">
+/* Colour behind every machine photo. multiply makes the photo's white
+   background take this colour everywhere, including the gaps between
+   handles and cables, so no white boxes or white pockets show. */
+:root{--phbg:#eaf0fb}
+.card .photo,.shc>span,.sht,.txr>span,.txrc>a:first-child,.trmi{background:var(--phbg)!important;isolation:isolate}
+.card .photo img,.shc img,.shtg img,.txr img,.txrc img,.trmi img{mix-blend-mode:multiply;background:transparent!important}
+.shtg b,.shtg small{mix-blend-mode:normal}
+.txrc>a:first-child{display:block;border-radius:10px;overflow:hidden}
+</style>
 </head>
 <body>
 <a class="tpromo" id="tpr" href="/promo/">🎁 <span>10% off any machine with code <b>TRIMION10</b></span> <u>Get it</u></a><script>(function(){var a=document.getElementById('tpr');if(!a)return;

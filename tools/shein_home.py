@@ -472,5 +472,18 @@ s = s.replace('</body>', TR_HTML + TR_JS + '</body>', 1)
 s = s.replace('</head>', GIFT_CSS + '</head>', 1)
 s = s.replace('</body>', GIFT + GIFT_JS + '</body>', 1)
 
+TINT_CSS = """<style id="tx-tint-css">
+/* Colour behind every machine photo. multiply makes the photo's white
+   background take this colour everywhere, including the gaps between
+   handles and cables, so no white boxes or white pockets show. */
+:root{--phbg:#eaf0fb}
+.card .photo,.shc>span,.sht,.txr>span,.txrc>a:first-child,.trmi{background:var(--phbg)!important;isolation:isolate}
+.card .photo img,.shc img,.shtg img,.txr img,.txrc img,.trmi img{mix-blend-mode:multiply;background:transparent!important}
+.shtg b,.shtg small{mix-blend-mode:normal}
+.txrc>a:first-child{display:block;border-radius:10px;overflow:hidden}
+</style>
+"""
+s = s.replace('</head>', TINT_CSS + '</head>', 1)
+
 open(f, 'w', encoding='utf-8').write(s)
 print('shop layer applied:', len(trend), 'trending')
