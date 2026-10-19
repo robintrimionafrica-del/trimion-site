@@ -361,7 +361,7 @@ TR = [
   ['Cellulite look', 'Body contouring', 'Face and eye RF'], '30–45 min', '6–10 sessions'),
  ('face', 'Facials', 'Glow treatments', 'Hydra-style water dermabrasion, oxygen and bubble facials for deep-cleansed, hydrated, glowing skin.',
   ['Deep cleansing', 'Hydration and glow', 'Pore refining'], '45–60 min', 'Monthly'),
- ('massage', 'Massage & detox', 'Relax & drain', 'Vacuum roller, 360° roller and pressotherapy for relaxing body massage and lymph drainage.',
+ ('massage', 'Massage & relax', 'Relax & unwind', 'Vacuum roller, 360° roller and pressotherapy for relaxing body massage and lymph drainage.',
   ['Lymph drainage', 'Roller massage', 'Leg and body relaxation'], '30–45 min', 'Weekly'),
 ]
 cnt = {sid: sum(1 for x in P if x['sid'] == sid) for sid, *_ in TR}
@@ -370,7 +370,9 @@ for sid, *_ in TR:
     c = sorted([x for x in P if x['sid'] == sid and num(x['price'])], key=lambda x: -num(x['price']))
     pick = c[::max(1, len(c)//6)][:6] if c else []
     trm[sid] = [dict(k=x['k'], n=x['name'], p=x['price'], i=x['img']) for x in pick]
-tiles_html = ''.join(f'<button type="button" class="trt" data-t="{i}"><img src="{TILES[sid]}" alt="" loading="lazy" decoding="async" width="600" height="750"><span class="trg"></span><span class="trl"><small>{E(sub)}</small><b>{E(name)}</b><i>{cnt[sid]} machines ›</i></span></button>' for i, (sid, name, sub, *_ ) in enumerate(TR))
+lo = {sid: min([num(x['price']) for x in P if x['sid'] == sid and num(x['price'])] or [0]) for sid, *_ in TR}
+fr = lambda v: ('From R' + f'{int(v):,}') if v else ''
+tiles_html = ''.join(f'<button type="button" class="trt" data-t="{i}"><img src="{TILES[sid]}" alt="" loading="lazy" decoding="async" width="600" height="750"><span class="trg"></span>' + (f'<span class="trp0">{fr(lo[sid])}</span>' if lo[sid] else '') + f'<span class="trl"><small>{E(sub)}</small><b>{E(name)}</b><i>{cnt[sid]} machines</i></span><span class="trgo" aria-hidden="true">›</span></button>' for i, (sid, name, sub, *_ ) in enumerate(TR))
 TRDATA = json.dumps([dict(sid=sid, name=name, sub=sub, d=d, b=b, t=t, n=n, img=TILES[sid], c=cnt[sid], m=trm[sid]) for sid, name, sub, d, b, t, n in TR], ensure_ascii=False).replace('</', '<\\/')
 TR_BLOCK = f'<section class="shs trs" aria-label="Shop by treatment"><div class="txh"><h2>✨ Shop by treatment</h2><span class="trhint">Tap to explore</span></div><div class="trgrid">{tiles_html}</div></section>'
 block_tr = TR_BLOCK
@@ -384,9 +386,14 @@ TR_CSS = """<style id="tx-tr-css">
 .trt.zap{position:relative!important}
 .trt img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .6s ease}
 .trt:active img,.trt:hover img{transform:scale(1.06)}
-.trg{position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,12,30,0) 45%,rgba(5,12,30,.88) 100%)}
+.trg{position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,12,30,.25) 0%,rgba(5,12,30,0) 22%,rgba(5,12,30,0) 42%,rgba(5,12,30,.92) 100%)}
+.trt::after{content:"";position:absolute;inset:0;border-radius:14px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.14);pointer-events:none}
+.trp0{position:absolute;top:10px;left:10px;background:#ffd23f;color:#1a1300;font:800 .7rem/1 system-ui,sans-serif;padding:6px 9px;border-radius:99px;box-shadow:0 2px 6px rgba(0,0,0,.25)}
+.trgo{position:absolute;right:10px;top:8px;width:30px;height:30px;border-radius:50%;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);color:#fff;display:flex;align-items:center;justify-content:center;font:700 1.2rem/1 system-ui,sans-serif;backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);transition:transform .25s,background .25s}
+.trt:hover .trgo,.trt:active .trgo{background:#ffd23f;color:#0b1f4d;transform:translateX(2px)}
+.trt:active{transform:scale(.98)}
 .trl{position:absolute;left:12px;right:12px;bottom:11px;color:#fff;display:flex;flex-direction:column;gap:1px}
-.trl small{font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:#ffd23f;font-weight:800}
+.trl small{font-size:.64rem;letter-spacing:.1em;text-transform:uppercase;color:#ffd23f;font-weight:800}
 .trl b{font-size:1.12rem;line-height:1.15;font-weight:800}
 .trl i{font-style:normal;font-size:.74rem;opacity:.85;margin-top:2px}
 .trp{position:fixed;inset:0;z-index:61;background:rgba(5,12,30,.6);display:flex;align-items:flex-end;justify-content:center}
