@@ -6,7 +6,7 @@ import os, urllib.parse
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "..", "public", "promo")
 CODE, PCT = "TRIMION10", 10
-WA = "https://wa.me/27611185978?text=" + urllib.parse.quote(
+WA = "https://wa.me/27644548506?text=" + urllib.parse.quote(
     f"Hi Trimion, I'd like to use code {CODE} ({PCT}% off). The machine I want is: ")
 
 html = f"""<!doctype html>

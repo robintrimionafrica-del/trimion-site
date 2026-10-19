@@ -22,10 +22,10 @@ TRUST = (
     '<div><b>7-day cooling-off</b>Changed your mind? Cancel within 7 days of delivery under the ECT Act.</div>'
     '<div><b>Pay safely</b>EFT to the details on your Trimion invoice or a secure card link. We never ask for card numbers on WhatsApp.</div>'
     '<div><b>Trained to use it</b>Free online operational training with every machine. In-person training available.</div>'
-    '<div><b>Real people on WhatsApp</b>061 118 5978 · info@trimionafrica.co.za · replies within 2 business days for complaints</div>'
+    '<div><b>Real people on WhatsApp</b>064 454 8506 · info@trimionafrica.co.za · replies within 2 business days for complaints</div>'
     '</div>'
     '<div class="rv"><b>Bought a machine from us?</b><span>Your review helps other salon owners choose with confidence.</span>'
-    '<a href="https://wa.me/27611185978?text=' + quote('Hi Trimion Africa, I would like to leave a review for my machine.\n\nMachine:\nMy review:\nCan you show my salon name? Yes / No\n\nFull catalog (162 machines): https://trimionafrica.co.za/') +
+    '<a href="https://wa.me/27644548506?text=' + quote('Hi Trimion Africa, I would like to leave a review for my machine.\n\nMachine:\nMy review:\nCan you show my salon name? Yes / No\n\nFull catalog (162 machines): https://trimionafrica.co.za/') +
     '" target="_blank" rel="noopener">Leave a review on WhatsApp</a></div>'
     '</div>\n')
 

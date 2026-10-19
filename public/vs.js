@@ -149,7 +149,7 @@
       var q = TAVS.features(src);
       var top = D.map(function (x) { return [TAVS.score(q, x.v), x] }).sort(function (a, b) { return b[0] - a[0] }).slice(0, 6);
       H.textContent = 'Closest matches. Tap one to see it. Not quite right? Draw a tighter box around the machine and tap Find again.';
-      var wa = 'https://wa.me/27611185978?text=' + encodeURIComponent("Hi Trimion Africa, I'm looking for a machine like the one in a photo I have. I'll send you the picture now.\n\nFull catalog: https://trimionafrica.co.za/");
+      var wa = 'https://wa.me/27644548506?text=' + encodeURIComponent("Hi Trimion Africa, I'm looking for a machine like the one in a photo I have. I'll send you the picture now.\n\nFull catalog: https://trimionafrica.co.za/");
       RES.innerHTML = '<div class="vsl">' + top.map(function (t) {
         var x = t[1]; return '<a href="#m' + x.k + '" data-k="' + x.k + '"><img src="' + x.i + '" alt="" loading="lazy" width="160" height="160"><b>' + esc(x.n) + '</b><small>' + esc(x.m) + '</small><span>' + esc(x.p) + '</span></a>'
       }).join('') + '</div><a class="vswa" href="' + wa + '" target="_blank" rel="noopener">Can’t find it? Send us the photo on WhatsApp</a>';

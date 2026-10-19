@@ -5,7 +5,7 @@ from urllib.parse import quote, unquote
 
 PRICES = {int(k): v for k, v in json.load(open('/home/claude/trimion-site/tools/prices.json')).items()}
 CAT = '\n\nFull catalog (162 machines): https://trimionafrica.co.za/'
-WA = 'https://wa.me/27611185978?text='
+WA = 'https://wa.me/27644548506?text='
 
 def R(n): return 'R{:,}'.format(n)
 
@@ -37,7 +37,7 @@ def apply(s):
                            lambda _: f'<div class="price">{R(p)}</div>{lbhtml}', b, count=1, flags=re.S)
             assert c == 1, k
         buy = f"Hi Trimion Africa, I want to buy the {nm} ({model}) at {R(p)}. Please send my invoice." + CAT
-        b, c = re.subn(r'<a class="btn" href="https://wa\.me/27611185978\?text=[^"]*" target="_blank" rel="noopener">(Get price|Buy now)</a>',
+        b, c = re.subn(r'<a class="btn" href="https://wa\.me/27644548506\?text=[^"]*" target="_blank" rel="noopener">(Get price|Buy now)</a>',
                        lambda _: f'<a class="btn" href="{WA}{enc(buy)}" target="_blank" rel="noopener">Buy now</a>', b)
         assert c == 1, k
         n[0] += 1

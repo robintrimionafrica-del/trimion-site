@@ -58,7 +58,7 @@ def apply(s, out, rep):
             '<p>162 EMS, cryo, RF, HIFU, facial and massage machines for salons and spas. Order on WhatsApp, pay in full or on lay-by, and get trained online for free.</p>'
             '<ul><li class="g">🛡️ 1-year warranty</li><li id="ldl">🚚 R150 delivery</li><li>🎓 Free online training</li><li>💳 Lay-by 2 or 3 months</li></ul>'
             '<div class="lc"><a class="l1" href="#ems">Shop machines</a>'
-            '<a class="l2" href="https://wa.me/27611185978?text=' + quote('Hi Trimion Africa, I would like help choosing a machine for my salon.\n\nFull catalog (162 machines): https://trimionafrica.co.za/') +
+            '<a class="l2" href="https://wa.me/27644548506?text=' + quote('Hi Trimion Africa, I would like help choosing a machine for my salon.\n\nFull catalog (162 machines): https://trimionafrica.co.za/') +
             '" target="_blank" rel="noopener">Chat on WhatsApp</a></div></section>\n')
     anchor = '<section class="hs" aria-label="Featured">'
     assert s.count(anchor) == 1
@@ -71,8 +71,8 @@ def apply(s, out, rep):
                   '<meta property="og:title" content="Trimion Africa | 162 Salon &amp; Spa Machines">')
     s = s.replace('<meta name="twitter:title" content="Trimion Africa Shop | Salon Equipment – 162 machines">',
                   '<meta name="twitter:title" content="Trimion Africa | 162 Salon &amp; Spa Machines">')
-    s = s.replace('content="Shop 162 salon machines online. 1-year warranty, R150 delivery anywhere in SA, free online training, lay-by over 2 or 3 months. Order on WhatsApp 061 118 5978."',
-                  'content="EMS, cryo, RF, HIFU &amp; facial machines for salons and spas. 1-year warranty · R150 delivery anywhere in SA · free online training · lay-by over 2 or 3 months. Order on WhatsApp 061 118 5978."')
+    s = s.replace('content="Shop 162 salon machines online. 1-year warranty, R150 delivery anywhere in SA, free online training, lay-by over 2 or 3 months. Order on WhatsApp 064 454 8506."',
+                  'content="EMS, cryo, RF, HIFU &amp; facial machines for salons and spas. 1-year warranty · R150 delivery anywhere in SA · free online training · lay-by over 2 or 3 months. Order on WhatsApp 064 454 8506."')
     s = s.replace('og.jpg?v=20', 'og.jpg?v=21')
     # "Share catalog" message
     s = s.replace('href="https://wa.me/?text=Trimion%20Africa%20salon%20machine%20catalog%3A%20https%3A%2F%2Ftrimionafrica.co.za%2F%3Fv%3D3"',

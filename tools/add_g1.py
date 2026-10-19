@@ -31,7 +31,7 @@ spec_li = ''.join(f'<li>{x}</li>' for x in n['specs'])
 card = (f'<article class="card" data-k="{n["k"]}">\n'
     f'<div class="photo"><img src="{img}" alt="{n["name"]}" decoding="async" width="360" height="360" loading="lazy"></div>\n'
     f'<div class="body"><h3>{n["name"]}</h3><div class="model">Model {n["model"]}</div><div class="price por">Price on request</div>\n'
-    f'<a class="btn" href="https://wa.me/27611185978?text={quote(msg, safe="")}" target="_blank" rel="noopener">Get price</a><details class="det"><summary>Full details</summary>\n'
+    f'<a class="btn" href="https://wa.me/27644548506?text={quote(msg, safe="")}" target="_blank" rel="noopener">Get price</a><details class="det"><summary>Full details</summary>\n'
     f'<div class="detb"><p class="dd">{n["desc"][0]}</p><div class="dh">Specifications</div><ul class="specs">{spec_li}</ul>\n'
     '<div class="dh">Included with your order</div><ul class="specs"><li>Free online operational training</li><li>In-person training at extra cost, with a male or female trainer</li><li>Certification available separately (R1,500)</li><li>1-year warranty, confirmed on your invoice</li><li>WhatsApp support</li></ul>\n'
     '<div class="dh">Delivery</div><ul class="specs"><li>Nationwide delivery R150, 9–12 business days</li><li>Final voltage and plug type confirmed on the invoice before dispatch</li></ul>\n'

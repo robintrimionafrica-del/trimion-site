@@ -131,7 +131,7 @@ details p{margin:0 0 14px;color:var(--muted)}
     <details><summary>How long does delivery take, and what does it cost?</summary><p>R150 anywhere in South Africa, 9–12 business days.</p></details>
     <details><summary>How do I pay?</summary><p>EFT or a secure card link on your invoice. Or use lay-by: a deposit, then 2 or 3 monthly payments.</p></details>
     <details><summary>Will it work with my plug point?</summary><p>Final voltage and plug type are confirmed on your invoice before dispatch. Some larger machines need a dedicated plug point; we'll tell you if yours does.</p></details>
-    <details><summary>What if I need help after I buy?</summary><p>You get ongoing WhatsApp support on 061 118 5978.</p></details>
+    <details><summary>What if I need help after I buy?</summary><p>You get ongoing WhatsApp support on 064 454 8506.</p></details>
     <details><summary>Is it a medical device?</summary><p>No. These machines are for salon and spa use.</p></details>
     <details><summary>Can I see all your machines?</summary><p>Yes, the full catalog of {{COUNT}} machines is at <a href="/" style="color:var(--accent)">trimionafrica.co.za</a>.</p></details>
   </div>
@@ -139,8 +139,8 @@ details p{margin:0 0 14px;color:var(--muted)}
 </main>
 
 <div class="bar">
-  <a id="wa" href="https://wa.me/27611185978" target="_blank" rel="noopener">Ask a question on WhatsApp</a>
-  <span>061 118 5978</span>
+  <a id="wa" href="https://wa.me/27644548506" target="_blank" rel="noopener">Ask a question on WhatsApp</a>
+  <span>064 454 8506</span>
 </div>
 
 <script>
@@ -155,7 +155,7 @@ function calc(){
  const per=Math.ceil(x[1]/(r||1));
  const plan=x[2]?` Lay-by: ${R(x[2])} deposit, then 2 × ${R(x[3])} or 3 × ${R((x[1]-x[2])/3)}.`:"";
  document.getElementById("lb").textContent=r?`That's about ${per} sessions to cover the full price.${plan}`:"";
- document.getElementById("wa").href="https://wa.me/27611185978?text="+encodeURIComponent(`Hi Trimion Africa, I'm interested in the ${x[0]}. I'd like the lay-by plan / more info.`);
+ document.getElementById("wa").href="https://wa.me/27644548506?text="+encodeURIComponent(`Hi Trimion Africa, I'm interested in the ${x[0]}. I'd like the lay-by plan / more info.`);
 }
 ["m","r","s"].forEach(id=>document.getElementById(id).addEventListener("input",calc));
 const pick=M.findIndex(x=>x[0].includes("(TAEMS2)"));if(pick>=0)sel.value=pick;calc();

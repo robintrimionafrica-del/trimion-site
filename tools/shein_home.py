@@ -333,7 +333,7 @@ s = s.replace('</body>', CART_HTML + CART_JS + '</body>', 1)
 
 import re as _re2
 _m = _re2.search(r'(<header class="top"><div class="bar">.*?<a class="wa" [^>]*>WhatsApp</a>)', s, _re2.S); assert _m
-s = s.replace(_m.group(1), _m.group(1) + '<a class="txcall" href="tel:+27611185978" aria-label="Call Trimion Africa on 061 118 5978"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg></a>', 1)
+s = s.replace(_m.group(1), _m.group(1) + '<a class="txcall" href="tel:+27644548506" aria-label="Call Trimion Africa on 064 454 8506"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg></a>', 1)
 CALL_CSS = """<style id="tx-call-css">
 .txcall{flex:none;width:44px;height:44px;margin-left:8px;border-radius:50%;background:#1fa855;color:#fff;display:grid;place-items:center;box-shadow:0 0 0 3px rgba(31,168,85,.3),0 0 14px rgba(31,168,85,.6);animation:txring 2.6s ease-in-out infinite;text-decoration:none}
 .txcall svg{width:21px;height:21px}
@@ -443,7 +443,7 @@ TR_JS = r"""<script>
 var D=__TRDATA__,P=document.getElementById('trp'),C=document.getElementById('trc'),cur=0;
 function esc(t){return String(t).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
 function ids(){return window.TA_CART?window.TA_CART.ids():[]}
-function wa(t){return 'https://wa.me/27611185978?text='+encodeURIComponent('Hi Trimion Africa, I want to offer '+t.name.toLowerCase()+' in my salon. Which machine do you recommend?\n\nhttps://trimionafrica.co.za/#'+t.sid)}
+function wa(t){return 'https://wa.me/27644548506?text='+encodeURIComponent('Hi Trimion Africa, I want to offer '+t.name.toLowerCase()+' in my salon. Which machine do you recommend?\n\nhttps://trimionafrica.co.za/#'+t.sid)}
 function draw(i){cur=i;var t=D[i],inC=ids();
  C.innerHTML='<div class="trhero"><img src="'+t.img+'" alt=""><button type="button" class="trx" id="trx" aria-label="Close">×</button><div class="trht"><small>'+esc(t.sub)+'</small><h3 id="trh">'+esc(t.name)+'</h3></div></div>'+
  '<div class="trtabs" role="tablist">'+D.map(function(x,j){return '<button type="button" role="tab" data-j="'+j+'" aria-selected="'+(j===i)+'">'+esc(x.name)+'</button>'}).join('')+'</div>'+

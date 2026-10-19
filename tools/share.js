@@ -8,7 +8,7 @@ try{canFiles=!!(navigator.canShare&&window.File&&navigator.canShare({files:[new 
 function info(c){var pr=((c.querySelector('.price')||{}).textContent||'').trim(),lb=c.querySelector('.lb'),cons=!!c.closest('#supplies'),
  w=((c.querySelector('.wty')||{}).textContent||'✓ 1-year warranty').split('·')[0].replace('✓','').trim(),
  del=window.TA_PROMO?'FREE delivery this week':'R150 delivery',u=BASE+'/p/'+c.id,
- t='*'+c.dataset.n+'* ('+c.dataset.m+')\n'+pr+(lb?' · '+lb.textContent.replace(/\s+/g,' ').trim():'')+'\n'+(cons?del+' anywhere in SA':w+' · '+del+' · Free online training')+'\nTrimion Africa · WhatsApp 061 118 5978';
+ t='*'+c.dataset.n+'* ('+c.dataset.m+')\n'+pr+(lb?' · '+lb.textContent.replace(/\s+/g,' ').trim():'')+'\n'+(cons?del+' anywhere in SA':w+' · '+del+' · Free online training')+'\nTrimion Africa · WhatsApp 064 454 8506';
  var md=(c.dataset.m||c.id).trim();return {pdf:'/pdf/'+encodeURIComponent(md)+'.pdf',pfn:'Trimion-Africa-'+md.replace(/[^A-Za-z0-9]+/g,'-')+'.pdf',u:u,t:t,title:c.dataset.n+' | Trimion Africa',img:'/og/'+c.id+'.jpg?v=3',fn:'trimion-'+(c.dataset.m||c.id).toLowerCase().replace(/[^a-z0-9]+/g,'-')+'.jpg'}}
 function loadPdf(c){var i=info(c);pdfFile=null;if(!canPdf||!window.fetch)return;
  fetch(i.pdf).then(function(r){return r.ok?r.blob():null}).then(function(b){if(b&&cur===c)pdfFile=new File([b],i.pfn,{type:'application/pdf'})}).catch(function(){})}

@@ -7,8 +7,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "..", "public", "offers")
 KIT_MIN, REF_MIN, REF_PAY, END = "R50,000", "R25,000", "R2,000", "31 December 2026"
 q = urllib.parse.quote
-WA_KIT = "https://wa.me/27611185978?text=" + q("Hi Trimion, I'd like the free Salon Starter Kit with my machine. The machine I want is: ")
-WA_REF = "https://wa.me/27611185978?text=" + q("Hi Trimion, I'd like to refer a salon for the R2,000 reward.\n\nMy name: \nSalon I'm referring: \nTheir number: ")
+WA_KIT = "https://wa.me/27644548506?text=" + q("Hi Trimion, I'd like the free Salon Starter Kit with my machine. The machine I want is: ")
+WA_REF = "https://wa.me/27644548506?text=" + q("Hi Trimion, I'd like to refer a salon for the R2,000 reward.\n\nMy name: \nSalon I'm referring: \nTheir number: ")
 
 html = f"""<!doctype html>
 <html lang="en">
@@ -72,7 +72,7 @@ a:focus-visible,button:focus-visible{{outline:2px solid var(--accent);outline-of
       <li><i>🏷️</i><div><b>10% off with code TRIMION10</b><span>Works together with the Diwali Special.</span></div></li>
       <li><i>🚚</i><div><b>R150 delivery anywhere in South Africa</b><span>Order by Dhanteras, Friday 6 November, for delivery in time for your new-season bookings.</span></div></li>
     </ul>
-    <a class="btn wa" href="https://wa.me/27611185978?text=Hi%20Trimion%2C%20I%27d%20like%20the%20Diwali%20Special.%20The%20machine%20I%20want%20is%3A%20" target="_blank" rel="noopener">Claim the Diwali Special on WhatsApp</a>
+    <a class="btn wa" href="https://wa.me/27644548506?text=Hi%20Trimion%2C%20I%27d%20like%20the%20Diwali%20Special.%20The%20machine%20I%20want%20is%3A%20" target="_blank" rel="noopener">Claim the Diwali Special on WhatsApp</a>
   </div>
 </section>
 <section id="kit">

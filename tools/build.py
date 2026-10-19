@@ -23,21 +23,21 @@ def rep(old, new, count=1):
     s = s.replace(old, new)
 
 # ---------- 1. head: share preview tags ----------
-rep('<meta name="description" content="Trimion Africa Shop: 162 professional salon and spa machines. R150 nationwide delivery, online training included. Order on WhatsApp 061 118 5978.">',
-    '<meta name="description" content="Trimion Africa Shop: 162 professional salon and spa machines. 1-year warranty, R150 nationwide delivery, free online training and lay-by. Order on WhatsApp 061 118 5978.">')
+rep('<meta name="description" content="Trimion Africa Shop: 162 professional salon and spa machines. R150 nationwide delivery, online training included. Order on WhatsApp 064 454 8506.">',
+    '<meta name="description" content="Trimion Africa Shop: 162 professional salon and spa machines. 1-year warranty, R150 nationwide delivery, free online training and lay-by. Order on WhatsApp 064 454 8506.">')
 rep('<meta property="og:type" content="website">',
     '<meta property="og:type" content="website">\n<meta property="og:site_name" content="Trimion Africa Shop">\n<meta property="og:locale" content="en_ZA">')
-rep('<meta property="og:description" content="Shop 162 salon machines online. R150 nationwide delivery, online training included. Order on WhatsApp 061 118 5978.">',
-    '<meta property="og:description" content="Shop 162 salon machines online. 1-year warranty, R150 delivery anywhere in SA, free online training, lay-by over 2 or 3 months. Order on WhatsApp 061 118 5978.">')
+rep('<meta property="og:description" content="Shop 162 salon machines online. R150 nationwide delivery, online training included. Order on WhatsApp 064 454 8506.">',
+    '<meta property="og:description" content="Shop 162 salon machines online. 1-year warranty, R150 delivery anywhere in SA, free online training, lay-by over 2 or 3 months. Order on WhatsApp 064 454 8506.">')
 rep('<meta property="og:image" content="https://trimionafrica.co.za/og.jpg?v=19">',
     '<meta property="og:image" content="https://trimionafrica.co.za/og.jpg?v=20">\n'
     '<meta property="og:image:secure_url" content="https://trimionafrica.co.za/og.jpg?v=20">\n'
     '<meta property="og:image:type" content="image/jpeg">\n'
-    '<meta property="og:image:alt" content="Trimion Africa salon equipment: 1-year warranty, R150 delivery, order on WhatsApp 061 118 5978">')
+    '<meta property="og:image:alt" content="Trimion Africa salon equipment: 1-year warranty, R150 delivery, order on WhatsApp 064 454 8506">')
 rep('<meta name="twitter:image" content="https://trimionafrica.co.za/og.jpg?v=19">',
     '<meta name="twitter:image" content="https://trimionafrica.co.za/og.jpg?v=20">\n'
     '<meta name="twitter:title" content="Trimion Africa Shop | Salon Equipment – 162 machines">\n'
-    '<meta name="twitter:description" content="1-year warranty, R150 delivery anywhere in SA, free online training. Order on WhatsApp 061 118 5978.">\n'
+    '<meta name="twitter:description" content="1-year warranty, R150 delivery anywhere in SA, free online training. Order on WhatsApp 064 454 8506.">\n'
     '<link rel="image_src" href="https://trimionafrica.co.za/og.jpg?v=20">')
 
 # ---------- 2. perks: warranty moves up to 2nd place ----------
@@ -55,7 +55,7 @@ def add_links(b, k):
         i = t.find('\n\nFull catalog')
         t = (t[:i] + extra + t[i:]) if i > -1 else t + extra
         return m.group(1) + quote(t, safe="-_.!~*()") + '"'
-    return re.sub(r'(class="(?:btn|lb)" href="https://wa\.me/27611185978\?text=)([^"]*)"', fix, b)
+    return re.sub(r'(class="(?:btn|lb)" href="https://wa\.me/27644548506\?text=)([^"]*)"', fix, b)
 # ---------- 3. cards: warranty line + static details ----------
 def card_fix(m):
     sid = m.group(1)
@@ -198,11 +198,11 @@ for d in P:
     if d['lb']:
         bits.append(d['lb'].replace('Lay-by ', 'lay-by: '))
     desc = ', '.join(bits)
-    desc = desc[0].upper() + desc[1:] + '. ' + ('Tap for a written quote on WhatsApp 061 118 5978.' if por else 'Order on WhatsApp 061 118 5978.')
+    desc = desc[0].upper() + desc[1:] + '. ' + ('Tap for a written quote on WhatsApp 064 454 8506.' if por else 'Order on WhatsApp 064 454 8506.')
     img = f'{SITE}/og/{cid}.jpg?v=3'
     url = f'{SITE}/p/{cid}'
     price = _num(d['price'])
-    wa = 'https://wa.me/27611185978?text=' + _q('Hi Trimion Africa, I would like to order the ' + d['name'] + ' (' + d['model'] + ').' + chr(10) + chr(10) + url)
+    wa = 'https://wa.me/27644548506?text=' + _q('Hi Trimion Africa, I would like to order the ' + d['name'] + ' (' + d['model'] + ').' + chr(10) + chr(10) + url)
     paras = ''.join(f'<p>{E(t)}</p>' for t in dt.get('desc', []))
     specs = ''.join(f'<li>{E(t)}</li>' for t in dt.get('specs', []))
     kit = price >= 50000
@@ -271,7 +271,7 @@ for d in P:
 {'<div class="card"><h2>Know a salon owner?</h2><p>Refer a salon that buys a machine from R25,000 and we pay you <b>R2,000</b>. <a href="/offers/#refer">How it works</a></p></div>' if price >= 25000 else ''}
 <div class="card"><h2>How to order</h2><p>Tap <b>Order on WhatsApp</b>. We confirm the price, delivery and lay-by option in writing and send your invoice. Pay in full by EFT or secure card link, or pay a deposit and the balance over 2 or 3 months.</p><p><a href="/">← Back to all machines</a></p></div>
 </div>
-<div class="ft">Trimion Africa Precision (Pty) Ltd · Durban, KwaZulu-Natal · WhatsApp 061 118 5978</div>
+<div class="ft">Trimion Africa Precision (Pty) Ltd · Durban, KwaZulu-Natal · WhatsApp 064 454 8506</div>
 <script>(function(){{var b=document.getElementById('atc'),id='{cid}';function g(){{try{{return JSON.parse(localStorage.getItem('ta_quote')||'[]')}}catch(e){{return[]}}}}
 function set(){{if(g().indexOf(id)>-1){{b.textContent='✓ In your cart – view cart';b.onclick=function(){{location.href='/#cart'}}}}}}
 b.onclick=function(){{var q=g();if(q.indexOf(id)<0)q.push(id);try{{localStorage.setItem('ta_quote',JSON.stringify(q))}}catch(e){{}}set()}};set()}})();</script>

@@ -34,7 +34,7 @@ for d in D:
         desc += "\n\nIncluded:\n" + "\n".join("- " + g for g in get)
     if d.get("lb"):
         desc += f"\n\n{d['lb']} (balance over 2 or 3 months)."
-    desc += "\n\nOrder on WhatsApp: 061 118 5978."
+    desc += "\n\nOrder on WhatsApp: 064 454 8506."
 
     rows.append({
         "id": model,
@@ -62,7 +62,7 @@ print(f"facebook catalog: {len(rows)} products")
 g_rows = []
 for r in rows:
     g = dict(r)
-    g["description"] = g["description"].replace("\n\nOrder on WhatsApp: 061 118 5978.", "")
+    g["description"] = g["description"].replace("\n\nOrder on WhatsApp: 064 454 8506.", "")
     g["shipping"] = "ZA:::150.00 ZAR"
     g["identifier_exists"] = "no"
     g_rows.append(g)

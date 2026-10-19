@@ -56,7 +56,7 @@ def page(c, d, s):
     cons = d['cat'] == 'Consumables'
     por = 'request' in d['price'].lower()
     url = f"{SITE}/p/m{d['k']}"
-    wa = 'https://wa.me/27611185978?text=' + quote(
+    wa = 'https://wa.me/27644548506?text=' + quote(
         f"Hi Trimion Africa, I have your brochure for the {d['name']} ({d['model']})" +
         ('. Please send me the price and an invoice.' if por else f" at {d['price']}. Please send my invoice.") + f"\n\n{url}")
     if c:
@@ -152,7 +152,7 @@ def page(c, d, s):
     y = min(yl, yr) - 16
     # how to order
     y = heading('How to order', M, y)
-    steps = [('1. Choose', 'Pick your machine on trimionafrica.co.za or here'), ('2. WhatsApp us', '061 118 5978: we confirm price and delivery'),
+    steps = [('1. Choose', 'Pick your machine on trimionafrica.co.za or here'), ('2. WhatsApp us', '064 454 8506: we confirm price and delivery'),
              ('3. Pay', 'EFT or secure card link on your invoice, or lay-by'), ('4. Delivered', '9 to 12 business days, then online training')]
     sw = (W - 2 * M - 24) / 4; sh = 0
     for t, b in steps:
@@ -170,9 +170,9 @@ def page(c, d, s):
                 'Photos show the actual machine model; colour and small details can differ.', P(7, MUTED), M, 84, W - 2 * M)
         c.setFillColor(NAVY); c.rect(0, 0, W, 44, stroke=0, fill=1)
         para(c, '<font color="#ffffff"><b>Trimion Africa Precision (Pty) Ltd</b></font>  ·  Reg. no. 2026/806671/07  ·  117 Stephen Dlamini Road, Durban, KwaZulu-Natal<br/>'
-                'WhatsApp or call <font color="#ffffff">061 118 5978</font>  ·  <font color="#ffffff">info@trimionafrica.co.za</font>  ·  <font color="#ffffff">trimionafrica.co.za</font>',
+                'WhatsApp or call <font color="#ffffff">064 454 8506</font>  ·  <font color="#ffffff">info@trimionafrica.co.za</font>  ·  <font color="#ffffff">trimionafrica.co.za</font>',
              P(7.4, HexColor('#cfe3f7')), M, 34, W - 2 * M)
-        c.linkURL('https://wa.me/27611185978', (0, 0, W / 2, 44), relative=0)
+        c.linkURL('https://wa.me/27644548506', (0, 0, W / 2, 44), relative=0)
         c.linkURL(SITE, (W / 2, 0, W, 44), relative=0)
     return y
 

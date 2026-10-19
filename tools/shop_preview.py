@@ -156,10 +156,10 @@ img{max-width:100%;display:block}
 <div class="code"><b>🎁 10% OFF</b><span>Any machine, with code</span><button type="button" id="cp">TRIMION10</button></div>
 <div class="fh" id="feed"><h2 id="ft">Recommended for your salon</h2><span id="fc"></span></div>
 <main class="feed" id="fd"></main><div class="more" id="mo"></div>
-<div class="wa" id="wa"><span>Not sure which machine? We'll help.</span><span><a href="https://wa.me/27611185978?text=Hi%20Trimion%20Africa%2C%20please%20help%20me%20choose%20a%20machine." target="_blank" rel="noopener">WhatsApp</a><button type="button" id="wx" aria-label="Hide">×</button></span></div>
+<div class="wa" id="wa"><span>Not sure which machine? We'll help.</span><span><a href="https://wa.me/27644548506?text=Hi%20Trimion%20Africa%2C%20please%20help%20me%20choose%20a%20machine." target="_blank" rel="noopener">WhatsApp</a><button type="button" id="wx" aria-label="Hide">×</button></span></div>
 <nav class="bn" aria-label="Main"><a class="on" href="#top"><svg viewBox="0 0 24 24"><path d="M4 10.5 12 4l8 6.5V20h-5v-6H9v6H4z"/></svg>Shop</a>
 <button type="button" id="bc"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="6" height="6" rx="1.5"/><rect x="14" y="4" width="6" height="6" rx="1.5"/><rect x="4" y="14" width="6" height="6" rx="1.5"/><circle cx="17" cy="17" r="3"/><path d="m21 21-1.8-1.8"/></svg>Category</button>
-<a href="https://wa.me/27611185978" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M4 20l1.3-4A8 8 0 1 1 8 18.7z"/><path d="M9 9.5c.5 2 2.5 4 4.5 4.5l1.2-1.2 2 1-.5 1.7c-3.5 0-7.7-4.2-7.7-7.7L10.2 7l1 2z"/></svg>WhatsApp</a>
+<a href="https://wa.me/27644548506" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M4 20l1.3-4A8 8 0 1 1 8 18.7z"/><path d="M9 9.5c.5 2 2.5 4 4.5 4.5l1.2-1.2 2 1-.5 1.7c-3.5 0-7.7-4.2-7.7-7.7L10.2 7l1 2z"/></svg>WhatsApp</a>
 <a href="/#cart"><svg viewBox="0 0 24 24"><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/><path d="M2.5 3.5h2.6l2.4 11.2h11.3l2-8H6.3"/></svg>Cart<span class="bd" id="cn2"></span></a>
 <a href="/#account"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>Me</a></nav>
 <div class="sh" id="sh"><div class="sp"><h3>Shop by category</h3>__SHEET__<a href="/guide/">📘 Buyer's guide</a><a href="/#faq">❓ Questions</a></div></div>
