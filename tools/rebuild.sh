@@ -22,6 +22,7 @@ python3 visual_search.py                              # search by photo: /vs.js,
 python3 shein_home.py                                 # shop-style layer: category circles, deal tiles, trending row, badges
 python3 guide.py                                      # buyer's guide at /guide (all machines, prices, lay-by)
 python3 fb_catalog.py                                 # Facebook/Instagram catalog feed at /facebook-catalog.csv + /fb/ photos
+python3 xml_feed.py                                   # same feed as XML at /google-products.xml (WhatsApp sales assistant)
 python3 promo.py                                      # promo-code page at /promo (TRIMION10)
 python3 offers.py                                     # offers page at /offers (starter kit + R2,000 referral)
 python3 shop_preview.py                               # shop-style home page preview at /new/ (noindex, not linked)
