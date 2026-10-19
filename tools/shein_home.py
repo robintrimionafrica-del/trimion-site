@@ -257,6 +257,10 @@ ATC_CSS = """<style id="tx-atc-css">
 /* Buy now in navy so it doesn't blend with Add to cart */
 .card .btn{background:#0b1f4d!important;color:#fff!important;border-color:#0b1f4d!important}
 body.trayon .txtop{bottom:calc(150px + env(safe-area-inset-bottom,0px))}
+/* expired flash-deal bar must stay hidden */
+.promo[hidden]{display:none!important}
+/* the trust chips above already say this */
+@media(max-width:899px){.perks{display:none!important}}
 /* chat bubble: remove the little white tail */
 .wag:after{display:none!important}
 /* Home tab shows the Trimion logo */
