@@ -278,6 +278,54 @@ var h=document.getElementById('bnh');if(h){var sv=h.querySelector('svg');if(sv){
 """
 s = s.replace('</head>', ATC_CSS + '</head>', 1)
 s = s.replace('</body>', ATC_JS + '</body>', 1)
+
+recs = sorted([x for x in priced if 15000 <= num(x['price']) <= 70000], key=lambda x: -num(x['price']))
+seen2, rec = set(), []
+for sid, _ in SECS[:6]:
+    for x in recs:
+        if x['sid'] == sid and x['k'] not in seen2:
+            rec.append(x); seen2.add(x['k']); break
+rec_html = ''.join(f'<div class="txrc"><a href="/p/m{x["k"]}"><img src="{x["img"]}" alt="" loading="lazy" width="200" height="200"></a><a class="txrn" href="/p/m{x["k"]}">{E(x["name"])}</a><div class="txrp"><b>{E(x["price"])}</b><button type="button" class="txra" data-id="m{x["k"]}" aria-label="Add {E(x["name"])} to cart">+</button></div></div>' for x in rec)
+CART_CSS = """<style id="tx-cart-css">
+.txcx{padding:0 12px calc(20px + env(safe-area-inset-bottom,0px));max-width:760px;margin:0 auto}
+.txtr{background:#fff;border-radius:14px;padding:14px 12px;margin-top:12px;box-shadow:0 1px 3px rgba(8,26,61,.08)}
+.txtr h4{margin:0 0 4px;font-size:1rem;color:#0b1f4d}.txtr p{margin:0 0 10px;font-size:.8rem;color:#5b6780}
+.txtg{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.txtg div{background:#f3f6fb;border-radius:10px;padding:10px 6px;text-align:center;font-size:.74rem;line-height:1.25;color:#0b1f4d;font-weight:600}
+.txtg i{display:block;font-style:normal;font-size:1.35rem;margin-bottom:4px}
+.txpay{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:12px;font-size:.76rem;color:#5b6780}
+.txpay span{border:1px solid #d9dfeb;border-radius:6px;padding:3px 7px;font-weight:700;color:#0b1f4d;background:#fff}
+.txrh{margin:18px 2px 8px;font-size:1.05rem;color:#0b1f4d}
+.txrg{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+@media(min-width:700px){.txrg{grid-template-columns:repeat(3,1fr)}}
+.txrc{background:#fff;border-radius:12px;padding:8px;min-width:0;box-shadow:0 1px 3px rgba(8,26,61,.08)}
+.txrc img{width:100%;height:auto;aspect-ratio:1/1;object-fit:contain;display:block}
+.txrn{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-size:.8rem;line-height:1.3;color:#14213d;text-decoration:none;margin-top:6px;min-height:2.6em}
+.txrp{display:flex;align-items:center;justify-content:space-between;margin-top:4px}
+.txrp b{color:#e2231a;font-size:1rem}
+.txra{width:34px;height:34px;border-radius:50%;border:0;background:#0a4dff;color:#fff;font:800 20px/1 Arial;cursor:pointer;box-shadow:0 0 10px rgba(10,77,255,.55)}
+.txra.zap{position:relative}
+.txra.in{background:#17a34a;box-shadow:0 0 8px rgba(23,163,74,.5)}
+.txra:focus-visible{outline:3px solid #ffd23f;outline-offset:2px}
+</style>
+"""
+CART_HTML = ('<div class="txcx" id="txcx"><div class="txtr"><h4>Order with confidence</h4><p>Every order is confirmed in writing on WhatsApp before you pay.</p>'
+ '<div class="txtg"><div><i>🧾</i>Invoice before you pay</div><div><i>🔒</i>Secure card link or EFT</div><div><i>🚚</i>R150 delivery anywhere in SA</div>'
+ '<div><i>🛡️</i>Warranty on every machine</div><div><i>🎓</i>Free online training</div><div><i>💬</i>WhatsApp support</div></div>'
+ '<div class="txpay">Pay with: <span>EFT</span><span>VISA</span><span>Mastercard</span><span>Lay-by</span></div></div>'
+ '<h4 class="txrh">Recommended for your salon</h4><div class="txrg">' + rec_html + '</div></div>')
+CART_JS = r"""<script>
+(function(){
+var C=document.getElementById('cart'),X=document.getElementById('txcx');if(!C||!X)return;C.appendChild(X);
+function ids(){return window.TA_CART?window.TA_CART.ids():[]}
+function paint(){var a=ids();[].forEach.call(X.querySelectorAll('.txra'),function(b){var on=a.indexOf(b.dataset.id)>-1;b.classList.toggle('in',on);b.textContent=on?'✓':'+'})}
+X.addEventListener('click',function(e){var b=e.target.closest('.txra');if(!b||!window.TA_CART)return;var a=ids(),i=a.indexOf(b.dataset.id);if(i>-1)a.splice(i,1);else a.push(b.dataset.id);window.TA_CART.set(a);paint()});
+new MutationObserver(paint).observe(C,{attributes:true,attributeFilter:['class']});paint();
+})();
+</script>
+"""
+s = s.replace('</head>', CART_CSS + '</head>', 1)
+s = s.replace('</body>', CART_HTML + CART_JS + '</body>', 1)
 s = s.replace('</head>', GIFT_CSS + '</head>', 1)
 s = s.replace('</body>', GIFT + GIFT_JS + '</body>', 1)
 

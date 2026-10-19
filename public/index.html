@@ -621,6 +621,28 @@ body.trayon .txtop{bottom:calc(150px + env(safe-area-inset-bottom,0px))}
 #bnh img.txlg{width:26px;height:26px;border-radius:50%;display:block;margin:0 auto;box-shadow:0 0 0 2px rgba(10,77,255,.25)}
 #bnh[aria-current] img.txlg{box-shadow:0 0 0 2px #0a4dff,0 0 8px rgba(10,77,255,.6)}
 </style>
+<style id="tx-cart-css">
+.txcx{padding:0 12px calc(20px + env(safe-area-inset-bottom,0px));max-width:760px;margin:0 auto}
+.txtr{background:#fff;border-radius:14px;padding:14px 12px;margin-top:12px;box-shadow:0 1px 3px rgba(8,26,61,.08)}
+.txtr h4{margin:0 0 4px;font-size:1rem;color:#0b1f4d}.txtr p{margin:0 0 10px;font-size:.8rem;color:#5b6780}
+.txtg{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.txtg div{background:#f3f6fb;border-radius:10px;padding:10px 6px;text-align:center;font-size:.74rem;line-height:1.25;color:#0b1f4d;font-weight:600}
+.txtg i{display:block;font-style:normal;font-size:1.35rem;margin-bottom:4px}
+.txpay{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:12px;font-size:.76rem;color:#5b6780}
+.txpay span{border:1px solid #d9dfeb;border-radius:6px;padding:3px 7px;font-weight:700;color:#0b1f4d;background:#fff}
+.txrh{margin:18px 2px 8px;font-size:1.05rem;color:#0b1f4d}
+.txrg{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+@media(min-width:700px){.txrg{grid-template-columns:repeat(3,1fr)}}
+.txrc{background:#fff;border-radius:12px;padding:8px;min-width:0;box-shadow:0 1px 3px rgba(8,26,61,.08)}
+.txrc img{width:100%;height:auto;aspect-ratio:1/1;object-fit:contain;display:block}
+.txrn{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-size:.8rem;line-height:1.3;color:#14213d;text-decoration:none;margin-top:6px;min-height:2.6em}
+.txrp{display:flex;align-items:center;justify-content:space-between;margin-top:4px}
+.txrp b{color:#e2231a;font-size:1rem}
+.txra{width:34px;height:34px;border-radius:50%;border:0;background:#0a4dff;color:#fff;font:800 20px/1 Arial;cursor:pointer;box-shadow:0 0 10px rgba(10,77,255,.55)}
+.txra.zap{position:relative}
+.txra.in{background:#17a34a;box-shadow:0 0 8px rgba(23,163,74,.5)}
+.txra:focus-visible{outline:3px solid #ffd23f;outline-offset:2px}
+</style>
 <style id="tx-gift-css">
 .txtop{position:fixed;right:max(14px,env(safe-area-inset-right,0px));bottom:calc(78px + env(safe-area-inset-bottom,0px));z-index:43;width:46px;height:46px;border-radius:50%;border:0;background:#0b1f4d;color:#fff;box-shadow:0 4px 14px rgba(8,26,61,.35);display:grid;place-items:center;cursor:pointer;opacity:0;transform:translateY(12px);pointer-events:none;transition:opacity .25s,transform .25s}
 .txtop.on{opacity:1;transform:none;pointer-events:auto}.txtop svg{width:22px;height:22px}
@@ -2439,6 +2461,15 @@ var CART='<svg viewBox="0 0 24 24"><circle cx="9" cy="20" r="1.4"/><circle cx="1
  b.addEventListener('click',function(e){e.stopPropagation();e.preventDefault();a.click();setTimeout(paint,30)});
  new MutationObserver(paint).observe(a,{attributes:true,attributeFilter:['aria-pressed']});paint();ph.appendChild(b)});
 var h=document.getElementById('bnh');if(h){var sv=h.querySelector('svg');if(sv){var im=document.createElement('img');im.src='/img/4880f983c6.png';im.alt='';im.className='txlg';im.width=26;im.height=26;sv.replaceWith(im)}}
+})();
+</script>
+<div class="txcx" id="txcx"><div class="txtr"><h4>Order with confidence</h4><p>Every order is confirmed in writing on WhatsApp before you pay.</p><div class="txtg"><div><i>🧾</i>Invoice before you pay</div><div><i>🔒</i>Secure card link or EFT</div><div><i>🚚</i>R150 delivery anywhere in SA</div><div><i>🛡️</i>Warranty on every machine</div><div><i>🎓</i>Free online training</div><div><i>💬</i>WhatsApp support</div></div><div class="txpay">Pay with: <span>EFT</span><span>VISA</span><span>Mastercard</span><span>Lay-by</span></div></div><h4 class="txrh">Recommended for your salon</h4><div class="txrg"><div class="txrc"><a href="/p/m10"><img src="/img/9fe8208336.webp" alt="" loading="lazy" width="200" height="200"></a><a class="txrn" href="/p/m10">4-Handle Electromagnetic Station with Seat Pad (Grey)</a><div class="txrp"><b>R65,400</b><button type="button" class="txra" data-id="m10" aria-label="Add 4-Handle Electromagnetic Station with Seat Pad (Grey) to cart">+</button></div></div><div class="txrc"><a href="/p/m38"><img src="/img/026dbd48df.webp" alt="" loading="lazy" width="200" height="200"></a><a class="txrn" href="/p/m38">4-Handle Cryo Body Contouring Station</a><div class="txrp"><b>R50,050</b><button type="button" class="txra" data-id="m38" aria-label="Add 4-Handle Cryo Body Contouring Station to cart">+</button></div></div><div class="txrc"><a href="/p/m44"><img src="/img/c6e678ad75.webp" alt="" loading="lazy" width="200" height="200"></a><a class="txrn" href="/p/m44">Vacuum, Roller &amp; RF Body and Face Platform</a><div class="txrp"><b>R65,400</b><button type="button" class="txra" data-id="m44" aria-label="Add Vacuum, Roller &amp; RF Body and Face Platform to cart">+</button></div></div><div class="txrc"><a href="/p/m131"><img src="/img/5a31655f10.webp" alt="" loading="lazy" width="200" height="200"></a><a class="txrn" href="/p/m131">7D HIFU Station</a><div class="txrp"><b>R44,800</b><button type="button" class="txra" data-id="m131" aria-label="Add 7D HIFU Station to cart">+</button></div></div><div class="txrc"><a href="/p/m61"><img src="/img/7e712ffbb7.webp" alt="" loading="lazy" width="200" height="200"></a><a class="txrn" href="/p/m61">10-in-1 Water Dermabrasion Facial Station with Serum Bottles</a><div class="txrp"><b>R52,650</b><button type="button" class="txra" data-id="m61" aria-label="Add 10-in-1 Water Dermabrasion Facial Station with Serum Bottles to cart">+</button></div></div><div class="txrc"><a href="/p/m53"><img src="/img/4c55ae7b8e.webp" alt="" loading="lazy" width="200" height="200"></a><a class="txrn" href="/p/m53">6-Handle Vacuum Roller Body &amp; Face Machine</a><div class="txrp"><b>R57,800</b><button type="button" class="txra" data-id="m53" aria-label="Add 6-Handle Vacuum Roller Body &amp; Face Machine to cart">+</button></div></div></div></div><script>
+(function(){
+var C=document.getElementById('cart'),X=document.getElementById('txcx');if(!C||!X)return;C.appendChild(X);
+function ids(){return window.TA_CART?window.TA_CART.ids():[]}
+function paint(){var a=ids();[].forEach.call(X.querySelectorAll('.txra'),function(b){var on=a.indexOf(b.dataset.id)>-1;b.classList.toggle('in',on);b.textContent=on?'✓':'+'})}
+X.addEventListener('click',function(e){var b=e.target.closest('.txra');if(!b||!window.TA_CART)return;var a=ids(),i=a.indexOf(b.dataset.id);if(i>-1)a.splice(i,1);else a.push(b.dataset.id);window.TA_CART.set(a);paint()});
+new MutationObserver(paint).observe(C,{attributes:true,attributeFilter:['class']});paint();
 })();
 </script>
 <button type="button" class="txtop" id="txtop" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
