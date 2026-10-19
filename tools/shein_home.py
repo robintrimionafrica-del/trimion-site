@@ -348,6 +348,120 @@ header.top .bar .bt{min-width:0;flex:1}
 </style>
 """
 s = s.replace('</head>', CALL_CSS + '</head>', 1)
+
+TILES = json.load(open(os.path.join(T, 'treatment_tiles.json')))
+TR = [
+ ('ems', 'Body sculpting', 'Firm, toned look', 'Electromagnetic muscle contractions that tone and firm abs, buttocks, arms and thighs while the client lies back.',
+  ['Abs and core toning', 'Butt lift look', 'Arm and thigh firming'], '30 min', '4–6 sessions'),
+ ('cryo', 'Fat freezing', 'Stubborn areas', 'Controlled cooling cups for the areas clients struggle with: tummy, love handles, thighs and chin.',
+  ['Tummy and love handles', 'Inner thighs', 'Double chin'], '40–60 min per area', '1–3 sessions'),
+ ('hifu', 'Skin tightening', 'Lifted, firmer skin', 'Focused ultrasound for a lifted, firmer look on the face, jawline, neck and body, with no downtime.',
+  ['Face and jawline lift', 'Neck firming', 'Body skin tightening'], '30–60 min', '1 session, top-up yearly'),
+ ('rf', 'Body contouring', 'Smooth & sculpt', 'Radio-frequency warmth, cavitation and vacuum to smooth and contour the body and refresh the face.',
+  ['Cellulite look', 'Body contouring', 'Face and eye RF'], '30–45 min', '6–10 sessions'),
+ ('face', 'Facials', 'Glow treatments', 'Hydra-style water dermabrasion, oxygen and bubble facials for deep-cleansed, hydrated, glowing skin.',
+  ['Deep cleansing', 'Hydration and glow', 'Pore refining'], '45–60 min', 'Monthly'),
+ ('massage', 'Massage & detox', 'Relax & drain', 'Vacuum roller, 360° roller and pressotherapy for relaxing body massage and lymph drainage.',
+  ['Lymph drainage', 'Roller massage', 'Leg and body relaxation'], '30–45 min', 'Weekly'),
+]
+cnt = {sid: sum(1 for x in P if x['sid'] == sid) for sid, *_ in TR}
+trm = {}
+for sid, *_ in TR:
+    c = sorted([x for x in P if x['sid'] == sid and num(x['price'])], key=lambda x: -num(x['price']))
+    pick = c[::max(1, len(c)//6)][:6] if c else []
+    trm[sid] = [dict(k=x['k'], n=x['name'], p=x['price'], i=x['img']) for x in pick]
+tiles_html = ''.join(f'<button type="button" class="trt" data-t="{i}"><img src="{TILES[sid]}" alt="" loading="lazy" decoding="async" width="600" height="750"><span class="trg"></span><span class="trl"><small>{E(sub)}</small><b>{E(name)}</b><i>{cnt[sid]} machines ›</i></span></button>' for i, (sid, name, sub, *_ ) in enumerate(TR))
+TRDATA = json.dumps([dict(sid=sid, name=name, sub=sub, d=d, b=b, t=t, n=n, img=TILES[sid], c=cnt[sid], m=trm[sid]) for sid, name, sub, d, b, t, n in TR], ensure_ascii=False).replace('</', '<\\/')
+TR_BLOCK = f'<section class="shs trs" aria-label="Shop by treatment"><div class="txh"><h2>✨ Shop by treatment</h2><span class="trhint">Tap to explore</span></div><div class="trgrid">{tiles_html}</div></section>'
+block_tr = TR_BLOCK
+assert '<section class="shs" aria-label="Trending now">' in s
+s = s.replace('<section class="shs" aria-label="Trending now">', block_tr + '\n<section class="shs" aria-label="Trending now">', 1)
+TR_CSS = """<style id="tx-tr-css">
+.trs{padding-bottom:10px}.trhint{font-size:.78rem;color:#6b7280}
+.trgrid{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:0 8px}
+@media(min-width:760px){.trgrid{grid-template-columns:repeat(3,1fr)}}
+.trt{position:relative;display:block;border:0;padding:0;border-radius:14px;overflow:hidden;cursor:pointer;aspect-ratio:4/5;background:#0b1f4d;text-align:left;box-shadow:0 2px 8px rgba(8,26,61,.18);transition:transform .25s}
+.trt.zap{position:relative!important}
+.trt img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .6s ease}
+.trt:active img,.trt:hover img{transform:scale(1.06)}
+.trg{position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,12,30,0) 45%,rgba(5,12,30,.88) 100%)}
+.trl{position:absolute;left:12px;right:12px;bottom:11px;color:#fff;display:flex;flex-direction:column;gap:1px}
+.trl small{font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:#ffd23f;font-weight:800}
+.trl b{font-size:1.12rem;line-height:1.15;font-weight:800}
+.trl i{font-style:normal;font-size:.74rem;opacity:.85;margin-top:2px}
+.trp{position:fixed;inset:0;z-index:61;background:rgba(5,12,30,.6);display:flex;align-items:flex-end;justify-content:center}
+.trp[hidden]{display:none}
+.trc{width:100%;max-width:560px;max-height:92vh;overflow-y:auto;background:#f4f6fa;border-radius:20px 20px 0 0;animation:trup .3s ease-out;padding-bottom:env(safe-area-inset-bottom,0px)}
+@keyframes trup{from{transform:translateY(100%)}to{transform:none}}
+@media (prefers-reduced-motion:reduce){.trc{animation:none}.trt img{transition:none}}
+.trhero{position:relative;height:230px;overflow:hidden}
+.trhero img{width:100%;height:100%;object-fit:cover}
+.trhero:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,12,30,.1),rgba(5,12,30,.85))}
+.trht{position:absolute;left:16px;right:60px;bottom:14px;color:#fff;z-index:1}
+.trht small{color:#ffd23f;font-weight:800;letter-spacing:.12em;font-size:.7rem;text-transform:uppercase}
+.trht h3{margin:2px 0 0!important;font-size:1.6rem!important;line-height:1.1;color:#fff!important;display:block!important;min-height:0!important;overflow:visible!important;-webkit-line-clamp:unset!important;font-weight:800!important}
+.trx{position:absolute;top:12px;right:12px;z-index:2;width:40px;height:40px;border-radius:50%;border:0;background:rgba(255,255,255,.9);color:#0b1f4d;font-size:22px;cursor:pointer}
+.trx.zap{position:absolute!important}
+.trtabs{display:flex;gap:6px;padding:12px 14px 0;overflow-x:auto;scrollbar-width:none}
+.trtabs button{flex:none;border:1px solid #d9dfeb;background:#fff;color:#0b1f4d;border-radius:18px;padding:7px 13px;font:700 .8rem system-ui,sans-serif;cursor:pointer}
+.trtabs button[aria-selected=true]{background:#0b1f4d;color:#fff;border-color:#0b1f4d}
+.trb{padding:12px 14px 16px;display:grid;grid-template-columns:minmax(0,1fr);gap:12px}.trb>*{min-width:0}.trc{overflow-x:hidden}.trtabs{max-width:100%}
+.trbox{background:#fff;border-radius:14px;padding:14px;box-shadow:0 1px 3px rgba(8,26,61,.08)}
+.trbox p{margin:0;color:#334155;line-height:1.5}
+.trbl{list-style:none;margin:10px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:6px}
+.trbl li{background:#eef4ff;color:#0b1f4d;border-radius:16px;padding:5px 11px;font-size:.8rem;font-weight:700}
+.trst{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.trst div{background:#fff;border-radius:12px;padding:10px 12px;box-shadow:0 1px 3px rgba(8,26,61,.08)}
+.trst small{display:block;font-size:.68rem;color:#6b7280;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
+.trst b{color:#0b1f4d;font-size:.95rem}
+.trmh{display:flex;justify-content:space-between;align-items:baseline}.trmh h4{margin:0;font-size:1rem;color:#0b1f4d}.trmh a{font-size:.8rem;color:#1d6fe0;font-weight:700;text-decoration:none}
+.trm{display:flex;gap:8px;overflow-x:auto;padding:8px 0 4px;scroll-snap-type:x proximity}
+.trmi{flex:0 0 44%;scroll-snap-align:start;background:#fff;border-radius:12px;padding:8px;box-shadow:0 1px 3px rgba(8,26,61,.08);position:relative;min-width:0}
+.trmi a{text-decoration:none;color:#14213d}
+.trmi img{width:100%;height:auto;aspect-ratio:1/1;object-fit:contain;display:block}
+.trmi span{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-size:.76rem;line-height:1.3;margin-top:4px;min-height:2.6em}
+.trmi b{display:block;color:#e2231a;font-size:.95rem;margin-top:2px}
+.trmi button{position:absolute;right:8px;top:8px;width:34px;height:34px;border-radius:50%;border:0;background:#0a4dff;color:#fff;font:800 20px/1 Arial;cursor:pointer;box-shadow:0 0 10px rgba(10,77,255,.55)}
+.trmi button.zap{position:absolute!important}
+.trmi button.in{background:#17a34a}
+.trcta{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.trcta a{display:block;text-align:center;border-radius:24px;padding:12px;font:800 .9rem system-ui,sans-serif;text-decoration:none}
+.trcta .w{background:#1fa855;color:#fff}.trcta .s{background:#0b1f4d;color:#fff}
+.trt:focus-visible,.trx:focus-visible,.trtabs button:focus-visible,.trmi button:focus-visible{outline:3px solid #ffd23f;outline-offset:2px}
+</style>
+"""
+TR_HTML = '<div class="trp" id="trp" hidden role="dialog" aria-modal="true" aria-labelledby="trh"><div class="trc" id="trc"></div></div>\n'
+TR_JS = r"""<script>
+(function(){
+var D=__TRDATA__,P=document.getElementById('trp'),C=document.getElementById('trc'),cur=0;
+function esc(t){return String(t).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+function ids(){return window.TA_CART?window.TA_CART.ids():[]}
+function wa(t){return 'https://wa.me/27611185978?text='+encodeURIComponent('Hi Trimion Africa, I want to offer '+t.name.toLowerCase()+' in my salon. Which machine do you recommend?\n\nhttps://trimionafrica.co.za/#'+t.sid)}
+function draw(i){cur=i;var t=D[i],inC=ids();
+ C.innerHTML='<div class="trhero"><img src="'+t.img+'" alt=""><button type="button" class="trx" id="trx" aria-label="Close">×</button><div class="trht"><small>'+esc(t.sub)+'</small><h3 id="trh">'+esc(t.name)+'</h3></div></div>'+
+ '<div class="trtabs" role="tablist">'+D.map(function(x,j){return '<button type="button" role="tab" data-j="'+j+'" aria-selected="'+(j===i)+'">'+esc(x.name)+'</button>'}).join('')+'</div>'+
+ '<div class="trb"><div class="trbox"><p>'+esc(t.d)+'</p><ul class="trbl">'+t.b.map(function(x){return '<li>'+esc(x)+'</li>'}).join('')+'</ul></div>'+
+ '<div class="trst"><div><small>Session</small><b>'+esc(t.t)+'</b></div><div><small>Course</small><b>'+esc(t.n)+'</b></div></div>'+
+ '<div class="trbox"><div class="trmh"><h4>Machines for '+esc(t.name.toLowerCase())+'</h4><a href="#'+t.sid+'" data-go="'+t.sid+'">All '+t.c+' ›</a></div><div class="trm">'+
+ t.m.map(function(m){var on=inC.indexOf('m'+m.k)>-1;return '<div class="trmi"><a href="/p/m'+m.k+'"><img src="'+m.i+'" alt="" loading="lazy" width="200" height="200"><span>'+esc(m.n)+'</span><b>'+esc(m.p)+'</b></a><button type="button" data-id="m'+m.k+'" class="'+(on?'in':'')+'" aria-label="Add '+esc(m.n)+' to cart">'+(on?'✓':'+')+'</button></div>'}).join('')+
+ '</div></div><div class="trcta"><a class="w" href="'+wa(t)+'" target="_blank" rel="noopener">Ask which one</a><a class="s" href="#earn" data-go="earn">Earnings calculator</a></div></div>';
+ var tb=C.querySelector('[aria-selected=true]');if(tb&&tb.scrollIntoView)tb.parentNode.scrollLeft=tb.offsetLeft-20;C.scrollTop=0}
+function open(i){draw(i);P.hidden=false;document.body.style.overflow='hidden';var x=document.getElementById('trx');if(x)x.focus()}
+function close(){P.hidden=true;document.body.style.overflow=''}
+document.addEventListener('click',function(e){var t=e.target.closest('.trt');if(t){open(+t.dataset.t);return}
+ if(!P.contains(e.target))return;
+ if(e.target===P||e.target.closest('#trx')){close();return}
+ var tab=e.target.closest('[data-j]');if(tab){draw(+tab.dataset.j);return}
+ var a=e.target.closest('.trmi button');if(a&&window.TA_CART){var L=ids(),k=L.indexOf(a.dataset.id);if(k>-1)L.splice(k,1);else L.push(a.dataset.id);window.TA_CART.set(L);var on=k<0;a.classList.toggle('in',on);a.textContent=on?'✓':'+';return}
+ var g=e.target.closest('[data-go]');if(g){e.preventDefault();close();var el=document.getElementById(g.dataset.go);if(el)el.scrollIntoView({behavior:'smooth'})}});
+addEventListener('keydown',function(e){if(e.key==='Escape'&&!P.hidden)close()});
+var sx=0;C.addEventListener('touchstart',function(e){sx=e.touches[0].clientX},{passive:true});
+C.addEventListener('touchend',function(e){var dx=e.changedTouches[0].clientX-sx;if(Math.abs(dx)>70&&!e.target.closest('.trm,.trtabs'))draw((cur+(dx<0?1:D.length-1))%D.length)},{passive:true});
+})();
+</script>
+""".replace('__TRDATA__', TRDATA)
+s = s.replace('</head>', TR_CSS + '</head>', 1)
+s = s.replace('</body>', TR_HTML + TR_JS + '</body>', 1)
 s = s.replace('</head>', GIFT_CSS + '</head>', 1)
 s = s.replace('</body>', GIFT + GIFT_JS + '</body>', 1)
 
