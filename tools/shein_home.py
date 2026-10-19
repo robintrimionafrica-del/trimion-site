@@ -195,7 +195,7 @@ var shown=false;
 function busy(){var w=document.getElementById('wag');if(w&&!w.hidden&&getComputedStyle(w).display!=='none'&&w.offsetParent!==null)return true;
  return [].some.call(document.querySelectorAll('[role=dialog]'),function(x){return x!==g&&!x.hidden&&getComputedStyle(x).display!=='none'&&x.offsetParent!==null})}
 function open(){if(shown)return;if(busy()){setTimeout(open,4000);return}shown=true;try{localStorage.setItem(K,Date.now())}catch(e){}g.hidden=false;document.getElementById('txgx').focus()}
-setTimeout(open,14000);
+setTimeout(open,5000);
 addEventListener('scroll',function f(){if(scrollY>document.body.scrollHeight*0.35){removeEventListener('scroll',f);open()}},{passive:true});
 })();
 </script>
@@ -238,6 +238,46 @@ sync();
 """
 s = s.replace('</head>', NAV_CSS + '</head>', 1)
 s = s.replace('</body>', NAV_HTML + NAV_JS + '</body>', 1)
+
+ATC_CSS = """<style id="tx-atc-css">
+/* Add to cart: bright, glowing, easy to spot */
+.card .atc{background:linear-gradient(135deg,#1d6fe0,#0a4dff)!important;color:#fff!important;border:0!important;box-shadow:0 0 0 2px rgba(80,160,255,.35),0 0 14px rgba(40,130,255,.55)!important;font-weight:800!important;padding:10px 4px!important;animation:txglow 2.4s ease-in-out infinite}
+.card .atc svg{stroke:#fff!important}
+.card .atc[aria-pressed=true]{background:linear-gradient(135deg,#17a34a,#0f8a3c)!important;box-shadow:0 0 0 2px rgba(60,200,120,.35),0 0 12px rgba(30,180,90,.5)!important;animation:none}
+@keyframes txglow{0%,100%{box-shadow:0 0 0 2px rgba(80,160,255,.35),0 0 10px rgba(40,130,255,.45)}50%{box-shadow:0 0 0 3px rgba(80,160,255,.55),0 0 22px rgba(40,130,255,.85)}}
+.txpc{position:absolute;right:8px;bottom:32px;z-index:3;width:44px;height:44px;border-radius:50%;border:0;background:#0a4dff;color:#fff;display:grid;place-items:center;cursor:pointer;box-shadow:0 0 0 3px rgba(255,255,255,.95),0 0 16px rgba(10,77,255,.75);animation:txglow2 2.4s ease-in-out infinite}
+.txpc.zap{position:absolute!important}
+.txpc svg{width:22px;height:22px;stroke:#fff;fill:none;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.txpc b{position:absolute;top:-4px;right:-4px;width:18px;height:18px;border-radius:50%;background:#ffd23f;color:#111;font:900 13px/18px Arial;text-align:center}
+.txpc.in{background:#17a34a;box-shadow:0 0 0 3px #fff,0 0 12px rgba(23,163,74,.7);animation:none}
+.txpc.in b{background:#fff;color:#17a34a}
+@keyframes txglow2{0%,100%{box-shadow:0 0 0 3px rgba(255,255,255,.95),0 0 8px rgba(10,77,255,.5)}50%{box-shadow:0 0 0 3px rgba(255,255,255,.95),0 0 22px rgba(10,77,255,.95)}}
+@media (prefers-reduced-motion:reduce){.card .atc,.txpc{animation:none}}
+.txpc:focus-visible{outline:3px solid #ffd23f;outline-offset:2px}
+/* Buy now in navy so it doesn't blend with Add to cart */
+.card .btn{background:#0b1f4d!important;color:#fff!important;border-color:#0b1f4d!important}
+body.trayon .txtop{bottom:calc(150px + env(safe-area-inset-bottom,0px))}
+/* chat bubble: remove the little white tail */
+.wag:after{display:none!important}
+/* Home tab shows the Trimion logo */
+#bnh img.txlg{width:26px;height:26px;border-radius:50%;display:block;margin:0 auto;box-shadow:0 0 0 2px rgba(10,77,255,.25)}
+#bnh[aria-current] img.txlg{box-shadow:0 0 0 2px #0a4dff,0 0 8px rgba(10,77,255,.6)}
+</style>
+"""
+ATC_JS = r"""<script>
+(function(){
+var CART='<svg viewBox="0 0 24 24"><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/><path d="M2.5 3.5h2.6l2.4 11.2h11.3l2-8H6.3"/></svg>';
+[].forEach.call(document.querySelectorAll('.card'),function(c){var ph=c.querySelector('.photo'),a=c.querySelector('.atc');if(!ph||!a||ph.querySelector('.txpc'))return;
+ var b=document.createElement('button');b.type='button';b.className='txpc';b.setAttribute('aria-label','Add '+(c.dataset.n||'machine')+' to cart');
+ function paint(){var on=a.getAttribute('aria-pressed')==='true';b.classList.toggle('in',on);b.innerHTML=CART+'<b>'+(on?'✓':'+')+'</b>';b.setAttribute('aria-pressed',on?'true':'false')}
+ b.addEventListener('click',function(e){e.stopPropagation();e.preventDefault();a.click();setTimeout(paint,30)});
+ new MutationObserver(paint).observe(a,{attributes:true,attributeFilter:['aria-pressed']});paint();ph.appendChild(b)});
+var h=document.getElementById('bnh');if(h){var sv=h.querySelector('svg');if(sv){var im=document.createElement('img');im.src='/img/4880f983c6.png';im.alt='';im.className='txlg';im.width=26;im.height=26;sv.replaceWith(im)}}
+})();
+</script>
+"""
+s = s.replace('</head>', ATC_CSS + '</head>', 1)
+s = s.replace('</body>', ATC_JS + '</body>', 1)
 s = s.replace('</head>', GIFT_CSS + '</head>', 1)
 s = s.replace('</body>', GIFT + GIFT_JS + '</body>', 1)
 
