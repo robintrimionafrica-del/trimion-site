@@ -26,4 +26,5 @@ python3 xml_feed.py                                   # same feed as XML at /goo
 python3 promo.py                                      # promo-code page at /promo (TRIMION10)
 python3 offers.py                                     # offers page at /offers (starter kit + R2,000 referral)
 python3 shop_preview.py                               # shop-style home page preview at /new/ (noindex, not linked)
+python3 finalize_meta.py                              # home page count = live catalog, Google wording
 echo "Done. Commit and push to main; Cloudflare deploys in about a minute."

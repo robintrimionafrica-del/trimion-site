@@ -63,7 +63,7 @@ def apply(s):
                             'HIFU, massage and facial machines. 1-year warranty, R150 nationwide delivery, free online training and lay-by.')
     store['hasMerchantReturnPolicy'] = {'@type': 'MerchantReturnPolicy', 'applicableCountry': 'ZA',
                                         'returnPolicyCategory': 'https://schema.org/MerchantReturnFiniteReturnWindow',
-                                        'merchantReturnDays': 7, 'returnMethod': 'https://schema.org/ReturnByMail',
+                                        'merchantReturnDays': 14, 'returnMethod': 'https://schema.org/ReturnByMail',
                                         'returnFees': 'https://schema.org/ReturnShippingFees'}
     ship = {'@type': 'OfferShippingDetails', 'shippingRate': {'@type': 'MonetaryAmount', 'value': '150', 'currency': 'ZAR'},
             'shippingDestination': {'@type': 'DefinedRegion', 'addressCountry': 'ZA'},
