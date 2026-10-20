@@ -15,7 +15,7 @@ SITE = "https://trimionafrica.co.za"
 D = json.load(open(os.path.join(HERE, "details.json")))
 
 os.makedirs(os.path.join(PUB, "fb"), exist_ok=True)
-IMGV = {"TACRYOM": "-w", "TACRYOP3": "-w"}   # new file names so Meta fetches the cleaned (white background) photos
+IMGV = {"TACRYOM": "-w", "TACRYOP3": "-w", "TAEM5G": "-s"}   # new file names so Meta fetches the cleaned (white background) photos
 rows = []
 for d in D:
     price = int(re.sub(r"[^\d]", "", d["price"]))
