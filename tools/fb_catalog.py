@@ -15,11 +15,12 @@ SITE = "https://trimionafrica.co.za"
 D = json.load(open(os.path.join(HERE, "details.json")))
 
 os.makedirs(os.path.join(PUB, "fb"), exist_ok=True)
+IMGV = {"TACRYOM": "-w", "TACRYOP3": "-w"}   # new file names so Meta fetches the cleaned (white background) photos
 rows = []
 for d in D:
     price = int(re.sub(r"[^\d]", "", d["price"]))
     model = d["model"]
-    jpg = f"fb/{model}.jpg"
+    jpg = f"fb/{model}{IMGV.get(model, '')}.jpg"
     im = Image.open(os.path.join(PUB, d["img"].lstrip("/"))).convert("RGB")
     if min(im.size) < 600:
         im = im.resize((600, 600), Image.LANCZOS)
@@ -93,8 +94,9 @@ for r in rows:
     m["description"] = safe(m["description"]).replace("Order on WhatsApp: 064 454 8506.", "Order on WhatsApp from Trimion Africa.")
     m["product_type"] = safe(m["product_type"])
     m_rows.append(m)
-with open(os.path.join(PUB, "catalog.csv"), "w", newline="", encoding="utf-8") as f:
-    w = csv.DictWriter(f, fieldnames=list(m_rows[0]))
-    w.writeheader()
-    w.writerows(m_rows)
+for name in ("catalog.csv", "facebook-catalog.csv"):   # the connected WhatsApp/Facebook catalog reads facebook-catalog.csv
+    with open(os.path.join(PUB, name), "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=list(m_rows[0]))
+        w.writeheader()
+        w.writerows(m_rows)
 print(f"meta catalog (catalog.csv): {len(m_rows)} products")
