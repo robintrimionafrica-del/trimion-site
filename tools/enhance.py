@@ -2,7 +2,7 @@
 import os
 from PIL import Image
 
-HERO = ['5d861a4924', '823bb61a5b', '2ede239145', '191a91eb64']
+HERO = ['hs2-ems', 'hs2-why', 'hs2-own', 'hs2-ask']
 SHARE_TXT = ('*Trimion Africa* | 162 professional salon & spa machines\n'
              'EMS, cryo, RF, HIFU, facial and massage machines\n'
              '1-year warranty · R150 delivery anywhere in SA · Free online training · Lay-by over 2 or 3 months\n'
@@ -26,9 +26,9 @@ def apply(s, out, rep):
         s = s.replace(f'/img/{h}.jpg', f'/img/{h}.webp')
     # preload the first slide (the biggest thing on screen), not a product card
     s = s.replace('<link rel="preload" as="image" href="/img/27d600c132.webp" fetchpriority="high">',
-                  '<link rel="preload" as="image" href="/img/5d861a4924.webp" fetchpriority="high" type="image/webp">')
-    s = s.replace('<img src="/img/5d861a4924.webp" alt="Brand model beside the EMS body sculpting machine" width="960" height="960" decoding="async" loading="eager">',
-                  '<img src="/img/5d861a4924.webp" alt="Brand model beside the EMS body sculpting machine" width="960" height="960" decoding="async" loading="eager" fetchpriority="high">')
+                  '<link rel="preload" as="image" href="/img/hs2-ems.webp" fetchpriority="high" type="image/webp">')
+    s = s.replace('<img src="/img/hs2-ems.webp" alt="4-handle EMS body sculpting machine, opening price" width="960" height="960" decoding="async" loading="eager">',
+                  '<img src="/img/hs2-ems.webp" alt="4-handle EMS body sculpting machine, opening price" width="960" height="960" decoding="async" loading="eager" fetchpriority="high">')
     # only the first product row loads straight away; the rest wait until scrolled to
     s = s.replace('loading="eager" fetchpriority="high"></div>', 'loading="eager"></div>')
     # skip layout work for sections far below the screen until they are needed
@@ -95,6 +95,6 @@ def apply(s, out, rep):
     open(f'{out}/sitemap.xml', 'w').write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         f'<url><loc>https://trimionafrica.co.za/</loc><lastmod>{_dt.date.today().isoformat()}</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>\n</urlset>\n')
     import shutil; shutil.copy('/home/claude/trimion-site/tools/sw.js', f'{out}/sw.js')
-    for must in ['class="lead"', 'v=21', '%3Fv%3D4', '?v=4"})', '5d861a4924.webp" fetchpriority']:
+    for must in ['class="lead"', 'v=21', '%3Fv%3D4', '?v=4"})', 'hs2-ems.webp" fetchpriority']:
         assert must in s, must
     return s
