@@ -72,3 +72,29 @@ with open(gout, "w", newline="", encoding="utf-8") as f:
     w.writeheader()
     w.writerows(g_rows)
 print(f"google merchant feed: {len(g_rows)} products")
+
+# Meta-review-friendly copy for the new Facebook page / WhatsApp catalog: https://trimionafrica.co.za/catalog.csv
+# Same products, photos, prices and links; wording kept to plain product descriptions (Meta's commerce review
+# tends to reject salon machines described with body-shaping or medical-sounding claims), and no phone number.
+SAFE = [(r"\bbody sculpting\b", "body care"), (r"\bsculpting\b", "salon"), (r"\bbody contouring\b", "body care"),
+        (r"\bcontouring\b", "care"), (r"\bcontour\b", "care"), (r"\bskin tightening\b", "skin care"),
+        (r"\bmuscle toning\b", "toning"), (r"\bmuscles?\b", "body"), (r"\bface lifting\b", "face care"),
+        (r"\blifting\b", "care"), (r"\blift\b", "care"), (r"\bshaping\b", "care"), (r"\bshapes\b", "treats"),
+        (r"\btherapy\b", "treatment")]
+def safe(s):
+    for pat, rep in SAFE:
+        s = re.sub(pat, lambda m: rep.title() if m.group(0)[0].isupper() and m.group(0)[1:2].islower() else rep, s, flags=re.I)
+    s = re.sub(r"\b(Care|care) (Care|care)\b", r"\1", s)
+    return s
+m_rows = []
+for r in rows:
+    m = dict(r)
+    m["title"] = safe(m["title"])[:150]
+    m["description"] = safe(m["description"]).replace("Order on WhatsApp: 064 454 8506.", "Order on WhatsApp from Trimion Africa.")
+    m["product_type"] = safe(m["product_type"])
+    m_rows.append(m)
+with open(os.path.join(PUB, "catalog.csv"), "w", newline="", encoding="utf-8") as f:
+    w = csv.DictWriter(f, fieldnames=list(m_rows[0]))
+    w.writeheader()
+    w.writerows(m_rows)
+print(f"meta catalog (catalog.csv): {len(m_rows)} products")
