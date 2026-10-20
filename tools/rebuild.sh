@@ -28,4 +28,5 @@ python3 offers.py                                     # offers page at /offers (
 python3 shop_preview.py                               # shop-style home page preview at /new/ (noindex, not linked)
 python3 finalize_meta.py                              # home page count = live catalog, Google wording
 python3 live_feed.py                                  # live feed on the home page: new machine video at 10, 12, 14, 16, 18, 19:30
+python3 meta_pixel.py                                 # Meta Pixel on every page (PageView, ViewContent, WhatsApp Lead)
 echo "Done. Commit and push to main; Cloudflare deploys in about a minute."
