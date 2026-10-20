@@ -5,7 +5,7 @@ import json, os, re, glob
 T = os.path.dirname(os.path.abspath(__file__)); PUB = os.path.join(T, '..', 'public')
 PID = '1969956100367800'
 P = {p['k']: p for p in json.load(open(os.path.join(T, 'products.json')))}
-SKIP = ('media/', 'new/', 'google')
+SKIP = ('media/', 'new/', 'google', 'gumtree/')
 BASE = ("<!-- Meta Pixel Code --><script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?"
         "n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';"
         "n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}"
