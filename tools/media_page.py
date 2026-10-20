@@ -37,7 +37,7 @@ start = [
 SP = [('Trimion_Offer_kit', 'Free Salon Starter Kit', 'Until 31 Dec 2026'), ('Trimion_Offer_ref', 'Refer & earn R2,000', 'Until 31 Dec 2026'),
       ('Trimion_Diwali_offer', 'Diwali Special', 'Until 15 Nov 2026'), ('Trimion_Diwali_dhan', 'Dhanteras · 6 Nov', 'Post before 6 Nov'),
       ('Trimion_Diwali_greet', 'Happy Diwali greeting', 'Post on 8 Nov')]
-specials = [card(f'/social/thumb/{f}.jpg', t, s + ' · 9:16 video with music', [btn(f'/social/{f}.mp4', 'Video ♪', 'v')]) for f, t, s in SP]
+specials = [card(f'/social/thumb/{f}.jpg', t, s + ' · video with music', [btn(f'/social/{f}.mp4', 'Video ♪', 'v')]) for f, t, s in SP]
 
 groups = {}
 for o in P:
