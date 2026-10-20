@@ -2059,6 +2059,43 @@ if(location.hash==='#account')open_();
 paint();
 })();
 </script>
+<script id="tx-flash2h">
+/* 2-hour flash sale: R2,000 off 5 machines, Tue 20 Oct 2026 12:00-14:00 SAST. Switches itself on and off. */
+(function(){
+var START=new Date('2026-10-20T12:00:00+02:00').getTime(),END=new Date('2026-10-20T14:00:00+02:00').getTime(),now=Date.now();
+if(now>=END)return;
+if(now<START){if(START-now<6*36e5)setTimeout(function(){location.reload()},START-now+1500);return}
+var OFF=2000,KS=['72','57','73','24','124'],WA='https://wa.me/27644548506?text=';
+function R(n){return 'R'+n.toLocaleString('en-ZA')}
+var css=document.createElement('style');css.textContent=
+'#fx2{position:relative;z-index:50;background:linear-gradient(90deg,#b4121e,#e0261b);color:#fff;font:700 14px/1.3 Arial,sans-serif;text-align:center;padding:9px 12px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.25)}'+
+'#fx2 b{color:#ffd23f}#fx2 .t{display:inline-block;background:#111;color:#ffd23f;border-radius:6px;padding:2px 8px;margin-left:6px;font-variant-numeric:tabular-nums}'+
+'#fx2l{display:none;background:#fff;border-bottom:3px solid #b4121e;position:relative;z-index:49;padding:6px 12px;box-shadow:0 4px 10px rgba(0,0,0,.15)}#fx2l.on{display:block}'+
+'#fx2l a{display:flex;justify-content:space-between;gap:10px;padding:8px 2px;border-bottom:1px solid #eee;color:#111;text-decoration:none;font:600 14px Arial,sans-serif}#fx2l a:last-child{border:0}#fx2l a span:last-child{color:#b4121e;white-space:nowrap}'+
+'.card.fx2{outline:3px solid #e0261b;outline-offset:-3px;position:relative}.card.fx2 .photo{position:relative}'+
+'.fx2tag{position:absolute;top:8px;left:8px;z-index:3;background:#e0261b;color:#fff;font:800 12px/1 Arial;padding:6px 8px;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,.25)}'+
+'.fx2was{color:#777;text-decoration:line-through;font-size:.85em;margin-top:4px}.card.fx2 .price{color:#e0261b!important}';
+document.head.appendChild(css);
+var list=[];
+KS.forEach(function(k){var c=document.querySelector('.card[data-k="'+k+'"]');if(!c)return;var p=c.querySelector('.price');if(!p)return;
+ var old=+p.textContent.replace(/[^\d]/g,'');if(!old)return;var nw=old-OFF,name=(c.querySelector('h3')||{}).textContent||'',model=((c.querySelector('.model')||{}).textContent||'').replace('Model ','');
+ c.classList.add('fx2');var w=document.createElement('div');w.className='fx2was';w.textContent='Was '+R(old);p.parentNode.insertBefore(w,p);p.textContent=R(nw);
+ var ph=c.querySelector('.photo');if(ph){var t=document.createElement('div');t.className='fx2tag';t.textContent='⚡ FLASH −R2,000';ph.appendChild(t)}
+ var b=c.querySelector('a.btn');if(b)b.href=WA+encodeURIComponent('Hi Trimion Africa, I want the ⚡ Flash deal (12:00–14:00 today): the '+name+' ('+model+') at '+R(nw)+' instead of '+R(old)+', plus R150 delivery. I will pay in full before 14:00. Please send my invoice.\n\nMachine: https://trimionafrica.co.za/p/m'+k+'\n\nFull catalog (167 machines): https://trimionafrica.co.za/');
+ list.push('<a href="#m'+k+'"><span>'+name+'</span><span>'+R(nw)+' <s style="color:#888;font-weight:400">'+R(old)+'</s></span></a>')});
+if(!list.length)return;
+var bar=document.createElement('div');bar.id='fx2';bar.setAttribute('role','button');bar.setAttribute('aria-expanded','false');
+bar.innerHTML='⚡ 2-HOUR FLASH SALE · <b>R2,000 OFF</b> 5 machines · pay in full before 14:00<span class="t" id="fx2t">--</span>';
+var pan=document.createElement('div');pan.id='fx2l';pan.innerHTML=list.join('');
+document.body.insertBefore(pan,document.body.firstChild);document.body.insertBefore(bar,pan);
+bar.addEventListener('click',function(){var on=pan.classList.toggle('on');bar.setAttribute('aria-expanded',on?'true':'false')});
+pan.addEventListener('click',function(e){if(e.target.closest('a'))pan.classList.remove('on')});
+function pad(n){return (n<10?'0':'')+n}
+function tick(){var d=END-Date.now();if(d<=0){location.reload();return}
+ document.getElementById('fx2t').textContent=Math.floor(d/36e5)+'h '+pad(Math.floor(d/6e4)%60)+'m '+pad(Math.floor(d/1e3)%60)+'s'}
+tick();setInterval(tick,1000);
+})();
+</script>
 <script>
 (function(){
 var CAT='https://trimionafrica.co.za/',WA='https://wa.me/27644548506?text=';
