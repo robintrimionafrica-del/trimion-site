@@ -112,6 +112,15 @@ h3{font-weight:500;font-size:.84rem;line-height:1.3;color:var(--ink);display:-we
 .optin .cta{margin:12px 0 4px}
 .optin .eml{display:inline-block;margin-top:12px;color:var(--blue);font-weight:700;font-size:.86rem;text-decoration:underline}
 .optin small{display:block;color:var(--muted);font-size:.72rem;line-height:1.5;margin-top:8px}
+.emf{margin:16px auto 0;max-width:420px;border-top:1px solid var(--line);padding-top:14px}
+.emf b{display:block;color:var(--navy);font-size:.88rem;margin-bottom:8px}
+.emr{display:flex;gap:6px}
+.emr input{flex:1;min-width:0;border:1px solid #cdd8e8;border-radius:22px;padding:11px 14px;font:16px system-ui,sans-serif;color:var(--navy);background:#fff}
+.emr input:focus{outline:none;border-color:var(--blue);box-shadow:0 0 0 2px #dbe7ff}
+.emr button{flex:none;border:0;border-radius:22px;padding:11px 16px;background:var(--navy);color:#fff;font:700 .88rem system-ui,sans-serif;cursor:pointer}
+.emr button:disabled{opacity:.6;cursor:default}
+.emh{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
+.emf small.ok{color:#137333;font-weight:700}.emf small.er{color:#b3261e;font-weight:700}
 .acts{display:flex;flex-direction:column;gap:0;margin:10px auto 6px;max-width:360px;background:#fff;border-radius:12px;overflow:hidden}
 .acts a{display:block;padding:13px 10px;color:var(--blue)!important;font-weight:700;text-decoration:none;font-size:.92rem}
 .acts a+a{border-top:1px solid var(--line)}
@@ -1899,7 +1908,7 @@ a.style.transition='opacity .25s';show();setInterval(function(){i=(i+1)%M.length
 <div class="dh">Delivery</div><ul class="specs"><li>Nationwide delivery R150, 9–12 business days</li><li>Order together with your machine to share one delivery</li></ul>
 </div></details></div></article></div></section>
 <p class="none" id="none">No machines match your search. Ask us on WhatsApp, we may still have it.</p>
-<div class="optin" id="deals"><h3>Subscribe on WhatsApp</h3><p>Get your cart, order updates, deals and new machines straight to your WhatsApp. One tap links this phone to your chat.</p><div class="subc" id="subc"></div><a class="cta" id="subb" href="https://wa.me/27644548506?text=YES%2C%20please%20send%20me%20Trimion%20Africa%20deals%20and%20new%20machines%20on%20WhatsApp." target="_blank" rel="noopener">Subscribe on WhatsApp</a><small>We only message people who subscribe. Reply STOP anytime and we remove you straight away. We never share your number.</small><a class="eml" href="https://trimion-africa-precision-updates.subscribepage.io" target="_blank" rel="noopener">Prefer email? Get updates by email</a></div>
+<div class="optin" id="deals"><h3>Subscribe on WhatsApp</h3><p>Get your cart, order updates, deals and new machines straight to your WhatsApp. One tap links this phone to your chat.</p><div class="subc" id="subc"></div><a class="cta" id="subb" href="https://wa.me/27644548506?text=YES%2C%20please%20send%20me%20Trimion%20Africa%20deals%20and%20new%20machines%20on%20WhatsApp." target="_blank" rel="noopener">Subscribe on WhatsApp</a><small>We only message people who subscribe. Reply STOP anytime and we remove you straight away. We never share your number.</small><form class="emf" id="emf" novalidate><b>Prefer email? Get our specials by email</b><div class="emr"><input type="email" id="eme" name="email" placeholder="Your email address" autocomplete="email" required aria-label="Your email address"><button type="submit" id="emb">Subscribe</button></div><input type="text" name="_honey" tabindex="-1" autocomplete="off" class="emh" aria-hidden="true"><small id="temsg">Specials and new machines only. Unsubscribe anytime by replying STOP.</small></form></div>
 <div class="lp" id="plan"><h2>Lay-by payment plans</h2><p>Secure your machine with a deposit and pay the rest over 2 or 3 months. No interest and no fees: you pay the normal price.</p>
 <label for="lsel">Machine</label><select id="lsel"></select>
 <div class="lm" role="group" aria-label="Months to pay"><button type="button" data-n="2" aria-pressed="true">2 months</button><button type="button" data-n="3" aria-pressed="false">3 months</button></div>
@@ -1958,7 +1967,7 @@ a.style.transition='opacity .25s';show();setInterval(function(){i=(i+1)%M.length
 <details><summary>Privacy and security (POPIA)</summary><div class="lgb">
 <p>Your details (name, phone, address) are saved only on your own phone. Nothing is sent to us until you press send in WhatsApp.</p>
 <p>We use the details you send us only to quote, invoice, deliver and support your machine, and to send WhatsApp updates if you subscribe. We share your name, phone and address only with the courier for delivery. We never sell or share your details for marketing.</p>
-<p>If you sign up for email updates, your email address is kept by our mailing service (MailerLite) only to send you those updates. Every email has an unsubscribe link.</p>
+<p>If you sign up for email specials, your email address is sent to Trimion Africa through our form service (FormSubmit) and used only to send you specials and new machines. Reply STOP to any email and we remove you.</p>
 <p>If you subscribe, reply STOP anytime and we remove you. You can ask us to see, correct or delete your details on WhatsApp or by email.</p>
 <p>Card payments go only through a secure payment link from a registered payment provider; we never see your card number. EFT payments go only to the banking details on your Trimion Africa invoice. If someone sends you different banking details, call us on 064 454 8506 before you pay.</p>
 <p>Information officer: Robin Louis Fritzgerald, info@trimionafrica.co.za. You can also complain to the Information Regulator (inforegulator.org.za).</p>
@@ -2668,6 +2677,22 @@ function busy(){var w=document.getElementById('wag');if(w&&!w.hidden&&getCompute
 function open(){if(shown)return;if(busy()){setTimeout(open,4000);return}shown=true;try{localStorage.setItem(K,Date.now())}catch(e){}g.hidden=false;document.getElementById('txgx').focus()}
 setTimeout(open,5000);
 addEventListener('scroll',function f(){if(scrollY>document.body.scrollHeight*0.35){removeEventListener('scroll',f);open()}},{passive:true});
+})();
+</script>
+<script>
+(function(){var f=document.getElementById('emf');if(!f)return;var e=document.getElementById('eme'),b=document.getElementById('emb'),m=document.getElementById('temsg');
+function say(t,c){m.textContent=t;m.className=c||''}
+f.addEventListener('submit',function(ev){ev.preventDefault();var v=(e.value||'').trim();
+ if(f._honey.value)return;
+ if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v)){say('Please enter a valid email address.','er');e.focus();return}
+ b.disabled=true;b.textContent='Sending...';
+ fetch('https://formsubmit.co/ajax/trimionafrica@yahoo.com',{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},
+  body:JSON.stringify({email:v,_subject:'New specials subscriber: '+v,_template:'table',_captcha:'false',
+   Source:'trimionafrica.co.za specials signup',
+   _autoresponse:'Thank you for subscribing to Trimion Africa Precision specials! You will be the first to hear about our deals, flash sales and new salon machines. See all machines at https://trimionafrica.co.za or chat to us on WhatsApp 064 454 8506. Reply STOP anytime to unsubscribe.'})})
+ .then(function(r){return r.json().catch(function(){return{}}).then(function(j){if(!r.ok||j.success==='false'||j.success===false)throw 0})})
+ .then(function(){say('Thank you! You are subscribed. Check your inbox for a welcome email.','ok');e.value='';b.textContent='Subscribed ✓'})
+ .catch(function(){b.disabled=false;b.textContent='Subscribe';say('Something went wrong. Please try again or WhatsApp us on 064 454 8506.','er')})});
 })();
 </script>
 </body>
