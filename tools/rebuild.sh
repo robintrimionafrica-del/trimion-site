@@ -16,7 +16,7 @@ for f in glob.glob('og-full/*.jpg'):
 PY
 rm -rf ../public/pdf && python3 brochure.py ../public/pdf   # one-page PDF brochures
 mkdir -p ../public/img && cp -n src/img/* ../public/img/ 2>/dev/null || true
-cp src/icon-*.png src/manifest.json ../public/
+cp src/icon-*.png src/manifest.json ../public/ && mkdir -p ../public/app && cp src/app/* ../public/app/
 python3 build.py                                      # index.html, /p/ pages, sw.js, _headers, robots, sitemap
 python3 visual_search.py                              # search by photo: /vs.js, /vs.json, camera button in the search bar
 python3 shein_home.py                                 # shop-style layer: category circles, deal tiles, trending row, badges
@@ -27,6 +27,7 @@ python3 promo.py                                      # promo-code page at /prom
 python3 offers.py                                     # offers page at /offers (starter kit + R2,000 referral)
 python3 subscribe.py                                  # email sign-up for specials at /subscribe + box on home and /offers
 python3 flash.py                                      # 3 flash deals a day (R2,000 off) at /flash + banner on home page
+python3 app_section.py                                # "Get the Trimion app" card above the footer (installs the site as an app)
 python3 shop_preview.py                               # shop-style home page preview at /new/ (noindex, not linked)
 python3 finalize_meta.py                              # home page count = live catalog, Google wording
 python3 live_feed.py                                  # live feed on the home page: new machine video at 10, 12, 14, 16, 18, 19:30

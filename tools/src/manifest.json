@@ -1,7 +1,7 @@
 {
  "id": "/",
- "name": "Trimion Africa Shop | Salon Equipment",
- "short_name": "Trimion Shop",
+ "name": "Trimion Africa Precision",
+ "short_name": "Trimion",
  "description": "Professional salon and spa equipment from Trimion Africa, Durban. Order on WhatsApp.",
  "start_url": "/?source=app",
  "scope": "/",
@@ -58,6 +58,29 @@
      "type": "image/png"
     }
    ]
+  }
+ ],
+ "screenshots": [
+  {
+   "src": "/app/shot1.webp",
+   "sizes": "1080x1920",
+   "type": "image/webp",
+   "form_factor": "narrow",
+   "label": "Shop 167 salon machines"
+  },
+  {
+   "src": "/app/shot2.webp",
+   "sizes": "1080x1920",
+   "type": "image/webp",
+   "form_factor": "narrow",
+   "label": "Daily flash deals: R2,000 off"
+  },
+  {
+   "src": "/app/shot3.webp",
+   "sizes": "1080x1920",
+   "type": "image/webp",
+   "form_factor": "narrow",
+   "label": "Get specials by email"
   }
  ]
 }
