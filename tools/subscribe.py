@@ -2,8 +2,8 @@
 """Email sign-up for specials.
 - /subscribe/ : a page you can share on WhatsApp ("subscribe to our specials").
 - A small sign-up box on the home page (above Questions and answers) and on /offers.
-Sign-ups are sent by FormSubmit (formsubmit.co) to the Trimion Gmail inbox. The very first sign-up
-makes FormSubmit email that inbox an "Activate form" link, which must be clicked once.
+Sign-ups are saved by worker/index.js (POST /api/subscribe) and listed on the private /subscribers page.
+Each sign-up is also emailed to the Trimion Gmail inbox via FormSubmit once that form is activated.
 Runs in rebuild.sh after offers.py and before meta_pixel.py."""
 import os, re
 
@@ -36,10 +36,11 @@ document.querySelectorAll('.tasub-f').forEach(function(f){
     if(!n){m.textContent='Please add your name.';m.className='tasub-m err';return}
     if(!/^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$/.test(em)){m.textContent='Please check your email address.';m.className='tasub-m err';return}
     b.disabled=true;b.textContent='Sending...';m.textContent='';m.className='tasub-m';
-    fetch(EP,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},
-      body:JSON.stringify({name:n,email:em,whatsapp:(d.get('whatsapp')||'').trim(),page:location.pathname,
-        _subject:'New specials subscriber: '+n,_template:'table',_captcha:'false'})})
-    .then(function(r){return r.json().catch(function(){return{}}).then(function(j){var a=/activat/i.test(j.message||'');if(!a&&(!r.ok||j.success==='false'||j.success===false))throw 0})})
+    var body={name:n,email:em,whatsapp:(d.get('whatsapp')||'').trim(),page:location.pathname};
+    fetch('/api/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)})
+    .then(function(r){return r.json().catch(function(){return{}}).then(function(j){if(!r.ok||!j.success)throw 0})})
+    .then(function(){try{fetch(EP,{method:'POST',keepalive:true,headers:{'Content-Type':'application/json','Accept':'application/json'},
+      body:JSON.stringify(Object.assign({_subject:'New specials subscriber: '+n,_template:'table',_captcha:'false'},body))}).catch(function(){})}catch(x){}})
     .then(function(){
       f.innerHTML='<p class="tasub-ok"><b>You are subscribed, '+n.replace(/[<>&"]/g,'')+'!</b><br>Watch your inbox for our next specials. Questions? WhatsApp us on <a href="https://wa.me/27644548506">064 454 8506</a>.</p>';
       try{if(window.fbq)fbq('track','CompleteRegistration',{content_name:'Specials email list'})}catch(x){}
