@@ -25,6 +25,7 @@ python3 fb_catalog.py                                 # Facebook/Instagram catal
 python3 xml_feed.py                                   # same feed as XML at /google-products.xml (WhatsApp sales assistant)
 python3 promo.py                                      # promo-code page at /promo (TRIMION10)
 python3 offers.py                                     # offers page at /offers (starter kit + R2,000 referral)
+python3 subscribe.py                                  # email sign-up for specials at /subscribe + box on home and /offers
 python3 shop_preview.py                               # shop-style home page preview at /new/ (noindex, not linked)
 python3 finalize_meta.py                              # home page count = live catalog, Google wording
 python3 live_feed.py                                  # live feed on the home page: new machine video at 10, 12, 14, 16, 18, 19:30

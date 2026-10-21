@@ -1912,7 +1912,63 @@ a.style.transition='opacity .25s';show();setInterval(function(){i=(i+1)%M.length
 <div class="cr"><div><label for="cw">Sessions per week</label><input id="cw" type="number" inputmode="numeric" min="0" value="10"></div><div><label for="cx">Costs per session (R)</label><input id="cx" type="number" inputmode="numeric" min="0" value="50"></div></div>
 <div class="res" id="cres" role="status"></div></div>
 <div class="trust" id="trust" role="region" aria-labelledby="trh"><h2 id="trh">Why salons buy from Trimion Africa</h2><div class="tg"><div><b>Registered South African company</b>Trimion Africa Precision (Pty) Ltd · CIPC 2026/806671/07 · 117 Stephen Dlamini Road, Durban</div><div><b>1-year warranty</b>On the machine, 6 months on handpieces, written on your invoice. Plus your Consumer Protection Act rights.</div><div><b>7-day cooling-off</b>Changed your mind? Cancel within 7 days of delivery under the ECT Act.</div><div><b>Pay safely</b>EFT to the details on your Trimion invoice or a secure card link. We never ask for card numbers on WhatsApp.</div><div><b>Trained to use it</b>Free online operational training with every machine. In-person training available.</div><div><b>Real people on WhatsApp</b>064 454 8506 · robin.trimionafrica@gmail.com · replies within 2 business days for complaints</div></div><div class="rv"><b>Bought a machine from us?</b><span>Your review helps other salon owners choose with confidence.</span><a href="https://wa.me/27644548506?text=Hi%20Trimion%20Africa%2C%20I%20would%20like%20to%20leave%20a%20review%20for%20my%20machine.%0A%0AMachine%3A%0AMy%20review%3A%0ACan%20you%20show%20my%20salon%20name%3F%20Yes%20/%20No%0A%0AFull%20catalog%20%28167%20machines%29%3A%20https%3A//trimionafrica.co.za/" target="_blank" rel="noopener">Leave a review on WhatsApp</a></div></div>
-<div class="faq" id="faq"><h2>Questions and answers</h2>
+<!--ta-subscribe--><style>
+.tasub{--tsbg:#ffffff;--tsfg:#0d1830;--tsmu:#55627d;--tsln:#d9dfeb;--tsin:#f6f8fc;--tsac:#128c4a;
+  max-width:560px;margin:28px 16px;padding:20px;border:1px solid var(--tsln);border-radius:16px;background:var(--tsbg);color:var(--tsfg);font-family:inherit}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .tasub{--tsbg:#121c33;--tsfg:#e8edf7;--tsmu:#9aa7c2;--tsln:#26324d;--tsin:#0a1122;--tsac:#2fbf6e}}
+:root[data-theme="dark"] .tasub{--tsbg:#121c33;--tsfg:#e8edf7;--tsmu:#9aa7c2;--tsln:#26324d;--tsin:#0a1122;--tsac:#2fbf6e}
+@media (min-width:592px){.tasub{margin:28px auto}}
+.tasub h2{margin:0 0 4px;font-size:1.2rem;line-height:1.3}
+.tasub>p{margin:0 0 14px;color:var(--tsmu)}
+.tasub-l{display:block;font-size:14px;font-weight:600;margin:0 0 10px}
+.tasub-l span{font-weight:400;color:var(--tsmu)}
+.tasub-l input{display:block;width:100%;box-sizing:border-box;margin-top:4px;padding:12px;font:inherit;font-size:16px;color:var(--tsfg);
+  background:var(--tsin);border:1px solid var(--tsln);border-radius:10px}
+.tasub-l input:focus{outline:2px solid var(--tsac);outline-offset:1px}
+.tasub-b{display:block;width:100%;margin-top:4px;padding:14px;border:0;border-radius:12px;background:var(--tsac);color:#fff;font:inherit;font-weight:700;font-size:16px;cursor:pointer}
+.tasub-b:disabled{opacity:.7}
+.tasub-m{min-height:1em;margin:8px 0 0;font-size:14px}
+.tasub-m.err{color:#c0392b}
+.tasub-s{margin:6px 0 0;font-size:12px;color:var(--tsmu)}
+.tasub-ok{margin:0;font-size:15px}
+.tasub a{color:var(--tsac)}
+.tasub-hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
+</style><section class="tasub" id="subscribe" aria-labelledby="tasubh">
+<h2 id="tasubh">Get our specials by email</h2>
+<p>Be first to hear about new machines, flash deals and lay-by specials.</p>
+<form class="tasub-f" novalidate>
+  <input type="text" name="_honey" class="tasub-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+  <label class="tasub-l">Your name<input name="name" type="text" autocomplete="name" required></label>
+  <label class="tasub-l">Email address<input name="email" type="email" inputmode="email" autocomplete="email" required></label>
+  <label class="tasub-l">WhatsApp number <span>(optional)</span><input name="whatsapp" type="tel" inputmode="tel" autocomplete="tel"></label>
+  <button type="submit" class="tasub-b">Subscribe to specials</button>
+  <p class="tasub-m" role="status" aria-live="polite"></p>
+  <p class="tasub-s">About 2 emails a month: new machines, flash deals and lay-by specials. Unsubscribe any time by replying STOP.</p>
+</form>
+</section><script>(function(){
+var EP='https://formsubmit.co/ajax/trimionafrica@yahoo.com';
+document.querySelectorAll('.tasub-f').forEach(function(f){
+  if(f.dataset.on)return;f.dataset.on=1;
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    var m=f.querySelector('.tasub-m'),b=f.querySelector('.tasub-b'),d=new FormData(f);
+    var n=(d.get('name')||'').trim(),em=(d.get('email')||'').trim();
+    if(d.get('_honey'))return;
+    if(!n){m.textContent='Please add your name.';m.className='tasub-m err';return}
+    if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(em)){m.textContent='Please check your email address.';m.className='tasub-m err';return}
+    b.disabled=true;b.textContent='Sending...';m.textContent='';m.className='tasub-m';
+    fetch(EP,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},
+      body:JSON.stringify({name:n,email:em,whatsapp:(d.get('whatsapp')||'').trim(),page:location.pathname,
+        _subject:'New specials subscriber: '+n,_template:'table',_captcha:'false'})})
+    .then(function(r){return r.json().catch(function(){return{}}).then(function(j){if(!r.ok||j.success==='false'||j.success===false)throw 0})})
+    .then(function(){
+      f.innerHTML='<p class="tasub-ok"><b>You are subscribed, '+n.replace(/[<>&"]/g,'')+'!</b><br>Watch your inbox for our next specials. Questions? WhatsApp us on <a href="https://wa.me/27644548506">064 454 8506</a>.</p>';
+      try{if(window.fbq)fbq('track','CompleteRegistration',{content_name:'Specials email list'})}catch(x){}
+    })
+    .catch(function(){b.disabled=false;b.textContent='Subscribe to specials';
+      m.innerHTML='Could not send right now. Please try again, or WhatsApp us on <a href="https://wa.me/27644548506">064 454 8506</a>.';m.className='tasub-m err'});
+  });
+});})();</script><!--ta-subscribe--><div class="faq" id="faq"><h2>Questions and answers</h2>
 <details><summary>Can I pay off a machine?</summary><p>Yes. On machines from R10,000 you can use our lay-by plan: pay a deposit, then the balance over 2 or 3 months with no interest or fees. We order your machine once it is paid in full and deliver it within 9 to 12 business days. See Lay-by plans above, or ask us on WhatsApp.</p></details><details><summary>What warranty do I get?</summary><p>Every machine comes with a <b>1-year warranty on the machine itself</b> and <b>6 months on the handpieces and handles</b>, confirmed on your invoice. Some models carry longer cover, shown on that machine's page. If anything goes wrong, send us a WhatsApp with a short video and we help you straight away (many issues are settings). This is on top of your rights under the Consumer Protection Act.</p></details><details><summary>How does delivery work?</summary><p>We deliver anywhere in South Africa for R150, usually within 9 to 12 business days. You get tracking details on WhatsApp once your machine is dispatched.</p></details>
 <details><summary>Is training included?</summary><p>Yes. Free online operational training is included with every machine, so you and your staff learn to set up and run it safely. If you prefer hands-on training, in-person training is available at an extra cost, and you can choose a male or female trainer. Ask us on WhatsApp for a quote.</p></details>
 <details><summary>What is the certification?</summary><p>Certification is an optional add-on at R1,500. Ask us on WhatsApp to add it to your order.</p></details>
