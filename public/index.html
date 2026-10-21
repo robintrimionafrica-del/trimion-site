@@ -433,6 +433,20 @@ nav #acb,nav #cartb{display:none!important}
 .cmt p{color:var(--muted);font-size:.88rem;margin:8px 0 14px}
 .dtl{font-size:.8rem;color:var(--muted);line-height:1.5}
 .dtl a,.dtl button{color:var(--blue);font-weight:700;background:none;border:0;padding:0;font:inherit;font-weight:700;text-decoration:underline;cursor:pointer}
+/* machine of the moment (rotates every 3 hours) */
+.spot{margin:14px 0 4px;background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:0 4px 16px rgba(8,26,61,.06)}
+.spot .sph{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:10px 14px;background:var(--navy);color:#fff;font:800 .82rem system-ui,sans-serif;letter-spacing:.02em}
+.spot .sph span{font-weight:600;font-size:.76rem;opacity:.9;white-space:nowrap}
+.spot .spb{display:flex;gap:12px;padding:12px 14px;align-items:center}
+.spot .spb img{flex:none;width:112px;height:112px;object-fit:contain;background:#fff;border-radius:10px;border:1px solid var(--line)}
+.spot .spi{min-width:0;flex:1}
+.spot h3{font-size:.95rem;line-height:1.3;color:var(--ink);margin:0 0 3px}
+.spot .spm{font-size:.76rem;color:var(--muted)}
+.spot .spp{font-size:1.15rem;font-weight:800;color:var(--navy);margin:4px 0 0}
+.spot .spa{display:flex;gap:8px;padding:0 14px 14px}
+.spot .spa a,.spot .spa button{flex:1;text-align:center;text-decoration:none;border-radius:22px;padding:10px 8px;font:700 .86rem system-ui,sans-serif;cursor:pointer}
+.spot .spw{background:#25d366;color:#fff;border:0}
+.spot .spd{background:#eef3fa;color:var(--navy);border:1px solid #dbe5f2}
 /* subscribe */
 .subc{display:none;margin:12px auto 0;max-width:340px;background:#eef4ff;border:1px solid #9dbaff;border-radius:12px;padding:10px 12px;font-size:.8rem;color:var(--navy);line-height:1.45}
 .subc.on{display:block}
@@ -793,6 +807,7 @@ a.style.transition='opacity .25s';show();setInterval(function(){i=(i+1)%M.length
 <section class="shs" aria-label="Shop by category"><div class="shcg"><a class="shc" href="#ems"><span><img src="/img/c021091d6e.webp" alt="" loading="lazy" decoding="async" width="110" height="110"></span>EMS &amp; electromagnetic</a><a class="shc" href="#cryo"><span><img src="/img/e4305724de.webp" alt="" loading="lazy" decoding="async" width="110" height="110"></span>Cryo contouring</a><a class="shc" href="#rf"><span><img src="/img/c6e678ad75.webp" alt="" loading="lazy" decoding="async" width="110" height="110"></span>RF &amp; cavitation</a><a class="shc" href="#hifu"><span><img src="/img/5a31655f10.webp" alt="" loading="lazy" decoding="async" width="110" height="110"></span>HIFU tightening</a><a class="shc" href="#face"><span><img src="/img/8821169da8.webp" alt="" loading="lazy" decoding="async" width="110" height="110"></span>Facial &amp; skin</a><a class="shc" href="#massage"><span><img src="/img/4c55ae7b8e.webp" alt="" loading="lazy" decoding="async" width="110" height="110"></span>Body massage</a><a class="shc" href="#salon"><span><img src="/img/0ab1ea3d96.webp" alt="" loading="lazy" decoding="async" width="110" height="110"></span>Wellness &amp; salon</a><a class="shc" href="#supplies"><span><img src="/img/0f76ee1185.webp" alt="" loading="lazy" decoding="async" width="110" height="110"></span>Consumables</a><a class="shc" href="/offers/"><span class="shi">🎁</span>Offers</a><a class="shc" href="#plan"><span class="shi">💳</span>Lay-by plans</a><a class="shc" href="#earn"><span class="shi">📈</span>Earnings calculator</a><a class="shc" href="/guide/"><span class="shi">📘</span>Buyer's guide</a></div></section>
 <div class="shts"><div class="sht"><a class="shth" href="#plan"><span>Under R25k</span><i>›</i></a><p>Start earning sooner</p><div class="shtg"><a href="/p/m136"><img src="/img/e0d03c9a0c.webp" alt="3-in-1 Far Infrared, EMS and Pressotherapy System" loading="lazy" width="200" height="200"><b>R24,250</b><small>Lay-by</small></a><a href="/p/m57"><img src="/img/d290b76d69.webp" alt="3-in-1 Pressotherapy System" loading="lazy" width="200" height="200"><b>R23,150</b><small>Lay-by</small></a></div></div><div class="sht"><a class="shth" href="/p/m167"><span><em>New</em> in</span><i>›</i></a><p>Just added</p><div class="shtg"><a href="/p/m167"><img src="/img/e9050e0a5b.webp" alt="5-Handle Roller, Vacuum and RF Body Shaping Station" loading="lazy" width="200" height="200"><b>R102,200</b><small>New</small></a><a href="/p/m166"><img src="/img/393c493865.webp" alt="4-Handle HI-EMT Body Sculpting Machine with RF and Seat Applicator" loading="lazy" width="200" height="200"><b>R88,200</b><small>New</small></a></div></div></div>
 <a class="shcode" href="/promo/"><b>🎁 10% OFF</b><span>Any machine, with code</span><em id="shcp">TRIMION10</em></a>
+<section class="spot" id="spot" aria-label="Machine of the moment" hidden></section>
 <section class="shs trs" aria-label="Shop by treatment"><div class="txh"><h2>✨ Shop by treatment</h2><span class="trhint">Tap to explore</span></div><div class="trgrid"><button type="button" class="trt" data-t="0"><img src="/img/6b1f9f45ea.webp" alt="" loading="lazy" decoding="async" width="600" height="750"><span class="trg"></span><span class="trp0">From R20,300</span><span class="trl"><small>Firm, toned look</small><b>Body sculpting</b><i>61 machines</i></span><span class="trgo" aria-hidden="true">›</span></button><button type="button" class="trt" data-t="1"><img src="/img/d623e5c3ed.webp" alt="" loading="lazy" decoding="async" width="600" height="750"><span class="trg"></span><span class="trp0">From R27,800</span><span class="trl"><small>Stubborn areas</small><b>Fat freezing</b><i>11 machines</i></span><span class="trgo" aria-hidden="true">›</span></button><button type="button" class="trt" data-t="2"><img src="/img/3ab8cb0eab.webp" alt="" loading="lazy" decoding="async" width="600" height="750"><span class="trg"></span><span class="trp0">From R21,600</span><span class="trl"><small>Lifted, firmer skin</small><b>Skin tightening</b><i>11 machines</i></span><span class="trgo" aria-hidden="true">›</span></button><button type="button" class="trt" data-t="3"><img src="/img/81f9ec4f7d.webp" alt="" loading="lazy" decoding="async" width="600" height="750"><span class="trg"></span><span class="trp0">From R6,550</span><span class="trl"><small>Smooth &amp; sculpt</small><b>Body contouring</b><i>32 machines</i></span><span class="trgo" aria-hidden="true">›</span></button><button type="button" class="trt" data-t="4"><img src="/img/90d3ddcc95.webp" alt="" loading="lazy" decoding="async" width="600" height="750"><span class="trg"></span><span class="trp0">From R8,250</span><span class="trl"><small>Glow treatments</small><b>Facials</b><i>25 machines</i></span><span class="trgo" aria-hidden="true">›</span></button><button type="button" class="trt" data-t="5"><img src="/img/3313ea1b96.webp" alt="" loading="lazy" decoding="async" width="600" height="750"><span class="trg"></span><span class="trp0">From R15,050</span><span class="trl"><small>Relax &amp; unwind</small><b>Massage &amp; relax</b><i>17 machines</i></span><span class="trgo" aria-hidden="true">›</span></button></div></section>
 <section class="shs" id="livefeed" aria-label="Live feed" hidden><div class="txh"><h2><span class="dot"></span>Live feed</h2><a href="/media/">All videos ›</a></div><p id="lvnext"></p><div class="lvr"></div></section><script src="/live.js" defer></script><section class="shs" aria-label="Trending now"><div class="txh"><h2>🔥 Trending now</h2><a href="#ems">See all ›</a></div><div class="txrw"><a class="txr" href="/p/m2"><span><img src="/img/27d600c132.webp" alt="" loading="lazy" decoding="async" width="200" height="200"><em>#1</em></span><b>4-Handle 4300W EMS Body Sculpting Machine</b><i>R211,400</i></a><a class="txr" href="/p/m35"><span><img src="/img/05caaf5334.webp" alt="" loading="lazy" decoding="async" width="200" height="200"><em>#2</em></span><b>2-Handle 360° Cryo Body Contouring Machine</b><i>R116,300</i></a><a class="txr" href="/p/m167"><span><img src="/img/e9050e0a5b.webp" alt="" loading="lazy" decoding="async" width="200" height="200"><em>#3</em></span><b>5-Handle Roller, Vacuum and RF Body Shaping Station</b><i>R102,200</i></a><a class="txr" href="/p/m124"><span><img src="/img/a01f3b67e6.webp" alt="" loading="lazy" decoding="async" width="200" height="200"><em>#4</em></span><b>HIFU Face and Body Machine with Trolley</b><i>R38,150</i></a><a class="txr" href="/p/m61"><span><img src="/img/7e712ffbb7.webp" alt="" loading="lazy" decoding="async" width="200" height="200"><em>#5</em></span><b>10-in-1 Water Dermabrasion Facial Station with Serum Bottles</b><i>R52,650</i></a><a class="txr" href="/p/m54"><span><img src="/img/dd47a914af.webp" alt="" loading="lazy" decoding="async" width="200" height="200"><em>#6</em></span><b>5-Handle Vacuum Roller Body Machine</b><i>R53,950</i></a><a class="txr" href="/p/m1"><span><img src="/img/c021091d6e.webp" alt="" loading="lazy" decoding="async" width="200" height="200"><em>#7</em></span><b>5-Handle 2500W EMS Body Sculpting Machine</b><i>R231,750</i></a><a class="txr" href="/p/m7"><span><img src="/img/d8e2220a2a.webp" alt="" loading="lazy" decoding="async" width="200" height="200"><em>#8</em></span><b>Cryo + Electromagnetic Body Sculpting Station</b><i>R189,150</i></a><a class="txr" href="/p/m42"><span><img src="/img/0c5a8ee2ad.webp" alt="" loading="lazy" decoding="async" width="200" height="200"><em>#9</em></span><b>448kHz Deep RF Body &amp; Face Machine</b><i>R165,600</i></a><a class="txr" href="/p/m34"><span><img src="/img/e4305724de.webp" alt="" loading="lazy" decoding="async" width="200" height="200"><em>#10</em></span><b>4-Handle 360° Cryo Body Contouring Station</b><i>R157,200</i></a></div></section>
 </div>
@@ -2066,6 +2081,32 @@ document.getElementById('pcl').addEventListener('click',function(){try{localStor
 document.getElementById('csw').addEventListener('click',function(e){e.preventDefault();send('Hi Trimion Africa, I need help from customer service.')});
 if(location.hash==='#account')open_();
 paint();
+})();
+</script>
+<script id="tx-spot3h">
+/* Machine of the moment: a different machine every 3 hours (SA time), normal price. Runs by itself. */
+(function(){
+var box=document.getElementById('spot');if(!box)return;
+var cards=[].slice.call(document.querySelectorAll('article.card[data-k]')).filter(function(c){return c.querySelector('.price')&&c.querySelector('.photo img')&&c.querySelector('a.btn')});
+if(!cards.length)return;
+var N=cards.length,STEP=3*36e5,OFF=2*36e5; /* slots start at 00:00, 03:00, 06:00 ... SAST */
+function gcd(a,b){return b?gcd(b,a%b):a}
+var J=37;while(gcd(J,N)!==1)J++;
+function slot(){return Math.floor((Date.now()+OFF)/STEP)}
+function left(){var t=STEP-((Date.now()+OFF)%STEP),h=Math.floor(t/36e5),m=Math.floor(t%36e5/6e4);return (h?h+'h ':'')+m+'m'}
+var cur=-1;
+function esc(t){var d=document.createElement('div');d.textContent=t;return d.innerHTML}
+function paint(){
+ var sl=slot();
+ if(sl!==cur){cur=sl;var c=cards[(sl*J)%N],img=c.querySelector('.photo img'),h=c.querySelector('h3'),md=c.querySelector('.model'),pr=c.querySelector('.price'),bt=c.querySelector('a.btn');
+  box.innerHTML='<div class="sph">⭐ Machine of the moment<span id="spl"></span></div>'+
+  '<div class="spb"><img src="'+img.getAttribute('src')+'" alt="'+esc(img.alt||'')+'" width="112" height="112" decoding="async"><div class="spi"><h3>'+esc(h?h.textContent:'')+'</h3><div class="spm">'+esc(md?md.textContent:'')+' · R150 delivery · free training</div><div class="spp">'+esc(pr.textContent)+'</div></div></div>'+
+  '<div class="spa"><button type="button" class="spd" id="spgo">View details</button><a class="spw" href="'+bt.getAttribute('href')+'" target="_blank" rel="noopener">Buy on WhatsApp</a></div>';
+  document.getElementById('spgo').onclick=function(){c.scrollIntoView({behavior:'smooth',block:'center'});var d=c.querySelector('details');if(d)d.open=true};
+  box.hidden=false}
+ var l=document.getElementById('spl');if(l)l.textContent='Next in '+left();
+}
+paint();setInterval(paint,30000);
 })();
 </script>
 <script id="tx-flash2h">
