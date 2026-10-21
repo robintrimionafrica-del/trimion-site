@@ -2687,7 +2687,7 @@ f.addEventListener('submit',function(ev){ev.preventDefault();var v=(e.value||'')
  if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v)){say('Please enter a valid email address.','er');e.focus();return}
  b.disabled=true;b.textContent='Sending...';
  fetch('https://formsubmit.co/ajax/trimionafrica@yahoo.com',{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},
-  body:JSON.stringify({email:v,_subject:'New specials subscriber: '+v,_template:'table',_captcha:'false',
+  body:JSON.stringify({email:v,_subject:'New specials subscriber: '+v,_template:'table',_captcha:'false',_cc:'robin.trimionafrica@gmail.com',
    Source:'trimionafrica.co.za specials signup',
    _autoresponse:'Thank you for subscribing to Trimion Africa Precision specials! You will be the first to hear about our deals, flash sales and new salon machines. See all machines at https://trimionafrica.co.za or chat to us on WhatsApp 064 454 8506. Reply STOP anytime to unsubscribe.'})})
  .then(function(r){return r.json().catch(function(){return{}}).then(function(j){if(!r.ok||j.success==='false'||j.success===false)throw 0})})
