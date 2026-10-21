@@ -170,7 +170,7 @@ def page(c, d, s):
                 'Photos show the actual machine model; colour and small details can differ.', P(7, MUTED), M, 84, W - 2 * M)
         c.setFillColor(NAVY); c.rect(0, 0, W, 44, stroke=0, fill=1)
         para(c, '<font color="#ffffff"><b>Trimion Africa Precision (Pty) Ltd</b></font>  ·  Reg. no. 2026/806671/07  ·  117 Stephen Dlamini Road, Durban, KwaZulu-Natal<br/>'
-                'WhatsApp or call <font color="#ffffff">064 454 8506</font>  ·  <font color="#ffffff">info@trimionafrica.co.za</font>  ·  <font color="#ffffff">trimionafrica.co.za</font>',
+                'WhatsApp or call <font color="#ffffff">064 454 8506</font>  ·  <font color="#ffffff">robin.trimionafrica@gmail.com</font>  ·  <font color="#ffffff">trimionafrica.co.za</font>',
              P(7.4, HexColor('#cfe3f7')), M, 34, W - 2 * M)
         c.linkURL('https://wa.me/27644548506', (0, 0, W / 2, 44), relative=0)
         c.linkURL(SITE, (W / 2, 0, W, 44), relative=0)
