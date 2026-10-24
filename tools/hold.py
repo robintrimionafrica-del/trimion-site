@@ -30,8 +30,12 @@ def data():
         json.dump(L, open(path, "w", encoding="utf-8"), indent=1)
     print(f"hold: {len(HELD)} machines set to on request in product data")
 
-def enq(name, model):
-    t = f"Hi Trimion Africa, I'd like information about the {name} ({model}). Is it available?"
+def enq(name, model, k):
+    # same layout as the priced cards: the machine link gives WhatsApp its preview picture, plus the PDF brochure
+    n = len(P)
+    t = (f"Hi Trimion Africa, I'd like information and a quote for the {name} ({model}). Is it available?\n\n"
+         f"Machine: https://trimionafrica.co.za/p/m{k}\nBrochure (PDF): https://trimionafrica.co.za/pdf/{model}.pdf\n\n"
+         f"Full catalog ({n} machines): https://trimionafrica.co.za/")
     return f'<a class="btn" href="{WA}{quote(t, safe="")}" target="_blank" rel="noopener">Ask on WhatsApp</a>'
 
 def home(s):
@@ -40,7 +44,7 @@ def home(s):
         if k not in HELD: return m.group(0)
         p = HELD[k]
         b = re.sub(r'<div class="price">R[\d,]+</div>(\s*<a class="lb" href="[^"]*"[^>]*>.*?</a>)?', f'<div class="price por">{ONREQ}</div>', b, count=1, flags=re.S)
-        b = re.sub(r'<a class="btn" href="https://wa\.me/[^"]*"[^>]*>[^<]*</a>', lambda _: enq(p["name"], p["model"]), b, count=1)
+        b = re.sub(r'<a class="btn" href="https://wa\.me/[^"]*"[^>]*>[^<]*</a>', lambda _: enq(p["name"], p["model"], k), b, count=1)
         b = re.sub(r'<[^>]*class="[^"]*(?:was|save|disc|off|deal)[^"]*"[^>]*>[^<]*</[a-z]+>', '', b)   # strike-through / discount badges
         return m.group(0)[:m.start(2) - m.start(0)] + b + "</article>"
     return re.sub(r'<article class="card[^"]*" data-k="(\d+)"[^>]*>(.*?)</article>', card, s, flags=re.S)

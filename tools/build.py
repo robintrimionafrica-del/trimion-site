@@ -202,7 +202,8 @@ for d in P:
     img = f'{SITE}/og/{cid}.jpg?v=3'
     url = f'{SITE}/p/{cid}'
     price = _num(d['price'])
-    wa = 'https://wa.me/27644548506?text=' + _q('Hi Trimion Africa, I would like to order the ' + d['name'] + ' (' + d['model'] + ').' + chr(10) + chr(10) + url)
+    _ask = ('I would like information and a quote for the ' if por else 'I would like to order the ')
+    wa = 'https://wa.me/27644548506?text=' + _q('Hi Trimion Africa, ' + _ask + d['name'] + ' (' + d['model'] + ').' + chr(10) + chr(10) + 'Machine: ' + url + chr(10) + 'Brochure (PDF): https://trimionafrica.co.za/pdf/' + d['model'] + '.pdf')
     paras = ''.join(f'<p>{E(t)}</p>' for t in dt.get('desc', []))
     specs = ''.join(f'<li>{E(t)}</li>' for t in dt.get('specs', []))
     kit = price >= 50000
