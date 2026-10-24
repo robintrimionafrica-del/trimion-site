@@ -13,7 +13,7 @@ E = lambda t: html.escape(t, quote=True)
 def num(p):
     m = re.search(r'R([\d,]+)', p or ''); return int(m.group(1).replace(',', '')) if m else 0
 
-SECS = [('ems', 'EMS & electromagnetic'), ('cryo', 'Cryo contouring'), ('rf', 'RF & cavitation'), ('hifu', 'HIFU tightening'),
+SECS = [('ems', 'EMS & electromagnetic'), ('cryo', 'Cryo'), ('rf', 'RF & cavitation'), ('hifu', 'HIFU'),
         ('face', 'Facial & skin'), ('massage', 'Body massage'), ('salon', 'Wellness & salon'), ('supplies', 'Consumables')]
 ICON = {'ems': 'c021091d6e', 'cryo': 'e4305724de', 'face': '8821169da8', 'hifu': '5a31655f10', 'rf': 'c6e678ad75'}
 icons = {}
@@ -351,18 +351,18 @@ s = s.replace('</head>', CALL_CSS + '</head>', 1)
 
 TILES = json.load(open(os.path.join(T, 'treatment_tiles.json')))
 TR = [
- ('ems', 'Body sculpting', 'Firm, toned look', 'Electromagnetic muscle contractions that tone and firm abs, buttocks, arms and thighs while the client lies back.',
-  ['Abs and core toning', 'Butt lift look', 'Arm and thigh firming'], '30 min', '4–6 sessions'),
- ('cryo', 'Fat freezing', 'Stubborn areas', 'Controlled cooling cups for the areas clients struggle with: tummy, love handles, thighs and chin.',
-  ['Tummy and love handles', 'Inner thighs', 'Double chin'], '40–60 min per area', '1–3 sessions'),
- ('hifu', 'Skin tightening', 'Lifted, firmer skin', 'Focused ultrasound for a lifted, firmer look on the face, jawline, neck and body, with no downtime.',
-  ['Face and jawline lift', 'Neck firming', 'Body skin tightening'], '30–60 min', '1 session, top-up yearly'),
- ('rf', 'Body contouring', 'Smooth & sculpt', 'Radio-frequency warmth, cavitation and vacuum to smooth and contour the body and refresh the face.',
-  ['Cellulite look', 'Body contouring', 'Face and eye RF'], '30–45 min', '6–10 sessions'),
- ('face', 'Facials', 'Glow treatments', 'Hydra-style water dermabrasion, oxygen and bubble facials for deep-cleansed, hydrated, glowing skin.',
+ ('ems', 'Body toning', 'Relaxing body sessions', 'Electromagnetic stimulation sessions for the abs, buttocks, arms and thighs while the client lies back.',
+  ['Abs and core', 'Glutes', 'Arms and thighs'], '30 min', '4–6 sessions'),
+ ('cryo', 'Cryo body care', 'Cooling treatments', 'Controlled cooling cups for body care sessions on the tummy, sides, thighs and chin area.',
+  ['Tummy and sides', 'Thighs', 'Chin area'], '40–60 min per area', '1–3 sessions'),
+ ('hifu', 'HIFU skin care', 'Refreshed-looking skin', 'Focused ultrasound sessions for the face, jawline, neck and body, with no downtime.',
+  ['Face and jawline', 'Neck', 'Body'], '30–60 min', '1 session, top-up yearly'),
+ ('rf', 'Body smoothing', 'Smooth & relax', 'Radio-frequency warmth, cavitation and vacuum for smooth-looking skin on the body and a refreshed face.',
+  ['Smooth-looking skin', 'Body RF', 'Face and eye RF'], '30–45 min', '6–10 sessions'),
+ ('face', 'Facials', 'Glow treatments', 'Water dermabrasion, oxygen and bubble facials for deep-cleansed, hydrated, glowing skin.',
   ['Deep cleansing', 'Hydration and glow', 'Pore refining'], '45–60 min', 'Monthly'),
- ('massage', 'Massage & relax', 'Relax & unwind', 'Vacuum roller, 360° roller and pressotherapy for relaxing body massage and lymph drainage.',
-  ['Lymph drainage', 'Roller massage', 'Leg and body relaxation'], '30–45 min', 'Weekly'),
+ ('massage', 'Massage & relax', 'Relax & unwind', 'Vacuum roller, 360° roller and pressotherapy for relaxing body massage.',
+  ['Pressotherapy massage', 'Roller massage', 'Leg and body relaxation'], '30–45 min', 'Weekly'),
 ]
 cnt = {sid: sum(1 for x in P if x['sid'] == sid) for sid, *_ in TR}
 trm = {}

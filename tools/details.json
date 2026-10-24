@@ -1,12 +1,12 @@
 [
  {
   "k": 1,
-  "name": "5-Handle 2500W EMS Body Sculpting Machine",
+  "name": "5-Handle 2500W EMS Body Care Machine",
   "model": "TAEMS2500",
   "cat": "EMS and electromagnetic",
   "price": "R231,750",
   "desc": [
-   "Professional 5-handle 2500W EMS body sculpting machine with a 14-inch foldable touchscreen, for salons and spas.",
+   "Professional 5-handle 2500W EMS body care machine with a 14-inch foldable touchscreen, for salons and spas.",
    "Large double-coil handles cover more of the body per session, so you can book more clients a day."
   ],
   "specs": [
@@ -36,12 +36,12 @@
  },
  {
   "k": 2,
-  "name": "4-Handle 4300W EMS Body Sculpting Machine",
+  "name": "4-Handle 4300W EMS Body Care Machine",
   "model": "TAEMS4300",
   "cat": "EMS and electromagnetic",
   "price": "R211,400",
   "desc": [
-   "Professional 4-Handle 4300W EMS Body Sculpting Machine for salons and spas.",
+   "Professional 4-Handle 4300W EMS Body Care Machine for salons and spas.",
    "Grow your body treatment menu with a dependable electromagnetic unit built for busy salons."
   ],
   "specs": [
@@ -71,13 +71,13 @@
  },
  {
   "k": 3,
-  "name": "4-Handle EMS Body Sculpting Machine",
+  "name": "4-Handle EMS Body Care Machine",
   "model": "TAEMS4",
   "cat": "EMS and electromagnetic",
   "price": "R82,800",
   "desc": [
-   "Professional 4-Handle EMS Body Sculpting Machine for salons and spas.",
-   "A strong, reliable sculpting unit for salons and spas ready to offer more body sessions."
+   "Professional 4-Handle EMS Body Care Machine for salons and spas.",
+   "A strong, reliable body care unit for salons and spas ready to offer more body sessions."
   ],
   "specs": [
    "Handles: 4 (2 body, 2 arm)",
@@ -104,12 +104,12 @@
  },
  {
   "k": 4,
-  "name": "5000W 2-Handle EMS Body Sculpting Machine",
+  "name": "5000W 2-Handle EMS Body Care Machine",
   "model": "TAEMS5000",
   "cat": "EMS and electromagnetic",
   "price": "R46,250",
   "desc": [
-   "Professional 5000W 2-Handle EMS Body Sculpting Machine for salons and spas.",
+   "Professional 5000W 2-Handle EMS Body Care Machine for salons and spas.",
    "Built for daily salon use, this machine gives your clients a premium body session experience."
   ],
   "specs": [
@@ -137,12 +137,12 @@
  },
  {
   "k": 5,
-  "name": "2-Handle EMS Body Sculpting Machine",
+  "name": "2-Handle EMS Body Care Machine",
   "model": "TAEMS2",
   "cat": "EMS and electromagnetic",
   "price": "R44,550",
   "desc": [
-   "Professional 2-Handle EMS Body Sculpting Machine for salons and spas.",
+   "Professional 2-Handle EMS Body Care Machine for salons and spas.",
    "Grow your body treatment menu with a dependable electromagnetic unit built for busy salons."
   ],
   "specs": [
@@ -175,7 +175,7 @@
   "price": "R22,450",
   "desc": [
    "Professional 10-Channel EMS Body System for salons and spas.",
-   "A strong, reliable sculpting unit for salons and spas ready to offer more body sessions."
+   "A strong, reliable body care unit for salons and spas ready to offer more body sessions."
   ],
   "specs": [
    "Outputs: 10, each with its own intensity dial",
@@ -198,7 +198,7 @@
  },
  {
   "k": 7,
-  "name": "Cryo + Electromagnetic Body Sculpting Station",
+  "name": "Cryo + Electromagnetic Body Care Station",
   "model": "TACRYOEM",
   "cat": "EMS and electromagnetic",
   "price": "R189,150",
@@ -228,7 +228,7 @@
  },
  {
   "k": 8,
-  "name": "4-Applicator Electromagnetic Body Sculpting Machine",
+  "name": "4-Applicator Electromagnetic Body Care Machine",
   "model": "TAEM4",
   "cat": "EMS and electromagnetic",
   "price": "R42,450",
@@ -258,13 +258,13 @@
  },
  {
   "k": 9,
-  "name": "4-Handle Electromagnetic Body Sculpting Station (Grey)",
+  "name": "4-Handle Electromagnetic Body Care Station (Grey)",
   "model": "TAEM4G",
   "cat": "EMS and electromagnetic",
   "price": "R59,100",
   "desc": [
    "Floor-standing electromagnetic unit with four handles and a tablet-style touchscreen.",
-   "A strong, reliable sculpting unit for salons and spas ready to offer more body sessions."
+   "A strong, reliable body care unit for salons and spas ready to offer more body sessions."
   ],
   "specs": [
    "4 handles",
@@ -314,7 +314,7 @@
  },
  {
   "k": 11,
-  "name": "4-Handle Electromagnetic Body Sculpting Station (Black)",
+  "name": "4-Handle Electromagnetic Body Care Station (Black)",
   "model": "TAEM4B",
   "cat": "EMS and electromagnetic",
   "price": "R59,100",
@@ -348,7 +348,7 @@
   "price": "R65,400",
   "desc": [
    "Floor-standing electromagnetic unit with four handles plus a seated pad applicator.",
-   "A strong, reliable sculpting unit for salons and spas ready to offer more body sessions."
+   "A strong, reliable body care unit for salons and spas ready to offer more body sessions."
   ],
   "specs": [
    "4 handles plus seated pad applicator",
@@ -426,13 +426,13 @@
  },
  {
   "k": 15,
-  "name": "4-Handle Electromagnetic Body Sculpting Machine (White)",
+  "name": "4-Handle Electromagnetic Body Care Machine (White)",
   "model": "TAEM4W",
   "cat": "EMS and electromagnetic",
   "price": "R59,100",
   "desc": [
    "Floor-standing electromagnetic unit with four handles and a touchscreen.",
-   "A strong, reliable sculpting unit for salons and spas ready to offer more body sessions."
+   "A strong, reliable body care unit for salons and spas ready to offer more body sessions."
   ],
   "specs": [
    "4 handles",
@@ -454,7 +454,7 @@
  },
  {
   "k": 16,
-  "name": "2-Handle Electromagnetic Body Sculpting Machine (White)",
+  "name": "2-Handle Electromagnetic Body Care Machine (White)",
   "model": "TAEM2W",
   "cat": "EMS and electromagnetic",
   "price": "R38,150",
@@ -482,7 +482,7 @@
  },
  {
   "k": 17,
-  "name": "4-Handle Vertical Electromagnetic Sculpting Station",
+  "name": "4-Handle Vertical Electromagnetic Body Station",
   "model": "TAEM4V",
   "cat": "EMS and electromagnetic",
   "price": "R85,500",
@@ -513,13 +513,13 @@
  },
  {
   "k": 18,
-  "name": "2-Handle Vertical Electromagnetic Sculpting Station",
+  "name": "2-Handle Vertical Electromagnetic Body Station",
   "model": "TAEM2V",
   "cat": "EMS and electromagnetic",
   "price": "R40,850",
   "desc": [
    "Tall floor-standing electromagnetic station with two handles, a 10.1-inch touchscreen and air cooling.",
-   "A strong, reliable sculpting unit for salons and spas ready to offer more body sessions."
+   "A strong, reliable body care unit for salons and spas ready to offer more body sessions."
   ],
   "specs": [
    "2 handles, available with or without RF heads",
@@ -544,7 +544,7 @@
  },
  {
   "k": 19,
-  "name": "4-Handle Tower Electromagnetic Sculpting Station",
+  "name": "4-Handle Tower Electromagnetic Body Station",
   "model": "TAEM4T",
   "cat": "EMS and electromagnetic",
   "price": "R61,600",
@@ -575,7 +575,7 @@
  },
  {
   "k": 20,
-  "name": "4-Handle Slim Electromagnetic Sculpting Station",
+  "name": "4-Handle Slim Electromagnetic Body Station",
   "model": "TAEMK",
   "cat": "EMS and electromagnetic",
   "price": "R56,500",
@@ -606,13 +606,13 @@
  },
  {
   "k": 21,
-  "name": "4-Handle Desktop Electromagnetic Sculpting Machine",
+  "name": "4-Handle Desktop Electromagnetic Body Machine",
   "model": "TAEM4D",
   "cat": "EMS and electromagnetic",
   "price": "R53,950",
   "desc": [
    "Desktop electromagnetic unit with four handles and an 8-inch touchscreen.",
-   "A strong, reliable sculpting unit for salons and spas ready to offer more body sessions."
+   "A strong, reliable body care unit for salons and spas ready to offer more body sessions."
   ],
   "specs": [
    "4 handles, available with or without RF heads",
@@ -637,7 +637,7 @@
  },
  {
   "k": 22,
-  "name": "2-Handle Desktop Electromagnetic Sculpting Machine",
+  "name": "2-Handle Desktop Electromagnetic Body Machine",
   "model": "TAEM2D",
   "cat": "EMS and electromagnetic",
   "price": "R36,850",
@@ -668,7 +668,7 @@
  },
  {
   "k": 23,
-  "name": "4-Handle Large-Screen Electromagnetic Sculpting Machine",
+  "name": "4-Handle Large-Screen Electromagnetic Body Machine",
   "model": "TAEM4P",
   "cat": "EMS and electromagnetic",
   "price": "R64,150",
@@ -699,13 +699,13 @@
  },
  {
   "k": 24,
-  "name": "2-Handle Low-Profile Electromagnetic Sculpting Machine",
+  "name": "2-Handle Low-Profile Electromagnetic Body Machine",
   "model": "TAEM2L",
   "cat": "EMS and electromagnetic",
   "price": "R30,550",
   "desc": [
    "Low-profile tabletop electromagnetic unit with two handles and a 7-inch touchscreen.",
-   "A strong, reliable sculpting unit for salons and spas ready to offer more body sessions."
+   "A strong, reliable body care unit for salons and spas ready to offer more body sessions."
   ],
   "specs": [
    "2 handles, available with or without RF heads",
@@ -730,7 +730,7 @@
  },
  {
   "k": 25,
-  "name": "4-Handle Cabinet Electromagnetic Sculpting Station",
+  "name": "4-Handle Cabinet Electromagnetic Body Station",
   "model": "TAEMB",
   "cat": "EMS and electromagnetic",
   "price": "R65,400",
@@ -761,7 +761,7 @@
  },
  {
   "k": 26,
-  "name": "Electromagnetic Sculpting Station with 18.5-inch Screen",
+  "name": "Electromagnetic Body Station with 18.5-inch Screen",
   "model": "TAEMX",
   "cat": "EMS and electromagnetic",
   "price": "R65,400",
@@ -798,7 +798,7 @@
   "price": "R42,150",
   "desc": [
    "Floor-standing electromagnetic station with two handles, water cooling and a 10.1-inch touchscreen.",
-   "A strong, reliable sculpting unit for salons and spas ready to offer more body sessions."
+   "A strong, reliable body care unit for salons and spas ready to offer more body sessions."
   ],
   "specs": [
    "2 handles",
@@ -885,7 +885,7 @@
  },
  {
   "k": 30,
-  "name": "6-Handle Electromagnetic Body Sculpting Station (White)",
+  "name": "6-Handle Electromagnetic Body Care Station (White)",
   "model": "TAEM6W",
   "cat": "EMS and electromagnetic",
   "price": "R75,300",
@@ -916,7 +916,7 @@
   "k": 31,
   "name": "5-Handle Hot, Cold & EMS Machine",
   "model": "TACRYO5",
-  "cat": "Cryo body contouring",
+  "cat": "Cryo body care",
   "price": "R103,050",
   "desc": [
    "Professional 5-Handle Hot, Cold & EMS Machine for salons and spas.",
@@ -945,12 +945,12 @@
  },
  {
   "k": 32,
-  "name": "Cryo Body Contouring Station",
+  "name": "Cryo Body Care Station",
   "model": "TACRYO15",
-  "cat": "Cryo body contouring",
+  "cat": "Cryo body care",
   "price": "R38,900",
   "desc": [
-   "Professional cryo Body Contouring Station for salons and spas.",
+   "Professional cryo Body Care Station for salons and spas.",
    "A professional cryo unit for spas and salons expanding their body treatment menu."
   ],
   "specs": [
@@ -979,12 +979,12 @@
  },
  {
   "k": 33,
-  "name": "3-Handle Cryo Body Contouring Machine",
+  "name": "3-Handle Cryo Body Care Machine",
   "model": "TACRYO3",
-  "cat": "Cryo body contouring",
+  "cat": "Cryo body care",
   "price": "R38,200",
   "desc": [
-   "Professional 3-Handle Cryo Body Contouring Machine for salons and spas.",
+   "Professional 3-Handle Cryo Body Care Machine for salons and spas.",
    "Offer cooling body sessions in your salon with a solid, easy-to-run cryo unit."
   ],
   "specs": [
@@ -1013,9 +1013,9 @@
  },
  {
   "k": 34,
-  "name": "4-Handle 360\u00b0 Cryo Body Contouring Station",
+  "name": "4-Handle 360\u00b0 Cryo Body Care Station",
   "model": "TACRYO360-4",
-  "cat": "Cryo body contouring",
+  "cat": "Cryo body care",
   "price": "R157,200",
   "desc": [
    "Floor-standing cryo station with four handles that can run at the same time.",
@@ -1044,9 +1044,9 @@
  },
  {
   "k": 35,
-  "name": "2-Handle 360\u00b0 Cryo Body Contouring Machine",
+  "name": "2-Handle 360\u00b0 Cryo Body Care Machine",
   "model": "TACRYO360-2",
-  "cat": "Cryo body contouring",
+  "cat": "Cryo body care",
   "price": "R116,300",
   "desc": [
    "Portable tabletop cryo unit with two handles that run together or separately.",
@@ -1079,7 +1079,7 @@
   "k": 36,
   "name": "Cryo + Electromagnetic Combination Station",
   "model": "TAEMCRYO",
-  "cat": "Cryo body contouring",
+  "cat": "Cryo body care",
   "price": "R77,700",
   "desc": [
    "Floor-standing station combining cryo handles with electromagnetic handles, with a 10.4-inch touchscreen.",
@@ -1108,9 +1108,9 @@
  },
  {
   "k": 37,
-  "name": "2-Handle Cryo Body Contouring Station",
+  "name": "2-Handle Cryo Body Care Station",
   "model": "TACRYO503",
-  "cat": "Cryo body contouring",
+  "cat": "Cryo body care",
   "price": "R36,850",
   "desc": [
    "Floor-standing cryo station with two handles, vacuum and heat functions, and a touchscreen.",
@@ -1139,9 +1139,9 @@
  },
  {
   "k": 38,
-  "name": "4-Handle Cryo Body Contouring Station",
+  "name": "4-Handle Cryo Body Care Station",
   "model": "TACRYO601",
-  "cat": "Cryo body contouring",
+  "cat": "Cryo body care",
   "price": "R50,050",
   "desc": [
    "Floor-standing 600W cryo station with four handles, including a small-area 360\u00b0 handle.",
@@ -1170,9 +1170,9 @@
  },
  {
   "k": 39,
-  "name": "2-Handle Tall Cryo Body Contouring Station",
+  "name": "2-Handle Tall Cryo Body Care Station",
   "model": "TACRYO2T",
-  "cat": "Cryo body contouring",
+  "cat": "Cryo body care",
   "price": "R39,500",
   "desc": [
    "Tall floor-standing 600W cryo station with two handles and a 10.4-inch touchscreen.",
@@ -1201,9 +1201,9 @@
  },
  {
   "k": 40,
-  "name": "Portable Cryo Body Contouring Machine",
+  "name": "Portable Cryo Body Care Machine",
   "model": "TACRYOP",
-  "cat": "Cryo body contouring",
+  "cat": "Cryo body care",
   "price": "R27,800",
   "desc": [
    "Portable 400VA cryo unit with a size-150 handle and a 360\u00b0 small-area handle.",
@@ -1232,12 +1232,12 @@
  },
  {
   "k": 41,
-  "name": "448K RF Body Contouring Machine",
+  "name": "448K RF Body Care Machine",
   "model": "TARF448B",
   "cat": "RF and cavitation",
   "price": "R25,800",
   "desc": [
-   "Professional 448K RF Body Contouring Machine for salons and spas.",
+   "Professional 448K RF Body Care Machine for salons and spas.",
    "Add professional RF and cavitation sessions to your treatment menu."
   ],
   "specs": [
@@ -1295,12 +1295,12 @@
  },
  {
   "k": 43,
-  "name": "4-in-1 Cavitation and RF Body Contouring Machine",
+  "name": "4-in-1 Cavitation and RF Body Care Machine",
   "model": "TACAV4",
   "cat": "RF and cavitation",
   "price": "R14,250",
   "desc": [
-   "Professional 4-in-1 Cavitation and RF Body Contouring Machine for salons and spas.",
+   "Professional 4-in-1 Cavitation and RF Body Care Machine for salons and spas.",
    "Add professional RF and cavitation sessions to your treatment menu."
   ],
   "specs": [
@@ -1417,7 +1417,7 @@
  },
  {
   "k": 47,
-  "name": "RF + EMS Face Sculpting Station",
+  "name": "RF + EMS Face Care Station",
   "model": "TARFEMF",
   "cat": "RF and cavitation",
   "price": "R47,450",
@@ -1446,7 +1446,7 @@
  },
  {
   "k": 48,
-  "name": "Multi-Handle Cavitation Body Contouring Station",
+  "name": "Multi-Handle Cavitation Body Care Station",
   "model": "TACAVB3",
   "cat": "RF and cavitation",
   "price": "R19,450",
@@ -1474,7 +1474,7 @@
  },
  {
   "k": 49,
-  "name": "Portable Cavitation Body Contouring Machine",
+  "name": "Portable Cavitation Body Care Machine",
   "model": "TACAVB1",
   "cat": "RF and cavitation",
   "price": "R15,750",
@@ -1812,7 +1812,7 @@
    "Upgrade your facial room with a professional unit your clients will notice."
   ],
   "specs": [
-   "Aqua peel, oxygen jet, EMS face, cold-heat, micro lift",
+   "Aqua peel, oxygen jet, EMS face, cold-heat, microcurrent",
    "Oxygen, ultrasound, RF, cleansing shovel, skin analyser",
    "Touchscreen control"
   ],
@@ -1840,7 +1840,7 @@
    "A complete facial station for salons that want a more premium treatment room."
   ],
   "specs": [
-   "Aqua peel, oxygen jet, EMS face, cold-heat, micro lift",
+   "Aqua peel, oxygen jet, EMS face, cold-heat, microcurrent",
    "Oxygen, ultrasound, RF, cleansing shovel, skin analyser",
    "4 serum bottle bays (A\u2013D)",
    "Large touchscreen"
@@ -1987,7 +1987,7 @@
   "cat": "Facial and skin",
   "price": "R47,900",
   "desc": [
-   "Hands-free facial system using flexible applicator patches that combine electromagnetic muscle stimulation with gentle RF warmth.",
+   "Hands-free facial system using flexible applicator patches that combine electromagnetic stimulation with gentle RF warmth.",
    "Upgrade your facial room with a professional unit your clients will notice."
   ],
   "specs": [
@@ -2161,12 +2161,12 @@
  },
  {
   "k": 72,
-  "name": "1-Handle Compact Electromagnetic Body Sculpting Machine",
+  "name": "1-Handle Compact Electromagnetic Body Care Machine",
   "model": "TAEMC1",
   "cat": "EMS and electromagnetic",
   "price": "R22,300",
   "desc": [
-   "Professional electromagnetic body sculpting machine for muscle toning treatments in salons and spas."
+   "Professional electromagnetic body care machine for body toning treatments in salons and spas."
   ],
   "specs": [
    "Compact unit",
@@ -2190,12 +2190,12 @@
  },
  {
   "k": 73,
-  "name": "2-Handle Portable Electromagnetic Body Sculpting Machine",
+  "name": "2-Handle Portable Electromagnetic Body Care Machine",
   "model": "TAEMC2",
   "cat": "EMS and electromagnetic",
   "price": "R25,500",
   "desc": [
-   "Professional electromagnetic body sculpting machine for muscle toning treatments in salons and spas."
+   "Professional electromagnetic body care machine for body toning treatments in salons and spas."
   ],
   "specs": [
    "Two handles work together",
@@ -2219,12 +2219,12 @@
  },
  {
   "k": 74,
-  "name": "2-Handle Portable Electromagnetic + RF Body Sculpting Machine",
+  "name": "2-Handle Portable Electromagnetic + RF Body Care Machine",
   "model": "TAEMC2R",
   "cat": "EMS and electromagnetic",
   "price": "R34,600",
   "desc": [
-   "Professional electromagnetic body sculpting machine for muscle toning treatments in salons and spas."
+   "Professional electromagnetic body care machine for body toning treatments in salons and spas."
   ],
   "specs": [
    "Two handles with RF",
@@ -2248,12 +2248,12 @@
  },
  {
   "k": 75,
-  "name": "2-Handle Compact Electromagnetic Body Sculpting Machine",
+  "name": "2-Handle Compact Electromagnetic Body Care Machine",
   "model": "TAEMC2B",
   "cat": "EMS and electromagnetic",
   "price": "R31,350",
   "desc": [
-   "Professional electromagnetic body sculpting machine for muscle toning treatments in salons and spas."
+   "Professional electromagnetic body care machine for body toning treatments in salons and spas."
   ],
   "specs": [
    "Two handles",
@@ -2277,12 +2277,12 @@
  },
  {
   "k": 76,
-  "name": "2-Handle Compact Electromagnetic + RF Body Sculpting Machine",
+  "name": "2-Handle Compact Electromagnetic + RF Body Care Machine",
   "model": "TAEMC2BR",
   "cat": "EMS and electromagnetic",
   "price": "R34,600",
   "desc": [
-   "Professional electromagnetic body sculpting machine for muscle toning treatments in salons and spas."
+   "Professional electromagnetic body care machine for body toning treatments in salons and spas."
   ],
   "specs": [
    "Two handles with RF",
@@ -2306,12 +2306,12 @@
  },
  {
   "k": 77,
-  "name": "4-Handle Portable Electromagnetic Body Sculpting Machine",
+  "name": "4-Handle Portable Electromagnetic Body Care Machine",
   "model": "TAEMC4",
   "cat": "EMS and electromagnetic",
   "price": "R47,900",
   "desc": [
-   "Professional electromagnetic body sculpting machine for muscle toning treatments in salons and spas."
+   "Professional electromagnetic body care machine for body toning treatments in salons and spas."
   ],
   "specs": [
    "Four handles work together",
@@ -2334,12 +2334,12 @@
  },
  {
   "k": 78,
-  "name": "4-Handle Portable Electromagnetic + RF Body Sculpting Machine",
+  "name": "4-Handle Portable Electromagnetic + RF Body Care Machine",
   "model": "TAEMC4R",
   "cat": "EMS and electromagnetic",
   "price": "R53,100",
   "desc": [
-   "Professional electromagnetic body sculpting machine for muscle toning treatments in salons and spas."
+   "Professional electromagnetic body care machine for body toning treatments in salons and spas."
   ],
   "specs": [
    "Four handles with RF",
@@ -2362,12 +2362,12 @@
  },
  {
   "k": 79,
-  "name": "2-Handle Vertical Electromagnetic Body Sculpting Station",
+  "name": "2-Handle Vertical Electromagnetic Body Care Station",
   "model": "TAEMC2L",
   "cat": "EMS and electromagnetic",
   "price": "R39,500",
   "desc": [
-   "Professional electromagnetic body sculpting machine for muscle toning treatments in salons and spas."
+   "Professional electromagnetic body care machine for body toning treatments in salons and spas."
   ],
   "specs": [
    "Floor station",
@@ -2391,12 +2391,12 @@
  },
  {
   "k": 80,
-  "name": "4-Handle Vertical Electromagnetic Body Sculpting Station",
+  "name": "4-Handle Vertical Electromagnetic Body Care Station",
   "model": "TAEMC4L",
   "cat": "EMS and electromagnetic",
   "price": "R57,800",
   "desc": [
-   "Professional electromagnetic body sculpting machine for muscle toning treatments in salons and spas."
+   "Professional electromagnetic body care machine for body toning treatments in salons and spas."
   ],
   "specs": [
    "Floor station",
@@ -2420,12 +2420,12 @@
  },
  {
   "k": 81,
-  "name": "4-Handle Vertical Electromagnetic + RF Body Sculpting Station",
+  "name": "4-Handle Vertical Electromagnetic + RF Body Care Station",
   "model": "TAEMC4LR",
   "cat": "EMS and electromagnetic",
   "price": "R62,900",
   "desc": [
-   "Professional electromagnetic body sculpting machine for muscle toning treatments in salons and spas."
+   "Professional electromagnetic body care machine for body toning treatments in salons and spas."
   ],
   "specs": [
    "Floor station",
@@ -2449,12 +2449,12 @@
  },
  {
   "k": 82,
-  "name": "Mini Electromagnetic Body Sculpting Machine",
+  "name": "Mini Electromagnetic Body Care Machine",
   "model": "TAEMM1",
   "cat": "EMS and electromagnetic",
   "price": "R20,300",
   "desc": [
-   "Professional electromagnetic body sculpting machine for muscle toning treatments in salons and spas."
+   "Professional electromagnetic body care machine for body toning treatments in salons and spas."
   ],
   "specs": [
    "Compact unit",
@@ -2477,12 +2477,12 @@
  },
  {
   "k": 83,
-  "name": "Mini Electromagnetic + RF Body Sculpting Machine",
+  "name": "Mini Electromagnetic + RF Body Care Machine",
   "model": "TAEMM1R",
   "cat": "EMS and electromagnetic",
   "price": "R22,300",
   "desc": [
-   "Professional electromagnetic body sculpting machine for muscle toning treatments in salons and spas."
+   "Professional electromagnetic body care machine for body toning treatments in salons and spas."
   ],
   "specs": [
    "Compact unit",
@@ -2505,12 +2505,12 @@
  },
  {
   "k": 84,
-  "name": "2-Handle Electromagnetic Body Sculpting Machine 2800W",
+  "name": "2-Handle Electromagnetic Body Care Machine 2800W",
   "model": "TAEMP2",
   "cat": "EMS and electromagnetic",
   "price": "R31,900",
   "desc": [
-   "Professional electromagnetic body sculpting machine for muscle toning treatments in salons and spas."
+   "Professional electromagnetic body care machine for body toning treatments in salons and spas."
   ],
   "specs": [
    "Two handles work together",
@@ -2532,12 +2532,12 @@
  },
  {
   "k": 85,
-  "name": "2-Handle Electromagnetic + RF Body Sculpting Machine 2800W",
+  "name": "2-Handle Electromagnetic + RF Body Care Machine 2800W",
   "model": "TAEMP2R",
   "cat": "EMS and electromagnetic",
   "price": "R35,150",
   "desc": [
-   "Professional electromagnetic body sculpting machine for muscle toning treatments in salons and spas."
+   "Professional electromagnetic body care machine for body toning treatments in salons and spas."
   ],
   "specs": [
    "Two handles with RF",
@@ -2559,12 +2559,12 @@
  },
  {
   "k": 86,
-  "name": "4-Handle Electromagnetic Body Sculpting Machine 13 Tesla",
+  "name": "4-Handle Electromagnetic Body Care Machine 13 Tesla",
   "model": "TAEMP4",
   "cat": "EMS and electromagnetic",
   "price": "R51,800",
   "desc": [
-   "Professional electromagnetic body sculpting machine for muscle toning treatments in salons and spas."
+   "Professional electromagnetic body care machine for body toning treatments in salons and spas."
   ],
   "specs": [
    "Four handles work together",
@@ -2586,12 +2586,12 @@
  },
  {
   "k": 87,
-  "name": "4-Handle Electromagnetic + RF Body Sculpting Machine 13 Tesla",
+  "name": "4-Handle Electromagnetic + RF Body Care Machine 13 Tesla",
   "model": "TAEMP4R",
   "cat": "EMS and electromagnetic",
   "price": "R57,000",
   "desc": [
-   "Professional electromagnetic body sculpting machine for muscle toning treatments in salons and spas."
+   "Professional electromagnetic body care machine for body toning treatments in salons and spas."
   ],
   "specs": [
    "Four handles with RF",
@@ -2618,7 +2618,7 @@
   "cat": "EMS and electromagnetic",
   "price": "R43,500",
   "desc": [
-   "Professional electromagnetic body sculpting machine for muscle toning treatments in salons and spas."
+   "Professional electromagnetic body care machine for body toning treatments in salons and spas."
   ],
   "specs": [
    "Floor station",
@@ -2646,7 +2646,7 @@
   "cat": "EMS and electromagnetic",
   "price": "R64,150",
   "desc": [
-   "Professional electromagnetic body sculpting machine for muscle toning treatments in salons and spas."
+   "Professional electromagnetic body care machine for body toning treatments in salons and spas."
   ],
   "specs": [
    "Floor station",
@@ -2669,12 +2669,12 @@
  },
  {
   "k": 90,
-  "name": "4-Handle Tall Electromagnetic Body Sculpting Station 13 Tesla",
+  "name": "4-Handle Tall Electromagnetic Body Care Station 13 Tesla",
   "model": "TAEMV4",
   "cat": "EMS and electromagnetic",
   "price": "R60,350",
   "desc": [
-   "Professional electromagnetic body sculpting machine for muscle toning treatments in salons and spas."
+   "Professional electromagnetic body care machine for body toning treatments in salons and spas."
   ],
   "specs": [
    "Tall floor station",
@@ -2702,7 +2702,7 @@
   "cat": "EMS and electromagnetic",
   "price": "R65,400",
   "desc": [
-   "Professional electromagnetic body sculpting machine for muscle toning treatments in salons and spas."
+   "Professional electromagnetic body care machine for body toning treatments in salons and spas."
   ],
   "specs": [
    "Tall floor station",
@@ -2725,12 +2725,12 @@
  },
  {
   "k": 92,
-  "name": "2-Handle Pro Electromagnetic Body Sculpting Machine",
+  "name": "2-Handle Pro Electromagnetic Body Care Machine",
   "model": "TAEMX2",
   "cat": "EMS and electromagnetic",
   "price": "R31,900",
   "desc": [
-   "Professional electromagnetic body sculpting machine for muscle toning treatments in salons and spas."
+   "Professional electromagnetic body care machine for body toning treatments in salons and spas."
   ],
   "specs": [
    "Two handles work together",
@@ -2752,12 +2752,12 @@
  },
  {
   "k": 93,
-  "name": "4-Handle Pro Electromagnetic Body Sculpting Machine",
+  "name": "4-Handle Pro Electromagnetic Body Care Machine",
   "model": "TAEMX4",
   "cat": "EMS and electromagnetic",
   "price": "R50,500",
   "desc": [
-   "Professional electromagnetic body sculpting machine for muscle toning treatments in salons and spas."
+   "Professional electromagnetic body care machine for body toning treatments in salons and spas."
   ],
   "specs": [
    "Four handles work together",
@@ -2779,12 +2779,12 @@
  },
  {
   "k": 94,
-  "name": "4-Handle Pro Electromagnetic + EMS Body Sculpting Machine",
+  "name": "4-Handle Pro Electromagnetic + EMS Body Care Machine",
   "model": "TAEMX4E",
   "cat": "EMS and electromagnetic",
   "price": "R54,400",
   "desc": [
-   "Professional electromagnetic body sculpting machine for muscle toning treatments in salons and spas."
+   "Professional electromagnetic body care machine for body toning treatments in salons and spas."
   ],
   "specs": [
    "Four handles",
@@ -2811,7 +2811,7 @@
   "cat": "EMS and electromagnetic",
   "price": "R39,500",
   "desc": [
-   "Professional electromagnetic body sculpting machine for muscle toning treatments in salons and spas."
+   "Professional electromagnetic body care machine for body toning treatments in salons and spas."
   ],
   "specs": [
    "Floor station",
@@ -2839,7 +2839,7 @@
   "cat": "EMS and electromagnetic",
   "price": "R57,800",
   "desc": [
-   "Professional electromagnetic body sculpting machine for muscle toning treatments in salons and spas."
+   "Professional electromagnetic body care machine for body toning treatments in salons and spas."
   ],
   "specs": [
    "Floor station",
@@ -2867,7 +2867,7 @@
   "cat": "EMS and electromagnetic",
   "price": "R61,600",
   "desc": [
-   "Professional electromagnetic body sculpting machine for muscle toning treatments in salons and spas."
+   "Professional electromagnetic body care machine for body toning treatments in salons and spas."
   ],
   "specs": [
    "Floor station",
@@ -2895,7 +2895,7 @@
   "cat": "EMS and electromagnetic",
   "price": "R65,400",
   "desc": [
-   "Professional electromagnetic body sculpting machine for muscle toning treatments in salons and spas."
+   "Professional electromagnetic body care machine for body toning treatments in salons and spas."
   ],
   "specs": [
    "Floor station",
@@ -2918,12 +2918,12 @@
  },
  {
   "k": 99,
-  "name": "2-Handle Electromagnetic Muscle Toning Station",
+  "name": "2-Handle Electromagnetic Body Toning Station",
   "model": "TAEMT2",
   "cat": "EMS and electromagnetic",
   "price": "R40,850",
   "desc": [
-   "Professional electromagnetic body sculpting machine for muscle toning treatments in salons and spas."
+   "Professional electromagnetic body care machine for body toning treatments in salons and spas."
   ],
   "specs": [
    "Two handles work together",
@@ -2946,12 +2946,12 @@
  },
  {
   "k": 100,
-  "name": "Portable 360 Cryo Body Contouring Machine (3 Handles)",
+  "name": "Portable 360 Cryo Body Care Machine (3 Handles)",
   "model": "TACRYOP3",
-  "cat": "Cryo body contouring",
+  "cat": "Cryo body care",
   "price": "R30,550",
   "desc": [
-   "Professional cryo body contouring machine for salons and spas."
+   "Professional cryo body care machine for salons and spas."
   ],
   "specs": [
    "Large and medium 360-degree cryo handles plus small chin handle"
@@ -2976,7 +2976,7 @@
   "cat": "RF and cavitation",
   "price": "R22,300",
   "desc": [
-   "Professional RF and cavitation machine for body and face contouring treatments in salons and spas."
+   "Professional RF and cavitation machine for body and face treatments in salons and spas."
   ],
   "specs": [
    "Monopolar CET and RET RF",
@@ -3005,7 +3005,7 @@
   "cat": "RF and cavitation",
   "price": "R30,550",
   "desc": [
-   "Professional RF and cavitation machine for body and face contouring treatments in salons and spas."
+   "Professional RF and cavitation machine for body and face treatments in salons and spas."
   ],
   "specs": [
    "300-450kHz",
@@ -3033,7 +3033,7 @@
   "cat": "RF and cavitation",
   "price": "R29,650",
   "desc": [
-   "Professional RF and cavitation machine for body and face contouring treatments in salons and spas."
+   "Professional RF and cavitation machine for body and face treatments in salons and spas."
   ],
   "specs": [
    "Body and face handles",
@@ -3061,7 +3061,7 @@
   "cat": "RF and cavitation",
   "price": "R29,200",
   "desc": [
-   "Professional RF and cavitation machine for body and face contouring treatments in salons and spas."
+   "Professional RF and cavitation machine for body and face treatments in salons and spas."
   ],
   "specs": [
    "Body and face handles (face up to 80)",
@@ -3089,7 +3089,7 @@
   "cat": "RF and cavitation",
   "price": "R44,800",
   "desc": [
-   "Professional RF and cavitation machine for body and face contouring treatments in salons and spas."
+   "Professional RF and cavitation machine for body and face treatments in salons and spas."
   ],
   "specs": [
    "Floor station",
@@ -3112,12 +3112,12 @@
  },
  {
   "k": 106,
-  "name": "5D Vacuum Cavitation Body Contouring Machine (Blue)",
+  "name": "5D Vacuum Cavitation Body Care Machine (Blue)",
   "model": "TACAV5DB",
   "cat": "RF and cavitation",
   "price": "R22,300",
   "desc": [
-   "Professional RF and cavitation machine for body and face contouring treatments in salons and spas."
+   "Professional RF and cavitation machine for body and face treatments in salons and spas."
   ],
   "specs": [
    "Vacuum RF with 3 handle sizes",
@@ -3145,7 +3145,7 @@
   "cat": "RF and cavitation",
   "price": "R6,550",
   "desc": [
-   "Professional RF and cavitation machine for body and face contouring treatments in salons and spas."
+   "Professional RF and cavitation machine for body and face treatments in salons and spas."
   ],
   "specs": [
    "40K cavitation",
@@ -3168,12 +3168,12 @@
  },
  {
   "k": 108,
-  "name": "5-in-1 RF Cavitation Body Contouring Machine",
+  "name": "5-in-1 RF Cavitation Body Care Machine",
   "model": "TACAV5",
   "cat": "RF and cavitation",
   "price": "R14,050",
   "desc": [
-   "Professional RF and cavitation machine for body and face contouring treatments in salons and spas."
+   "Professional RF and cavitation machine for body and face treatments in salons and spas."
   ],
   "specs": [
    "40K cavitation",
@@ -3202,7 +3202,7 @@
   "cat": "RF and cavitation",
   "price": "R25,400",
   "desc": [
-   "Professional RF and cavitation machine for body and face contouring treatments in salons and spas."
+   "Professional RF and cavitation machine for body and face treatments in salons and spas."
   ],
   "specs": [
    "40K and 80K cavitation",
@@ -3230,7 +3230,7 @@
   "cat": "RF and cavitation",
   "price": "R32,800",
   "desc": [
-   "Professional RF and cavitation machine for body and face contouring treatments in salons and spas."
+   "Professional RF and cavitation machine for body and face treatments in salons and spas."
   ],
   "specs": [
    "Floor station",
@@ -3259,7 +3259,7 @@
   "cat": "RF and cavitation",
   "price": "R32,800",
   "desc": [
-   "Professional RF and cavitation machine for body and face contouring treatments in salons and spas."
+   "Professional RF and cavitation machine for body and face treatments in salons and spas."
   ],
   "specs": [
    "Floor station",
@@ -3288,7 +3288,7 @@
   "cat": "RF and cavitation",
   "price": "R46,100",
   "desc": [
-   "Professional RF and cavitation machine for body and face contouring treatments in salons and spas."
+   "Professional RF and cavitation machine for body and face treatments in salons and spas."
   ],
   "specs": [
    "80K cavitation",
@@ -3316,7 +3316,7 @@
   "cat": "RF and cavitation",
   "price": "R30,050",
   "desc": [
-   "Professional RF and cavitation machine for body and face contouring treatments in salons and spas."
+   "Professional RF and cavitation machine for body and face treatments in salons and spas."
   ],
   "specs": [
    "Vacuum RF with 3 handle sizes",
@@ -3344,7 +3344,7 @@
   "cat": "RF and cavitation",
   "price": "R19,450",
   "desc": [
-   "Professional RF and cavitation machine for body and face contouring treatments in salons and spas."
+   "Professional RF and cavitation machine for body and face treatments in salons and spas."
   ],
   "specs": [
    "80K cavitation",
@@ -3371,7 +3371,7 @@
   "cat": "RF and cavitation",
   "price": "R52,650",
   "desc": [
-   "Professional RF and cavitation machine for body and face contouring treatments in salons and spas."
+   "Professional RF and cavitation machine for body and face treatments in salons and spas."
   ],
   "specs": [
    "Auto RF roller heads",
@@ -3400,7 +3400,7 @@
   "cat": "RF and cavitation",
   "price": "R48,750",
   "desc": [
-   "Professional RF and cavitation machine for body and face contouring treatments in salons and spas."
+   "Professional RF and cavitation machine for body and face treatments in salons and spas."
   ],
   "specs": [
    "Large and medium auto RF roller heads",
@@ -3428,7 +3428,7 @@
   "cat": "RF and cavitation",
   "price": "R55,250",
   "desc": [
-   "Professional RF and cavitation machine for body and face contouring treatments in salons and spas."
+   "Professional RF and cavitation machine for body and face treatments in salons and spas."
   ],
   "specs": [
    "Auto RF roller heads",
@@ -3451,12 +3451,12 @@
  },
  {
   "k": 118,
-  "name": "Non-Contact RF Body Contouring Frame",
+  "name": "Non-Contact RF Body Care Frame",
   "model": "TARFNC",
   "cat": "RF and cavitation",
   "price": "R50,050",
   "desc": [
-   "Professional RF and cavitation machine for body and face contouring treatments in salons and spas."
+   "Professional RF and cavitation machine for body and face treatments in salons and spas."
   ],
   "specs": [
    "Hands-free non-contact RF frame on a flexible arm",
@@ -3477,12 +3477,12 @@
  },
  {
   "k": 119,
-  "name": "RF Skin Tightening Machine (Home and Studio)",
+  "name": "RF Skin Care Machine (Home and Studio)",
   "model": "TARFSK1",
   "cat": "RF and cavitation",
   "price": "R6,550",
   "desc": [
-   "Professional RF and cavitation machine for body and face contouring treatments in salons and spas."
+   "Professional RF and cavitation machine for body and face treatments in salons and spas."
   ],
   "specs": [
    "9 intensity levels",
@@ -3506,12 +3506,12 @@
  },
  {
   "k": 120,
-  "name": "Portable 3-Tip RF Skin Tightening Machine",
+  "name": "Portable 3-Tip RF Skin Care Machine",
   "model": "TARFSK3",
   "cat": "RF and cavitation",
   "price": "R19,450",
   "desc": [
-   "Professional RF and cavitation machine for body and face contouring treatments in salons and spas."
+   "Professional RF and cavitation machine for body and face treatments in salons and spas."
   ],
   "specs": [
    "Eye",
@@ -3532,12 +3532,12 @@
  },
  {
   "k": 121,
-  "name": "3-Tip RF Skin Tightening Station with Cooling",
+  "name": "3-Tip RF Skin Care Station with Cooling",
   "model": "TARFSK3S",
   "cat": "RF and cavitation",
   "price": "R35,500",
   "desc": [
-   "Professional RF and cavitation machine for body and face contouring treatments in salons and spas."
+   "Professional RF and cavitation machine for body and face treatments in salons and spas."
   ],
   "specs": [
    "Floor station",
@@ -3560,12 +3560,12 @@
  },
  {
   "k": 122,
-  "name": "Cartridge RF Skin Tightening Station",
+  "name": "Cartridge RF Skin Care Station",
   "model": "TARFSKC",
   "cat": "RF and cavitation",
   "price": "R39,500",
   "desc": [
-   "Professional RF and cavitation machine for body and face contouring treatments in salons and spas."
+   "Professional RF and cavitation machine for body and face treatments in salons and spas."
   ],
   "specs": [
    "1.5mm and 3.0mm cartridges",
@@ -3588,10 +3588,10 @@
   "k": 123,
   "name": "Portable HIFU Face and Body Machine",
   "model": "TAUS1",
-  "cat": "HIFU skin tightening",
+  "cat": "HIFU skin care",
   "price": "R30,550",
   "desc": [
-   "Professional HIFU machine for face and body skin tightening treatments in salons and spas."
+   "Professional HIFU machine for face and body skin care treatments in salons and spas."
   ],
   "specs": [
    "1.5",
@@ -3616,10 +3616,10 @@
   "k": 124,
   "name": "HIFU Face and Body Machine with Trolley",
   "model": "TAUS2",
-  "cat": "HIFU skin tightening",
+  "cat": "HIFU skin care",
   "price": "R38,150",
   "desc": [
-   "Professional HIFU machine for face and body skin tightening treatments in salons and spas."
+   "Professional HIFU machine for face and body skin care treatments in salons and spas."
   ],
   "specs": [
    "1.5",
@@ -3642,12 +3642,12 @@
  },
  {
   "k": 125,
-  "name": "HIFU Face Lifting Machine",
+  "name": "HIFU Face Care Machine",
   "model": "TAUS3",
-  "cat": "HIFU skin tightening",
+  "cat": "HIFU skin care",
   "price": "R29,200",
   "desc": [
-   "Professional HIFU machine for face and body skin tightening treatments in salons and spas."
+   "Professional HIFU machine for face and body skin care treatments in salons and spas."
   ],
   "specs": [
    "1.5",
@@ -3670,12 +3670,12 @@
  },
  {
   "k": 126,
-  "name": "Portable HIFU Skin Tightening Machine",
+  "name": "Portable HIFU Skin Care Machine",
   "model": "TAUS5",
-  "cat": "HIFU skin tightening",
+  "cat": "HIFU skin care",
   "price": "R26,450",
   "desc": [
-   "Professional HIFU machine for face and body skin tightening treatments in salons and spas."
+   "Professional HIFU machine for face and body skin care treatments in salons and spas."
   ],
   "specs": [
    "1.5",
@@ -3699,10 +3699,10 @@
   "k": 127,
   "name": "Radar Line HIFU Machine",
   "model": "TAUSR",
-  "cat": "HIFU skin tightening",
+  "cat": "HIFU skin care",
   "price": "R21,600",
   "desc": [
-   "Professional HIFU machine for face and body skin tightening treatments in salons and spas."
+   "Professional HIFU machine for face and body skin care treatments in salons and spas."
   ],
   "specs": [
    "3.0 and 4.5mm probes",
@@ -3726,10 +3726,10 @@
   "k": 128,
   "name": "4D HIFU Machine",
   "model": "TAUS4D",
-  "cat": "HIFU skin tightening",
+  "cat": "HIFU skin care",
   "price": "R31,900",
   "desc": [
-   "Professional HIFU machine for face and body skin tightening treatments in salons and spas."
+   "Professional HIFU machine for face and body skin care treatments in salons and spas."
   ],
   "specs": [
    "3.0 and 4.5mm cartridges",
@@ -3753,10 +3753,10 @@
   "k": 129,
   "name": "4D HIFU Station",
   "model": "TAUS4DS",
-  "cat": "HIFU skin tightening",
+  "cat": "HIFU skin care",
   "price": "R37,300",
   "desc": [
-   "Professional HIFU machine for face and body skin tightening treatments in salons and spas."
+   "Professional HIFU machine for face and body skin care treatments in salons and spas."
   ],
   "specs": [
    "3.0 and 4.5mm cartridges",
@@ -3781,10 +3781,10 @@
   "k": 130,
   "name": "9D HIFU Machine",
   "model": "TAUS9D",
-  "cat": "HIFU skin tightening",
+  "cat": "HIFU skin care",
   "price": "R35,950",
   "desc": [
-   "Professional HIFU machine for face and body skin tightening treatments in salons and spas."
+   "Professional HIFU machine for face and body skin care treatments in salons and spas."
   ],
   "specs": [
    "3.0 and 4.5mm cartridges",
@@ -3808,10 +3808,10 @@
   "k": 131,
   "name": "7D HIFU Station",
   "model": "TAUS7DS",
-  "cat": "HIFU skin tightening",
+  "cat": "HIFU skin care",
   "price": "R44,800",
   "desc": [
-   "Professional HIFU machine for face and body skin tightening treatments in salons and spas."
+   "Professional HIFU machine for face and body skin care treatments in salons and spas."
   ],
   "specs": [
    "Eye",
@@ -3836,10 +3836,10 @@
   "k": 132,
   "name": "Portable 7D HIFU Machine",
   "model": "TAUS7D",
-  "cat": "HIFU skin tightening",
+  "cat": "HIFU skin care",
   "price": "R35,950",
   "desc": [
-   "Professional HIFU machine for face and body skin tightening treatments in salons and spas."
+   "Professional HIFU machine for face and body skin care treatments in salons and spas."
   ],
   "specs": [
    "Eye",
@@ -3864,10 +3864,10 @@
   "k": 133,
   "name": "Compact 7D HIFU Machine",
   "model": "TAUS7DC",
-  "cat": "HIFU skin tightening",
+  "cat": "HIFU skin care",
   "price": "R34,600",
   "desc": [
-   "Professional HIFU machine for face and body skin tightening treatments in salons and spas."
+   "Professional HIFU machine for face and body skin care treatments in salons and spas."
   ],
   "specs": [
    "Eye",
@@ -4720,7 +4720,7 @@
   "cat": "Consumables",
   "price": "R3,300",
   "desc": [
-   "Professional 110g anti-freeze cryo membranes for cryo body contouring treatments.",
+   "Professional 110g anti-freeze cryo membranes for cryo body care treatments.",
    "R110 per membrane, minimum order 30 membranes (R3,300).",
    "60g membranes also available at R89 each while stock lasts. Ask on WhatsApp.",
    "Specials are subject to terms and conditions."
@@ -4728,7 +4728,7 @@
   "specs": [
    "110g per membrane",
    "Sold per membrane, minimum 30",
-   "Fits standard cryo body contouring applicators"
+   "Fits standard cryo body care applicators"
   ],
   "get": [
    "Brand new, sealed",
@@ -4741,12 +4741,12 @@
  },
  {
   "k": 165,
-  "name": "2-Handle HI-EMT Body Sculpting Machine with RF",
+  "name": "2-Handle HI-EMT Body Care Machine with RF",
   "model": "TAC2-2H",
   "cat": "EMS and electromagnetic",
   "price": "R77,850",
   "desc": [
-   "Professional electromagnetic body sculpting machine with RF warming, for muscle toning treatments in salons and spas.",
+   "Professional electromagnetic body care machine with RF warming, for body toning treatments in salons and spas.",
    "Two independent handles let you treat two areas at once, with a 14-inch foldable 4K touchscreen."
   ],
   "specs": [
@@ -4777,13 +4777,13 @@
  },
  {
   "k": 166,
-  "name": "4-Handle HI-EMT Body Sculpting Machine with RF and Seat Applicator",
+  "name": "4-Handle HI-EMT Body Care Machine with RF and Seat Applicator",
   "model": "TAC2-4H",
   "cat": "EMS and electromagnetic",
   "price": "R88,200",
   "desc": [
-   "Professional 4-handle electromagnetic body sculpting station with RF warming, for muscle toning treatments in busy salons and spas.",
-   "Run up to four handles at once, or treat two clients side by side, plus a seat applicator for glute and core muscle toning."
+   "Professional 4-handle electromagnetic body care station with RF warming, for body toning treatments in busy salons and spas.",
+   "Run up to four handles at once, or treat two clients side by side, plus a seat applicator for glute and core body toning."
   ],
   "specs": [
    "Handles: 4, independently controlled, plus a seat applicator",
@@ -4813,12 +4813,12 @@
  },
  {
   "k": 167,
-  "name": "5-Handle Roller, Vacuum and RF Body Shaping Station",
+  "name": "5-Handle Roller, Vacuum and RF Body Care Station",
   "model": "TAVS5",
   "cat": "RF and cavitation",
   "price": "R102,200",
   "desc": [
-   "Professional body shaping station combining mechanical roller massage, vacuum, bipolar RF and infrared warmth, for body contouring and massage treatments in salons and spas.",
+   "Professional body care station combining mechanical roller massage, vacuum, bipolar RF and infrared warmth, for body care and massage treatments in salons and spas.",
    "Five handpieces for large body areas, smaller areas and the face, with a large touchscreen on a wheeled floor stand."
   ],
   "specs": [

@@ -4,7 +4,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/c021091d6e.webp",
-  "name": "5-Handle 2500W EMS Body Sculpting Machine",
+  "name": "5-Handle 2500W EMS Body Care Machine",
   "model": "TAEMS2500",
   "price": "R231,750",
   "lb": "Lay-by R58,000 now, then 2 \u00d7 R86,875"
@@ -14,7 +14,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/27d600c132.webp",
-  "name": "4-Handle 4300W EMS Body Sculpting Machine",
+  "name": "4-Handle 4300W EMS Body Care Machine",
   "model": "TAEMS4300",
   "price": "R211,400",
   "lb": "Lay-by R53,000 now, then 2 \u00d7 R79,200"
@@ -24,7 +24,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/664b8cb816.webp",
-  "name": "4-Handle EMS Body Sculpting Machine",
+  "name": "4-Handle EMS Body Care Machine",
   "model": "TAEMS4",
   "price": "R82,800",
   "lb": "Lay-by R21,000 now, then 2 \u00d7 R30,900"
@@ -34,7 +34,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/ac5dc2237e.webp",
-  "name": "5000W 2-Handle EMS Body Sculpting Machine",
+  "name": "5000W 2-Handle EMS Body Care Machine",
   "model": "TAEMS5000",
   "price": "R46,250",
   "lb": "Lay-by R10,000 now, then 2 \u00d7 R18,125"
@@ -44,7 +44,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/de5fc428be.webp",
-  "name": "2-Handle EMS Body Sculpting Machine",
+  "name": "2-Handle EMS Body Care Machine",
   "model": "TAEMS2",
   "price": "R44,550",
   "lb": "Lay-by R10,000 now, then 2 \u00d7 R17,275"
@@ -64,7 +64,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/d8e2220a2a.webp",
-  "name": "Cryo + Electromagnetic Body Sculpting Station",
+  "name": "Cryo + Electromagnetic Body Care Station",
   "model": "TACRYOEM",
   "price": "R189,150",
   "lb": "Lay-by R48,000 now, then 2 \u00d7 R70,575"
@@ -74,7 +74,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/2a49388be2.webp",
-  "name": "4-Applicator Electromagnetic Body Sculpting Machine",
+  "name": "4-Applicator Electromagnetic Body Care Machine",
   "model": "TAEM4",
   "price": "R42,450",
   "lb": "Lay-by R10,000 now, then 2 \u00d7 R16,225"
@@ -84,7 +84,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/eb9a721b8b.webp",
-  "name": "4-Handle Electromagnetic Body Sculpting Station (Grey)",
+  "name": "4-Handle Electromagnetic Body Care Station (Grey)",
   "model": "TAEM4G",
   "price": "R59,100",
   "lb": "Lay-by R10,000 now, then 2 \u00d7 R24,550"
@@ -104,7 +104,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/914e4ae207.webp",
-  "name": "4-Handle Electromagnetic Body Sculpting Station (Black)",
+  "name": "4-Handle Electromagnetic Body Care Station (Black)",
   "model": "TAEM4B",
   "price": "R59,100",
   "lb": "Lay-by R10,000 now, then 2 \u00d7 R24,550"
@@ -144,7 +144,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/7072819726.webp",
-  "name": "4-Handle Electromagnetic Body Sculpting Machine (White)",
+  "name": "4-Handle Electromagnetic Body Care Machine (White)",
   "model": "TAEM4W",
   "price": "R59,100",
   "lb": "Lay-by R10,000 now, then 2 \u00d7 R24,550"
@@ -154,7 +154,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/fe714fc47b.webp",
-  "name": "2-Handle Electromagnetic Body Sculpting Machine (White)",
+  "name": "2-Handle Electromagnetic Body Care Machine (White)",
   "model": "TAEM2W",
   "price": "R38,150",
   "lb": "Lay-by R10,000 now, then 2 \u00d7 R14,075"
@@ -164,7 +164,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/454bb59969.webp",
-  "name": "4-Handle Vertical Electromagnetic Sculpting Station",
+  "name": "4-Handle Vertical Electromagnetic Body Station",
   "model": "TAEM4V",
   "price": "R85,500",
   "lb": "Lay-by R22,000 now, then 2 \u00d7 R31,750"
@@ -174,7 +174,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/312829a5ff.webp",
-  "name": "2-Handle Vertical Electromagnetic Sculpting Station",
+  "name": "2-Handle Vertical Electromagnetic Body Station",
   "model": "TAEM2V",
   "price": "R40,850",
   "lb": "Lay-by R10,000 now, then 2 \u00d7 R15,425"
@@ -184,7 +184,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/2867e90c0c.webp",
-  "name": "4-Handle Tower Electromagnetic Sculpting Station",
+  "name": "4-Handle Tower Electromagnetic Body Station",
   "model": "TAEM4T",
   "price": "R61,600",
   "lb": "Lay-by R16,000 now, then 2 \u00d7 R22,800"
@@ -194,7 +194,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/663cb58f7c.webp",
-  "name": "4-Handle Slim Electromagnetic Sculpting Station",
+  "name": "4-Handle Slim Electromagnetic Body Station",
   "model": "TAEMK",
   "price": "R56,500",
   "lb": "Lay-by R10,000 now, then 2 \u00d7 R23,250"
@@ -204,7 +204,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/b86c43c092.webp",
-  "name": "4-Handle Desktop Electromagnetic Sculpting Machine",
+  "name": "4-Handle Desktop Electromagnetic Body Machine",
   "model": "TAEM4D",
   "price": "R53,950",
   "lb": "Lay-by R10,000 now, then 2 \u00d7 R21,975"
@@ -214,7 +214,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/8a4ae55f85.webp",
-  "name": "2-Handle Desktop Electromagnetic Sculpting Machine",
+  "name": "2-Handle Desktop Electromagnetic Body Machine",
   "model": "TAEM2D",
   "price": "R36,850",
   "lb": "Lay-by R10,000 now, then 2 \u00d7 R13,425"
@@ -224,7 +224,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/2dd46e6d84.webp",
-  "name": "4-Handle Large-Screen Electromagnetic Sculpting Machine",
+  "name": "4-Handle Large-Screen Electromagnetic Body Machine",
   "model": "TAEM4P",
   "price": "R64,150",
   "lb": "Lay-by R17,000 now, then 2 \u00d7 R23,575"
@@ -234,7 +234,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/1a5c0b5cf3.webp",
-  "name": "2-Handle Low-Profile Electromagnetic Sculpting Machine",
+  "name": "2-Handle Low-Profile Electromagnetic Body Machine",
   "model": "TAEM2L",
   "price": "R30,550",
   "lb": "Lay-by R10,000 now, then 2 \u00d7 R10,275"
@@ -244,7 +244,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/421aed7d0a.webp",
-  "name": "4-Handle Cabinet Electromagnetic Sculpting Station",
+  "name": "4-Handle Cabinet Electromagnetic Body Station",
   "model": "TAEMB",
   "price": "R65,400",
   "lb": "Lay-by R17,000 now, then 2 \u00d7 R24,200"
@@ -254,7 +254,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/ccf93e3834.webp",
-  "name": "Electromagnetic Sculpting Station with 18.5-inch Screen",
+  "name": "Electromagnetic Body Station with 18.5-inch Screen",
   "model": "TAEMX",
   "price": "R65,400",
   "lb": "Lay-by R17,000 now, then 2 \u00d7 R24,200"
@@ -294,7 +294,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/66bbfaf3ef.webp",
-  "name": "6-Handle Electromagnetic Body Sculpting Station (White)",
+  "name": "6-Handle Electromagnetic Body Care Station (White)",
   "model": "TAEM6W",
   "price": "R75,300",
   "lb": "Lay-by R19,000 now, then 2 \u00d7 R28,150"
@@ -314,7 +314,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/9e3a0aa999.webp",
-  "name": "1-Handle Compact Electromagnetic Body Sculpting Machine",
+  "name": "1-Handle Compact Electromagnetic Body Care Machine",
   "model": "TAEMC1",
   "price": "R22,300",
   "lb": "Lay-by R5,000 now, then 2 \u00d7 R8,650"
@@ -324,7 +324,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/a56ef4481f.webp",
-  "name": "2-Handle Portable Electromagnetic Body Sculpting Machine",
+  "name": "2-Handle Portable Electromagnetic Body Care Machine",
   "model": "TAEMC2",
   "price": "R25,500",
   "lb": "Lay-by R10,000 now, then 2 \u00d7 R7,750"
@@ -334,7 +334,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/9d0c9150b4.webp",
-  "name": "2-Handle Portable Electromagnetic + RF Body Sculpting Machine",
+  "name": "2-Handle Portable Electromagnetic + RF Body Care Machine",
   "model": "TAEMC2R",
   "price": "R34,600",
   "lb": "Lay-by R10,000 now, then 2 \u00d7 R12,300"
@@ -344,7 +344,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/5a312ce023.webp",
-  "name": "2-Handle Compact Electromagnetic Body Sculpting Machine",
+  "name": "2-Handle Compact Electromagnetic Body Care Machine",
   "model": "TAEMC2B",
   "price": "R31,350",
   "lb": "Lay-by R10,000 now, then 2 \u00d7 R10,675"
@@ -354,7 +354,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/028e45a272.webp",
-  "name": "2-Handle Compact Electromagnetic + RF Body Sculpting Machine",
+  "name": "2-Handle Compact Electromagnetic + RF Body Care Machine",
   "model": "TAEMC2BR",
   "price": "R34,600",
   "lb": "Lay-by R10,000 now, then 2 \u00d7 R12,300"
@@ -364,7 +364,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/59151de664.webp",
-  "name": "4-Handle Portable Electromagnetic Body Sculpting Machine",
+  "name": "4-Handle Portable Electromagnetic Body Care Machine",
   "model": "TAEMC4",
   "price": "R47,900",
   "lb": "Lay-by R10,000 now, then 2 \u00d7 R18,950"
@@ -374,7 +374,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/622a70077c.webp",
-  "name": "4-Handle Portable Electromagnetic + RF Body Sculpting Machine",
+  "name": "4-Handle Portable Electromagnetic + RF Body Care Machine",
   "model": "TAEMC4R",
   "price": "R53,100",
   "lb": "Lay-by R10,000 now, then 2 \u00d7 R21,550"
@@ -384,7 +384,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/fddabb3bd1.webp",
-  "name": "2-Handle Vertical Electromagnetic Body Sculpting Station",
+  "name": "2-Handle Vertical Electromagnetic Body Care Station",
   "model": "TAEMC2L",
   "price": "R39,500",
   "lb": "Lay-by R10,000 now, then 2 \u00d7 R14,750"
@@ -394,7 +394,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/4ed42e4e70.webp",
-  "name": "4-Handle Vertical Electromagnetic Body Sculpting Station",
+  "name": "4-Handle Vertical Electromagnetic Body Care Station",
   "model": "TAEMC4L",
   "price": "R57,800",
   "lb": "Lay-by R10,000 now, then 2 \u00d7 R23,900"
@@ -404,7 +404,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/6dabdad127.webp",
-  "name": "4-Handle Vertical Electromagnetic + RF Body Sculpting Station",
+  "name": "4-Handle Vertical Electromagnetic + RF Body Care Station",
   "model": "TAEMC4LR",
   "price": "R62,900",
   "lb": "Lay-by R16,000 now, then 2 \u00d7 R23,450"
@@ -414,7 +414,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/34ac0bef1d.webp",
-  "name": "Mini Electromagnetic Body Sculpting Machine",
+  "name": "Mini Electromagnetic Body Care Machine",
   "model": "TAEMM1",
   "price": "R20,300",
   "lb": "Lay-by R5,000 now, then 2 \u00d7 R7,650"
@@ -424,7 +424,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/e4b222254b.webp",
-  "name": "Mini Electromagnetic + RF Body Sculpting Machine",
+  "name": "Mini Electromagnetic + RF Body Care Machine",
   "model": "TAEMM1R",
   "price": "R22,300",
   "lb": "Lay-by R5,000 now, then 2 \u00d7 R8,650"
@@ -434,7 +434,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/c27dc7f4d4.webp",
-  "name": "2-Handle Electromagnetic Body Sculpting Machine 2800W",
+  "name": "2-Handle Electromagnetic Body Care Machine 2800W",
   "model": "TAEMP2",
   "price": "R31,900",
   "lb": "Lay-by R10,000 now, then 2 \u00d7 R10,950"
@@ -444,7 +444,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/1ac785a221.webp",
-  "name": "2-Handle Electromagnetic + RF Body Sculpting Machine 2800W",
+  "name": "2-Handle Electromagnetic + RF Body Care Machine 2800W",
   "model": "TAEMP2R",
   "price": "R35,150",
   "lb": "Lay-by R10,000 now, then 2 \u00d7 R12,575"
@@ -454,7 +454,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/702d2117b1.webp",
-  "name": "4-Handle Electromagnetic Body Sculpting Machine 13 Tesla",
+  "name": "4-Handle Electromagnetic Body Care Machine 13 Tesla",
   "model": "TAEMP4",
   "price": "R51,800",
   "lb": "Lay-by R10,000 now, then 2 \u00d7 R20,900"
@@ -464,7 +464,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/98ff3aefd7.webp",
-  "name": "4-Handle Electromagnetic + RF Body Sculpting Machine 13 Tesla",
+  "name": "4-Handle Electromagnetic + RF Body Care Machine 13 Tesla",
   "model": "TAEMP4R",
   "price": "R57,000",
   "lb": "Lay-by R10,000 now, then 2 \u00d7 R23,500"
@@ -494,7 +494,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/a02055a837.webp",
-  "name": "4-Handle Tall Electromagnetic Body Sculpting Station 13 Tesla",
+  "name": "4-Handle Tall Electromagnetic Body Care Station 13 Tesla",
   "model": "TAEMV4",
   "price": "R60,350",
   "lb": "Lay-by R16,000 now, then 2 \u00d7 R22,175"
@@ -514,7 +514,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/a3ac5a56d8.webp",
-  "name": "2-Handle Pro Electromagnetic Body Sculpting Machine",
+  "name": "2-Handle Pro Electromagnetic Body Care Machine",
   "model": "TAEMX2",
   "price": "R31,900",
   "lb": "Lay-by R10,000 now, then 2 \u00d7 R10,950"
@@ -524,7 +524,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/19718ec168.webp",
-  "name": "4-Handle Pro Electromagnetic Body Sculpting Machine",
+  "name": "4-Handle Pro Electromagnetic Body Care Machine",
   "model": "TAEMX4",
   "price": "R50,500",
   "lb": "Lay-by R10,000 now, then 2 \u00d7 R20,250"
@@ -534,7 +534,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/9230c5e7d9.webp",
-  "name": "4-Handle Pro Electromagnetic + EMS Body Sculpting Machine",
+  "name": "4-Handle Pro Electromagnetic + EMS Body Care Machine",
   "model": "TAEMX4E",
   "price": "R54,400",
   "lb": "Lay-by R10,000 now, then 2 \u00d7 R22,200"
@@ -584,14 +584,14 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/cb1a0dfe63.webp",
-  "name": "2-Handle Electromagnetic Muscle Toning Station",
+  "name": "2-Handle Electromagnetic Body Toning Station",
   "model": "TAEMT2",
   "price": "R40,850",
   "lb": "Lay-by R10,000 now, then 2 \u00d7 R15,425"
  },
  {
   "k": 31,
-  "sec": "Cryo body contouring",
+  "sec": "Cryo body care",
   "sid": "cryo",
   "img": "/img/dddd4611bb.webp",
   "name": "5-Handle Hot, Cold & EMS Machine",
@@ -601,47 +601,47 @@
  },
  {
   "k": 32,
-  "sec": "Cryo body contouring",
+  "sec": "Cryo body care",
   "sid": "cryo",
   "img": "/img/dfdb9fa3fc.webp",
-  "name": "Cryo Body Contouring Station",
+  "name": "Cryo Body Care Station",
   "model": "TACRYO15",
   "price": "R38,900",
   "lb": "Lay-by R10,000 now, then 2 \u00d7 R14,450"
  },
  {
   "k": 33,
-  "sec": "Cryo body contouring",
+  "sec": "Cryo body care",
   "sid": "cryo",
   "img": "/img/08ab53b048.webp",
-  "name": "3-Handle Cryo Body Contouring Machine",
+  "name": "3-Handle Cryo Body Care Machine",
   "model": "TACRYO3",
   "price": "R38,200",
   "lb": "Lay-by R10,000 now, then 2 \u00d7 R14,100"
  },
  {
   "k": 34,
-  "sec": "Cryo body contouring",
+  "sec": "Cryo body care",
   "sid": "cryo",
   "img": "/img/e4305724de.webp",
-  "name": "4-Handle 360\u00b0 Cryo Body Contouring Station",
+  "name": "4-Handle 360\u00b0 Cryo Body Care Station",
   "model": "TACRYO360-4",
   "price": "R157,200",
   "lb": "Lay-by R40,000 now, then 2 \u00d7 R58,600"
  },
  {
   "k": 35,
-  "sec": "Cryo body contouring",
+  "sec": "Cryo body care",
   "sid": "cryo",
   "img": "/img/05caaf5334.webp",
-  "name": "2-Handle 360\u00b0 Cryo Body Contouring Machine",
+  "name": "2-Handle 360\u00b0 Cryo Body Care Machine",
   "model": "TACRYO360-2",
   "price": "R116,300",
   "lb": "Lay-by R30,000 now, then 2 \u00d7 R43,150"
  },
  {
   "k": 36,
-  "sec": "Cryo body contouring",
+  "sec": "Cryo body care",
   "sid": "cryo",
   "img": "/img/4ffe054165.webp",
   "name": "Cryo + Electromagnetic Combination Station",
@@ -651,50 +651,50 @@
  },
  {
   "k": 37,
-  "sec": "Cryo body contouring",
+  "sec": "Cryo body care",
   "sid": "cryo",
   "img": "/img/f300e116a0.webp",
-  "name": "2-Handle Cryo Body Contouring Station",
+  "name": "2-Handle Cryo Body Care Station",
   "model": "TACRYO503",
   "price": "R36,850",
   "lb": "Lay-by R10,000 now, then 2 \u00d7 R13,425"
  },
  {
   "k": 38,
-  "sec": "Cryo body contouring",
+  "sec": "Cryo body care",
   "sid": "cryo",
   "img": "/img/026dbd48df.webp",
-  "name": "4-Handle Cryo Body Contouring Station",
+  "name": "4-Handle Cryo Body Care Station",
   "model": "TACRYO601",
   "price": "R50,050",
   "lb": "Lay-by R10,000 now, then 2 \u00d7 R20,025"
  },
  {
   "k": 39,
-  "sec": "Cryo body contouring",
+  "sec": "Cryo body care",
   "sid": "cryo",
   "img": "/img/334d1fd6d7.webp",
-  "name": "2-Handle Tall Cryo Body Contouring Station",
+  "name": "2-Handle Tall Cryo Body Care Station",
   "model": "TACRYO2T",
   "price": "R39,500",
   "lb": "Lay-by R10,000 now, then 2 \u00d7 R14,750"
  },
  {
   "k": 40,
-  "sec": "Cryo body contouring",
+  "sec": "Cryo body care",
   "sid": "cryo",
   "img": "/img/2200f72851.webp",
-  "name": "Portable Cryo Body Contouring Machine",
+  "name": "Portable Cryo Body Care Machine",
   "model": "TACRYOP",
   "price": "R27,800",
   "lb": "Lay-by R10,000 now, then 2 \u00d7 R8,900"
  },
  {
   "k": 100,
-  "sec": "Cryo body contouring",
+  "sec": "Cryo body care",
   "sid": "cryo",
   "img": "/img/7fa233e5b4.webp",
-  "name": "Portable 360 Cryo Body Contouring Machine (3 Handles)",
+  "name": "Portable 360 Cryo Body Care Machine (3 Handles)",
   "model": "TACRYOP3",
   "price": "R30,550",
   "lb": "Lay-by R10,000 now, then 2 \u00d7 R10,275"
@@ -704,7 +704,7 @@
   "sec": "RF and cavitation",
   "sid": "rf",
   "img": "/img/25ccc64b4f.webp",
-  "name": "448K RF Body Contouring Machine",
+  "name": "448K RF Body Care Machine",
   "model": "TARF448B",
   "price": "R25,800",
   "lb": "Lay-by R10,000 now, then 2 \u00d7 R7,900"
@@ -724,7 +724,7 @@
   "sec": "RF and cavitation",
   "sid": "rf",
   "img": "/img/5ded7e1e07.webp",
-  "name": "4-in-1 Cavitation and RF Body Contouring Machine",
+  "name": "4-in-1 Cavitation and RF Body Care Machine",
   "model": "TACAV4",
   "price": "R14,250",
   "lb": "Lay-by R5,000 now, then 2 \u00d7 R4,625"
@@ -764,7 +764,7 @@
   "sec": "RF and cavitation",
   "sid": "rf",
   "img": "/img/b7828a3aec.webp",
-  "name": "RF + EMS Face Sculpting Station",
+  "name": "RF + EMS Face Care Station",
   "model": "TARFEMF",
   "price": "R47,450",
   "lb": "Lay-by R10,000 now, then 2 \u00d7 R18,725"
@@ -774,7 +774,7 @@
   "sec": "RF and cavitation",
   "sid": "rf",
   "img": "/img/cc0e774e99.webp",
-  "name": "Multi-Handle Cavitation Body Contouring Station",
+  "name": "Multi-Handle Cavitation Body Care Station",
   "model": "TACAVB3",
   "price": "R19,450",
   "lb": "Lay-by R5,000 now, then 2 \u00d7 R7,225"
@@ -784,7 +784,7 @@
   "sec": "RF and cavitation",
   "sid": "rf",
   "img": "/img/f647978fe7.webp",
-  "name": "Portable Cavitation Body Contouring Machine",
+  "name": "Portable Cavitation Body Care Machine",
   "model": "TACAVB1",
   "price": "R15,750",
   "lb": "Lay-by R5,000 now, then 2 \u00d7 R5,375"
@@ -844,7 +844,7 @@
   "sec": "RF and cavitation",
   "sid": "rf",
   "img": "/img/cb140f8d51.webp",
-  "name": "5D Vacuum Cavitation Body Contouring Machine (Blue)",
+  "name": "5D Vacuum Cavitation Body Care Machine (Blue)",
   "model": "TACAV5DB",
   "price": "R22,300",
   "lb": "Lay-by R5,000 now, then 2 \u00d7 R8,650"
@@ -864,7 +864,7 @@
   "sec": "RF and cavitation",
   "sid": "rf",
   "img": "/img/5c4466f686.webp",
-  "name": "5-in-1 RF Cavitation Body Contouring Machine",
+  "name": "5-in-1 RF Cavitation Body Care Machine",
   "model": "TACAV5",
   "price": "R14,050",
   "lb": "Lay-by R5,000 now, then 2 \u00d7 R4,525"
@@ -964,7 +964,7 @@
   "sec": "RF and cavitation",
   "sid": "rf",
   "img": "/img/c8b5aad0c8.webp",
-  "name": "Non-Contact RF Body Contouring Frame",
+  "name": "Non-Contact RF Body Care Frame",
   "model": "TARFNC",
   "price": "R50,050",
   "lb": "Lay-by R10,000 now, then 2 \u00d7 R20,025"
@@ -974,7 +974,7 @@
   "sec": "RF and cavitation",
   "sid": "rf",
   "img": "/img/40a09518df.webp",
-  "name": "RF Skin Tightening Machine (Home and Studio)",
+  "name": "RF Skin Care Machine (Home and Studio)",
   "model": "TARFSK1",
   "price": "R6,550",
   "lb": ""
@@ -984,7 +984,7 @@
   "sec": "RF and cavitation",
   "sid": "rf",
   "img": "/img/009e3e2617.webp",
-  "name": "Portable 3-Tip RF Skin Tightening Machine",
+  "name": "Portable 3-Tip RF Skin Care Machine",
   "model": "TARFSK3",
   "price": "R19,450",
   "lb": "Lay-by R5,000 now, then 2 \u00d7 R7,225"
@@ -994,7 +994,7 @@
   "sec": "RF and cavitation",
   "sid": "rf",
   "img": "/img/0a1c72236f.webp",
-  "name": "3-Tip RF Skin Tightening Station with Cooling",
+  "name": "3-Tip RF Skin Care Station with Cooling",
   "model": "TARFSK3S",
   "price": "R35,500",
   "lb": "Lay-by R10,000 now, then 2 \u00d7 R12,750"
@@ -1004,14 +1004,14 @@
   "sec": "RF and cavitation",
   "sid": "rf",
   "img": "/img/7ec1cfe24e.webp",
-  "name": "Cartridge RF Skin Tightening Station",
+  "name": "Cartridge RF Skin Care Station",
   "model": "TARFSKC",
   "price": "R39,500",
   "lb": "Lay-by R10,000 now, then 2 \u00d7 R14,750"
  },
  {
   "k": 123,
-  "sec": "HIFU skin tightening",
+  "sec": "HIFU skin care",
   "sid": "hifu",
   "img": "/img/ed97233a91.webp",
   "name": "Portable HIFU Face and Body Machine",
@@ -1021,7 +1021,7 @@
  },
  {
   "k": 124,
-  "sec": "HIFU skin tightening",
+  "sec": "HIFU skin care",
   "sid": "hifu",
   "img": "/img/a01f3b67e6.webp",
   "name": "HIFU Face and Body Machine with Trolley",
@@ -1031,27 +1031,27 @@
  },
  {
   "k": 125,
-  "sec": "HIFU skin tightening",
+  "sec": "HIFU skin care",
   "sid": "hifu",
   "img": "/img/45c9f2b7f6.webp",
-  "name": "HIFU Face Lifting Machine",
+  "name": "HIFU Face Care Machine",
   "model": "TAUS3",
   "price": "R29,200",
   "lb": "Lay-by R10,000 now, then 2 \u00d7 R9,600"
  },
  {
   "k": 126,
-  "sec": "HIFU skin tightening",
+  "sec": "HIFU skin care",
   "sid": "hifu",
   "img": "/img/59cca5d5d7.webp",
-  "name": "Portable HIFU Skin Tightening Machine",
+  "name": "Portable HIFU Skin Care Machine",
   "model": "TAUS5",
   "price": "R26,450",
   "lb": "Lay-by R10,000 now, then 2 \u00d7 R8,225"
  },
  {
   "k": 127,
-  "sec": "HIFU skin tightening",
+  "sec": "HIFU skin care",
   "sid": "hifu",
   "img": "/img/633e5b4a91.webp",
   "name": "Radar Line HIFU Machine",
@@ -1061,7 +1061,7 @@
  },
  {
   "k": 128,
-  "sec": "HIFU skin tightening",
+  "sec": "HIFU skin care",
   "sid": "hifu",
   "img": "/img/43c0c8d1aa.webp",
   "name": "4D HIFU Machine",
@@ -1071,7 +1071,7 @@
  },
  {
   "k": 129,
-  "sec": "HIFU skin tightening",
+  "sec": "HIFU skin care",
   "sid": "hifu",
   "img": "/img/896e7898a6.webp",
   "name": "4D HIFU Station",
@@ -1081,7 +1081,7 @@
  },
  {
   "k": 130,
-  "sec": "HIFU skin tightening",
+  "sec": "HIFU skin care",
   "sid": "hifu",
   "img": "/img/bdd5bb9a7f.webp",
   "name": "9D HIFU Machine",
@@ -1091,7 +1091,7 @@
  },
  {
   "k": 131,
-  "sec": "HIFU skin tightening",
+  "sec": "HIFU skin care",
   "sid": "hifu",
   "img": "/img/5a31655f10.webp",
   "name": "7D HIFU Station",
@@ -1101,7 +1101,7 @@
  },
  {
   "k": 132,
-  "sec": "HIFU skin tightening",
+  "sec": "HIFU skin care",
   "sid": "hifu",
   "img": "/img/7820126a66.webp",
   "name": "Portable 7D HIFU Machine",
@@ -1111,7 +1111,7 @@
  },
  {
   "k": 133,
-  "sec": "HIFU skin tightening",
+  "sec": "HIFU skin care",
   "sid": "hifu",
   "img": "/img/3f2f3ad946.webp",
   "name": "Compact 7D HIFU Machine",
@@ -1644,7 +1644,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/3aab1ce728.webp",
-  "name": "2-Handle HI-EMT Body Sculpting Machine with RF",
+  "name": "2-Handle HI-EMT Body Care Machine with RF",
   "model": "TAC2-2H",
   "price": "R77,850",
   "lb": "Lay-by R20,000 now, then 2 \u00d7 R28,925"
@@ -1654,7 +1654,7 @@
   "sec": "EMS and electromagnetic",
   "sid": "ems",
   "img": "/img/393c493865.webp",
-  "name": "4-Handle HI-EMT Body Sculpting Machine with RF and Seat Applicator",
+  "name": "4-Handle HI-EMT Body Care Machine with RF and Seat Applicator",
   "model": "TAC2-4H",
   "price": "R88,200",
   "lb": "Lay-by R23,000 now, then 2 \u00d7 R32,600"
@@ -1664,7 +1664,7 @@
   "sec": "RF and cavitation",
   "sid": "rf",
   "img": "/img/e9050e0a5b.webp",
-  "name": "5-Handle Roller, Vacuum and RF Body Shaping Station",
+  "name": "5-Handle Roller, Vacuum and RF Body Care Station",
   "model": "TAVS5",
   "price": "R102,200",
   "lb": "Lay-by R26,000 now, then 2 \u00d7 R38,100"

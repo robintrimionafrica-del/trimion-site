@@ -7,6 +7,7 @@ cd "$(dirname "$0")"
 python3 pricing.py                                   # prices.json from the estimates in pricing.py
 cp products.orig.json products.json; cp details.orig.json details.json
 python3 -c "import apply_prices as A; A.update_data()"   # put prices into product data
+python3 safe_words.py data                            # plain cosmetic wording in product data (no sculpting/tightening claims)
 mkdir -p og-full ../public/og
 node ogrender.js                                      # 1200x630 share pictures -> og-full/
 python3 - <<'PY'
@@ -34,4 +35,5 @@ python3 live_feed.py                                  # live feed on the home pa
 python3 ig_page.py                                   # Instagram posting plan at /instagram (posts in order, batches of 10)
 python3 gumtree_page.py                               # classifieds listing pack at /gumtree (Gumtree, Marketplace, Junkmail)
 python3 meta_pixel.py                                 # Meta Pixel on every page (PageView, ViewContent, WhatsApp Lead)
+python3 safe_words.py public                          # same plain wording across every public page and feed (keep last)
 echo "Done. Commit and push to main; Cloudflare deploys in about a minute."
