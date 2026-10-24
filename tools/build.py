@@ -111,7 +111,7 @@ FAQ_W = ('<details><summary>What warranty do I get?</summary><p>Every machine co
          'If anything goes wrong, send us a WhatsApp with a short video and we help you straight away (many issues are settings). '
          'This is on top of your rights under the Consumer Protection Act.</p></details>')
 rep('<details><summary>How does delivery work?</summary>', FAQ_W + '<details><summary>How does delivery work?</summary>')
-rep('updated 7 October 2026', 'updated 14 October 2026')
+rep('updated 7 October 2026', 'updated 24 October 2026 · Supplier: Trimion Africa Precision (Pty) Ltd, reg. 2026/806671/07, Durban, KwaZulu-Natal')
 rep('<details><summary>Returns, refunds and warranty</summary><div class="lgb">\n',
     '<details><summary>Returns, refunds and warranty</summary><div class="lgb">\n'
     '<p>Warranty: every machine has a 1-year warranty on the machine (main unit) and 6 months on handpieces and handles, from the delivery date. '

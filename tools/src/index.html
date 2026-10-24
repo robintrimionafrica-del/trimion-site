@@ -1656,18 +1656,18 @@ a.style.transition='opacity .25s';show();setInterval(function(){i=(i+1)%M.length
 <details class="lgd" id="legal"><summary>Legal ▾</summary><div class="faq lgl"><p class="lgi">Terms, returns and privacy · updated 7 October 2026</p>
 <details><summary>Machines, prices and payment</summary><div class="lgb">
 <p>Each machine page shows the main features, specifications and price. Photos show the actual machine model; colour and small details can differ slightly.</p>
-<p>Prices are in South African rand and are the full price you pay for the machine. The only extra is delivery (R150), which your cart shows before you send your order. Your invoice shows the final amount.</p>
+<p>Prices are in South African rand and are the full price you pay for the machine. Trimion Africa Precision is not registered for VAT, so no VAT is added. Machines marked “Available on request” have no published price: we send you a written quote first. The only extra is delivery (R150), which your cart shows before you send your order. Your invoice shows the final amount.</p>
 <p>You can pay by EFT to the banking details on your Trimion Africa invoice, or by card through a secure payment link we send you. We never ask for card numbers on WhatsApp.</p>
 <p>Prices and stock are confirmed in writing on your invoice. If a price on this site is wrong because of an obvious mistake, we tell you before you pay and you can cancel.</p>
 </div></details>
 <details><summary>How ordering works</summary><div class="lgb">
 <p>1. Add machines to your cart, or tap Buy now. You can check, change or remove anything before you send.</p>
 <p>2. Your order is sent to us as a WhatsApp message. Nothing is paid on this website.</p>
-<p>3. We confirm stock, price and delivery, and send your invoice. The order is final once you pay the invoice.</p>
+<p>3. We confirm stock, price and delivery, and send your invoice. Your pro forma invoice is valid for 24 hours; after that, price and availability must be reconfirmed. We accept your order when we confirm in writing that your payment has cleared and the item is available. Proof of payment alone is not confirmation of cleared funds.</p>
 <p>4. Keep your WhatsApp chat and invoice: they are your full record of the order. You can also see the orders you sent under My account.</p>
 </div></details>
 <details><summary>Delivery</summary><div class="lgb">
-<p>We deliver anywhere in South Africa for R150. Machines are dispatched after payment is received and usually arrive within 9 to 12 business days. You get tracking details on WhatsApp.</p>
+<p>We deliver anywhere in South Africa for R150. Machines are dispatched after cleared funds and availability are confirmed and usually arrive within 9 to 12 business days. You get tracking details on WhatsApp.</p>
 <p>Lay-by machines are ordered once your final payment clears, then delivered in the same time.</p>
 <p>Please check the box and machine when it arrives and tell us as soon as possible (ideally within 24 hours) if anything is damaged or missing, with photos on WhatsApp.</p>
 </div></details>
@@ -1677,7 +1677,7 @@ a.style.transition='opacity .25s';show();setInterval(function(){i=(i+1)%M.length
 </div></details>
 <details><summary>Returns, refunds and warranty</summary><div class="lgb">
 <p>Every machine is new. Under section 56 of the Consumer Protection Act, if a machine is faulty or not fit for its purpose, you can return it within 6 months of delivery. You choose a repair, a replacement or a refund. This does not cover damage from misuse, wrong voltage, dropping, or opening the machine yourself.</p>
-<p>To report a fault, send us a WhatsApp with your order number and a short video of the problem. We help you first over WhatsApp, as many problems are settings.</p>
+<p>To report a fault, send us a WhatsApp with your order number and a short video of the problem. We help you first over WhatsApp, as many problems are settings.</p><p><b>Technical support:</b> WhatsApp 064 454 8506 or email robin.trimionafrica@gmail.com with the model, your order number and a short video. We reply within 2 business days.</p>
 <p>Refunds are paid by EFT to the account you paid from.</p>
 </div></details>
 <details><summary>Lay-by terms</summary><div class="lgb">
@@ -2043,7 +2043,7 @@ function draw(){var L=items();
  (ly?'':'<p class="dtl" style="margin-top:8px">Lay-by is for orders from R10,000'+(t.por?' with listed prices':'')+'.</p>')+
  '<h4 style="margin-top:14px">Pay by</h4><div class="ch two" role="group" aria-label="Payment method"><button type="button" data-m="EFT" aria-pressed="'+(meth==='EFT')+'">🏦 EFT<small>Bank transfer</small></button><button type="button" data-m="Card" aria-pressed="'+(meth==='Card')+'">💳 Card<small>Secure link from us</small></button></div></div>'+
  '<div class="ab"><h4>Delivery details</h4><p class="dtl">'+(has?'Your saved details are added to your order. <button type="button" data-x="acct">Edit details</button>':'Add your name and address so we can quote delivery straight away. <button type="button" data-x="acct">Add my details</button> (optional)')+'</p>'+
- '<p class="pv" style="margin:12px 0 2px">Check your order above. You can change or remove machines before you send. By sending your order you agree to our <button class="lk" style="color:var(--blue)" type="button" data-x="terms">terms and returns policy</button>.</p><button class="cko" type="button" data-x="go">Checkout on WhatsApp</button><button class="ckq" type="button" data-x="quote">Ask for a quote first</button>'+
+ '<p class="pv" style="margin:12px 0 2px">Check your order above. You can change or remove machines before you send. By sending your order you agree to our <button class="lk" style="color:var(--blue)" type="button" data-x="terms">terms and returns policy</button>.</p><button class="cko" type="button" data-x="go">Checkout on WhatsApp</button><button class="ckq" type="button" data-x="quote">Ask for a quote first</button><button class="lk" style="display:block;margin:8px auto 0;color:var(--blue)" type="button" data-x="qsum">📄 Quote summary (price pending, not payable)</button>'+
  '<p class="pv">Nothing is paid on this page. We confirm stock and delivery, then send your Trimion Africa invoice on WhatsApp. Card payments only through a secure link we send you. <button class="lk" type="button" data-x="clear">Clear cart</button></p></div>'+subBox()}
 function lines(L){return L.map(function(x,i){return (i+1)+'. '+x.n+' ('+x.m+') × '+x.q+' – '+(x.p?R(x.p*x.q):'price on request')}).join('\n')}
 function order(){var L=items();if(!L.length)return;var t=totals(L),ref='TA-ORD-'+code().slice(3,8);
@@ -2052,7 +2052,17 @@ function order(){var L=items();if(!L.length)return;var t=totals(L),ref='TA-ORD-'
  '\nPayment: '+(pay==='full'?'Pay in full':'Lay-by – '+R(d)+' deposit, then '+(lm===m?N+' × '+R(m):(N-1)+' × '+R(m)+' + '+R(lm)))+'\nPay by: '+(meth==='Card'?'Card (please send a secure payment link)':'EFT')+'\n\nPlease send my invoice 👍';
  var r=g('ta_req',[]);L.forEach(function(x){r.unshift({id:x.id,k:'Order '+ref,t:Date.now()})});p('ta_req',r.slice(0,40));
  wa(msg)}
-function quote(){var L=items();if(!L.length)return;wa('Hi Trimion Africa 😊 Please send me a quote for these machines:\n'+lines(L)+'\n\nThank you 👍')}
+function qdata(){var L=items();if(!L.length)return null;var d=g('ta_profile',{}),n=((d.pf||'')+' '+(d.ps||'')).trim(),tw=((d.pc||'')+' '+(d.pz||'')).trim();
+ if(!n){n=(prompt('Your name for the quote:')||'').trim()}if(!tw){tw=(prompt('Delivery town and postal code (for the delivery quote):')||'').trim()}
+ var now=new Date(),z=function(v){return(v<10?'0':'')+v},sa=new Date(now.getTime()+(now.getTimezoneOffset()+120)*60000),
+ ref='TA-Q-'+String(sa.getFullYear()).slice(2)+z(sa.getMonth()+1)+z(sa.getDate())+'-'+code().slice(3,7),
+ when=sa.getFullYear()+'-'+z(sa.getMonth()+1)+'-'+z(sa.getDate())+' '+z(sa.getHours())+':'+z(sa.getMinutes())+' (SAST)';
+ return {r:ref,n:n,t:tw,w:when,i:L.map(function(x){var a=x.c.closest('article'),k=a?a.dataset.k:'';return {n:x.n,m:x.m,q:x.q,k:k}})}}
+function qtext(D){return 'Hi Trimion Africa 😊 Please send me a quote.\n\nPRICE PENDING — NOT PAYABLE\nRef: '+D.r+'\nName: '+(D.n||'(not given)')+'\nDelivery to: '+(D.t||'(not given)')+'\nIssued: '+D.w+'\n\n'+
+ D.i.map(function(x,j){return (j+1)+'. '+x.n+' ('+x.m+') × '+x.q+(x.k?'\n   https://trimionafrica.co.za/p/m'+x.k:'')+'\n   Brochure: https://trimionafrica.co.za/pdf/'+x.m+'.pdf'}).join('\n')+'\n\nThank you 👍'}
+function quote(){var D=qdata();if(!D)return;var r=g('ta_req',[]);D.i.forEach(function(x){r.unshift({id:x.m,k:'Quote '+D.r,t:Date.now()})});p('ta_req',r.slice(0,40));
+ window.open(WA+encodeURIComponent(qtext(D)),'_blank','noopener')}
+function qsum(){var D=qdata();if(!D)return;window.open('/quote/#'+encodeURIComponent(JSON.stringify(D)),'_blank','noopener')}
 function open_(){T.classList.remove('show');lastF=document.activeElement;draw();C.classList.add('open');document.body.style.overflow='hidden';document.getElementById('crx').focus()}
 function close(){C.classList.remove('open');document.body.style.overflow='';if(lastF&&lastF.focus)lastF.focus()}
 window.TA_openCart=open_;
@@ -2069,6 +2079,7 @@ C.addEventListener('click',function(ev){var b=ev.target.closest('button');if(!b)
  if(x==='acct'){close();var a=document.getElementById('acb');a.click();setTimeout(function(){var f=document.getElementById('pf');if(f){f.scrollIntoView({block:'center'});f.focus()}},120)}
  if(x==='go')order();
  if(x==='quote')quote();
+ if(x==='qsum')qsum();
  if(x==='clear'){if(confirm('Remove all machines from your cart?')){window.TA_CART.set([]);p('ta_qty',{});draw()}}
  if(x==='terms'){close();var lgl=document.getElementById('legal');if(lgl){lgl.open=true;var d=lgl.querySelectorAll('details');[3,4].forEach(function(i){if(d[i])d[i].open=true});setTimeout(function(){lgl.scrollIntoView({block:'start'})},50)}}
  if(x==='sub')subscribe();

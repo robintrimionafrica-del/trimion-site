@@ -81,7 +81,7 @@ CSS = """<style id="lv-css">#livefeed{margin:18px 0 6px}#livefeed .txh{display:f
 .lvt{font-weight:600;font-size:13.5px;line-height:1.3;color:inherit;text-decoration:none;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .lvp{font-size:14px}.lvw{align-self:flex-start;background:#128c4a;color:#fff;text-decoration:none;font-weight:600;font-size:12.5px;border-radius:8px;padding:6px 12px}</style>"""
 SEC = ('<section class="shs" id="livefeed" aria-label="Live feed" hidden><div class="txh"><h2><span class="dot"></span>Live feed</h2>'
-       '<a href="/media/">All videos ›</a></div><p id="lvnext"></p><div class="lvr"></div></section>'
+       '<span><a href="#getapp">📲 Install Trimion Africa</a> · <a href="/media/">All videos ›</a></span></div><p id="lvnext"></p><div class="lvr"></div></section>'
        '<script src="/live.js" defer></script>')
 p = f'{PUB}/index.html'; s = open(p).read()
 if 'id="livefeed"' not in s:
