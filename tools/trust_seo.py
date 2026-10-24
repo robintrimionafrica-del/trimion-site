@@ -17,7 +17,7 @@ INTRO = {
 TRUST = (
     '<div class="trust" id="trust" role="region" aria-labelledby="trh"><h2 id="trh">Why salons buy from Trimion Africa</h2>'
     '<div class="tg">'
-    '<div><b>Registered South African company</b>Trimion Africa Precision (Pty) Ltd · CIPC 2026/806671/07 · Business address: 134 Keal Road, Sydenham, Durban 4091</div>'
+    '<div><b>Registered South African company</b>Trimion Africa Precision (Pty) Ltd · CIPC 2026/806671/07 · Durban, KwaZulu-Natal</div>'
     '<div><b>1-year warranty</b>On the machine, 6 months on handpieces, written on your invoice. Plus your Consumer Protection Act rights.</div>'
     '<div><b>7-day cooling-off</b>Changed your mind? Cancel within 7 days of delivery under the ECT Act.</div>'
     '<div><b>Pay safely</b>EFT to the details on your Trimion invoice or a secure card link. We never ask for card numbers on WhatsApp.</div>'
