@@ -3,3 +3,7 @@ __pycache__/
 *.pyc
 .wrangler/
 node_modules/
+
+# retired hero banners (claim wording) copied by rebuild from src/img; not published
+public/img/hs2-ems.jpg
+public/img/hs2-ask.jpg
