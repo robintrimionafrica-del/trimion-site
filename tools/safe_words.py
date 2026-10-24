@@ -20,6 +20,14 @@ RULES = [
     (r"#slimming\b", "#bodycare"), (r"#\w*sculpt\w*", "#bodycare"), (r"#\w*contour\w*", "#bodycare"),
     (r"\bbutt lift look\b", "glute care"), (r"\bbutt lift\b", "glute care"), (r"\bmicro lift\b", "microcurrent"), (r"#facelift(ing)?\b", "#facecare"), (r"#lipo\w*", "#bodycare"), (r"#fat\w*", "#bodycare"),
     (r"#hydra_?facials?\b", "#waterdermabrasion"), (r"\bhydra[ -]?facial machine\b", "water dermabrasion machine"), (r"\bhydra[ -]?facials?\b", "water dermabrasion facial"),
+    # medical-device status is not yet confirmed per model (SAHPRA Rule 9), so never state "not a medical device"
+    (r"\bThey are not medical devices and are not intended to\b", "They are for cosmetic use and are not intended to"),
+    (r"\bthey are not medical devices and are not intended to\b", "they are for cosmetic use and are not intended to"),
+    (r"\bnot medical devices and are not intended to\b", "for cosmetic use and are not intended to"),
+    (r"\bNot medical devices and not intended to\b", "For cosmetic use only and not intended to"),
+    (r"\bNot a medical device and not intended to\b", "For cosmetic use only and not intended to"),
+    (r"<b>Salon and spa use</b>Not a medical device", "<b>Salon and spa use</b>Cosmetic treatments only"),
+    (r"\bNot a medical device\b", "For cosmetic use only"),
     # fat / weight / cellulite
     (r"\bcryo fat freezing\b", "cryo machine"), (r"\bfat[- ]freezing\b", "cryo"), (r"\bfat (reduction|loss|burning)\b", "body care"),
     (r"\bweight[- ]loss\b", "body care"), (r"\bweight management\b", "body care"), (r"\bslimming\b", "body care"),

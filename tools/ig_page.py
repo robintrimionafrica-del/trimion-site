@@ -15,7 +15,7 @@ PO = {p['code']: p for p in json.load(open(f'{T}/postt/posts.json'))}
 BANK = json.load(open(f'{T}/post_bank.json'))
 CAT = {'ems': 'EMS', 'cryo': 'Cryo', 'rf': 'RF & cavitation', 'hifu': 'HIFU', 'face': 'Facial',
        'massage': 'Body massage', 'salon': 'Salon & wellness', 'supplies': 'Consumables'}
-TAGS = {'ems': '#bodysculpting #emsculpt', 'cryo': '#cryo #bodycontouring', 'rf': '#rfskintightening #cavitation',
+TAGS = {'ems': '#emsmachine #bodycare', 'cryo': '#cryo #bodycare', 'rf': '#rfmachine #cavitation',
         'hifu': '#HIFU #HIFUfacial', 'face': '#facialmachine #facialist', 'massage': '#bodymassage #spatreatment',
         'salon': '#salonlife #wellness', 'supplies': '#salonsupplies #spasupplies'}
 
