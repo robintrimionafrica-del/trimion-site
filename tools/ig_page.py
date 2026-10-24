@@ -103,6 +103,7 @@ May the festival of lights bring you, your family and your salon joy, health and
 items = []
 for p in TODAY:
     m = re.search(r'\(([A-Z0-9-]+)\)$', p['title'])
+    if m and m.group(1) in PR and PR[m.group(1)].get('onreq'): continue   # on request (hold.py)
     if m and m.group(1) in PR:
         it = machine(m.group(1), p['ig'])
     else:
@@ -112,6 +113,7 @@ for p in TODAY:
 done = {i['code'] for i in items if i['code']}
 rest = [b['code'] for b in BANK if b['code'] not in done]
 rest += [c for c in PR if c not in done and c not in rest and c in PO]
+rest = [c for c in rest if not PR.get(c, {}).get('onreq')]   # on request (hold.py)
 for i, c in enumerate(rest):
     if i == 13:   # Refer & Earn as post 21
         items.append(dict(kind='s', title='Refer a salon, earn R2,000', code='', cat='Special', price='', lb='',

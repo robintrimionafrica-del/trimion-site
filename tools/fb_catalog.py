@@ -18,13 +18,14 @@ os.makedirs(os.path.join(PUB, "fb"), exist_ok=True)
 IMGV = {"TACRYOM": "-w", "TACRYOP3": "-w", "TAEM5G": "-s"}   # new file names so Meta fetches the cleaned (white background) photos
 rows = []
 for d in D:
-    price = int(re.sub(r"[^\d]", "", d["price"]))
+    price = int(re.sub(r"[^\d]", "", d["price"]) or 0)
     model = d["model"]
     jpg = f"fb/{model}{IMGV.get(model, '')}.jpg"
     im = Image.open(os.path.join(PUB, d["img"].lstrip("/"))).convert("RGB")
     if min(im.size) < 600:
         im = im.resize((600, 600), Image.LANCZOS)
     im.save(os.path.join(PUB, jpg), "JPEG", quality=86, optimize=True, progressive=True)
+    if not price: continue   # on request (hold.py): photo kept for the site, left out of the catalog feed
 
     specs = [s for s in d.get("specs", []) if s.strip()]
     get = [g for g in d.get("get", []) if g.strip()]

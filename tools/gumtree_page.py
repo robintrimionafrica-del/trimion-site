@@ -35,6 +35,7 @@ def desc(p):
 
 items = []
 for p in P:
+    if p.get('onreq'): continue   # on request (hold.py): not in the classifieds pack
     items.append(dict(n=len(items) + 1, model=p['model'], title=title(p), price=p['price'],
                       num=re.sub(r'\D', '', p['price']), cat=CAT.get(p['sid'], ''), lb=p.get('lb', '') if p['sid'] != 'supplies' else '',
                       img=f"/fb/{p['model']}.jpg", desc=desc(p)))

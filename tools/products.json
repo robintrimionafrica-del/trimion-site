@@ -6,8 +6,9 @@
   "img": "/img/c021091d6e.webp",
   "name": "5-Handle 2500W EMS Body Care Machine",
   "model": "TAEMS2500",
-  "price": "R231,750",
-  "lb": "Lay-by R58,000 now, then 2 \u00d7 R86,875"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 2,
@@ -16,8 +17,9 @@
   "img": "/img/27d600c132.webp",
   "name": "4-Handle 4300W EMS Body Care Machine",
   "model": "TAEMS4300",
-  "price": "R211,400",
-  "lb": "Lay-by R53,000 now, then 2 \u00d7 R79,200"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 3,
@@ -26,8 +28,9 @@
   "img": "/img/664b8cb816.webp",
   "name": "4-Handle EMS Body Care Machine",
   "model": "TAEMS4",
-  "price": "R82,800",
-  "lb": "Lay-by R21,000 now, then 2 \u00d7 R30,900"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 4,
@@ -36,8 +39,9 @@
   "img": "/img/ac5dc2237e.webp",
   "name": "5000W 2-Handle EMS Body Care Machine",
   "model": "TAEMS5000",
-  "price": "R46,250",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R18,125"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 5,
@@ -46,8 +50,9 @@
   "img": "/img/de5fc428be.webp",
   "name": "2-Handle EMS Body Care Machine",
   "model": "TAEMS2",
-  "price": "R44,550",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R17,275"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 6,
@@ -56,8 +61,9 @@
   "img": "/img/a091c1c83c.webp",
   "name": "10-Channel EMS Body System",
   "model": "TAEMS10CH01",
-  "price": "R22,450",
-  "lb": "Lay-by R5,000 now, then 2 \u00d7 R8,725"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 7,
@@ -66,8 +72,9 @@
   "img": "/img/d8e2220a2a.webp",
   "name": "Cryo + Electromagnetic Body Care Station",
   "model": "TACRYOEM",
-  "price": "R189,150",
-  "lb": "Lay-by R48,000 now, then 2 \u00d7 R70,575"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 8,
@@ -76,8 +83,9 @@
   "img": "/img/2a49388be2.webp",
   "name": "4-Applicator Electromagnetic Body Care Machine",
   "model": "TAEM4",
-  "price": "R42,450",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R16,225"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 9,
@@ -86,8 +94,9 @@
   "img": "/img/eb9a721b8b.webp",
   "name": "4-Handle Electromagnetic Body Care Station (Grey)",
   "model": "TAEM4G",
-  "price": "R59,100",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R24,550"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 10,
@@ -96,8 +105,9 @@
   "img": "/img/taem5g-seat-1020.webp",
   "name": "4-Handle Electromagnetic Station with Seat Pad (Grey)",
   "model": "TAEM5G",
-  "price": "R65,400",
-  "lb": "Lay-by R17,000 now, then 2 \u00d7 R24,200"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 11,
@@ -106,8 +116,9 @@
   "img": "/img/914e4ae207.webp",
   "name": "4-Handle Electromagnetic Body Care Station (Black)",
   "model": "TAEM4B",
-  "price": "R59,100",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R24,550"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 12,
@@ -116,8 +127,9 @@
   "img": "/img/a66a4e9324.webp",
   "name": "4-Handle Electromagnetic Station with Seat Pad (Black)",
   "model": "TAEM5B",
-  "price": "R65,400",
-  "lb": "Lay-by R17,000 now, then 2 \u00d7 R24,200"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 13,
@@ -126,8 +138,9 @@
   "img": "/img/79b0f55c93.webp",
   "name": "Compact 4-Handle Electromagnetic Machine",
   "model": "TAEM4C",
-  "price": "R49,200",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R19,600"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 14,
@@ -136,8 +149,9 @@
   "img": "/img/a00909b548.webp",
   "name": "Compact 2-Handle Electromagnetic Machine",
   "model": "TAEM2C",
-  "price": "R31,900",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R10,950"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 15,
@@ -146,8 +160,9 @@
   "img": "/img/7072819726.webp",
   "name": "4-Handle Electromagnetic Body Care Machine (White)",
   "model": "TAEM4W",
-  "price": "R59,100",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R24,550"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 16,
@@ -156,8 +171,9 @@
   "img": "/img/fe714fc47b.webp",
   "name": "2-Handle Electromagnetic Body Care Machine (White)",
   "model": "TAEM2W",
-  "price": "R38,150",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R14,075"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 17,
@@ -166,8 +182,9 @@
   "img": "/img/454bb59969.webp",
   "name": "4-Handle Vertical Electromagnetic Body Station",
   "model": "TAEM4V",
-  "price": "R85,500",
-  "lb": "Lay-by R22,000 now, then 2 \u00d7 R31,750"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 18,
@@ -176,8 +193,9 @@
   "img": "/img/312829a5ff.webp",
   "name": "2-Handle Vertical Electromagnetic Body Station",
   "model": "TAEM2V",
-  "price": "R40,850",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R15,425"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 19,
@@ -186,8 +204,9 @@
   "img": "/img/2867e90c0c.webp",
   "name": "4-Handle Tower Electromagnetic Body Station",
   "model": "TAEM4T",
-  "price": "R61,600",
-  "lb": "Lay-by R16,000 now, then 2 \u00d7 R22,800"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 20,
@@ -196,8 +215,9 @@
   "img": "/img/663cb58f7c.webp",
   "name": "4-Handle Slim Electromagnetic Body Station",
   "model": "TAEMK",
-  "price": "R56,500",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R23,250"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 21,
@@ -206,8 +226,9 @@
   "img": "/img/b86c43c092.webp",
   "name": "4-Handle Desktop Electromagnetic Body Machine",
   "model": "TAEM4D",
-  "price": "R53,950",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R21,975"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 22,
@@ -216,8 +237,9 @@
   "img": "/img/8a4ae55f85.webp",
   "name": "2-Handle Desktop Electromagnetic Body Machine",
   "model": "TAEM2D",
-  "price": "R36,850",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R13,425"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 23,
@@ -226,8 +248,9 @@
   "img": "/img/2dd46e6d84.webp",
   "name": "4-Handle Large-Screen Electromagnetic Body Machine",
   "model": "TAEM4P",
-  "price": "R64,150",
-  "lb": "Lay-by R17,000 now, then 2 \u00d7 R23,575"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 24,
@@ -236,8 +259,9 @@
   "img": "/img/1a5c0b5cf3.webp",
   "name": "2-Handle Low-Profile Electromagnetic Body Machine",
   "model": "TAEM2L",
-  "price": "R30,550",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R10,275"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 25,
@@ -246,8 +270,9 @@
   "img": "/img/421aed7d0a.webp",
   "name": "4-Handle Cabinet Electromagnetic Body Station",
   "model": "TAEMB",
-  "price": "R65,400",
-  "lb": "Lay-by R17,000 now, then 2 \u00d7 R24,200"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 26,
@@ -256,8 +281,9 @@
   "img": "/img/ccf93e3834.webp",
   "name": "Electromagnetic Body Station with 18.5-inch Screen",
   "model": "TAEMX",
-  "price": "R65,400",
-  "lb": "Lay-by R17,000 now, then 2 \u00d7 R24,200"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 27,
@@ -266,8 +292,9 @@
   "img": "/img/5c520d6c51.webp",
   "name": "2-Handle Water-Cooled Electromagnetic Station",
   "model": "TAEM2WC",
-  "price": "R42,150",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R16,075"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 28,
@@ -276,8 +303,9 @@
   "img": "/img/1cb2a9ee4f.webp",
   "name": "2-Handle Portable Water-Cooled Electromagnetic Machine",
   "model": "TAEM2WP",
-  "price": "R33,250",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R11,625"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 29,
@@ -286,8 +314,9 @@
   "img": "/img/df7f52152e.webp",
   "name": "4-Applicator Electromagnetic Body Station 5000W",
   "model": "TAEM4S",
-  "price": "R65,400",
-  "lb": "Lay-by R17,000 now, then 2 \u00d7 R24,200"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 30,
@@ -296,8 +325,9 @@
   "img": "/img/66bbfaf3ef.webp",
   "name": "6-Handle Electromagnetic Body Care Station (White)",
   "model": "TAEM6W",
-  "price": "R75,300",
-  "lb": "Lay-by R19,000 now, then 2 \u00d7 R28,150"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 71,
@@ -306,8 +336,9 @@
   "img": "/img/f76456ad5b.webp",
   "name": "4-Handle Electromagnetic Body Station (Black & Silver)",
   "model": "TAEM4K",
-  "price": "R59,100",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R24,550"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 72,
@@ -316,8 +347,9 @@
   "img": "/img/9e3a0aa999.webp",
   "name": "1-Handle Compact Electromagnetic Body Care Machine",
   "model": "TAEMC1",
-  "price": "R22,300",
-  "lb": "Lay-by R5,000 now, then 2 \u00d7 R8,650"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 73,
@@ -326,8 +358,9 @@
   "img": "/img/a56ef4481f.webp",
   "name": "2-Handle Portable Electromagnetic Body Care Machine",
   "model": "TAEMC2",
-  "price": "R25,500",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R7,750"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 74,
@@ -336,8 +369,9 @@
   "img": "/img/9d0c9150b4.webp",
   "name": "2-Handle Portable Electromagnetic + RF Body Care Machine",
   "model": "TAEMC2R",
-  "price": "R34,600",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R12,300"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 75,
@@ -346,8 +380,9 @@
   "img": "/img/5a312ce023.webp",
   "name": "2-Handle Compact Electromagnetic Body Care Machine",
   "model": "TAEMC2B",
-  "price": "R31,350",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R10,675"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 76,
@@ -356,8 +391,9 @@
   "img": "/img/028e45a272.webp",
   "name": "2-Handle Compact Electromagnetic + RF Body Care Machine",
   "model": "TAEMC2BR",
-  "price": "R34,600",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R12,300"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 77,
@@ -366,8 +402,9 @@
   "img": "/img/59151de664.webp",
   "name": "4-Handle Portable Electromagnetic Body Care Machine",
   "model": "TAEMC4",
-  "price": "R47,900",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R18,950"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 78,
@@ -376,8 +413,9 @@
   "img": "/img/622a70077c.webp",
   "name": "4-Handle Portable Electromagnetic + RF Body Care Machine",
   "model": "TAEMC4R",
-  "price": "R53,100",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R21,550"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 79,
@@ -386,8 +424,9 @@
   "img": "/img/fddabb3bd1.webp",
   "name": "2-Handle Vertical Electromagnetic Body Care Station",
   "model": "TAEMC2L",
-  "price": "R39,500",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R14,750"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 80,
@@ -396,8 +435,9 @@
   "img": "/img/4ed42e4e70.webp",
   "name": "4-Handle Vertical Electromagnetic Body Care Station",
   "model": "TAEMC4L",
-  "price": "R57,800",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R23,900"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 81,
@@ -406,8 +446,9 @@
   "img": "/img/6dabdad127.webp",
   "name": "4-Handle Vertical Electromagnetic + RF Body Care Station",
   "model": "TAEMC4LR",
-  "price": "R62,900",
-  "lb": "Lay-by R16,000 now, then 2 \u00d7 R23,450"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 82,
@@ -416,8 +457,9 @@
   "img": "/img/34ac0bef1d.webp",
   "name": "Mini Electromagnetic Body Care Machine",
   "model": "TAEMM1",
-  "price": "R20,300",
-  "lb": "Lay-by R5,000 now, then 2 \u00d7 R7,650"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 83,
@@ -426,8 +468,9 @@
   "img": "/img/e4b222254b.webp",
   "name": "Mini Electromagnetic + RF Body Care Machine",
   "model": "TAEMM1R",
-  "price": "R22,300",
-  "lb": "Lay-by R5,000 now, then 2 \u00d7 R8,650"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 84,
@@ -436,8 +479,9 @@
   "img": "/img/c27dc7f4d4.webp",
   "name": "2-Handle Electromagnetic Body Care Machine 2800W",
   "model": "TAEMP2",
-  "price": "R31,900",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R10,950"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 85,
@@ -446,8 +490,9 @@
   "img": "/img/1ac785a221.webp",
   "name": "2-Handle Electromagnetic + RF Body Care Machine 2800W",
   "model": "TAEMP2R",
-  "price": "R35,150",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R12,575"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 86,
@@ -456,8 +501,9 @@
   "img": "/img/702d2117b1.webp",
   "name": "4-Handle Electromagnetic Body Care Machine 13 Tesla",
   "model": "TAEMP4",
-  "price": "R51,800",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R20,900"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 87,
@@ -466,8 +512,9 @@
   "img": "/img/98ff3aefd7.webp",
   "name": "4-Handle Electromagnetic + RF Body Care Machine 13 Tesla",
   "model": "TAEMP4R",
-  "price": "R57,000",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R23,500"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 88,
@@ -476,8 +523,9 @@
   "img": "/img/cb24c1211f.webp",
   "name": "2-Handle Vertical Electromagnetic + RF Station 13 Tesla",
   "model": "TAEMV2R",
-  "price": "R43,500",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R16,750"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 89,
@@ -486,8 +534,9 @@
   "img": "/img/ed0596e024.webp",
   "name": "4-Handle Vertical Electromagnetic + RF Station 13 Tesla",
   "model": "TAEMV4R",
-  "price": "R64,150",
-  "lb": "Lay-by R17,000 now, then 2 \u00d7 R23,575"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 90,
@@ -496,8 +545,9 @@
   "img": "/img/a02055a837.webp",
   "name": "4-Handle Tall Electromagnetic Body Care Station 13 Tesla",
   "model": "TAEMV4",
-  "price": "R60,350",
-  "lb": "Lay-by R16,000 now, then 2 \u00d7 R22,175"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 91,
@@ -506,8 +556,9 @@
   "img": "/img/2cf892fc72.webp",
   "name": "4-Handle Tall Electromagnetic + RF Station 13 Tesla",
   "model": "TAEMV4TR",
-  "price": "R65,400",
-  "lb": "Lay-by R17,000 now, then 2 \u00d7 R24,200"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 92,
@@ -516,8 +567,9 @@
   "img": "/img/a3ac5a56d8.webp",
   "name": "2-Handle Pro Electromagnetic Body Care Machine",
   "model": "TAEMX2",
-  "price": "R31,900",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R10,950"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 93,
@@ -526,8 +578,9 @@
   "img": "/img/19718ec168.webp",
   "name": "4-Handle Pro Electromagnetic Body Care Machine",
   "model": "TAEMX4",
-  "price": "R50,500",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R20,250"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 94,
@@ -536,8 +589,9 @@
   "img": "/img/9230c5e7d9.webp",
   "name": "4-Handle Pro Electromagnetic + EMS Body Care Machine",
   "model": "TAEMX4E",
-  "price": "R54,400",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R22,200"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 95,
@@ -546,8 +600,9 @@
   "img": "/img/5e8f0da442.webp",
   "name": "2-Handle Pro Vertical Electromagnetic Station",
   "model": "TAEMX2V",
-  "price": "R39,500",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R14,750"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 96,
@@ -556,8 +611,9 @@
   "img": "/img/3ad1fa034d.webp",
   "name": "4-Handle Pro Vertical Electromagnetic Station",
   "model": "TAEMX4V",
-  "price": "R57,800",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R23,900"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 97,
@@ -566,8 +622,9 @@
   "img": "/img/0c9970a0d8.webp",
   "name": "4-Handle Pro Vertical Electromagnetic + EMS Station",
   "model": "TAEMX4EV",
-  "price": "R61,600",
-  "lb": "Lay-by R16,000 now, then 2 \u00d7 R22,800"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 98,
@@ -576,8 +633,9 @@
   "img": "/img/fd6065bbff.webp",
   "name": "4-Handle Elite Vertical Electromagnetic + EMS Station",
   "model": "TAEMX5EV",
-  "price": "R65,400",
-  "lb": "Lay-by R17,000 now, then 2 \u00d7 R24,200"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 99,
@@ -586,8 +644,9 @@
   "img": "/img/cb1a0dfe63.webp",
   "name": "2-Handle Electromagnetic Body Toning Station",
   "model": "TAEMT2",
-  "price": "R40,850",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R15,425"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 31,
@@ -596,8 +655,9 @@
   "img": "/img/dddd4611bb.webp",
   "name": "5-Handle Hot, Cold & EMS Machine",
   "model": "TACRYO5",
-  "price": "R103,050",
-  "lb": "Lay-by R26,000 now, then 2 \u00d7 R38,525"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 32,
@@ -606,8 +666,9 @@
   "img": "/img/dfdb9fa3fc.webp",
   "name": "Cryo Body Care Station",
   "model": "TACRYO15",
-  "price": "R38,900",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R14,450"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 33,
@@ -616,8 +677,9 @@
   "img": "/img/08ab53b048.webp",
   "name": "3-Handle Cryo Body Care Machine",
   "model": "TACRYO3",
-  "price": "R38,200",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R14,100"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 34,
@@ -626,8 +688,9 @@
   "img": "/img/e4305724de.webp",
   "name": "4-Handle 360\u00b0 Cryo Body Care Station",
   "model": "TACRYO360-4",
-  "price": "R157,200",
-  "lb": "Lay-by R40,000 now, then 2 \u00d7 R58,600"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 35,
@@ -636,8 +699,9 @@
   "img": "/img/05caaf5334.webp",
   "name": "2-Handle 360\u00b0 Cryo Body Care Machine",
   "model": "TACRYO360-2",
-  "price": "R116,300",
-  "lb": "Lay-by R30,000 now, then 2 \u00d7 R43,150"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 36,
@@ -646,8 +710,9 @@
   "img": "/img/4ffe054165.webp",
   "name": "Cryo + Electromagnetic Combination Station",
   "model": "TAEMCRYO",
-  "price": "R77,700",
-  "lb": "Lay-by R20,000 now, then 2 \u00d7 R28,850"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 37,
@@ -656,8 +721,9 @@
   "img": "/img/f300e116a0.webp",
   "name": "2-Handle Cryo Body Care Station",
   "model": "TACRYO503",
-  "price": "R36,850",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R13,425"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 38,
@@ -666,8 +732,9 @@
   "img": "/img/026dbd48df.webp",
   "name": "4-Handle Cryo Body Care Station",
   "model": "TACRYO601",
-  "price": "R50,050",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R20,025"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 39,
@@ -676,8 +743,9 @@
   "img": "/img/334d1fd6d7.webp",
   "name": "2-Handle Tall Cryo Body Care Station",
   "model": "TACRYO2T",
-  "price": "R39,500",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R14,750"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 40,
@@ -686,8 +754,9 @@
   "img": "/img/2200f72851.webp",
   "name": "Portable Cryo Body Care Machine",
   "model": "TACRYOP",
-  "price": "R27,800",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R8,900"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 100,
@@ -696,8 +765,9 @@
   "img": "/img/7fa233e5b4.webp",
   "name": "Portable 360 Cryo Body Care Machine (3 Handles)",
   "model": "TACRYOP3",
-  "price": "R30,550",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R10,275"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 41,
@@ -706,8 +776,9 @@
   "img": "/img/25ccc64b4f.webp",
   "name": "448K RF Body Care Machine",
   "model": "TARF448B",
-  "price": "R25,800",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R7,900"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 42,
@@ -716,8 +787,9 @@
   "img": "/img/0c5a8ee2ad.webp",
   "name": "448kHz Deep RF Body & Face Machine",
   "model": "TARF448",
-  "price": "R165,600",
-  "lb": "Lay-by R42,000 now, then 2 \u00d7 R61,800"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 43,
@@ -726,8 +798,9 @@
   "img": "/img/5ded7e1e07.webp",
   "name": "4-in-1 Cavitation and RF Body Care Machine",
   "model": "TACAV4",
-  "price": "R14,250",
-  "lb": "Lay-by R5,000 now, then 2 \u00d7 R4,625"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 44,
@@ -736,8 +809,9 @@
   "img": "/img/c6e678ad75.webp",
   "name": "Vacuum, Roller & RF Body and Face Platform",
   "model": "TAVSP",
-  "price": "R65,400",
-  "lb": "Lay-by R17,000 now, then 2 \u00d7 R24,200"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 45,
@@ -746,8 +820,9 @@
   "img": "/img/5033223cee.webp",
   "name": "500W RF Body & Face Workstation",
   "model": "TARF500",
-  "price": "R34,150",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R12,075"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 46,
@@ -756,8 +831,9 @@
   "img": "/img/0d0dd55fb8.webp",
   "name": "448kHz CET/RET RF Body Machine",
   "model": "TARF448CR",
-  "price": "R26,450",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R8,225"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 47,
@@ -766,8 +842,9 @@
   "img": "/img/b7828a3aec.webp",
   "name": "RF + EMS Face Care Station",
   "model": "TARFEMF",
-  "price": "R47,450",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R18,725"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 48,
@@ -776,8 +853,9 @@
   "img": "/img/cc0e774e99.webp",
   "name": "Multi-Handle Cavitation Body Care Station",
   "model": "TACAVB3",
-  "price": "R19,450",
-  "lb": "Lay-by R5,000 now, then 2 \u00d7 R7,225"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 49,
@@ -786,8 +864,9 @@
   "img": "/img/f647978fe7.webp",
   "name": "Portable Cavitation Body Care Machine",
   "model": "TACAVB1",
-  "price": "R15,750",
-  "lb": "Lay-by R5,000 now, then 2 \u00d7 R5,375"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 101,
@@ -796,8 +875,9 @@
   "img": "/img/ac63f97630.webp",
   "name": "CET/RET RF Face and Body Machine",
   "model": "TARFCR1",
-  "price": "R22,300",
-  "lb": "Lay-by R5,000 now, then 2 \u00d7 R8,650"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 102,
@@ -806,8 +886,9 @@
   "img": "/img/2153aed2e9.webp",
   "name": "4-Handle Smart CET/RET RF Machine",
   "model": "TARFCR4",
-  "price": "R30,550",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R10,275"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 103,
@@ -816,8 +897,9 @@
   "img": "/img/7c92ac6b04.webp",
   "name": "Focused RF + Ultrasound Body and Face Machine",
   "model": "TARFUS1",
-  "price": "R29,650",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R9,825"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 104,
@@ -826,8 +908,9 @@
   "img": "/img/84c923fbbd.webp",
   "name": "Focused RF + Ultrasound Body and Face Machine II",
   "model": "TARFUS2",
-  "price": "R29,200",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R9,600"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 105,
@@ -836,8 +919,9 @@
   "img": "/img/d077c22561.webp",
   "name": "Focused RF + Ultrasound Body and Face Station",
   "model": "TARFUS3",
-  "price": "R44,800",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R17,400"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 106,
@@ -846,8 +930,9 @@
   "img": "/img/cb140f8d51.webp",
   "name": "5D Vacuum Cavitation Body Care Machine (Blue)",
   "model": "TACAV5DB",
-  "price": "R22,300",
-  "lb": "Lay-by R5,000 now, then 2 \u00d7 R8,650"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 107,
@@ -856,8 +941,9 @@
   "img": "/img/edc06a8877.webp",
   "name": "3-in-1 40K Cavitation and RF Machine",
   "model": "TACAV3",
-  "price": "R6,550",
-  "lb": ""
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 108,
@@ -866,8 +952,9 @@
   "img": "/img/5c4466f686.webp",
   "name": "5-in-1 RF Cavitation Body Care Machine",
   "model": "TACAV5",
-  "price": "R14,050",
-  "lb": "Lay-by R5,000 now, then 2 \u00d7 R4,525"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 109,
@@ -876,8 +963,9 @@
   "img": "/img/89e240611d.webp",
   "name": "7-in-1 80K and 40K Cavitation Station",
   "model": "TACAV7",
-  "price": "R25,400",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R7,700"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 110,
@@ -886,8 +974,9 @@
   "img": "/img/3f092d7455.webp",
   "name": "5D Vacuum Cavitation Station (Blue)",
   "model": "TACAV5DS",
-  "price": "R32,800",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R11,400"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 111,
@@ -896,8 +985,9 @@
   "img": "/img/88c8890a64.webp",
   "name": "5D Vacuum Cavitation Station (White)",
   "model": "TACAV5DW",
-  "price": "R32,800",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R11,400"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 112,
@@ -906,8 +996,9 @@
   "img": "/img/17162e99ee.webp",
   "name": "6-Handle RF Cavitation Vacuum Station",
   "model": "TACAV6S",
-  "price": "R46,100",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R18,050"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 113,
@@ -916,8 +1007,9 @@
   "img": "/img/72947d263b.webp",
   "name": "3D Vacuum Cavitation Station",
   "model": "TACAV3D",
-  "price": "R30,050",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R10,025"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 114,
@@ -926,8 +1018,9 @@
   "img": "/img/4d2c018ebe.webp",
   "name": "4-Handle 80K Cavitation Vacuum Machine",
   "model": "TACAV4V",
-  "price": "R19,450",
-  "lb": "Lay-by R5,000 now, then 2 \u00d7 R7,225"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 115,
@@ -936,8 +1029,9 @@
   "img": "/img/415e8b18bb.webp",
   "name": "5-Handle Vacuum RF Roller Body Station",
   "model": "TARFV5",
-  "price": "R52,650",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R21,325"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 116,
@@ -946,8 +1040,9 @@
   "img": "/img/7a0e019447.webp",
   "name": "4-Handle Vacuum RF Roller Body Station",
   "model": "TARFV4",
-  "price": "R48,750",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R19,375"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 117,
@@ -956,8 +1051,9 @@
   "img": "/img/dfe240ce8d.webp",
   "name": "5-Handle Vacuum RF Roller Station with Eye Head",
   "model": "TARFV5E",
-  "price": "R55,250",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R22,625"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 118,
@@ -966,8 +1062,9 @@
   "img": "/img/c8b5aad0c8.webp",
   "name": "Non-Contact RF Body Care Frame",
   "model": "TARFNC",
-  "price": "R50,050",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R20,025"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 119,
@@ -976,8 +1073,9 @@
   "img": "/img/40a09518df.webp",
   "name": "RF Skin Care Machine (Home and Studio)",
   "model": "TARFSK1",
-  "price": "R6,550",
-  "lb": ""
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 120,
@@ -986,8 +1084,9 @@
   "img": "/img/009e3e2617.webp",
   "name": "Portable 3-Tip RF Skin Care Machine",
   "model": "TARFSK3",
-  "price": "R19,450",
-  "lb": "Lay-by R5,000 now, then 2 \u00d7 R7,225"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 121,
@@ -996,8 +1095,9 @@
   "img": "/img/0a1c72236f.webp",
   "name": "3-Tip RF Skin Care Station with Cooling",
   "model": "TARFSK3S",
-  "price": "R35,500",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R12,750"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 122,
@@ -1006,8 +1106,9 @@
   "img": "/img/7ec1cfe24e.webp",
   "name": "Cartridge RF Skin Care Station",
   "model": "TARFSKC",
-  "price": "R39,500",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R14,750"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 123,
@@ -1016,8 +1117,9 @@
   "img": "/img/ed97233a91.webp",
   "name": "Portable HIFU Face and Body Machine",
   "model": "TAUS1",
-  "price": "R30,550",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R10,275"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 124,
@@ -1026,8 +1128,9 @@
   "img": "/img/a01f3b67e6.webp",
   "name": "HIFU Face and Body Machine with Trolley",
   "model": "TAUS2",
-  "price": "R38,150",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R14,075"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 125,
@@ -1036,8 +1139,9 @@
   "img": "/img/45c9f2b7f6.webp",
   "name": "HIFU Face Care Machine",
   "model": "TAUS3",
-  "price": "R29,200",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R9,600"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 126,
@@ -1046,8 +1150,9 @@
   "img": "/img/59cca5d5d7.webp",
   "name": "Portable HIFU Skin Care Machine",
   "model": "TAUS5",
-  "price": "R26,450",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R8,225"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 127,
@@ -1056,8 +1161,9 @@
   "img": "/img/633e5b4a91.webp",
   "name": "Radar Line HIFU Machine",
   "model": "TAUSR",
-  "price": "R21,600",
-  "lb": "Lay-by R5,000 now, then 2 \u00d7 R8,300"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 128,
@@ -1066,8 +1172,9 @@
   "img": "/img/43c0c8d1aa.webp",
   "name": "4D HIFU Machine",
   "model": "TAUS4D",
-  "price": "R31,900",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R10,950"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 129,
@@ -1076,8 +1183,9 @@
   "img": "/img/896e7898a6.webp",
   "name": "4D HIFU Station",
   "model": "TAUS4DS",
-  "price": "R37,300",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R13,650"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 130,
@@ -1086,8 +1194,9 @@
   "img": "/img/bdd5bb9a7f.webp",
   "name": "9D HIFU Machine",
   "model": "TAUS9D",
-  "price": "R35,950",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R12,975"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 131,
@@ -1096,8 +1205,9 @@
   "img": "/img/5a31655f10.webp",
   "name": "7D HIFU Station",
   "model": "TAUS7DS",
-  "price": "R44,800",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R17,400"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 132,
@@ -1106,8 +1216,9 @@
   "img": "/img/7820126a66.webp",
   "name": "Portable 7D HIFU Machine",
   "model": "TAUS7D",
-  "price": "R35,950",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R12,975"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 133,
@@ -1116,8 +1227,9 @@
   "img": "/img/3f2f3ad946.webp",
   "name": "Compact 7D HIFU Machine",
   "model": "TAUS7DC",
-  "price": "R34,600",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R12,300"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 50,
@@ -1126,8 +1238,9 @@
   "img": "/img/ff556e3d5b.webp",
   "name": "360 Roller Body & Face Massage Machine",
   "model": "TARM360",
-  "price": "R40,800",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R15,400"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 51,
@@ -1136,8 +1249,9 @@
   "img": "/img/af4fc5d2f1.webp",
   "name": "Vibration Body Massage System with Trolley",
   "model": "TAVM5",
-  "price": "R33,300",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R11,650"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 52,
@@ -1146,8 +1260,9 @@
   "img": "/img/6e593695e3.webp",
   "name": "Vacuum Cupping Massage Machine",
   "model": "TAVC150",
-  "price": "R15,050",
-  "lb": "Lay-by R5,000 now, then 2 \u00d7 R5,025"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 53,
@@ -1156,8 +1271,9 @@
   "img": "/img/4c55ae7b8e.webp",
   "name": "6-Handle Vacuum Roller Body & Face Machine",
   "model": "TAVR6",
-  "price": "R57,800",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R23,900"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 54,
@@ -1166,8 +1282,9 @@
   "img": "/img/dd47a914af.webp",
   "name": "5-Handle Vacuum Roller Body Machine",
   "model": "TAVR5",
-  "price": "R53,950",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R21,975"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 55,
@@ -1176,8 +1293,9 @@
   "img": "/img/425ac341bf.webp",
   "name": "2-Handle Vacuum Roller Machine",
   "model": "TAVR2",
-  "price": "R42,150",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R16,075"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 56,
@@ -1186,8 +1304,9 @@
   "img": "/img/d3f4f65dcd.webp",
   "name": "2-in-1 Pressotherapy System",
   "model": "TAPT2",
-  "price": "R20,300",
-  "lb": "Lay-by R5,000 now, then 2 \u00d7 R7,650"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 57,
@@ -1196,8 +1315,9 @@
   "img": "/img/d290b76d69.webp",
   "name": "3-in-1 Pressotherapy System",
   "model": "TAPT3",
-  "price": "R23,150",
-  "lb": "Lay-by R5,000 now, then 2 \u00d7 R9,075"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 134,
@@ -1206,8 +1326,9 @@
   "img": "/img/7ef5070824.webp",
   "name": "Far Infrared Pressotherapy System (16 Air Bags)",
   "model": "TAPTF1",
-  "price": "R20,300",
-  "lb": "Lay-by R5,000 now, then 2 \u00d7 R7,650"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 135,
@@ -1216,8 +1337,9 @@
   "img": "/img/c6f2cedfd0.webp",
   "name": "Far Infrared Pressotherapy System II (16 Air Bags)",
   "model": "TAPTF2",
-  "price": "R20,300",
-  "lb": "Lay-by R5,000 now, then 2 \u00d7 R7,650"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 136,
@@ -1226,8 +1348,9 @@
   "img": "/img/e0d03c9a0c.webp",
   "name": "3-in-1 Far Infrared, EMS and Pressotherapy System",
   "model": "TAPT3E",
-  "price": "R24,250",
-  "lb": "Lay-by R5,000 now, then 2 \u00d7 R9,625"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 137,
@@ -1236,8 +1359,9 @@
   "img": "/img/b4224ee1ab.webp",
   "name": "3-in-1 Pressotherapy, EMS and Far Infrared Machine",
   "model": "TAPT3P",
-  "price": "R22,300",
-  "lb": "Lay-by R5,000 now, then 2 \u00d7 R8,650"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 138,
@@ -1246,8 +1370,9 @@
   "img": "/img/625d1a3284.webp",
   "name": "2-in-1 Far Infrared Pressotherapy Machine",
   "model": "TAPT2F",
-  "price": "R18,900",
-  "lb": "Lay-by R5,000 now, then 2 \u00d7 R6,950"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 139,
@@ -1256,8 +1381,9 @@
   "img": "/img/15fe4dbf15.webp",
   "name": "16-Air-Bag Pressotherapy Machine",
   "model": "TAPT16",
-  "price": "R19,450",
-  "lb": "Lay-by R5,000 now, then 2 \u00d7 R7,225"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 140,
@@ -1266,8 +1392,9 @@
   "img": "/img/fdb565e143.webp",
   "name": "24-Air-Bag Pressotherapy Machine with Eye Massage",
   "model": "TAPT24",
-  "price": "R23,150",
-  "lb": "Lay-by R5,000 now, then 2 \u00d7 R9,075"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 141,
@@ -1276,8 +1403,9 @@
   "img": "/img/79fa6fbdac.webp",
   "name": "24-Air-Bag Pressotherapy Suit (Top + Pants)",
   "model": "TAPT24S",
-  "price": "R26,450",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R8,225"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 142,
@@ -1286,8 +1414,9 @@
   "img": "/img/8ce7b64ca3.webp",
   "name": "24-Air-Bag Pressotherapy Suit with Boots",
   "model": "TAPT24B",
-  "price": "R28,650",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R9,325"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 58,
@@ -1296,8 +1425,9 @@
   "img": "/img/8821169da8.webp",
   "name": "8-in-1 Water Dermabrasion Facial Machine",
   "model": "TAHF8",
-  "price": "R88,500",
-  "lb": "Lay-by R23,000 now, then 2 \u00d7 R32,750"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 59,
@@ -1306,8 +1436,9 @@
   "img": "/img/0f0e7bed60.webp",
   "name": "Ion & Microcurrent Skin Platform",
   "model": "TAION",
-  "price": "R47,450",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R18,725"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 60,
@@ -1316,8 +1447,9 @@
   "img": "/img/2189a2b392.webp",
   "name": "10-in-1 Water Dermabrasion Facial Station",
   "model": "TAHF10",
-  "price": "R44,800",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R17,400"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 61,
@@ -1326,8 +1458,9 @@
   "img": "/img/7e712ffbb7.webp",
   "name": "10-in-1 Water Dermabrasion Facial Station with Serum Bottles",
   "model": "TAHF10S",
-  "price": "R52,650",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R21,325"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 62,
@@ -1336,8 +1469,9 @@
   "img": "/img/048623bc3e.webp",
   "name": "Water Dermabrasion Facial Station with 4 Serum Bottles",
   "model": "TAHFV1",
-  "price": "R52,650",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R21,325"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 63,
@@ -1346,8 +1480,9 @@
   "img": "/img/f37d79d5cd.webp",
   "name": "6-in-1 Oxygen Dermabrasion Facial Station",
   "model": "TAHF6",
-  "price": "R28,500",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R9,250"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 64,
@@ -1356,8 +1491,9 @@
   "img": "/img/d9877341ec.webp",
   "name": "Oxygen Facial Station",
   "model": "TAOX4",
-  "price": "R34,600",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R12,300"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 65,
@@ -1366,8 +1502,9 @@
   "img": "/img/5427348dc5.webp",
   "name": "Compact Oxygen Facial Unit on Stand",
   "model": "TAOX2",
-  "price": "R26,450",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R8,225"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 66,
@@ -1376,8 +1513,9 @@
   "img": "/img/f8af69cd9e.webp",
   "name": "Electromagnetic + RF Facial Patch System",
   "model": "TAEMRF6",
-  "price": "R47,900",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R18,950"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 143,
@@ -1386,8 +1524,9 @@
   "img": "/img/6d96c9a6cd.webp",
   "name": "Hot and Cold Facial Spray Machine",
   "model": "TAFS2",
-  "price": "R12,050",
-  "lb": "Lay-by R5,000 now, then 2 \u00d7 R3,525"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 144,
@@ -1396,8 +1535,9 @@
   "img": "/img/0e000899b0.webp",
   "name": "Cool and Warm Facial Machine",
   "model": "TAFC1",
-  "price": "R8,250",
-  "lb": ""
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 145,
@@ -1406,8 +1546,9 @@
   "img": "/img/66b5cfdba4.webp",
   "name": "2-in-1 CO2 Bubble Facial Machine",
   "model": "TACB2",
-  "price": "R14,600",
-  "lb": "Lay-by R5,000 now, then 2 \u00d7 R4,800"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 146,
@@ -1416,8 +1557,9 @@
   "img": "/img/01c254ccbf.webp",
   "name": "3-in-1 CO2 Bubble Facial Machine",
   "model": "TACB3",
-  "price": "R16,050",
-  "lb": "Lay-by R5,000 now, then 2 \u00d7 R5,525"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 147,
@@ -1426,8 +1568,9 @@
   "img": "/img/7187a23ac1.webp",
   "name": "3-in-1 CO2 Bubble Facial Machine II",
   "model": "TACB3B",
-  "price": "R9,650",
-  "lb": ""
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 148,
@@ -1436,8 +1579,9 @@
   "img": "/img/d591b9f5bc.webp",
   "name": "5-in-1 Water Dermabrasion Facial Machine",
   "model": "TAWD5",
-  "price": "R15,200",
-  "lb": "Lay-by R5,000 now, then 2 \u00d7 R5,100"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 149,
@@ -1446,8 +1590,9 @@
   "img": "/img/06e8bbeeb2.webp",
   "name": "6-in-1 Water Dermabrasion Facial Machine",
   "model": "TAWD6",
-  "price": "R16,050",
-  "lb": "Lay-by R5,000 now, then 2 \u00d7 R5,525"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 150,
@@ -1456,8 +1601,9 @@
   "img": "/img/89fabce722.webp",
   "name": "6-in-1 Hydrogen Water Facial Machine",
   "model": "TAWDH6",
-  "price": "R10,500",
-  "lb": "Lay-by R5,000 now, then 2 \u00d7 R2,750"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 151,
@@ -1466,8 +1612,9 @@
   "img": "/img/cb6d5196fa.webp",
   "name": "6-in-1 Hydrogen Water Facial Machine II",
   "model": "TAWDH6B",
-  "price": "R11,100",
-  "lb": "Lay-by R5,000 now, then 2 \u00d7 R3,050"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 152,
@@ -1476,8 +1623,9 @@
   "img": "/img/a8de71fad6.webp",
   "name": "7-in-1 Cool Water Facial Machine",
   "model": "TAWD7C",
-  "price": "R22,300",
-  "lb": "Lay-by R5,000 now, then 2 \u00d7 R8,650"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 153,
@@ -1486,8 +1634,9 @@
   "img": "/img/c0ef7ca17e.webp",
   "name": "8-in-1 Water Dermabrasion Facial Station",
   "model": "TAWD8S",
-  "price": "R29,250",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R9,625"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 154,
@@ -1496,8 +1645,9 @@
   "img": "/img/01f7cd6cae.webp",
   "name": "10-in-1 Water Dermabrasion Facial Station",
   "model": "TAWD10S",
-  "price": "R31,400",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R10,700"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 155,
@@ -1506,8 +1656,9 @@
   "img": "/img/f115a13e82.webp",
   "name": "7-in-1 Bubble Facial Station",
   "model": "TAWD7B",
-  "price": "R28,150",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R9,075"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 156,
@@ -1516,8 +1667,9 @@
   "img": "/img/4e67b280de.webp",
   "name": "8-in-1 Bubble Facial Station",
   "model": "TAWD8B",
-  "price": "R29,250",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R9,625"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 157,
@@ -1526,8 +1678,9 @@
   "img": "/img/24160fb192.webp",
   "name": "6-in-1 Bubble Facial Station",
   "model": "TAWD6B",
-  "price": "R26,500",
-  "lb": "Lay-by R10,000 now, then 2 \u00d7 R8,250"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 158,
@@ -1536,8 +1689,9 @@
   "img": "/img/f05b491809.webp",
   "name": "7-in-1 Hot and Cold Water Facial Machine",
   "model": "TAWD7H",
-  "price": "R19,450",
-  "lb": "Lay-by R5,000 now, then 2 \u00d7 R7,225"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 67,
@@ -1646,8 +1800,9 @@
   "img": "/img/3aab1ce728.webp",
   "name": "2-Handle HI-EMT Body Care Machine with RF",
   "model": "TAC2-2H",
-  "price": "R77,850",
-  "lb": "Lay-by R20,000 now, then 2 \u00d7 R28,925"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 166,
@@ -1656,8 +1811,9 @@
   "img": "/img/393c493865.webp",
   "name": "4-Handle HI-EMT Body Care Machine with RF and Seat Applicator",
   "model": "TAC2-4H",
-  "price": "R88,200",
-  "lb": "Lay-by R23,000 now, then 2 \u00d7 R32,600"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  },
  {
   "k": 167,
@@ -1666,7 +1822,8 @@
   "img": "/img/e9050e0a5b.webp",
   "name": "5-Handle Roller, Vacuum and RF Body Care Station",
   "model": "TAVS5",
-  "price": "R102,200",
-  "lb": "Lay-by R26,000 now, then 2 \u00d7 R38,100"
+  "price": "Price on request",
+  "lb": "",
+  "onreq": true
  }
 ]

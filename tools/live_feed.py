@@ -28,6 +28,8 @@ for s in SPECIALS:
 first = [item('TAEMC2R'), dict(SPECIALS[0]), item('TAWD8S'), item('TAUS4D'), item('TACRYO360-4'), dict(SPECIALS[1])]
 rest = [item(o['code']) for o in P if o['sid'] != 'supplies' and o['code'] not in ('TAEMC2R', 'TAWD8S', 'TAUS4D', 'TACRYO360-4')]
 random.Random(20261020).shuffle(rest)
+first = [x for x in first if x.get('sp') or not PR.get(next((c for c, q in PR.items() if q['k'] == x.get('k')), ''), {}).get('onreq')]   # on request (hold.py)
+rest = [x for x in rest if not PR.get(next((c for c, q in PR.items() if q['k'] == x.get('k')), ''), {}).get('onreq')]
 json.dump(dict(start='2026-10-20', slots=['10:00', '12:00', '14:00', '16:00', '18:00', '19:30'], first=first, items=rest,
                specials=SPECIALS, wa='27644548506'), open(f'{PUB}/live.json', 'w'), ensure_ascii=False, separators=(',', ':'))
 

@@ -3,7 +3,8 @@
 (older steps hard-code 162) and drop the old 'Trimion Africa Shop' wording Google shows."""
 import csv, os, re
 PUB = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "public")
-n = sum(1 for _ in csv.DictReader(open(os.path.join(PUB, "google-products.tsv"), encoding="utf-8"), delimiter="\t"))
+import json
+n = len(json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "products.json"))))   # all machines on the site (feeds leave out on-request ones)
 p = os.path.join(PUB, "index.html")
 s = open(p, encoding="utf-8").read()
 s = re.sub(r'\b162(?= (?:professional|salon|Salon|EMS|machines))', str(n), s)

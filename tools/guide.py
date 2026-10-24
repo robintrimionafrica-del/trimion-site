@@ -10,7 +10,7 @@ products = json.load(open(os.path.join(HERE, "products.json")))
 tpl = open(os.path.join(HERE, "guide_template.html")).read()
 
 def rand(s):
-    return int(re.sub(r"[^\d]", "", s)) if s else 0
+    return int(re.sub(r"[^\d]", "", s) or 0) if s else 0
 
 def R(n):
     return "R" + f"{round(n):,}".replace(",", " ")
