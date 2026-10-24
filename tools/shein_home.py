@@ -351,7 +351,7 @@ s = s.replace('</head>', CALL_CSS + '</head>', 1)
 
 TILES = json.load(open(os.path.join(T, 'treatment_tiles.json')))
 TR = [
- ('ems', 'Body toning', 'Relaxing body sessions', 'Electromagnetic stimulation sessions for the abs, buttocks, arms and thighs while the client lies back.',
+ ('ems', 'EMS body care', 'Relaxing body sessions', 'Electromagnetic stimulation sessions for the abs, buttocks, arms and thighs while the client lies back.',
   ['Abs and core', 'Glutes', 'Arms and thighs'], '30 min', '4–6 sessions'),
  ('cryo', 'Cryo body care', 'Cooling treatments', 'Controlled cooling cups for body care sessions on the tummy, sides, thighs and chin area.',
   ['Tummy and sides', 'Thighs', 'Chin area'], '40–60 min per area', '1–3 sessions'),

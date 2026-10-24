@@ -28,6 +28,12 @@ RULES = [
     (r"\bNot a medical device and not intended to\b", "For cosmetic use only and not intended to"),
     (r"<b>Salon and spa use</b>Not a medical device", "<b>Salon and spa use</b>Cosmetic treatments only"),
     (r"\bNot a medical device\b", "For cosmetic use only"),
+    # toning (results wording)
+    (r"\belectromagnetic muscle applicators?\b", "electromagnetic applicators"),
+    (r"\bfor body toning treatments\b", "for body treatments"), (r"\bglute and core (?:muscle |body )?toning\b", "glute and core sessions"),
+    (r"\bmuscle toning station\b", "body station"), (r"\bbody toning station\b", "body station"),
+    (r"\bmuscle toning\b", "body care"), (r"\babs and core toning\b", "abs and core sessions"), (r"\bbody toning\b", "body care"), (r"#\w*toning\w*", "#bodycare"),
+    (r"\btoning\b", "care"),
     # fat / weight / cellulite
     (r"\bcryo fat freezing\b", "cryo machine"), (r"\bfat[- ]freezing\b", "cryo"), (r"\bfat (reduction|loss|burning)\b", "body care"),
     (r"\bweight[- ]loss\b", "body care"), (r"\bweight management\b", "body care"), (r"\bslimming\b", "body care"),
