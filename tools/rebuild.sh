@@ -37,6 +37,7 @@ python3 live_feed.py                                  # live feed on the home pa
 python3 ig_page.py                                   # Instagram posting plan at /instagram (posts in order, batches of 10)
 python3 gumtree_page.py                               # classifieds listing pack at /gumtree (Gumtree, Marketplace, Junkmail)
 python3 meta_pixel.py                                 # Meta Pixel on every page (PageView, ViewContent, WhatsApp Lead)
+python3 welcome.py                                    # small once-a-day welcome / welcome-back reminder card
 python3 hold.py public                                # on-request cards, no offers in search data, held back from feeds
 python3 speed.py                                      # lighter banner photos (.webp instead of .jpg)
 python3 safe_words.py public                          # same plain wording across every public page and feed (keep last)
