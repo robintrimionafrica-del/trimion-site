@@ -28,6 +28,14 @@ RULES = [
     (r"\bNot a medical device and not intended to\b", "For cosmetic use only and not intended to"),
     (r"<b>Salon and spa use</b>Not a medical device", "<b>Salon and spa use</b>Cosmetic treatments only"),
     (r"\bNot a medical device\b", "For cosmetic use only"),
+    # throughput / income claims
+    (r"Large double-coil handles cover more of the body per session, so you can book more clients a day\.", "Large double-coil applicators."),
+    (r",? so you can book more clients a day", ""),
+    (r"See how quickly a machine can pay for itself\. Enter your own session price and bookings; these are your figures, not a promise of results\.",
+     "Work out your own numbers. Enter your session price, bookings and costs; these are your own estimates, not a promise of income or results."),
+    (r"<h2>Salon earnings calculator</h2>", "<h2>Salon numbers calculator</h2>"),
+    (r"See how fast a salon machine pays for itself, lay-by prices and answers to common questions\.", "Salon machine prices, lay-by options and answers to common questions."),
+    (r"\bStart earning sooner\b", "Lay-by available"),
     # toning (results wording)
     (r"\belectromagnetic muscle applicators?\b", "electromagnetic applicators"),
     (r"\bfor body toning treatments\b", "for body treatments"), (r"\bglute and core (?:muscle |body )?toning\b", "glute and core sessions"),
